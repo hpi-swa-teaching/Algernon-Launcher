@@ -1,0 +1,14 @@
+{
+	"category" : "ProjectXX-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SwtProjectXXDemo",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
