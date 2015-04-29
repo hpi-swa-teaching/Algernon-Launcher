@@ -1,0 +1,3 @@
+defaults
+activationString
+	^ '<Shift-cr>'

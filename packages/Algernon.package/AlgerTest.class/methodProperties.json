@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"currentBrowsers" : "JH 5/4/2008 22:59",
+		"ensureMorphic" : "JH 5/4/2008 19:48",
+		"isMorphic" : "JH 5/4/2008 18:56",
+		"setUp" : "JH 5/4/2008 23:18",
+		"tearDown" : "JH 5/4/2008 23:19",
+		"testAlgernonClass" : "JH 5/4/2008 20:04",
+		"testLearning" : "JH 5/4/2008 21:42",
+		"testLearningActions" : "JH 5/4/2008 23:17",
+		"testListContents" : "JH 5/4/2008 20:16",
+		"testVisibility" : "JH 5/4/2008 22:15" } }

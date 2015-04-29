@@ -1,0 +1,3 @@
+defaults
+refreshString
+	^ '<Cmd-r>'.

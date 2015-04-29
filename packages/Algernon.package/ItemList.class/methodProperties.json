@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"createMenuList:in:withHeight:" : "eh 5/4/2008 23:22" },
+	"instance" : {
+		"addToMenu:" : "eh 4/25/2008 02:28",
+		"delete" : "eh 4/25/2008 02:11",
+		"doActionOnSelectedItem:" : "eh 4/27/2008 23:35",
+		"hide" : "eh 4/25/2008 02:12",
+		"hideActionList" : "eh 4/24/2008 17:50",
+		"hideTypeList" : "eh 4/25/2008 02:12",
+		"initialize" : "eh 4/25/2008 03:11",
+		"popUpAt:forHand:in:allowKeyboard:" : "eh 4/25/2008 02:54",
+		"selectItem:event:" : "eh 4/25/2008 03:10",
+		"selectNext" : "eh 4/23/2008 01:56",
+		"selectPrevious" : "eh 4/23/2008 02:03",
+		"showActionListIn:" : "eh 5/5/2008 00:01",
+		"toggleSubmenuOnSelectedItem:in:" : "eh 4/22/2008 01:38" } }

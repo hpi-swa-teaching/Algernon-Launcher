@@ -1,0 +1,14 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eh 4/23/2008 01:59",
+	"instvars" : [
+		 ],
+	"name" : "ActionList",
+	"pools" : [
+		 ],
+	"super" : "MenuList",
+	"type" : "normal" }

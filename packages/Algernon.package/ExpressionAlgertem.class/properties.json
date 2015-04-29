@@ -1,0 +1,14 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eh 5/5/2008 00:15",
+	"instvars" : [
+		 ],
+	"name" : "ExpressionAlgertem",
+	"pools" : [
+		 ],
+	"super" : "Algertem",
+	"type" : "normal" }

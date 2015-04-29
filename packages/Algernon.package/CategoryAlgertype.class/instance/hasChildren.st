@@ -1,0 +1,3 @@
+family
+hasChildren
+	^true.

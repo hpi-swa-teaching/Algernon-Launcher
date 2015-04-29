@@ -1,0 +1,3 @@
+accessors
+numTimesSelected
+	^numTimesSelected.

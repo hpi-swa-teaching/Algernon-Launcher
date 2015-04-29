@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"createListOfAlgeractionsGiven:" : "eh 4/24/2008 18:28",
+		"withName:rank:target:selector:args:" : "eh 4/20/2008 23:12" },
+	"instance" : {
+		"args" : "eh 4/20/2008 23:58",
+		"incrementNumTimesSelected" : "eh 4/23/2008 01:41",
+		"isLessThan:" : "eh 5/5/2008 00:03",
+		"name" : "eh 4/22/2008 00:59",
+		"name:" : "eh 4/22/2008 00:59",
+		"numTimesSelected" : "eh 4/23/2008 01:42",
+		"numTimesSelected:" : "eh 4/23/2008 01:43",
+		"rank" : "eh 4/20/2008 23:05",
+		"rank:" : "eh 4/20/2008 23:05",
+		"selector" : "eh 4/20/2008 23:58",
+		"target" : "eh 4/20/2008 23:58",
+		"withName:rank:target:selector:args:" : "eh 4/23/2008 01:43" } }

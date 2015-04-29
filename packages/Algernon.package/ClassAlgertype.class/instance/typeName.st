@@ -1,0 +1,3 @@
+accessors
+typeName
+	^'Class >'.

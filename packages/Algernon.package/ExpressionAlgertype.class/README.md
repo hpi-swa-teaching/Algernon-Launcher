@@ -1,0 +1,1 @@
+This algertype represents an expression, anything you could evaluate in a workspace, prefixed with a =

@@ -1,0 +1,20 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eh 5/5/2008 00:26",
+	"instvars" : [
+		"initials",
+		"numTimesSelected",
+		"rank",
+		"lowerCaseName",
+		"algeractions",
+		"algertype",
+		"isRelevantForEmptyString" ],
+	"name" : "Algertem",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

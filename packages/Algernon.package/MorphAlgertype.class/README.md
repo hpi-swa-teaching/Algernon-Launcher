@@ -1,0 +1,1 @@
+An algertype representing a Morph. When these are selected a new morph opens in the world.

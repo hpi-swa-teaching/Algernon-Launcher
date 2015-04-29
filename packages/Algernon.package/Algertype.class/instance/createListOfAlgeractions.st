@@ -1,0 +1,3 @@
+list creation
+createListOfAlgeractions
+	^self subclassResponsibility

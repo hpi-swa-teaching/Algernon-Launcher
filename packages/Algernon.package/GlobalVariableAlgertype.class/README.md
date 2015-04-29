@@ -1,0 +1,1 @@
+An algertype representing a global variable, e.g. Transcript
