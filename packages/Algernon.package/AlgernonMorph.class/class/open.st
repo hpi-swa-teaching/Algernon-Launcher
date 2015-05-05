@@ -1,3 +1,5 @@
 instance creation
 open
-	^ self new openInWorld.
+	currentInstance ifNil: [currentInstance := self new.
+			^ currentInstance openInWorld.]
+		ifNotNil: [ currentInstance activate].

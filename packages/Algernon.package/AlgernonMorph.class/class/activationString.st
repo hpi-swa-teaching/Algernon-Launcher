@@ -1,3 +1,3 @@
 defaults
 activationString
-	^ '<Shift-cr>'
+	^ '<Cmd- >'

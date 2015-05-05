@@ -1,12 +1,15 @@
 {
 	"class" : {
-		"activationString" : "topa 3/24/2015 14:40",
+		"activationString" : "JF 5/4/2015 22:50",
+		"close" : "JF 5/4/2015 22:46",
+		"currentInstance" : "JF 5/4/2015 22:33",
 		"defaultAlgertems" : "topa 3/6/2015 13:59",
 		"font" : "topa 3/24/2015 15:34",
+		"initialize" : "JF 5/4/2015 22:35",
 		"initializeAlgertems" : "topa 3/6/2015 14:04",
 		"initializeGlobalKeyBindings" : "topa 3/24/2015 15:17",
 		"keyBindings" : "topa 3/24/2015 14:48",
-		"open" : "eh 5/4/2008 23:15",
+		"open" : "JF 5/4/2015 22:42",
 		"openWelcomeWorkspace" : "topa 3/6/2015 14:16",
 		"refreshString" : "topa 3/24/2015 14:40" },
 	"instance" : {
@@ -31,7 +34,7 @@
 		"grabFocus:" : "topa 3/24/2015 15:30",
 		"handleListenEvent:" : "topa 3/24/2015 16:32",
 		"handleTextEntered:" : "topa 3/24/2015 15:40",
-		"handlesKeyboard:" : "topa 3/24/2015 15:21",
+		"handlesKeyboard:" : "JF 5/4/2015 22:49",
 		"handlesMouseDown:" : "topa 3/6/2015 00:30",
 		"hideActionList" : "topa 3/24/2015 14:08",
 		"hideItemList" : "eh 4/24/2008 19:34",
