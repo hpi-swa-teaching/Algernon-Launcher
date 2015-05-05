@@ -2,7 +2,7 @@ baseline
 baseline: spec
     <baseline>
     spec
-        for: #'common'
+        for: #common
         do: [ 
             spec
                 package: 'Algernon';
