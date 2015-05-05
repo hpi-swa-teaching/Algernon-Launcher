@@ -1,5 +1,5 @@
 {
-	"category" : "ProjectXX-Core",
+	"category" : "BaselineOfAlgernon",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SwtProjectXXDemo",
+	"name" : "BaselineOfAlgernon",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "BaselineOf",
 	"type" : "normal" }
