@@ -11,7 +11,7 @@ To use Algernon you have to create a new instance. Just execute the following in
 Algernon open.
 ```
 
-Now you can toggle the algernon panel using:
+Now you can toggle the Algernon panel using:
 
 ```
 Shift + Backspace
