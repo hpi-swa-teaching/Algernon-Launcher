@@ -6,5 +6,5 @@ addToMenu: anAlgertem
 				selector: (anAlgertem defaultAlgeraction selector)
 				argumentList: (anAlgertem defaultAlgeraction args).
 				
-	typeList addItem: anAlgertem algertype typeName , anAlgertem rank.
+	typeList addItem: anAlgertem algertype typeName.
 				
