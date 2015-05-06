@@ -1,6 +1,14 @@
 sudo: true
 language: erlang
 
+notifications:
+  webhooks:
+    urls:
+      - http://isqueakbot.appspot.com
+    on_success: always
+    on_failure: always
+    on_start: never
+
 # Choose which platforms you want your builds run against (done in parallel)
 env:
    - ST=Squeak-4.5
@@ -23,4 +31,4 @@ install:
 
 # use a different script if you want to customize how travis tests are run
 # use verbose flag to dump transcript unconditionally
-script: $BUILDER_CI_HOME/testTravisCI.sh # -verbose 
+script: $BUILDER_CI_HOME/testTravisCI.sh # -verbose
