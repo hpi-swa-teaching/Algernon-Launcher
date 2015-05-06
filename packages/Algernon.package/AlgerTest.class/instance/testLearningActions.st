@@ -4,7 +4,10 @@ testLearningActions
 	| firstItem secondItem firstItemSecondTry secondItemSecondTry|
 
 	self ensureMorphic.
-	
+	algerstance class initializeAlgernon.
+	algerstance class initializeAlgertems.
+	algerstance := Algernon open.
+
 	algerstance show.
 	algerstance textField contents:'Algernon'.
 	algerstance updateItemList.

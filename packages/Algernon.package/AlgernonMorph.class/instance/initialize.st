@@ -9,4 +9,5 @@ initialize
 		initializeSorter;
 		initializeMorph;
 		registerWithSystem;
-		activate.
+		activate;
+		openInWorld.

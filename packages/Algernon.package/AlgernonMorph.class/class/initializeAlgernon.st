@@ -1,4 +1,4 @@
 initialization
-initialize 
+initializeAlgernon
 	
 	currentInstance := nil.
