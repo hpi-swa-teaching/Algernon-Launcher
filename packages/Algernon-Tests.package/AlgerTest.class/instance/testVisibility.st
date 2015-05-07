@@ -1,12 +1,10 @@
 testing
 testVisibility
-	algerstance class initializeAlgernon.
 	algerstance class initializeAlgertems.
-	algerstance := Algernon open.
 	
-algerstance hide.
+	algerstance deactivate.
 	self deny: algerstance visible.
 	self assert: algerstance currentAlgertem = nil.
-	algerstance show.
+	algerstance activate.
 	self assert: algerstance visible.
 	

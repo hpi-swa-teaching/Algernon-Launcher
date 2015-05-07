@@ -1,4 +1,4 @@
 initialization
 initializeAlgernon
 	
-	currentInstance := nil.
+	self close.

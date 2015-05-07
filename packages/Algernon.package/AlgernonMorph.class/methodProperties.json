@@ -1,11 +1,11 @@
 {
 	"class" : {
 		"activationString" : "JF 5/4/2015 22:50",
-		"close" : "JF 5/4/2015 22:46",
+		"close" : "JF 5/7/2015 14:29",
 		"currentInstance" : "JF 5/4/2015 22:33",
 		"defaultAlgertems" : "topa 3/6/2015 13:59",
 		"font" : "topa 3/24/2015 15:34",
-		"initializeAlgernon" : "JF 5/6/2015 17:22",
+		"initializeAlgernon" : "JF 5/7/2015 14:29",
 		"initializeAlgertems" : "topa 3/6/2015 14:04",
 		"initializeGlobalKeyBindings" : "topa 3/24/2015 15:17",
 		"keyBindings" : "topa 3/24/2015 14:48",
@@ -14,7 +14,7 @@
 		"refreshString" : "topa 3/24/2015 14:40" },
 	"instance" : {
 		"activate" : "JF 5/6/2015 17:20",
-		"activate:" : "FN 3/24/2015 17:02:30.39",
+		"activate:" : "JF 5/7/2015 14:34",
 		"active" : "topa 3/24/2015 14:07",
 		"active:" : "topa 3/24/2015 14:07",
 		"algertems" : "topa 3/24/2015 14:07",
@@ -73,7 +73,7 @@
 		"textField" : "topa 3/24/2015 13:33",
 		"textField:" : "topa 3/24/2015 14:07",
 		"toggleSubmenuOnSelectedItem:" : "topa 3/24/2015 14:25",
-		"toggleVisibility:" : "topa 3/24/2015 15:17",
+		"toggleVisibility:" : "JF 5/7/2015 14:35",
 		"updateItemList" : "eh 5/1/2008 20:29",
 		"updateItemListWith:" : "eh 5/1/2008 20:40",
 		"wasChanged" : "topa 3/24/2015 14:18",

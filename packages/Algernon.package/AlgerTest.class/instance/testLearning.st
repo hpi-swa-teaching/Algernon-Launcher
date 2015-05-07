@@ -3,10 +3,7 @@ testLearning
 	"Make sure Learning works"
 	|firstList secondList|
 	self ensureMorphic.
-	algerstance class initializeAlgernon.
 	algerstance class initializeAlgertems.
-	algerstance := Algernon open.
-
 
 	firstList := (algerstance relevantAlgertemsFor:'Algernon').
 	algerstance show.

@@ -2,7 +2,7 @@ visibility
 activate: hand
 	"sets keyboard focus and orders to the top"
 	| outerMorph |
-
+	
 	self active ifTrue: [^ self].
 	self active: true.
 
