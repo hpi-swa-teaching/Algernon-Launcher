@@ -14,5 +14,5 @@ Algernon open.
 Now you can toggle the Algernon panel using:
 
 ```
-Shift + Backspace
+Alt + Space
 ```
