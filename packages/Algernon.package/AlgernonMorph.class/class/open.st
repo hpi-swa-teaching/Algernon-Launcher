@@ -1,5 +1,6 @@
 instance creation
 open
-	currentInstance ifNil: [currentInstance := self new.]
-		ifNotNil: [ currentInstance activate].
+	
+	self initializeAlgernon.
+	currentInstance := self new activate.
 	^ currentInstance
