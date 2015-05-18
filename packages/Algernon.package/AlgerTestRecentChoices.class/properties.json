@@ -1,0 +1,16 @@
+{
+	"category" : "Algernon-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"algerstance",
+		"previouslyOpenedBrowsers",
+		"allBrowsersNow" ],
+	"name" : "AlgerTestRecentChoices",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
