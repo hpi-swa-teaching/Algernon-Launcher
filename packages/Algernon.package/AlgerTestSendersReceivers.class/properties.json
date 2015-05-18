@@ -1,0 +1,16 @@
+{
+	"category" : "Algernon-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"algerstance",
+		"previouslyOpenedBrowsers",
+		"allBrowsersNow" ],
+	"name" : "AlgerTestSendersReceivers",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
