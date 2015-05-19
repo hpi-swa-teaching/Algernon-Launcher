@@ -4,4 +4,6 @@
 	"instance" : {
 		"setUp" : "DH 6/8/2015 17:23",
 		"tearDown" : "DH 6/8/2015 17:24",
-		"testListContents" : "DH 6/8/2015 17:23" } }
+		"testListContents" : "DH 6/8/2015 17:23",
+		"testResultEntries" : "DH 5/19/2015 22:44",
+		"testSendersWindow" : "DH 5/19/2015 23:15" } }
