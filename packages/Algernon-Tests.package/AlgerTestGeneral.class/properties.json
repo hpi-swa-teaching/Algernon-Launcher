@@ -1,0 +1,15 @@
+{
+	"category" : "Algernon-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"previouslyOpenedBrowsers",
+		"allBrowsersNow" ],
+	"name" : "AlgerTestGeneral",
+	"pools" : [
+		 ],
+	"super" : "AlgerTest",
+	"type" : "normal" }

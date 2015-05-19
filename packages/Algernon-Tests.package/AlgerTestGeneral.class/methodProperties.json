@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "DH 6/8/2015 17:20",
+		"tearDown" : "DH 6/8/2015 17:21",
+		"testAlgernonClass" : "DH 6/8/2015 17:19",
+		"testLearning" : "DH 6/8/2015 17:19",
+		"testLearningActions" : "DH 6/8/2015 17:19",
+		"testListContents" : "DH 6/8/2015 17:19",
+		"testVisibility" : "DH 6/8/2015 17:19" } }
