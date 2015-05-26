@@ -3,17 +3,19 @@ initializeMorph
 	"setup graphical properties of Morph"
 	| r |
 	self
-		extent: 500 @ 55;
+		extent: 420 @ 60;
 		center: World center;
-		color: Color white darker;
-		borderWidth: 0.
-
+		color: Color black;
+		cornerStyle: #rounded;
+		borderWidth: 0;
+		borderColor: Color black.
+	
 	"generate textField"
 	r := RectangleMorph new
-		color: Color white;
-		extent: 490 @ 50;
+		color: Color veryLightGray lighter;
+		extent: 400 @ 40;
 		center: self center;
-		borderWidth: 0.
+		borderWidth: 1.
 	textField := TextMorph new
 		contents: '';
 		beAllFont: self class font;

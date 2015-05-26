@@ -1,5 +1,5 @@
 visibility
 drawOn: aCanvas
 | theCanvas | 
-theCanvas := aCanvas asAlphaBlendingCanvas: 0.8. 
+theCanvas := aCanvas asAlphaBlendingCanvas: 1.0. 
 super drawOn: theCanvas.
