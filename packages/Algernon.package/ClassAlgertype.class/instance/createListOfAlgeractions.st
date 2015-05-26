@@ -6,14 +6,14 @@ createListOfAlgeractions
 	
 	list add: (Algeraction withName:'browse class (existing)' 
 					rank:10 target:self selector:#openInExistingBrowser: args:(OrderedCollection with:aClass)).
-		list add: (Algeraction withName:'browse class (new)' 
+	list add: (Algeraction withName:'browse class (new)' 
 					rank:9 target:self selector:#openInNewBrowser: args:(OrderedCollection with:aClass)).
 	"list add: (Algeraction withName:'browse class (existing)' 
 					rank:10 target:self selector:#openInExistingBrowser: args:(OrderedCollection with:aClass)).
 		list add: (Algeraction withName:'browse class (new)' 
 					rank:9 target:Browser selector:#fullOnClass: args:(OrderedCollection with:aClass))."
 	"list add: (Algeraction withName:'methods' rank:3 target:aClass selector:#allSelectors args:#())."
-		list add: (Algeraction withName:'fileOut class' 
+	list add: (Algeraction withName:'fileOut class' 
 					rank:8 target:aClass selector:#fileOut args:#()).
 	list add: (Algeraction withName:'printOut class' 
 					rank:7 target:aClass selector:#fileOutAsHtml: args:(OrderedCollection with:true)).

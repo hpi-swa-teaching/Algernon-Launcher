@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"algerstance" ],
-	"name" : "AlgerTest",
+		"toolWindow" ],
+	"name" : "AlgerTestKeyboardFocus",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "AlgerTest",
 	"type" : "normal" }

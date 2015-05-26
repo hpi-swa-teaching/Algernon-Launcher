@@ -7,7 +7,8 @@ activate: hand
 	self active: true.
 
 	self wasChanged ifTrue: [self refreshItems].
-	self grabFocus: hand.
+	self grabFocus: self activeHand.
+	
 	self show.
 	
 	outerMorph := self topRendererOrSelf.

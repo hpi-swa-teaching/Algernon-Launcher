@@ -6,11 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"algerstance",
 		"previouslyOpenedBrowsers",
 		"allBrowsersNow" ],
 	"name" : "AlgerTestRecentChoices",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "AlgerTest",
 	"type" : "normal" }

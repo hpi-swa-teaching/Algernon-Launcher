@@ -2,13 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
+		"assertWindowNamed:" : "DH 5/19/2015 22:46",
 		"currentBrowsers" : "JH 5/4/2008 22:59",
 		"ensureMorphic" : "JH 5/4/2008 19:48",
 		"isMorphic" : "JH 5/4/2008 18:56",
 		"setUp" : "JF 5/7/2015 14:13",
-		"tearDown" : "JF 5/7/2015 14:26",
-		"testAlgernonClass" : "fw 5/5/2015 13:11",
-		"testLearning" : "JF 5/7/2015 14:13",
-		"testLearningActions" : "JF 5/7/2015 14:13",
-		"testListContents" : "JH 5/4/2008 20:16",
-		"testVisibility" : "JF 5/7/2015 14:18" } }
+		"tearDown" : "JF 5/7/2015 14:26" } }

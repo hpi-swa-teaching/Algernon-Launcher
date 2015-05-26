@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"algerstance" ],
-	"name" : "AlgerTest",
+		 ],
+	"name" : "AlgerTestGroupOrder",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "AlgerTest",
 	"type" : "normal" }

@@ -1,3 +1,3 @@
-private
+helpers
 isMorphic
 	^Smalltalk isMorphic
