@@ -1,0 +1,14 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"methodClass" ],
+	"name" : "RepositoryAlgertype",
+	"pools" : [
+		 ],
+	"super" : "Algertype",
+	"type" : "normal" }

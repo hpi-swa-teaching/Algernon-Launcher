@@ -6,5 +6,6 @@ initializeAlgertems
 		addAll: GlobalVariableAlgertype algertemList;
 		addAll: MorphAlgertype algertemList;
 		addAll: WorldMenuMorphAlgertype algertemList;
+		addAll: PackageAlgertype algertemList;
 		yourself
 	
