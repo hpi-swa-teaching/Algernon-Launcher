@@ -1,4 +1,4 @@
 default item list
 font
 
-	^ Preferences standardMenuFont textStyle fontOfPointSize: 16
+	^ Preferences standardMenuFont textStyle fontOfPointSize: 30.
