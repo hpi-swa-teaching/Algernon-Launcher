@@ -26,8 +26,8 @@ initializeMorph
 
 	currentAlgertemLabel := TextMorph new
 		contents: self currentAlgertemString;
-		center: (self center x)@((self center y)+35);
-		color: Color white;
+		center: (self left + 12)@(self top - 12);
+		color: Color black;
 		backgroundColor: nil;
 		hasDropShadow: false;
 		borderWidth: 0;
