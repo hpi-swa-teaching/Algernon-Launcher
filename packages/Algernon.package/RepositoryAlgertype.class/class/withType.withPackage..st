@@ -1,6 +1,6 @@
 instance creation
-withType: aTypeObject withClass: aClass
+withType: aTypeObject withPackage: aPackage
 	|anAlgertype|
 	anAlgertype := super with: aTypeObject.
-	anAlgertype methodClass: aClass.
+	anAlgertype repositoryPackage: aPackage.
 	^anAlgertype.

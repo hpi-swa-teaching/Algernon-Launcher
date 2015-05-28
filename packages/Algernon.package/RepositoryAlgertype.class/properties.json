@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"methodClass" ],
+		"repositoryPackage",
+		"aMethod" ],
 	"name" : "RepositoryAlgertype",
 	"pools" : [
 		 ],

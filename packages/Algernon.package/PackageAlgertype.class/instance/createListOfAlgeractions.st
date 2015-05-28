@@ -4,6 +4,8 @@ createListOfAlgeractions
 	list := SortedCollection sortBlock: [:a :b | a rank > b rank].
 	aPackage := self typeObject.
 	
-	list add: (Algeraction withName:'browse Package' 
-					rank:10 target:self selector:#openInExistingBrowser: args:(OrderedCollection with: aPackage)).
+	list add: (Algeraction withName:'open Monticello' 
+					rank:10 target:self selector:#open: args:(OrderedCollection with: aPackage)).
+	list add: (Algeraction withName:'browse Package'
+					rank:9 target:self selector:#openPackage: args:(OrderedCollection with: aPackage)).
 	^list.

@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"algertemListWith:" : "fw 5/28/2015 00:23",
-		"withType:withClass:" : "fw 5/27/2015 23:26" },
+		"algertemListWith:" : "fw 5/28/2015 14:31",
+		"withType:withPackage:" : "fw 5/28/2015 14:27" },
 	"instance" : {
-		"createListOfAlgeractions" : "fw 5/27/2015 23:26",
-		"methodClass" : "fw 5/27/2015 23:26",
-		"methodClass:" : "fw 5/27/2015 23:26",
-		"open:inBrowser:" : "fw 5/27/2015 23:26",
+		"createListOfAlgeractions" : "fw 5/28/2015 14:26",
+		"open:" : "fw 5/28/2015 14:25",
+		"repositoryPackage" : "fw 5/28/2015 14:19",
+		"repositoryPackage:" : "fw 5/28/2015 14:19",
 		"typeName" : "fw 5/27/2015 23:26" } }
