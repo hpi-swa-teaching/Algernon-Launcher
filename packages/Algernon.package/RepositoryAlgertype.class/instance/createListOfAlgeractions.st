@@ -14,6 +14,6 @@ createListOfAlgeractions
 	list add: (Algeraction withName:'open Repository' 
 					rank:10 target:self selector:#open: args:(OrderedCollection with:repository)).
 	list add: (Algeraction withName:'save Repository' 
-					rank:9 target:self selector:#openInNewBrowser: args:(OrderedCollection with:repository)). 
+					rank:9 target:self selector:#save:withPackage: args:(OrderedCollection with:repository with:workingCopy)).
 
 	^list.
