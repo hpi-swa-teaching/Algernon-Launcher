@@ -2,8 +2,5 @@ running
 setUp
 
 	super setUp.
-	algertemList := OrderedCollection newFrom: {
-		ClassAlgertype new.
-		ClassAlgertype new.
-		GlobalVariableAlgertype new }.
+	algertemList := OrderedCollection new.
 	^ nil

@@ -1,7 +1,11 @@
 {
 	"class" : {
-		"createMenuList:in:withHeight:" : "eh 5/4/2008 23:22" },
+		"categoryFontSize" : "JJ 5/29/2015 23:50",
+		"maxItemsPerCategory" : "JJ 5/29/2015 23:23",
+		"newFrom:in:" : "JJ 5/29/2015 23:55",
+		"verticalOffset" : "JJ 5/29/2015 23:49" },
 	"instance" : {
+		"addCategory:" : "JJ 5/29/2015 22:47",
 		"addToMenu:" : "TN 5/5/2015 13:50",
 		"delete" : "eh 4/25/2008 02:11",
 		"doActionOnSelectedItem:" : "eh 4/27/2008 23:35",
@@ -9,7 +13,10 @@
 		"hideActionList" : "eh 4/24/2008 17:50",
 		"hideTypeList" : "eh 4/25/2008 02:12",
 		"initialize" : "fw 5/26/2015 20:01",
-		"popUpAt:forHand:in:allowKeyboard:" : "eh 4/25/2008 02:54",
+		"popUpAt:forHand:in:allowKeyboard:" : "JJ 5/30/2015 00:01",
+		"popup" : "JJ 5/29/2015 23:49",
+		"render" : "JJ 5/29/2015 23:40",
+		"renderCategory:" : "JJ 5/29/2015 23:50",
 		"selectItem:event:" : "eh 4/25/2008 03:10",
 		"selectNext" : "eh 4/23/2008 01:56",
 		"selectPrevious" : "eh 4/23/2008 02:03",

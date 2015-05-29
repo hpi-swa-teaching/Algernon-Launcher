@@ -1,10 +1,11 @@
 lists
 updateItemListWith: aString
-	| aList|
+	"Refreshes the visible search results."
+	| algertemList categorizedList |
 	self hideItemList.
-	aList := (self relevantAlgertemsFor: aString).
-	aList size = 0 ifTrue: [^self].
-	"todo categorize list"
-	"todo create item list for each category"
-	itemList := ItemList createMenuList: aList in: self withHeight:180.
-		
+	algertemList := (self relevantAlgertemsFor: aString).
+	(algertemList size = 0)
+		ifTrue: [ ^self ].
+	categorizedList := self categorizer categorize: algertemList.
+	self itemList: (ItemList newFrom: categorizedList in: self).
+	self itemList render

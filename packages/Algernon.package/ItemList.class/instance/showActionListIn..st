@@ -1,4 +1,4 @@
-actions
+rendering
 showActionListIn: aMorph
 	|sortedAlgeractions|
 	sortedAlgeractions := self algernon sorter sort:self selectedAlgernonListItem algeractions.

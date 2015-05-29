@@ -9,6 +9,7 @@
 	"commentStamp" : "eh 5/5/2008 00:27",
 	"instvars" : [
 		"sorter",
+		"categorizer",
 		"textField",
 		"itemList",
 		"algertems",

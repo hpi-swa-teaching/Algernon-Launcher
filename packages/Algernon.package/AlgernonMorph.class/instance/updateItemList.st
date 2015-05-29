@@ -1,4 +1,4 @@
 lists
 updateItemList
-	self updateItemListWith:( textField contents asString).
+	self updateItemListWith: self textField contents asString.
 		

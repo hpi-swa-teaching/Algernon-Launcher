@@ -1,3 +1,3 @@
 accessors
 typeName
-	^'Class >'.
+	^'Class'.

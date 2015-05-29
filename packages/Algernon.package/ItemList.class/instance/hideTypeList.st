@@ -1,4 +1,4 @@
-actions
+rendering
 hideTypeList
 	typeList ifNotNil: [
 		typeList delete.

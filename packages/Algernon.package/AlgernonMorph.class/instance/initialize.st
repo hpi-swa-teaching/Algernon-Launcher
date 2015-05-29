@@ -7,6 +7,7 @@ initialize
 		wasChanged: false;
 		initalizeOldFoci;
 		initializeSorter;
+		initializeCategorizer;
 		initializeMorph;
 		registerWithSystem;
 		activate;

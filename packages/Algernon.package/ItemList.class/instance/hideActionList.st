@@ -1,4 +1,4 @@
-actions
+rendering
 hideActionList
 	actionList ifNotNil: [
 		actionList delete.

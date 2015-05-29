@@ -1,4 +1,4 @@
-actions
+event handling
 doActionOnSelectedItem: evt 
 	
 	"comment stating purpose of message"

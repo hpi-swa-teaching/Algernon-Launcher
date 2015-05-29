@@ -4,7 +4,7 @@ categorize: anAlgertemList
 	| categories |
 	categories := Dictionary new.
 	anAlgertemList do: [ :anAlgertem | | key |
-		key := anAlgertem class name.
+		key := anAlgertem algertype class name.
 		categories at: key ifAbsentPut: [ OrderedCollection new ].
 		(categories at: key) add: anAlgertem ].
 	 ^ categories
