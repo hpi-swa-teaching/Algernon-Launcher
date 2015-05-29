@@ -8,12 +8,7 @@ newFrom: aDictionary in: anAlgernon
 	aDictionary copy keysDo: [ :key |
 		| categoryList |
 		categoryList := aDictionary at: key.
-		anItemList addCategory: categoryList first algertype typeName.
-		((categoryList size > self maxItemsPerCategory)
-			ifTrue: [ categoryList
-						collect: [ :each | each ]
-						from: 1
-						to: self maxItemsPerCategory ]
-			ifFalse: [ categoryList ]) do: [ :anAlgertem |
+		anItemList addCategory: key.
+		categoryList do: [ :anAlgertem |
 			anItemList addToMenu: anAlgertem ]].
 	^ anItemList

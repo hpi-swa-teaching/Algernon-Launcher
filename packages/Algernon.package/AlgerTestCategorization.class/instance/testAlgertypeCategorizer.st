@@ -7,5 +7,5 @@ testAlgertypeCategorizer
 	algertemList add: algertem.
 	categories := categorizer categorize: algertemList.
 	self assert: (categories size > 0).
-	self assert: (categories includesKey: #CategoryAlgertype).
+	self assert: (categories includesKey: algertem algertype typeName).
 	 ^ nil
