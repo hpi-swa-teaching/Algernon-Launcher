@@ -1,0 +1,14 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AlgertemCategorizer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
