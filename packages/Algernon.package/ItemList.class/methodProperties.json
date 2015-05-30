@@ -1,10 +1,10 @@
 {
 	"class" : {
 		"categoryFontSize" : "JJ 5/29/2015 23:50",
-		"newFrom:in:" : "JJ 5/30/2015 01:18",
+		"newFrom:in:" : "JJ 5/30/2015 17:32",
 		"verticalOffset" : "JJ 5/29/2015 23:49" },
 	"instance" : {
-		"addCategory:" : "JJ 5/29/2015 22:47",
+		"addCategory:" : "JJ 5/30/2015 17:34",
 		"addToMenu:" : "TN 5/5/2015 13:50",
 		"delete" : "eh 4/25/2008 02:11",
 		"doActionOnSelectedItem:" : "eh 4/27/2008 23:35",

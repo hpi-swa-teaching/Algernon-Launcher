@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"sorter" ],
-	"name" : "AlgertypeCategorizer",
+		 ],
+	"name" : "AlgernonServiceProvider",
 	"pools" : [
 		 ],
-	"super" : "AlgertemCategorizer",
+	"super" : "ServiceProvider",
 	"type" : "normal" }

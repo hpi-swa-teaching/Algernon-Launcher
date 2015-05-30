@@ -1,8 +1,13 @@
 categorizing
 algertypesFrom: anAlgertemList into: aDictionary
-	"Extracts a number of categories from a given list based on the Algertype."
-	anAlgertemList do: [ :anAlgertem |
-		| key categoryItems |
+	"Extracts a dictionary of categories from a given list indexed by their Algertype."
+	| maxIndex |
+	maxIndex := self class maxNumItems - self class maxNumTopResults.
+	(anAlgertemList size < maxIndex)
+		ifTrue: [ maxIndex := anAlgertemList size ].
+	(1 to: maxIndex) do: [ :i |
+		| anAlgertem key categoryItems |
+		anAlgertem := anAlgertemList at: i.
 		key := anAlgertem algertype typeName.
 		aDictionary
 			at: key

@@ -1,4 +1,4 @@
-actions
+adding
 addToMenu: anAlgertem
 	self algernonListItems add: anAlgertem.
 	self add: anAlgertem name

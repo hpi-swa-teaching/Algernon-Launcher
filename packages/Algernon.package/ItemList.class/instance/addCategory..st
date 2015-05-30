@@ -1,8 +1,8 @@
-actions
-addCategory: aString
+adding
+addCategory: anAlgercat
 
-	self algernonListItems add: aString.
-	self add: aString
+	self algernonListItems add: anAlgercat title.
+	self add: anAlgercat title
 		target: nil
 		selector: nil
 		argumentList: {}.

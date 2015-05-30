@@ -4,7 +4,9 @@
 	"instance" : {
 		"ensureMorphic" : "JJ 5/29/2015 02:00",
 		"isMorphic" : "JJ 5/29/2015 02:00",
-		"setUp" : "JJ 5/29/2015 22:22",
+		"setUp" : "JJ 5/30/2015 17:22",
 		"tearDown" : "JJ 5/29/2015 02:44",
-		"testAlgertypeCategorizer" : "JJ 5/30/2015 01:07",
-		"testCategories" : "JJ 5/30/2015 00:14" } }
+		"testCategoriesInOrder" : "JJ 5/30/2015 18:00",
+		"testCategoriesVisible" : "JJ 5/30/2015 17:56",
+		"testCategoryForAlgertype" : "JJ 5/30/2015 17:25",
+		"testCategoryForTopResults" : "JJ 5/30/2015 17:25" } }

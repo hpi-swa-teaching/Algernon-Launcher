@@ -1,4 +1,4 @@
-actions
+adding
 delete
 	self hideActionList.
 	self hideTypeList.

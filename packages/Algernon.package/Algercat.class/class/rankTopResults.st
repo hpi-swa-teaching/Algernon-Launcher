@@ -1,0 +1,3 @@
+constants
+rankTopResults
+	 ^ 999

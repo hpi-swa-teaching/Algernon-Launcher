@@ -1,8 +1,17 @@
 categorizing
 categorize: anAlgertemList
-	"Returns a dictionary of Algertem collections indexed by their Algertype."
-	^ self
-		topResultsFrom: anAlgertemList
-		into: (self
-			algertypesFrom: anAlgertemList
-			into: Dictionary new)
+	"Returns a collection of Algercats indexed by their Algertype and sorted
+	by their rank."
+	| categories typeDictionary |
+	categories := OrderedCollection new.
+	self
+		addTopResultsFrom: anAlgertemList
+		to: categories.
+	typeDictionary := Dictionary new.
+	typeDictionary := self
+		algertypesFrom: anAlgertemList
+		into: typeDictionary.
+	self
+		addAlgertypesFrom: typeDictionary
+		to: categories.
+	^ self sorter sort: categories inOrder: #desc

@@ -1,3 +1,0 @@
-categories
-topResults
-	^ 'Top results'

@@ -4,11 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JJ 5/30/2015 16:22",
 	"instvars" : [
-		"sorter" ],
-	"name" : "AlgertypeCategorizer",
+		"title",
+		"rank",
+		"algertems" ],
+	"name" : "Algercat",
 	"pools" : [
 		 ],
-	"super" : "AlgertemCategorizer",
+	"super" : "Object",
 	"type" : "normal" }
