@@ -1,0 +1,3 @@
+accessors
+isTermRelevantFor: aString
+	^ false

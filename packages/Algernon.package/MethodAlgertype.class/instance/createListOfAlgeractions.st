@@ -9,9 +9,9 @@ createListOfAlgeractions
 	list add: (Algeraction withName:'browse method (new)' 
 					rank:9 target:self selector:#openInNewBrowser: args:(OrderedCollection with:aMethod)). 
 	list add: (Algeraction withName:'browse senders' 
-					rank:13 target:self selector:#browseAllCallsOn: args:(OrderedCollection with:aMethod)). 
+					rank:8 target:self selector:#browseAllCallsOn: args:(OrderedCollection with:aMethod)). 
 	list add: (Algeraction withName:'browse implementors' 
-					rank:12 target:self selector:#browseAllImplementorsOf: args:(OrderedCollection with:aMethod)). 
+					rank:7 target:self selector:#browseAllImplementorsOf: args:(OrderedCollection with:aMethod)). 
 	"list add: (Algeraction withName:'methods' rank:3 target:aClass selector:#allSelectors args:#())."
 "	list add: (Algeraction withName:'fileOut class' 
 					rank:8 target:aMethod selector:#fileOut args:#()).

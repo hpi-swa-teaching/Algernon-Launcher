@@ -2,9 +2,8 @@ comparison
 isLessThan: anAlgertem given: aLowercaseString
 	| me1 other1 me2 other2 me3 other3 myRank otherRank |
 	
-	myRank := self rank.
-	otherRank := anAlgertem rank.
-	
+	myRank := self rank + (self algertype algertypeRank: aLowercaseString).
+	otherRank := anAlgertem rank + (anAlgertem algertype algertypeRank: aLowercaseString).
 	
 	(myRank > otherRank) ifTrue: [^true].
 	(myRank < otherRank) ifTrue: [^false].

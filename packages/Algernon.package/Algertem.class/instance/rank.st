@@ -1,3 +1,3 @@
 accessors
 rank
-	^rank.
+	^rank

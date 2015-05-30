@@ -1,0 +1,3 @@
+initialization
+initalize
+	algerInstance := nil

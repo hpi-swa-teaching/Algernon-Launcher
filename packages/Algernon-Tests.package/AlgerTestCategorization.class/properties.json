@@ -1,0 +1,16 @@
+{
+	"category" : "Algernon-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"algertemList",
+		"categorizer",
+		"categories" ],
+	"name" : "AlgerTestCategorization",
+	"pools" : [
+		 ],
+	"super" : "AlgerTest",
+	"type" : "normal" }

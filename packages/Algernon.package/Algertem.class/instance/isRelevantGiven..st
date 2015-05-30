@@ -9,3 +9,4 @@ isRelevantGiven: aLowercaseString
 	theName := self lowerCaseName.
 	^ (theName beginsWith: aLowercaseString)
 		| (self initials includesSubString: aLowercaseString)
+		| (self algertype isTermRelevantFor: aLowercaseString)
