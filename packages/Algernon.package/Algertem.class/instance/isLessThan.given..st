@@ -8,7 +8,6 @@ isLessThan: anAlgertem given: aLowercaseString
 	(myRank > otherRank) ifTrue: [^true].
 	(myRank < otherRank) ifTrue: [^false].
 	
-	
 	me1 := (self initials beginsWith: aLowercaseString).
 	other1 := (anAlgertem initials beginsWith: aLowercaseString).
 	
