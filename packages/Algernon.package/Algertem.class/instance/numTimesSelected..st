@@ -1,4 +1,4 @@
 accessors
 numTimesSelected: anInt
 	numTimesSelected := anInt.
-	rank := numTimesSelected
+	lastUsage := DateAndTime now.

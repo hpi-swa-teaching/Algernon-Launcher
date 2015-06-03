@@ -12,7 +12,8 @@
 		"lowerCaseName",
 		"algeractions",
 		"algertype",
-		"isRelevantForEmptyString" ],
+		"isRelevantForEmptyString",
+		"lastUsage" ],
 	"name" : "Algertem",
 	"pools" : [
 		 ],
