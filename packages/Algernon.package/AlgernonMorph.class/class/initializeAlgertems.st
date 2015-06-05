@@ -7,5 +7,6 @@ initializeAlgertems
 		addAll: MorphAlgertype algertemList;
 		addAll: WorldMenuMorphAlgertype algertemList;
 		addAll: PackageAlgertype algertemList;
+		addAll: SettingsAlgertype algertemList;
 		yourself
 	

@@ -1,0 +1,1 @@
+This algertype represents a class
