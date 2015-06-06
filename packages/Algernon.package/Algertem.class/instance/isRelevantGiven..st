@@ -7,6 +7,7 @@ isRelevantGiven: aLowercaseString
 		[aLowercaseString size = 0 ifTrue:[^ false.]].
 	
 	theName := self lowerCaseName.
-	^ (theName beginsWith: aLowercaseString)
-		| (self initials includesSubString: aLowercaseString)
+	^ (self initials includesSubString: aLowercaseString)
+		| (self fuzzySearchMatches: aLowercaseString)
+		| (theName beginsWith: aLowercaseString)
 		| (self algertype isTermRelevantFor: aLowercaseString)
