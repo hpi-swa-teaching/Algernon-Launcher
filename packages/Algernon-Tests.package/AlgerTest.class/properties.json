@@ -6,9 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"algerstance",
-		"previouslyOpenedBrowsers",
-		"allBrowsersNow" ],
+		"algerstance" ],
 	"name" : "AlgerTest",
 	"pools" : [
 		 ],
