@@ -1,31 +1,22 @@
-as yet unclassified
+running
 testMultipleWords
 	"Make sure normal input works"
-	|resultList|
 	self ensureMorphic.
 	algerstance class initializeAlgertems.
 
-	resultList := (algerstance relevantAlgertemsFor:'Test ru').
 	algerstance show.
-	algerstance textField contents:'Algernon'.
+	algerstance textField contents:'Test ru'.
 	algerstance updateItemList.
-	algerstance selectNext.
-	
 	self assert: (algerstance currentAlgertem name) = 'Test Runner'.
 
-	resultList := (algerstance relevantAlgertemsFor:'te Runner').
 	algerstance show.
-	algerstance textField contents:'Algernon'.
+	algerstance textField contents:'te Runner'.
 	algerstance updateItemList.
-	algerstance selectNext.
-	
 	self assert: (algerstance currentAlgertem name) = 'Test Runner'.
 
-	resultList := (algerstance relevantAlgertemsFor:'tes runn').
 	algerstance show.
-	algerstance textField contents:'Algernon'.
+	algerstance textField contents:'tes runn'.
 	algerstance updateItemList.
-	algerstance selectNext.
-	
 	self assert: (algerstance currentAlgertem name) = 'Test Runner'.
+	
 	 ^ nil.

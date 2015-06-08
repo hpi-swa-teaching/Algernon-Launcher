@@ -1,31 +1,21 @@
-as yet unclassified
+running
 testMulipleKeysMissing
 	"Make sure normal input works"
-	| resultList |
 	self ensureMorphic.
 	algerstance class initializeAlgertems.
 
-	resultList := (algerstance relevantAlgertemsFor:'gernon').
 	algerstance show.
-	algerstance textField contents:'Algernon'.
-	algerstance updateItemList.
-	algerstance selectNext.
-	
+	algerstance textField contents:'gernon'.
+	algerstance updateItemList.	
 	self assert: (algerstance currentAlgertem name) = 'Algernon'.
 
-	resultList := (algerstance relevantAlgertemsFor:'Algern').
 	algerstance show.
-	algerstance textField contents:'Algernon'.
-	algerstance updateItemList.
-	algerstance selectNext.
+	algerstance textField contents:'Algern'.
+	algerstance updateItemList.	
+	self assert: (algerstance currentAlgertem name) = 'Algernon'.
 	
-	self assert: (algerstance currentAlgertem name) = 'Alg on'.
-	
-	resultList := (algerstance relevantAlgertemsFor:'Algenon').
 	algerstance show.
-	algerstance textField contents:'Algernon'.
-	algerstance updateItemList.
-	algerstance selectNext.
-	
+	algerstance textField contents:'Algenon'.
+	algerstance updateItemList.	
 	self assert: (algerstance currentAlgertem name) = 'Algernon'.
 	 ^ nil.
