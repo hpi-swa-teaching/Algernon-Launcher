@@ -1,3 +1,3 @@
 event handling
 mouseDown: anEvent
-	self algerInstance ifNotNil: [anEvent hand newKeyboardFocus: algerInstance.]
+	self algerInstance ifNotNil: [algerInstance deactivate]

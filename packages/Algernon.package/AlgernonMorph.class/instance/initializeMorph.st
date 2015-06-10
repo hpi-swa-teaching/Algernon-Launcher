@@ -1,7 +1,7 @@
 initialization
 initializeMorph
 	"setup graphical properties of Morph"
-	| r |
+	| r background |
 	self
 		extent: 420 @ 60;
 		center: World center;
@@ -12,16 +12,24 @@ initializeMorph
 	
 	"generate textField"
 	r := RectangleMorph new
-		color: Color veryLightGray lighter;
+		color: (Color veryLightGray lighter);
 		extent: 400 @ 40;
 		center: self center;
 		borderWidth: 1.
-	textField := TextMorph new
+	background := AlgernonModalBackground new
+		color: (Color white alpha: 0.3);
+		extent: World extent;
+		center: self center;
+		borderWidth: 0.
+
+	textField := AlgernonTextMorph new
 		contents: '';
 		beAllFont: self class font;
 		setProperty: #holdsSeparateDataForEachInstance toValue: true;
 		fillingOnOff.
 	r addMorph: textField.
+	
+	self addMorph: background.
 	self addMorph: r.
 
 	currentAlgertemLabel := TextMorph new

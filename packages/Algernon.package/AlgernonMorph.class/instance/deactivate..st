@@ -10,4 +10,5 @@ deactivate: hand
 		clearTextField;
 		currentAlgertem: nil;
 		hide.
+	World redraw.
 	WorldState addDeferredUIMessage: [self dropFocus: hand]
