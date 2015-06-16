@@ -1,3 +1,0 @@
-list creation
-algertemChildrenList
-	^RepositoryAlgertype algertemListWith: self typeObject

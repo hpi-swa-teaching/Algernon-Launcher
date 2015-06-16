@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "topa 3/24/2015 16:38",
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
-	"name" : "Algernon",
+		"repositoryPackage",
+		"aMethod" ],
+	"name" : "ALGRepositoryType",
 	"pools" : [
 		 ],
-	"super" : "ALGCore",
+	"super" : "ALGType",
 	"type" : "normal" }

@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "topa 3/24/2015 16:38",
+	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "Algernon",
+		"sorter" ],
+	"name" : "ALGTypeCategorizer",
 	"pools" : [
 		 ],
-	"super" : "ALGCore",
+	"super" : "ALGCategorizer",
 	"type" : "normal" }

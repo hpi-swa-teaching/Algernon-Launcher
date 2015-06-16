@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "topa 3/24/2015 16:38",
+	"commentStamp" : "eh 5/5/2008 00:19",
 	"instvars" : [
-		 ],
-	"name" : "Algernon",
+		"algernonListItems",
+		"algernon" ],
+	"name" : "ALGMenuList",
 	"pools" : [
 		 ],
-	"super" : "ALGCore",
+	"super" : "MenuMorph",
 	"type" : "normal" }

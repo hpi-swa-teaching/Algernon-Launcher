@@ -1,0 +1,26 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		"wasChanged",
+		"currentInstance" ],
+	"classvars" : [
+		"DefaultAlgertems",
+		"KeyBindings" ],
+	"commentStamp" : "eh 5/5/2008 00:27",
+	"instvars" : [
+		"sorter",
+		"categorizer",
+		"textField",
+		"itemList",
+		"algertems",
+		"currentAlgertem",
+		"currentAlgertemLabel",
+		"refreshLabel",
+		"oldFoci",
+		"active",
+		"wasChanged" ],
+	"name" : "ALGCore",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

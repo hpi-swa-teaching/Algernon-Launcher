@@ -1,0 +1,3 @@
+initialization
+initializeCategorizer
+	self categorizer: ALGTypeCategorizer new.

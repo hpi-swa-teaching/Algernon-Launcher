@@ -1,0 +1,19 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eh 5/5/2008 00:28",
+	"instvars" : [
+		"name",
+		"rank",
+		"numTimesSelected",
+		"theTarget",
+		"theSelector",
+		"theArgs" ],
+	"name" : "ALGAction",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

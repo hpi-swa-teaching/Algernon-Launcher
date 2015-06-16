@@ -1,3 +1,0 @@
-initialization
-initializeCategorizer
-	self categorizer: AlgertypeCategorizer new.

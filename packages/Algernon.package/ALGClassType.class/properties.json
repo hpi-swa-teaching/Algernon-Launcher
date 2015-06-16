@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "topa 3/24/2015 16:38",
+	"commentStamp" : "eh 4/24/2008 18:40",
 	"instvars" : [
 		 ],
-	"name" : "Algernon",
+	"name" : "ALGClassType",
 	"pools" : [
 		 ],
-	"super" : "ALGCore",
+	"super" : "ALGType",
 	"type" : "normal" }
