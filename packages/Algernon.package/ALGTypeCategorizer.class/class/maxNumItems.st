@@ -1,3 +1,3 @@
 constants
 maxNumItems
-	 ^ 20 "including maxNumTopResults."
+	 ^ 15 "including maxNumTopResults."
