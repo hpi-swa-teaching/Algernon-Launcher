@@ -2,7 +2,7 @@
 	"class" : {
 		"categoryFontSize" : "JJ 5/29/2015 23:50",
 		"newFrom:in:" : "JJ 5/30/2015 17:32",
-		"verticalOffset" : "JJ 5/29/2015 23:49" },
+		"verticalOffset" : "TN 6/17/2015 14:11" },
 	"instance" : {
 		"addCategory:" : "JJ 5/30/2015 17:34",
 		"addToMenu:" : "TN 5/5/2015 13:50",
@@ -15,7 +15,7 @@
 		"popUpAt:forHand:in:allowKeyboard:" : "JJ 6/10/2015 15:50",
 		"popup" : "JJ 5/29/2015 23:49",
 		"render" : "JJ 5/29/2015 23:40",
-		"renderCategory:" : "JJ 5/29/2015 23:50",
+		"renderCategory:" : "TN 6/17/2015 14:01",
 		"selectItem:event:" : "JF 6/2/2015 21:36",
 		"selectNext" : "JF 6/1/2015 22:43",
 		"selectPrevious" : "JF 6/1/2015 22:43",

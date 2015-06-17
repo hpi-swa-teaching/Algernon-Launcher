@@ -4,9 +4,9 @@ updateItemListWith: aString
 	| algertemList categorizedList |
 	self hideItemList.
 	algertemList := (self relevantAlgertemsFor: aString).
-	(algertemList size = 0)
+	(algertemList isEmptyOrNil)
 		ifTrue: [ ^self ].
-	
+
 	categorizedList := self categorizer categorize: algertemList.
 	self itemList: (ALGItemList newFrom: categorizedList in: self).
 	self itemList render.
