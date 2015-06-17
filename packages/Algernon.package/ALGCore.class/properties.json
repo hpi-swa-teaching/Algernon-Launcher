@@ -15,10 +15,12 @@
 		"algertems",
 		"currentAlgertem",
 		"currentAlgertemLabel",
+		"limitedAlgertems",
 		"refreshLabel",
 		"oldFoci",
 		"active",
-		"wasChanged" ],
+		"wasChanged",
+		"cachedResults" ],
 	"name" : "ALGCore",
 	"pools" : [
 		 ],

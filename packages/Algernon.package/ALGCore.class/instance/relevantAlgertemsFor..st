@@ -1,8 +1,18 @@
 lists
 relevantAlgertemsFor: aString
-	|releventAlgertems lcs|
+	| relevantAlgertems lcs |
 	lcs := aString asLowercase.
-	releventAlgertems := algertems select: [:each | each isRelevantGiven:lcs].
-	releventAlgertems := sorter sort:releventAlgertems given:aString.
- 	
-	^ releventAlgertems.
+
+	lcs size < 2 ifTrue: [self limitedAlgertems: algertems].
+
+	self cachedResults at: lcs
+		ifPresent: [ :terms | relevantAlgertems := terms]
+		ifAbsent: [
+			self limitedAlgertems: (self limitedAlgertems select: [:each | each isRelevantGiven: lcs]).
+			self cachedResults at: lcs put: self limitedAlgertems.
+			relevantAlgertems := self limitedAlgertems.
+		 ].
+
+	relevantAlgertems := sorter sort: relevantAlgertems given:aString.
+
+	^ relevantAlgertems.
