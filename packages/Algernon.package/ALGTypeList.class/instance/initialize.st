@@ -14,5 +14,5 @@ initialize
 	self cellPositioning: #topRight.
 	self listCentering: #topLeft.
 	self cellInset: 0@0.
-	self layoutInset: -5@0.
-	self minCellSize: 200@(ALGItemList categoryFontSize * 1.5).
+	self layoutInset: -5@ALGItemList verticalOffset.
+	self minCellSize: 200@(ALGItemList categoryFontSize * self class fontScaling).
