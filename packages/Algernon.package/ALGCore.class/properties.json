@@ -20,7 +20,8 @@
 		"oldFoci",
 		"active",
 		"wasChanged",
-		"cachedResults" ],
+		"cachedResults",
+		"lastInputTime" ],
 	"name" : "ALGCore",
 	"pools" : [
 		 ],

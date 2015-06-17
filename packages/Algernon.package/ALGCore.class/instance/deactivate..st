@@ -4,6 +4,7 @@ deactivate: hand
 	self active ifFalse: [^ self].
 
 	self active: false.
+	self stopStepping.
 	algertems := self defaultAlgertems.
 	self
 		hideItemList;
