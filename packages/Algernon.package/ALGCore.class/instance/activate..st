@@ -6,6 +6,7 @@ activate: hand
 	self active ifTrue: [^ self].
 	self active: true.
 
+	self clearCachedResults.
 	self wasChanged ifTrue: [self refreshItems].
 	self grabFocus: self activeHand.
 	
