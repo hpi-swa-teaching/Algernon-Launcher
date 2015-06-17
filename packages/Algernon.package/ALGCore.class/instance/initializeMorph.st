@@ -16,6 +16,7 @@ initializeMorph
 		extent: 400 @ 40;
 		center: self center;
 		borderWidth: 1.
+
 	background := ALGBackground new
 		color: (Color white alpha: 0.3);
 		extent: World extent;
