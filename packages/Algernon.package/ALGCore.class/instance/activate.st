@@ -1,4 +1,4 @@
 visibility
 activate
 	self center: World center.
-	self activate: self activeHand
+	self activate: self activeHand.

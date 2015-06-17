@@ -1,3 +1,3 @@
-defaults
+constants
 activationString
 	^ '<Cmd- >'

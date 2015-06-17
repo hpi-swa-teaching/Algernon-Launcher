@@ -1,3 +1,3 @@
-defaults
+constants
 refreshString
 	^ '<Cmd-r>'.
