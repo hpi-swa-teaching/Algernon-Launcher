@@ -4,9 +4,9 @@
 	"instance" : {
 		"ensureMorphic" : "JJ 5/29/2015 02:00",
 		"isMorphic" : "JJ 5/29/2015 02:00",
-		"setUp" : "JJ 5/30/2015 17:22",
+		"setUp" : "fw 6/17/2015 19:52",
 		"testCategoriesInOrder" : "JJ 5/30/2015 18:00",
 		"testCategoriesVisible" : "JJ 5/30/2015 18:16",
-		"testCategoryForAlgertype" : "JJ 5/30/2015 17:25",
-		"testCategoryForTopResults" : "JJ 5/30/2015 17:25",
-		"testNumberOfItems" : "JJ 5/30/2015 18:25" } }
+		"testCategoryForAlgertype" : "fw 6/17/2015 19:52",
+		"testCategoryForTopResults" : "fw 6/17/2015 19:53",
+		"testNumberOfItems" : "fw 6/17/2015 19:53" } }
