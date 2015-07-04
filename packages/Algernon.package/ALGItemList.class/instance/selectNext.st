@@ -1,5 +1,6 @@
 selection
 selectNext
-	selectedItem contents: (self selectedAlgernonListItem name).
-	(actionList isNil not) ifTrue:[^actionList selectNext.].
+	
+	selectedItem ifNotNil: [selectedItem contents: (self selectedAlgernonListItem name)].
+	actionList ifNotNil: [^actionList selectNext.].
 	super selectNext.
