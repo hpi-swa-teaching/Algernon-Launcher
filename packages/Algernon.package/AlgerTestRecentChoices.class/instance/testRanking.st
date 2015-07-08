@@ -10,7 +10,6 @@ testRanking
 	algerstance show.
 	algerstance textField contents:'Algernon'.
 	algerstance updateItemList.
-	algerstance selectNext.
 	algerstance doActionOnSelectedEvent:nil.
 
 	secondRank := (algerstance relevantAlgertemsFor: 'Algernon') first rank.

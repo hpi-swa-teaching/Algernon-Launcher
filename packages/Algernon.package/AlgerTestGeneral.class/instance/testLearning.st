@@ -5,16 +5,15 @@ testLearning
 	self ensureMorphic.
 	algerstance class initializeAlgertems.
 
-	firstList := (algerstance relevantAlgertemsFor:'Algernon').
+	firstList := algerstance categorizer categorize: (algerstance relevantAlgertemsFor:'Algernon').
 	algerstance show.
 	algerstance textField contents:'Algernon'.
 	algerstance updateItemList.
 	algerstance selectNext; selectNext.
 	algerstance doActionOnSelectedEvent:nil.
-	secondList := (algerstance relevantAlgertemsFor:'Algernon').
+	secondList := algerstance categorizer categorize: (algerstance relevantAlgertemsFor:'Algernon').
 
-	self deny:firstList = secondList.
-	self assert:(firstList at:3) = (secondList at:1).
-	
+	self deny: firstList = secondList.
+	self assert: ((firstList at: 1) algertems at: 1) = ((secondList at:1) algertems at:3).
 	
 	^ nil
