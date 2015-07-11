@@ -1,0 +1,14 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"FileMapping" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"imagesMap" ],
+	"name" : "ALGIconFactory",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
