@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"fileMapping" : "JF 7/11/2015 19:51",
+		"iconsFolderName" : "JF 7/11/2015 20:49",
+		"initalizeFileMapping" : "JF 7/11/2015 20:49" },
+	"instance" : {
+		"iconFor:" : "JF 7/11/2015 20:54",
+		"imagesMap" : "JF 7/11/2015 20:45",
+		"initialize" : "JF 7/11/2015 20:47",
+		"loadImage:" : "JF 7/11/2015 20:45" } }
