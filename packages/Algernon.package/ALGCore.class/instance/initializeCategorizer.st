@@ -1,3 +1,4 @@
 initialization
 initializeCategorizer
-	self categorizer: ALGTypeCategorizer new.
+	self typeCategorizer: ALGTypeCategorizer new.
+	self topCategorizer: ALGTopCategorizer new.

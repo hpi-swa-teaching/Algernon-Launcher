@@ -1,7 +1,7 @@
 lists
 showParentList
-	currentAlgertem ifNotNil:[
-		algertems := self defaultAlgertems.			
+	(self searchStack size > 0) ifTrue: [  | parentSearch |
+		parentSearch := self searchStack pop.
 		self clearTextField.
-		self updateItemListWith:currentAlgertem name.
-		self currentAlgertem: (self itemList selectedAlgernonListItem).].
+		self algertems: self defaultAlgertems.
+		self updateItemListWith: parentSearch ].

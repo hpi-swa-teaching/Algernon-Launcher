@@ -1,13 +1,12 @@
 lists
 updateItemListWith: aString
 	"Refreshes the visible search results."
-	| algertemList categorizedList |
+	| items categories |
 	self hideItemList.
-	algertemList := (self relevantAlgertemsFor: aString).
-	(algertemList isEmptyOrNil)
+	items := (self relevantAlgertemsFor: aString).
+	(items isEmptyOrNil)
 		ifTrue: [ ^self ].
-
-	categorizedList := self categorizer categorize: algertemList.
-	self itemList: (ALGItemList newFrom: categorizedList in: self).
+	categories := self categorize: items.
+	self itemList: (ALGItemList newFrom: categories in: self).
 	self itemList render.
 	self itemList ifNotNil: [self currentAlgertem: (self itemList selectedAlgernonListItem)].

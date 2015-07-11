@@ -4,14 +4,7 @@ categorize: anAlgertemList
 	by their rank."
 	| categories typeDictionary |
 	categories := OrderedCollection new.
-	self
-		addTopResultsFrom: anAlgertemList
-		to: categories.
 	typeDictionary := Dictionary new.
-	typeDictionary := self
-		algertypesFrom: anAlgertemList
-		into: typeDictionary.
-	self
-		addAlgertypesFrom: typeDictionary
-		to: categories.
+	typeDictionary := self algertypesFrom: anAlgertemList into: typeDictionary.
+	self addAlgertypesFrom: typeDictionary to: categories.
 	^ self sorter sort: categories inOrder: #desc

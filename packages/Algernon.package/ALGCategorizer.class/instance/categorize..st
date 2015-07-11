@@ -1,4 +1,4 @@
 categorizing
-categorize: anAlgertemList
+categorize: anItemList
 
 	  ^ self subclassResponsibility

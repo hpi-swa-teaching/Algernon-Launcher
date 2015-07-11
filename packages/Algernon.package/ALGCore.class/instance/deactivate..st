@@ -10,6 +10,7 @@ deactivate: hand
 		hideItemList;
 		clearTextField;
 		currentAlgertem: nil;
+		searchStack: nil;
 		hide.
 	World redraw.
 	WorldState addDeferredUIMessage: [self dropFocus: hand]

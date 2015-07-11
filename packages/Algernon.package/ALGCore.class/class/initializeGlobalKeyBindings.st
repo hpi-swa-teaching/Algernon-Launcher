@@ -7,6 +7,7 @@ initializeGlobalKeyBindings
 		'<right>' -> [:anEvent :morph |  morph showChildList]. 
 		'<left>' -> [:anEvent :morph | morph showParentList]. 
 		'<escape>' -> [:anEvent :morph | morph deactivate: anEvent hand]. 
-		'<cr>' -> [:anEvent :morph | morph doActionOnSelectedEvent:anEvent]. 
-		'<tab>' -> [:anEvent :morph | morph toggleSubmenuOnSelectedItem: anEvent]
+		'<cr>' -> [:anEvent :morph | morph doActionOnSelectedEvent:anEvent].
+		'<tab>' -> [:anEvent :morph | morph showChildList]
+		"'<tab>' -> [:anEvent :morph | morph toggleSubmenuOnSelectedItem: anEvent]"
 	}
