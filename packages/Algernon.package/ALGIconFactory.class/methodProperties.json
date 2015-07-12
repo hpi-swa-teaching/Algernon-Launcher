@@ -2,8 +2,9 @@
 	"class" : {
 		"fileMapping" : "JF 7/11/2015 19:51",
 		"getInstance" : "fw 7/12/2015 15:57",
-		"iconsFolderName" : "JF 7/11/2015 20:49",
-		"initalizeFileMapping" : "JF 7/12/2015 03:50" },
+		"iconsFolderName" : "TN 7/12/2015 20:25",
+		"initalizeFileMapping" : "JF 7/12/2015 03:50",
+		"resetInstance" : "TN 7/12/2015 20:47" },
 	"instance" : {
 		"iconFor:" : "JF 7/12/2015 03:20",
 		"imagesMap" : "JF 7/11/2015 20:45",
