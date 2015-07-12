@@ -13,7 +13,8 @@
 		"algeractions",
 		"algertype",
 		"isRelevantForEmptyString",
-		"lastUsage" ],
+		"lastUsage",
+		"icon" ],
 	"name" : "ALGItem",
 	"pools" : [
 		 ],

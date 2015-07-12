@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"activationString" : "JF 5/4/2015 22:50",
+		"clearDefaultAlgertems" : "fw 7/12/2015 15:57",
 		"close" : "JF 5/7/2015 14:29",
 		"currentInstance" : "JF 5/4/2015 22:33",
 		"defaultAlgertems" : "topa 3/6/2015 13:59",
@@ -22,8 +23,6 @@
 		"cachedResults" : "fw 6/17/2015 18:16",
 		"cachedResults:" : "fw 6/17/2015 17:36",
 		"categorize:" : "J.J. 7/11/2015 22:49",
-		"categorizer" : "JJ 5/29/2015 23:07",
-		"categorizer:" : "JJ 5/29/2015 23:07",
 		"clearCachedResults" : "fw 6/17/2015 18:49",
 		"clearTextField" : "topa 3/24/2015 15:22",
 		"currentAlgertem" : "topa 3/24/2015 13:40",
