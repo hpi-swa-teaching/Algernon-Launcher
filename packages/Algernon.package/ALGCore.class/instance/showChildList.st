@@ -9,6 +9,6 @@ showChildList
 			algertems := currentType algertemChildrenList.
 			actionItems := ALGItem createListFrom: currentItem algeractions.
 			algertems addAll: actionItems.
-			self cachedResults: nil. "TODO fix caching to work with children"
+			self itemsCache clearItemsCache. "TODO fix caching to work with children"
 			self clearTextField.
 			self updateItemList ]].

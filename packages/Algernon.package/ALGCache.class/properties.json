@@ -1,0 +1,14 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"itemsCache" ],
+	"name" : "ALGCache",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

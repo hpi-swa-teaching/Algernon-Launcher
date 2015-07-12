@@ -23,7 +23,8 @@
 		"lastInputTime",
 		"searchStack",
 		"typeCategorizer",
-		"topCategorizer" ],
+		"topCategorizer",
+		"itemsCache" ],
 	"name" : "ALGCore",
 	"pools" : [
 		 ],

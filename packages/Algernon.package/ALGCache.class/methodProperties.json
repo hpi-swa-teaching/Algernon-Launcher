@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"clearAlgernonCaches" : "fw 7/12/2015 21:44" },
+	"instance" : {
+		"clearItemsCache" : "fw 7/12/2015 21:26",
+		"getItem:" : "fw 7/12/2015 21:20",
+		"initialize" : "fw 7/12/2015 21:16",
+		"itemsCache" : "fw 7/12/2015 21:18",
+		"itemsCache:" : "fw 7/12/2015 21:17",
+		"setItem:at:" : "fw 7/12/2015 21:21" } }
