@@ -3,7 +3,7 @@ updateItemListWith: aString
 	"Refreshes the visible search results."
 	| items categories |
 	self hideItemList.
-	items := (self relevantAlgertemsFor: aString).
+	items := self relevantAlgertemsFor: aString.
 	(items isEmptyOrNil)
 		ifTrue: [ ^self ].
 	categories := self categorize: items.
