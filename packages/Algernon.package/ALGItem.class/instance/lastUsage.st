@@ -1,3 +1,0 @@
-comparison
-lastUsage
-	^ lastUsage.

@@ -1,3 +1,3 @@
 initialization
-initalize
+initialize
 	super initialize.
