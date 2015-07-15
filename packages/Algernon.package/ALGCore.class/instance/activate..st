@@ -10,7 +10,7 @@ activate: hand
 	self wasChanged ifTrue: [self refreshItems].
 	self grabFocus: self activeHand.
 	
-	self center: World center.
+	self initializePosition.
 	self show.
 	
 	outerMorph := self topRendererOrSelf.

@@ -4,7 +4,7 @@ initializeMorph
 	| r background |
 	self
 		extent: 420 @ 60;
-		center: World center;
+		center: self class defaultPosition;
 		color: Color black;
 		cornerStyle: #rounded;
 		borderWidth: 0;
@@ -20,7 +20,7 @@ initializeMorph
 	background := ALGBackground new
 		color: (Color white alpha: 0.3);
 		extent: World extent;
-		center: self center;
+		center: World center;
 		borderWidth: 0.
 
 	textField := ALGInputField new
