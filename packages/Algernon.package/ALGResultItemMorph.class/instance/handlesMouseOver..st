@@ -1,0 +1,3 @@
+events
+handlesMouseOver: evt
+	^ false

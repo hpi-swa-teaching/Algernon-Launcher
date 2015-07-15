@@ -1,0 +1,3 @@
+constants
+defaultWidth
+	^ 420

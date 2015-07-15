@@ -1,0 +1,3 @@
+drawing
+selectionFillStyle
+	^ Color veryVeryLightGray.

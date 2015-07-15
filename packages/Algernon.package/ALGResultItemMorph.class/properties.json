@@ -1,0 +1,14 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"item" ],
+	"name" : "ALGResultItemMorph",
+	"pools" : [
+		 ],
+	"super" : "MenuItemMorph",
+	"type" : "normal" }

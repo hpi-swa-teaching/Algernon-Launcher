@@ -1,0 +1,14 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eh 5/5/2008 00:21",
+	"instvars" : [
+		"algernon" ],
+	"name" : "ALGResultList",
+	"pools" : [
+		 ],
+	"super" : "MenuMorph",
+	"type" : "normal" }

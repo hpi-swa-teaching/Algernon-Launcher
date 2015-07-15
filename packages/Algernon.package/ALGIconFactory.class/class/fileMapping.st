@@ -1,3 +1,3 @@
-as yet unclassified
+mapping
 fileMapping
-	^ FileMapping ifNil: [self initalizeFileMapping. FileMapping]  
+	^ FileMapping ifNil: [self initializeFileMapping. FileMapping]  

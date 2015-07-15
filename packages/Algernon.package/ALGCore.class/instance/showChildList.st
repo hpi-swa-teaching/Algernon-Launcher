@@ -1,7 +1,7 @@
 lists
 showChildList
 	itemList ifNotNil: [ | currentItem currentType |
-		currentItem := itemList selectedAlgernonListItem.
+		currentItem := itemList selectedListItem.
 		self currentAlgertem: currentItem. "is this really necessary?"
 		currentType := currentItem algertype.
 		currentType hasChildren ifTrue: [ | actionItems |

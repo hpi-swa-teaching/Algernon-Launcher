@@ -11,7 +11,7 @@ testRanking2
 		fixedChoice ifNil: [fixedChoice := listItems last.
 							initialRank := listItems indexOf: fixedChoice ].
 		"Make sure fixed item is selected."
-		[fixedChoice name = algerstance itemList selectedAlgernonListItem name]
+		[fixedChoice name = algerstance itemList selectedListItem name]
 			whileFalse: [ algerstance selectNext ].
 		algerstance doActionOnSelectedEvent: nil.
 	].

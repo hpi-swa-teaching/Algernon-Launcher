@@ -1,0 +1,3 @@
+constants
+nonSelectedColor 
+	^ Color black

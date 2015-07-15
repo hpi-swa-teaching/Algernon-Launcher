@@ -7,6 +7,6 @@ updateItemListWith: aString
 	(items isEmptyOrNil)
 		ifTrue: [ ^self ].
 	categories := self categorize: items.
-	self itemList: (ALGItemList newFrom: categories in: self).
+	self itemList: (ALGResultList newFrom: categories in: self).
 	self itemList render.
-	self itemList ifNotNil: [self currentAlgertem: (self itemList selectedAlgernonListItem)].
+	self itemList ifNotNil: [self currentAlgertem: (self itemList selectedListItem)].

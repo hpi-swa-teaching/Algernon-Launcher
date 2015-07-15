@@ -1,3 +1,4 @@
-as yet unclassified
+singleton
 resetInstance
 	FileMapping := nil.
+	iconFactory imagesMap: nil.

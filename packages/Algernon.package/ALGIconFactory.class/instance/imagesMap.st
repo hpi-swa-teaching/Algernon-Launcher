@@ -1,3 +1,4 @@
-as yet unclassified
+accessing
 imagesMap 
+	imagesMap ifNil: [ imagesMap := Dictionary new ].
 	^ imagesMap

@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"newFrom:target:selector:argumentList:" : "J.J. 7/15/2015 19:43",
+		"newWithContents:" : "J.J. 7/15/2015 18:43",
+		"nonSelectedColor" : "J.J. 7/15/2015 17:27",
+		"selectedColor" : "J.J. 7/15/2015 17:27" },
+	"instance" : {
+		"draw" : "J.J. 7/15/2015 17:41",
+		"drawOn:" : "J.J. 7/15/2015 17:38",
+		"handlesMouseDown:" : "J.J. 7/15/2015 15:55",
+		"handlesMouseOver:" : "J.J. 7/15/2015 15:55",
+		"handlesMouseOverDragging:" : "J.J. 7/15/2015 15:55",
+		"hasIcon" : "J.J. 7/15/2015 17:33",
+		"item" : "J.J. 7/15/2015 16:05",
+		"item:" : "J.J. 7/15/2015 16:05",
+		"selectionFillStyle" : "J.J. 7/15/2015 17:25" } }
