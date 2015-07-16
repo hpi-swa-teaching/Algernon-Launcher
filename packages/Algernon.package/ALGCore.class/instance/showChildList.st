@@ -5,7 +5,7 @@ showChildList
 		self currentAlgertem: currentItem. "is this really necessary?"
 		currentType := currentItem algertype.
 		currentType hasChildren ifTrue: [ | actionItems |
-			self searchStack push: self textField contents asString.
+			self searchStack push: (self textField contents asString).
 			algertems := currentType algertemChildrenList.
 			actionItems := ALGItem createListFrom: currentItem algeractions.
 			algertems addAll: actionItems.
