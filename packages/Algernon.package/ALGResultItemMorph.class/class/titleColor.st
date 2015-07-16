@@ -1,3 +1,3 @@
 constants
 titleColor 
-	^ Color gray
+	^ Color darkGray

@@ -1,0 +1,14 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"controller" ],
+	"name" : "ALGBreadcrumbs",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

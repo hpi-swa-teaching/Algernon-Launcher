@@ -1,0 +1,3 @@
+constants
+matchingColor 
+	^ Color red

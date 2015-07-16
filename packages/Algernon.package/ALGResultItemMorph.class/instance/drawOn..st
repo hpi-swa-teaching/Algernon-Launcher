@@ -5,7 +5,7 @@ drawOn: aCanvas
 	isSelected & isEnabled
 		ifTrue: [
 			aCanvas fillRectangle: self bounds fillStyle: self selectionFillStyle.
-			stringColor := color negated ]
+			stringColor := color ]
 		ifFalse: [ stringColor := color ].
 	stringBounds := bounds.
 	self hasIcon ifTrue: [
@@ -21,7 +21,7 @@ drawOn: aCanvas
 				drawString: contents
 				in: stringBounds
 				font: self fontToUse
-				color: stringColor ].
+				color: self class titleColor ].
 	(self item) ifNotNil: [ | startX |
 		startX := stringBounds origin x.
 		(self isSelected)
@@ -45,8 +45,8 @@ drawOn: aCanvas
 			cornerPoint := (originPoint x + charWidth) @ stringBounds corner y.
 			rectBounds := Rectangle origin: originPoint corner: cornerPoint.
 			((self item matchingPositions indexOf: i) = 0)
-				ifFalse: [ stringColor := Color red ]
-				ifTrue: [ stringColor := Color black ].
+				ifFalse: [ stringColor := self class matchingColor ]
+				ifTrue: [ stringColor := self class nonSelectedColor ].
 			aCanvas
 				drawString: (String with: (contents at: i))
 				in: rectBounds

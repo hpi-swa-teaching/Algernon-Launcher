@@ -9,7 +9,8 @@ initialize
 		initalizeOldFoci;
 		initializeSorter;
 		initializeCategorizer;
-		initializeMorph;
+		initializeMorphs;
 		registerWithSystem;
 		activate;
 		openInWorld.
+	self currentAlgertem: nil.

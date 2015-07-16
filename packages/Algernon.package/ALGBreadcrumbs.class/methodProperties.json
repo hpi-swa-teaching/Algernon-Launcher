@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"crumbSpacing" : "J.J. 7/16/2015 23:52",
+		"defaultColor" : "J.J. 7/16/2015 22:57",
+		"defaultHeight" : "J.J. 7/16/2015 22:56",
+		"newIn:" : "J.J. 7/16/2015 22:49" },
+	"instance" : {
+		"controller" : "J.J. 7/16/2015 22:48",
+		"controller:" : "J.J. 7/16/2015 22:48",
+		"createCrumb:" : "J.J. 7/16/2015 23:51",
+		"initialize" : "J.J. 7/16/2015 23:35",
+		"initializeDefaultCrumb" : "J.J. 7/16/2015 23:38",
+		"pop" : "J.J. 7/16/2015 23:38",
+		"push:" : "J.J. 7/16/2015 23:52",
+		"updateWidth" : "J.J. 7/16/2015 23:37" } }

@@ -10,11 +10,14 @@ relevantAlgertemsFor: aString
 		parts := lcs subStrings: ' '.
 		items := OrderedCollection new.
 		(parts size > 1)
-			ifTrue: [	actions := OrderedCollection new.
+			ifTrue: [	| numItems | actions := OrderedCollection new.
 				items addAll: (algertems select: [:each | each isRelevantGiven: parts first]).
 				items := sorter sort: items given: parts first.
-				(items first: ALGTopCategorizer maxNumTopResults) do: [ :item |
-							actionItems := ALGItem createListFrom: item algeractions.
+				(items size < ALGTopCategorizer maxNumTopResults)
+					ifTrue: [ numItems := items size ]
+					ifFalse: [ numItems := ALGTopCategorizer maxNumTopResults ].
+				(items first: numItems) do: [ :item |
+							actionItems := ALGActionItem createListFrom: item.
 							actions addAll: actionItems ].
 				items addAll: actions.
 				items := sorter sort: items given: parts second.
