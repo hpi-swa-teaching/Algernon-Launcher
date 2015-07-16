@@ -1,3 +1,3 @@
-events
+event handling
 handlesMouseOver: evt
 	^ false

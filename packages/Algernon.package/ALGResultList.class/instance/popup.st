@@ -7,4 +7,5 @@ popup
 		popUpAt: x @ y
 		forHand: self algernon activeHand
 		in: self algernon
-		allowKeyboard: false
+		allowKeyboard: false;
+		initializePosition.

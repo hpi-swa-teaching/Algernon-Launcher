@@ -1,1 +1,0 @@
-The list of types that appears on the right of the item list (e.g., class, method, etc.)

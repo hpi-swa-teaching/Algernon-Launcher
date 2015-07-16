@@ -13,4 +13,6 @@ initializeFileMapping
 		#ALGRepositoryType -> (self iconsFolderName, 'icon_repository.png').
 		#ALGSettingsType -> (self iconsFolderName, 'icon_settings.png').
 		#ALGTestType -> (self iconsFolderName, 'icon_test.png').
+		#HasChildren -> (self iconsFolderName, 'icon_arrow_right.png').
+		#TopResult -> (self iconsFolderName, 'icon_star.png').
 	}.

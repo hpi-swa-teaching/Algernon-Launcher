@@ -8,5 +8,5 @@ updateItemListWith: aString
 		ifTrue: [ ^self ].
 	categories := self categorize: items.
 	self itemList: (ALGResultList newFrom: categories in: self).
-	self itemList render.
+	self itemList popup.
 	self itemList ifNotNil: [self currentAlgertem: (self itemList selectedListItem)].

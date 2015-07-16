@@ -4,14 +4,15 @@
 		"getInstance" : "fw 7/12/2015 15:57",
 		"iconSize" : "J.J. 7/15/2015 19:56",
 		"iconsFolderName" : "TN 7/12/2015 20:25",
-		"initializeFileMapping" : "J.J. 7/15/2015 18:24",
+		"initializeFileMapping" : "J.J. 7/15/2015 20:39",
 		"resetInstance" : "J.J. 7/15/2015 19:56" },
 	"instance" : {
 		"filenameFor:" : "J.J. 7/15/2015 17:53",
 		"hasCachedIconFor:" : "J.J. 7/15/2015 18:04",
 		"hasIconFor:" : "J.J. 7/15/2015 18:04",
-		"iconFor:" : "J.J. 7/15/2015 19:39",
+		"iconFor:" : "J.J. 7/15/2015 20:34",
 		"imagesMap" : "J.J. 7/15/2015 17:56",
 		"imagesMap:" : "J.J. 7/15/2015 19:51",
 		"loadFromCacheFor:" : "J.J. 7/15/2015 17:57",
-		"loadFromFileFor:" : "J.J. 7/15/2015 19:52" } }
+		"loadFromFileFor:" : "J.J. 7/15/2015 22:36",
+		"loadIconFor:" : "J.J. 7/15/2015 20:43" } }

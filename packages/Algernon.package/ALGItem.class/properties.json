@@ -14,7 +14,8 @@
 		"algertype",
 		"isRelevantForEmptyString",
 		"lastUsage",
-		"icon" ],
+		"icon",
+		"matchingPositions" ],
 	"name" : "ALGItem",
 	"pools" : [
 		 ],

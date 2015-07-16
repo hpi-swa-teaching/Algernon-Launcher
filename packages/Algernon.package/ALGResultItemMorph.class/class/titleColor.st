@@ -1,0 +1,3 @@
+constants
+titleColor 
+	^ Color gray

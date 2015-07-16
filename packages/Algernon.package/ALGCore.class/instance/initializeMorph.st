@@ -3,19 +3,17 @@ initializeMorph
 	"setup graphical properties of Morph"
 	| r background |
 	self
-		extent: self class defaultWidth @ 60;
+		extent: self class defaultWidth @ 50;
 		center: self class defaultPosition;
-		color: Color black;
-		cornerStyle: #rounded;
-		borderWidth: 0;
-		borderColor: Color black.
+		borderWidth: 5;
+		borderColor: Color veryLightGray.
 	
 	"generate textField"
 	r := RectangleMorph new
-		color: (Color veryLightGray lighter);
-		extent: self class defaultWidth @ 40;
+		color: Color white;
+		extent: (self class defaultWidth - 10) @ 40;
 		center: self center;
-		borderWidth: 1.
+		borderWidth: 0.
 
 	background := ALGBackground new
 		color: (Color white alpha: 0.3);

@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"item" ],
+		"item",
+		"menuMorph",
+		"indicators" ],
 	"name" : "ALGResultItemMorph",
 	"pools" : [
 		 ],

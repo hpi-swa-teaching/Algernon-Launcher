@@ -6,5 +6,6 @@ add: anItem target: target selector: aSymbol argumentList: argList
 		newFrom: anItem
 		target: target
 		selector: aSymbol
-		argumentList: argList.
+		argumentList: argList
+		in: self.
 	self addMorphBack: itemMorph.
