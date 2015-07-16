@@ -25,12 +25,17 @@ drawOn: aCanvas
 	(self item) ifNotNil: [ | startX |
 		startX := stringBounds origin x.
 		(self isSelected)
-			ifTrue: [ | referenceString origin corner rect offset |
-				offset := 15.
+			ifTrue: [ | referenceString origin corner rect offset childIcon |
+				offset := 1.5 * ALGIconFactory iconSize x.
 				referenceString := StringMorph new contents: self item defaultAlgeraction actionVerb.
-				origin := (self menuMorph right - referenceString width - offset) @ stringBounds origin y.
+				origin := (self menuMorph right - referenceString width - (1.5*offset)) @ stringBounds origin y.
 				corner := (origin x + referenceString width) @ stringBounds corner y.
 				rect := Rectangle origin: origin corner: corner.
+				(self item algertype hasChildren) ifTrue: [
+					childIcon := ((ALGIconFactory getInstance loadIconFor: #HasChildren) scaledToSize: ALGIconFactory iconSize).
+					aCanvas
+						translucentImage: childIcon
+						at: ((self menuMorph right - offset) @ (self top + ((self height - childIcon height) / 2))) ].
 				aCanvas
 					drawString: self item defaultAlgeraction name
 					in: rect

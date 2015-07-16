@@ -3,6 +3,9 @@ push: anItem
 	| crumb last |
 	crumb := self createCrumb: '> ', anItem name.
 	last := self submorphs last.
-	crumb position: (last right + self class crumbSpacing) @ last position y.
+	last color: Color white.
+	crumb
+		position: (last right + self class crumbSpacing) @ last position y;
+		color: Color black.
 	self addMorphBack: crumb;
 		updateWidth.
