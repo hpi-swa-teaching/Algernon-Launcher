@@ -1,4 +1,6 @@
-initialization
+instance creation
 initializeAlgernon
 	
-	self close.
+	self cleanup.
+	currentInstance := self new.
+	currentInstance deactivate.
