@@ -4,4 +4,4 @@ loadIconFor: aSymbol
 		ifFalse: [ nil ]
 		ifTrue: [(self hasCachedIconFor: aSymbol)
 					ifTrue: [ self loadFromCacheFor: aSymbol ]
-					ifFalse: [ self loadFromFileFor: aSymbol ] ].
+					ifFalse: [ self loadFromStreamFor: aSymbol ] ].
