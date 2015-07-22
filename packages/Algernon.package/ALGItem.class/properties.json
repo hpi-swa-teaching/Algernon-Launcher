@@ -15,7 +15,8 @@
 		"isRelevantForEmptyString",
 		"lastUsage",
 		"icon",
-		"matchingPositions" ],
+		"matchingPositions",
+		"defaultIndex" ],
 	"name" : "ALGItem",
 	"pools" : [
 		 ],

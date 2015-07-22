@@ -1,3 +1,3 @@
 accessors
 defaultAlgeraction
-	^algeractions at:1.
+	^ algeractions at: self defaultIndex.

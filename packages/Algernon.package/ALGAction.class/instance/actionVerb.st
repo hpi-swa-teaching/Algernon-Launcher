@@ -1,3 +1,3 @@
 accessing
 actionVerb
-	^ (self name subStrings: ' ') first
+	^ ((self name subStrings: ' ') first) asLowercase
