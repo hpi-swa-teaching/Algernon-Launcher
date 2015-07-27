@@ -5,5 +5,5 @@ showParentList
 		parentSearch := self searchStack pop.
 		self clearTextField.
 		self textField contents: parentSearch.
-		self algertems: self defaultAlgertems.
+		self itemProvider items: self itemProvider defaultItems. "TODO"
 		self updateItemListWith: parentSearch ].

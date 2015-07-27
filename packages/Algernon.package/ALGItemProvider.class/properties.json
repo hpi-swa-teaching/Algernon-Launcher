@@ -1,0 +1,16 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DefaultItems" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cache",
+		"items",
+		"sorter" ],
+	"name" : "ALGItemProvider",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

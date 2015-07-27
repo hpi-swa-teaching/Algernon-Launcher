@@ -6,4 +6,4 @@ dropFocus: hand
 		newMouseFocus: self oldMouseFocus.
 	self 
 		oldKeyboardFocus: nil;
-		oldMouseFocus: nil.
+		oldMouseFocus: nil

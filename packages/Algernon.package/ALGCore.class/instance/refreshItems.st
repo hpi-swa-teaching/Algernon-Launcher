@@ -1,4 +1,4 @@
-visibility
+lists
 refreshItems
 	| isActive |
 	isActive := self active.

@@ -1,16 +1,12 @@
 initialization
 initialize
+
 	super initialize.
-	active := false.
-	algertems := self defaultAlgertems.
 	self
-		itemsCache: ALGCache new;
-		wasChanged: false;
-		initalizeOldFoci;
-		initializeSorter;
+		initializeProvider;
+		initializeProperties;
 		initializeCategorizer;
 		initializeMorphs;
 		registerWithSystem;
 		activate;
 		openInWorld.
-	self currentAlgertem: nil.

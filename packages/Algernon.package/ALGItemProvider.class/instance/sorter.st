@@ -1,3 +1,4 @@
 accessing
 sorter
-	^sorter.
+
+	^ sorter

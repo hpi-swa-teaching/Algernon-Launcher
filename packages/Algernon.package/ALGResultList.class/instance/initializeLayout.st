@@ -7,4 +7,5 @@ initializeLayout
 		cornerStyle: #square;
 		hResizing: #rigid;
 		shadowOffset: 0@0;
-		stayUp: true.
+		stayUp: true;
+		lock: true.

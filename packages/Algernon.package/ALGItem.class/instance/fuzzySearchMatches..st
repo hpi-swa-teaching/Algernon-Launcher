@@ -9,6 +9,7 @@ fuzzySearchMatches: aLowercaseString
 	minimumFaultToleranceLength := 5.
 	foundChars := 0.
 	matchingPositions := OrderedCollection new.
+	"self matchingPositions: matchingPositions."
 	sizeToCheck :=(aLowercaseString size).
 
 	 1 to: sizeToCheck do: [ :c | | char | 

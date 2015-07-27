@@ -1,0 +1,4 @@
+initialization
+clear
+	
+	self contents: ''

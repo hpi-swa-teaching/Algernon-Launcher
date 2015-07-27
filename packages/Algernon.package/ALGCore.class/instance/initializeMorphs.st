@@ -4,5 +4,4 @@ initializeMorphs
 	self initializeWindow;
 		initializeBackground;
 		initializeInputField;
-		initializeBreadcrumbs;
-		initializeRefreshLabel.
+		initializeBreadcrumbs.

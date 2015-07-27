@@ -1,4 +1,4 @@
-actions
+event handling
 doActionOnSelectedEvent: evt
 	self active ifTrue: [
 		itemList ifNotNil:[itemList doActionOnSelectedItem: evt].

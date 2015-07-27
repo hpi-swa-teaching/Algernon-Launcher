@@ -1,4 +1,4 @@
 accessing
 textField
 
-	^ textField
+	^ inputField

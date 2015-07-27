@@ -1,10 +1,10 @@
-lists
+relevance
 relevantAlgertemsFor: aString
 	"Return a list of relevent Algertems for a given input. The list gets cached for each input.
 	The cache is cleared when 	Algernon gets activated"
 	| lcs items parts |
 	lcs := aString asLowercase.
-	items := self itemsCache getItem: lcs.
+	items := self cache getItem: lcs.
 	items
 		ifNil: [parts := lcs subStrings: ' '.
 			items := OrderedCollection new.
@@ -15,7 +15,7 @@ relevantAlgertemsFor: aString
 							actionVerb := parts first.
 							itemName := parts second.
 							items
-								addAll: (algertems
+								addAll: (self items
 										select: [:each | (each isRelevantGiven: itemName)
 												& (each supportsActionVerb: actionVerb)]).
 							items
@@ -26,7 +26,7 @@ relevantAlgertemsFor: aString
 							itemName := parts first.
 							childSearch := parts second.
 							items
-								addAll: (algertems
+								addAll: (self items
 										select: [:each | each isRelevantGiven: itemName]).
 							items := sorter sort: items given: itemName.
 							childItems := OrderedCollection new.
@@ -39,10 +39,10 @@ relevantAlgertemsFor: aString
 										select: [:each | each isRelevantGiven: childSearch].
 							items := sorter sort: items given: childSearch]]
 					ifFalse: [items
-						addAll: (algertems
+						addAll: (self items
 								select: [:each | each isRelevantGiven: lcs]).
 					items
 						do: [:each | each defaultIndex: 1].
 					items := sorter sort: items given: lcs]].
-	self itemsCache setItem: items at: lcs.
+	self cache setItem: items at: lcs.
 	^ items.

@@ -6,4 +6,5 @@ initialize
 		width: self controller width;
 		color: self class defaultColor;
 		position: self controller position x @ (self controller position y - self height);
-		initializeDefaultCrumb.
+		lock: true.
+	self initializeDefaultCrumb.

@@ -6,4 +6,4 @@ grabFocus: hand
 		oldMouseFocus: hand mouseFocus.
 	hand 
 		newKeyboardFocus: self;
-		newMouseFocus: self.
+		newMouseFocus: self

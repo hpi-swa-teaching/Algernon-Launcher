@@ -1,3 +1,4 @@
 system updates
 unregisterFromSystem
-	self activeHand removeKeyboardListener: self.
+
+	self activeHand removeKeyboardListener: self

@@ -1,3 +1,4 @@
 accessing
 sorter: aSorter
-	sorter := aSorter.
+
+	sorter := aSorter

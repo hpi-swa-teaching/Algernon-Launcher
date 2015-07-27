@@ -5,11 +5,10 @@ deactivate: hand
 
 	self active: false.
 	self stopStepping.
-	algertems := self defaultAlgertems.
+	self itemProvider items: self itemProvider defaultItems.
 	self
 		hideItemList;
 		clearTextField;
-		currentAlgertem: nil;
 		searchStack: nil;
 		hide.
 	World redraw.
