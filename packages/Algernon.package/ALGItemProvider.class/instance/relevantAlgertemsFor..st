@@ -4,7 +4,7 @@ relevantAlgertemsFor: aString
 	The cache is cleared when 	Algernon gets activated"
 	| lcs items parts |
 	lcs := aString asLowercase.
-	items := self cache getItem: lcs.
+	items := self cache getItem: lcs. "TODO update fuzzy matches when removing characters"
 	items
 		ifNil: [parts := lcs subStrings: ' '.
 			items := OrderedCollection new.

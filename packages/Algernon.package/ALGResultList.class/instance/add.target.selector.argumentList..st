@@ -1,4 +1,4 @@
-adding
+updating
 add: anItem target: target selector: aSymbol argumentList: argList
 	"Override appending of menu items with the given label."
 	| itemMorph |

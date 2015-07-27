@@ -1,0 +1,4 @@
+accessing
+topCategorizer
+
+	^ topCategorizer

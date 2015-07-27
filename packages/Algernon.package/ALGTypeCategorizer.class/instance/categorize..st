@@ -4,6 +4,7 @@ categorize: anAlgertemList
 	by their rank."
 	| categories typeDictionary |
 	categories := OrderedCollection new.
+	(anAlgertemList isEmpty) ifTrue: [ ^ categories ].
 	typeDictionary := Dictionary new.
 	typeDictionary := self algertypesFrom: anAlgertemList into: typeDictionary.
 	self addAlgertypesFrom: typeDictionary to: categories.

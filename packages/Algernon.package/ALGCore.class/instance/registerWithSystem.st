@@ -1,4 +1,4 @@
-system updates
+system
 registerWithSystem
 
 	self activeHand addKeyboardListener: self.

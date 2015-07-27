@@ -1,4 +1,4 @@
-adding
+updating
 addCategory: anAlgercat
 	"Add a disabled menu item as the category title."
 	| itemMorph |

@@ -1,12 +1,10 @@
-lists
+updating
 updateItemListWith: aString
 	"Refreshes the visible search results."
-	| items categories |
+	| results |
 	self hideItemList.
-	items := self itemProvider relevantAlgertemsFor: aString.
-	(items isEmptyOrNil)
-		ifTrue: [ ^self ].
-	categories := self categorize: items.
-	self itemList: (ALGResultList newFrom: categories in: self).
+	self itemProvider yieldTop: (self inChild & self textField isEmpty) not.
+	results := self itemProvider resultsFor: aString.
+	(results isEmpty) ifTrue: [ ^ self ].
+	self itemList: (ALGResultList newFrom: results in: self).
 	self itemList popup.
-	"self itemList ifNotNil: [self currentAlgertem: (self itemList selectedListItem)]."

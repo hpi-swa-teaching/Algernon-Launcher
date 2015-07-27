@@ -6,11 +6,19 @@
 	"instance" : {
 		"cache" : "J.J. 7/27/2015 17:58",
 		"cache:" : "J.J. 7/27/2015 17:58",
+		"categorize:" : "J.J. 7/27/2015 22:25",
 		"defaultItems" : "J.J. 7/27/2015 17:37",
-		"initialize" : "J.J. 7/27/2015 18:21",
+		"initialize" : "J.J. 7/27/2015 22:05",
 		"items" : "J.J. 7/27/2015 18:17",
 		"items:" : "J.J. 7/27/2015 18:18",
-		"relevantAlgertemsFor:" : "J.J. 7/27/2015 20:32",
+		"relevantAlgertemsFor:" : "J.J. 7/27/2015 21:47",
 		"reset" : "J.J. 7/27/2015 20:34",
+		"resultsFor:" : "J.J. 7/27/2015 22:23",
 		"sorter" : "J.J. 7/27/2015 18:10",
-		"sorter:" : "J.J. 7/27/2015 18:22" } }
+		"sorter:" : "J.J. 7/27/2015 18:22",
+		"topCategorizer" : "J.J. 7/27/2015 21:54",
+		"topCategorizer:" : "J.J. 7/27/2015 21:54",
+		"typeCategorizer" : "J.J. 7/27/2015 21:54",
+		"typeCategorizer:" : "J.J. 7/27/2015 21:54",
+		"yieldTop" : "J.J. 7/27/2015 22:06",
+		"yieldTop:" : "J.J. 7/27/2015 21:54" } }

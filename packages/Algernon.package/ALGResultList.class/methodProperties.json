@@ -2,7 +2,7 @@
 	"class" : {
 		"backgroundAlpha" : "J.J. 7/15/2015 19:17",
 		"categoryFontSize" : "JJ 5/29/2015 23:50",
-		"newFrom:in:" : "J.J. 7/15/2015 19:44",
+		"newFrom:in:" : "J.J. 7/27/2015 22:12",
 		"verticalOffset" : "TN 6/17/2015 14:11" },
 	"instance" : {
 		"add:" : "J.J. 7/15/2015 19:24",
@@ -21,4 +21,5 @@
 		"popup" : "J.J. 7/16/2015 02:04",
 		"selectNext" : "J.J. 7/16/2015 01:56",
 		"selectPrevious" : "J.J. 7/15/2015 19:17",
-		"selectedListItem" : "J.J. 7/15/2015 18:57" } }
+		"selectedListItem" : "J.J. 7/15/2015 18:57",
+		"updateWith:" : "J.J. 7/27/2015 22:11" } }

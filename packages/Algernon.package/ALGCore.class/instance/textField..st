@@ -1,4 +1,4 @@
 accessing
 textField: anInputField
 
-	inputField := anInputField
+	textField := anInputField

@@ -1,4 +1,4 @@
-system updates
+system
 unregisterFromSystem
 
 	self activeHand removeKeyboardListener: self

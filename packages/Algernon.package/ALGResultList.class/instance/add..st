@@ -1,4 +1,4 @@
-adding
+updating
 add: anAlgertem
 	self add: anAlgertem
 		target: (anAlgertem defaultAlgeraction target)
