@@ -1,5 +1,6 @@
 filtering
 evaluateSearchFor: aString
+
 	| items parts |
 	parts := aString subStrings: self class searchDelimeter.
 	items := OrderedCollection new.

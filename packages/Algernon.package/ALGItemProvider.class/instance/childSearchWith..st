@@ -1,6 +1,7 @@
 filtering
 childSearchWith: aCollection
 	"Search for children directly in top level results."
+
 	| items itemName childSearch childItems |
 	itemName := aCollection first.
 	childSearch := aCollection second.
