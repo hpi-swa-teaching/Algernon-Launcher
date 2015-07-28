@@ -1,10 +1,9 @@
 {
 	"class" : {
-		"clearAlgernonCaches" : "J.J. 7/27/2015 17:51" },
+		 },
 	"instance" : {
-		"clearItemsCache" : "fw 7/12/2015 21:26",
-		"getItem:" : "fw 7/12/2015 21:20",
-		"initialize" : "fw 7/12/2015 21:16",
-		"itemsCache" : "fw 7/12/2015 21:18",
-		"itemsCache:" : "fw 7/12/2015 21:17",
-		"setItem:at:" : "fw 7/12/2015 21:21" } }
+		"clear" : "J.J. 7/28/2015 19:34",
+		"getItem:" : "J.J. 7/28/2015 19:33",
+		"itemsCache" : "J.J. 7/28/2015 19:33",
+		"itemsCache:" : "J.J. 7/28/2015 19:33",
+		"setItem:at:" : "J.J. 7/28/2015 19:35" } }

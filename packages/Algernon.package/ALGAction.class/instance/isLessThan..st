@@ -1,3 +1,4 @@
 comparison
-isLessThan: anAlgeraction
-	^self rank > anAlgeraction rank.
+isLessThan: anAction
+
+	^ self rank > anAction rank

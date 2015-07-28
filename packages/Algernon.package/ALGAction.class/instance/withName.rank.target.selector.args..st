@@ -1,9 +1,11 @@
 initialization
 withName: aString rank: anInt target: aTarget selector: aSelector args: anArray
-	name := aString.
-	rank := anInt.
-	theTarget := aTarget.
-	theSelector := aSelector.
-	theArgs := anArray.
-	self numTimesSelected: 0.
+
+	self
+		name: aString;
+		rank: anInt;
+		theTarget: aTarget;
+		theSelector: aSelector;
+		theArgs: anArray;
+		numTimesSelected: 0
 	

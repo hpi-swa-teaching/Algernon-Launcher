@@ -1,0 +1,4 @@
+constants
+titleTopResults
+
+	 ^ 'Top results'

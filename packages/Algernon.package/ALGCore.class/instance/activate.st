@@ -1,4 +1,4 @@
 visibility
 activate
 
-	self activate: self activeHand.
+	self activate: self activeHand

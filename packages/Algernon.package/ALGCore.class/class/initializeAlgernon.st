@@ -1,4 +1,4 @@
-instance creation
+initialization
 initializeAlgernon
 	
 	self cleanup.

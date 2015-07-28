@@ -1,3 +1,4 @@
-accessing
+preferences
 nameForPreferenceEntry
+
 	^ 'AlgernonKeyboardBinding' asSymbol 

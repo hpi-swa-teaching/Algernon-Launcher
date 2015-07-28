@@ -1,4 +1,4 @@
 initialization
 reset
 
-	self cache clearItemsCache
+	self cache clear

@@ -5,4 +5,4 @@ handleTextEntered: event
 	(self lastInputTime) ifNil: [ self updateItemList ].
 	self lastInputTime: TimeStamp now.
 	(self isStepping) ifFalse: [ self startStepping ].
-	self grabFocus: self activeHand.
+	self grabFocus: self activeHand

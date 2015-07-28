@@ -13,4 +13,4 @@ Press right arrow to drill into a class or category and see its methods or class
 Press ctrl-r to refresh if you add new items that need to be indexed.';
 	openLabel:  'Welcome to Algernon')
 	position: 250@150;
- 	extent: 800 @ 500.
+ 	extent: 800 @ 500

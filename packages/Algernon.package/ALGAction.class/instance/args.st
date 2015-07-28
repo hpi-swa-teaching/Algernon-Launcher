@@ -1,3 +1,4 @@
 accessing
 args
-	^theArgs.
+
+	^ theArgs

@@ -16,8 +16,6 @@
 		"wasChanged",
 		"lastInputTime",
 		"searchStack",
-		"typeCategorizer",
-		"topCategorizer",
 		"itemProvider",
 		"textField" ],
 	"name" : "ALGCore",

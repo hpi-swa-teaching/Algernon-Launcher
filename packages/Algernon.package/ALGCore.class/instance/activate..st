@@ -7,5 +7,5 @@ activate: hand
 		reset;
 		startStepping.
 	self grabFocus: self activeHand.
-	self showMorphs.
+	self showMorphs
 	

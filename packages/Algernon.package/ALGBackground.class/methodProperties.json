@@ -1,9 +1,11 @@
 {
 	"class" : {
-		 },
+		"backgroundColor" : "J.J. 7/28/2015 19:58",
+		"newIn:" : "J.J. 7/28/2015 19:58" },
 	"instance" : {
-		"algerInstance" : "JF 6/10/2015 20:51",
-		"handlesMouseDown:" : "JF 6/10/2015 20:51",
-		"initialize" : "fw 7/12/2015 16:23",
-		"mouseDown:" : "JF 6/10/2015 20:54",
-		"mouseUp:" : "JF 6/10/2015 20:51" } }
+		"controller" : "J.J. 7/28/2015 19:19",
+		"controller:" : "J.J. 7/28/2015 19:20",
+		"handlesMouseDown:" : "J.J. 7/28/2015 19:21",
+		"initialize" : "J.J. 7/28/2015 19:57",
+		"mouseDown:" : "J.J. 7/28/2015 19:21",
+		"mouseUp:" : "J.J. 7/28/2015 19:21" } }

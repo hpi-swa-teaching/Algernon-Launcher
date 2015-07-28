@@ -1,4 +1,4 @@
 comparing
-isLessThan: anAlgercat
+isLessThan: aCategory
 	
-	 ^ self rank < anAlgercat rank
+	 ^ self rank < aCategory rank

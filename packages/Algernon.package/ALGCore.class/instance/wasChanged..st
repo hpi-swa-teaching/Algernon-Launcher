@@ -1,4 +1,4 @@
 accessing
 wasChanged: aBoolean
 
-	wasChanged := aBoolean.
+	wasChanged := aBoolean

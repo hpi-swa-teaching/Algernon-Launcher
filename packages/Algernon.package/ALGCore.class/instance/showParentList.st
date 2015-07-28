@@ -7,4 +7,4 @@ showParentList
 		self textField clear.
 		self textField contents: parentSearch.
 		self itemProvider items: self itemProvider defaultItems. "TODO"
-		self updateItemListWith: parentSearch ].
+		self updateItemListWith: parentSearch ]

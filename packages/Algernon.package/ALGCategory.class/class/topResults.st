@@ -1,3 +1,0 @@
-titles
-topResults
-	 ^ 'Top results'

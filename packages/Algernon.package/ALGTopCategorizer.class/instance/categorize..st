@@ -1,7 +1,8 @@
 categorizing
-categorize: anAlgertemList
+categorize: anItemCollection
+
 	| categories |
 	categories := OrderedCollection new.
-	(anAlgertemList isEmpty) ifTrue: [ ^ categories ].
-	categories add: (self extractFrom: anAlgertemList).
+	(anItemCollection isEmpty) ifTrue: [ ^ categories ].
+	categories add: (self extractFrom: anItemCollection).
 	^ self sorter sort: categories inOrder: #desc

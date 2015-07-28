@@ -1,3 +1,4 @@
 constants
 defaultPosition
-	^ (World center x @ (World top + (World bottom / 5)))
+
+	^ World center x @ (World top + (World bottom / 5))

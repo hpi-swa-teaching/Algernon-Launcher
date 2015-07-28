@@ -1,3 +1,4 @@
 constants
 maxNumTopResults
+
 	 ^ 3

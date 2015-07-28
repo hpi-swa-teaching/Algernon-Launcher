@@ -1,13 +1,12 @@
 categorizing
-extractFrom: anAlgertemList
-	"Extracts a fixed number of top results into a category."
+extractFrom: anItemCollection
+	"Extracts a fixed number of top results into a separate category."
+
 	| category maxIndex |
-	(anAlgertemList size = 0)
-		ifTrue: [ ^ self ].
+	(anItemCollection size = 0) ifTrue: [ ^ self ].
 	category := ALGCategory newForTopResults.
 	maxIndex := self class maxNumTopResults.
-	(anAlgertemList size < maxIndex)
-		ifTrue: [ maxIndex := anAlgertemList size ].
-	(1 to: maxIndex) do: [ :i |
-		category add: (anAlgertemList at: i) ].
-	^ category.
+	(anItemCollection size < maxIndex)
+		ifTrue: [ maxIndex := anItemCollection size ].
+	(1 to: maxIndex) do: [ :i | category add: (anItemCollection at: i) ].
+	^ category

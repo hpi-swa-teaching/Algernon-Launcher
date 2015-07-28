@@ -1,11 +1,11 @@
 updating
 push: anItem
+
 	| crumb last |
-	crumb := self createCrumb: '> ', anItem name.
+	crumb := self createCrumb: self class delimeter, anItem name.
 	last := self submorphs last.
-	last color: Color white.
+	last color: self class defaultTextColor.
 	crumb
 		position: (last right + self class crumbSpacing) @ last position y;
-		color: Color black.
-	self addMorphBack: crumb;
-		updateWidth.
+		color: self class highlightedTextColor.
+	self addMorphBack: crumb; updateWidth

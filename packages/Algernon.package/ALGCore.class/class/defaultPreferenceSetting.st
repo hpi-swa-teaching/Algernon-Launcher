@@ -1,4 +1,4 @@
-accessing
+preferences
 defaultPreferenceSetting
 
 	^ false

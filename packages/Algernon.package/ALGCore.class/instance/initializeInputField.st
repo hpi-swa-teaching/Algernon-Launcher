@@ -1,9 +1,10 @@
 initialization
 initializeInputField
-	| helper |
 
+	| helper |
 	self textField: (ALGInputField new
-		beAllFont: self class font;
+		contents: '';
+		beAllFont: ALGInputField defaultFont;
 		backgroundColor: Color white;
 		setProperty: #holdsSeparateDataForEachInstance toValue: true;
 		fillsOwner: true).
