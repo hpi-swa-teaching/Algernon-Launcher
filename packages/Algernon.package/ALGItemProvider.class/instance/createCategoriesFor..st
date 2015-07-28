@@ -1,5 +1,5 @@
-relevance
-categorize: anItemList
+factory methods
+createCategoriesFor: anItemList
 
 	| categories |
 	categories := OrderedCollection new.
