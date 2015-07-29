@@ -1,5 +1,31 @@
-sudo: true
 language: erlang
+sudo: false
+
+env:
+  global:
+    - BASELINE=Algernon
+  matrix:
+    # - SMALLTALK="SqueakTrunk"
+    - SMALLTALK="Squeak4.6"
+    - SMALLTALK="Squeak4.5"
+
+addons:
+  apt:
+    packages:
+    # 32-bit VM
+    - libc6:i386
+    # UUIDPlugin
+    - libuuid1:i386
+
+install:
+   - export PROJECT_HOME="$(pwd)"
+   - cd $HOME
+   - wget -q -O filetreeCI.zip https://github.com/fniephaus/filetreeCI/archive/master.zip
+   - unzip -q filetreeCI.zip
+   - cd filetreeCI-*
+   - export FILETREE_CI_HOME="$(pwd)"
+
+script: $FILETREE_CI_HOME/run.sh
 
 notifications:
   webhooks:
@@ -8,23 +34,3 @@ notifications:
     on_success: always
     on_failure: always
     on_start: never
-
-# Choose which platforms you want your builds run against (done in parallel)
-env:
-   # - ST=Squeak-4.5
-   - ST=Squeak-4.6 SCREENSHOT=20
-
-# Boilerplate ... should be no reason to edit the install section
-install:
-   - export PROJECT_HOME="$(pwd)"
-   - cd $HOME
-   - wget -q -O builderCI.zip https://github.com/dalehenrich/builderCI/archive/master.zip
-   - unzip -q builderCI.zip
-   - cd builderCI-*
-   - source build_env_vars
-   - ln -s $PROJECT_HOME $GIT_PATH
-   - ./build_image.sh
-
-# use a different script if you want to customize how travis tests are run
-# use verbose flag to dump transcript unconditionally
-script: $BUILDER_CI_HOME/testTravisCI.sh -verbose
