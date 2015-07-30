@@ -1,8 +1,8 @@
-algertem list
+algertem lists
 algertemList
-	|  algertems|
+
+	| algertems |
 	algertems := OrderedCollection new.
-	TheWorldMenu registry do: [ :each | algertems add: (ALGItem withAlgertype: (self with:each ))].
-	
-	^algertems.
+	TheWorldMenu registry do: [ :each | algertems add: (ALGItem withAlgertype: (self with: each))].
+	^ algertems
 

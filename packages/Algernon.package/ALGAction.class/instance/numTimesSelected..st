@@ -1,4 +1,5 @@
 accessing
-numTimesSelected: anInt
-	numTimesSelected := anInt.
-	self rank: (self rank)+1.
+numTimesSelected: aNumber
+
+	numTimesSelected := aNumber.
+	self rank: (self rank + 1)

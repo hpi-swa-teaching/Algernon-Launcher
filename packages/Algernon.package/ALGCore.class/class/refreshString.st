@@ -1,3 +1,4 @@
 constants
 refreshString
-	^ '<Cmd-r>'.
+
+	^ '<Cmd-r>'

@@ -1,8 +1,9 @@
 {
 	"class" : {
-		"algertemList" : "EstebanLorenzano 10/5/2009 20:28" },
+		"algertemList" : "J.J. 7/30/2015 19:09" },
 	"instance" : {
-		"createListOfAlgeractions" : "JJ 6/16/2015 18:19",
-		"createMorph:" : "eh 4/28/2008 01:56",
-		"name" : "eh 4/28/2008 01:14",
-		"typeName" : "eh 5/5/2008 00:35" } }
+		"createActionOpenFor:" : "J.J. 7/30/2015 18:44",
+		"createListOfAlgeractions" : "J.J. 7/30/2015 18:43",
+		"createMorph:" : "J.J. 7/30/2015 18:41",
+		"name" : "J.J. 7/30/2015 18:40",
+		"typeName" : "J.J. 7/30/2015 18:40" } }

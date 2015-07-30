@@ -1,16 +1,16 @@
 {
 	"class" : {
-		"algertemList" : "eh 4/24/2008 18:57",
-		"with:" : "eh 4/27/2008 21:43" },
+		"algertemList" : "J.J. 7/30/2015 16:54",
+		"with:" : "J.J. 7/30/2015 16:54" },
 	"instance" : {
-		"algertemChildrenList" : "eh 5/1/2008 18:53",
-		"createListOfAlgeractions" : "eh 4/24/2008 18:21",
-		"existingBrowserIfNone:" : "topa 3/24/2015 16:23",
-		"hasChildren" : "eh 5/1/2008 18:50",
-		"isTermRelevantFor:" : "JF 5/30/2015 22:55",
-		"name" : "eh 4/27/2008 21:40",
-		"openInExistingBrowser:" : "topa 3/24/2015 16:23",
-		"openInNewBrowser:" : "eh 5/1/2008 23:25",
-		"typeName" : "eh 4/25/2008 02:16",
-		"typeObject" : "eh 4/24/2008 18:42",
-		"typeObject:" : "eh 4/24/2008 18:42" } }
+		"algertemChildrenList" : "J.J. 7/30/2015 17:00",
+		"createListOfAlgeractions" : "J.J. 7/30/2015 17:00",
+		"existingBrowserIfNone:" : "J.J. 7/30/2015 17:05",
+		"hasChildren" : "J.J. 7/30/2015 17:00",
+		"isTermRelevantFor:" : "J.J. 7/30/2015 16:55",
+		"name" : "J.J. 7/30/2015 16:55",
+		"openInExistingBrowser:" : "J.J. 7/30/2015 17:04",
+		"openInNewBrowser:" : "J.J. 7/30/2015 17:04",
+		"typeName" : "J.J. 7/30/2015 16:55",
+		"typeObject" : "J.J. 7/30/2015 16:55",
+		"typeObject:" : "J.J. 7/30/2015 16:55" } }

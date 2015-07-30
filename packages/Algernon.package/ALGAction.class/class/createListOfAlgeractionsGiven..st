@@ -1,3 +1,4 @@
-list generation
+instance creation
 createListOfAlgeractionsGiven: aType
-	^ aType createListOfAlgeractions.
+
+	^ aType createListOfAlgeractions

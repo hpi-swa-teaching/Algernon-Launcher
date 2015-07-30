@@ -1,3 +1,4 @@
 accessing
 icon: aIcon
-	icon := aIcon.
+
+	icon := aIcon

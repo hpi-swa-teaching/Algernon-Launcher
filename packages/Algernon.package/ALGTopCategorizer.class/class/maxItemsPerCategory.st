@@ -1,3 +1,0 @@
-constants
-maxItemsPerCategory
-	 ^ 10

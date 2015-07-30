@@ -3,5 +3,5 @@ newForTopResults
 
 	^ self basicNew
 		rank: self rankTopResults;
-		title: self topResults;
+		title: self titleTopResults;
 		yourself

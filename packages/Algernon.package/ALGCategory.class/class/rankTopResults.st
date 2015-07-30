@@ -1,3 +1,4 @@
 constants
 rankTopResults
+
 	 ^ 999

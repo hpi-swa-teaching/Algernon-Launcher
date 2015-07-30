@@ -1,3 +1,4 @@
-accessors
+accessing
 typeName
-	^'Setting'.
+
+	^ 'Setting'

@@ -1,3 +1,4 @@
-accessors
+accessing
 typeObject: aTypeObject
-	typeObject := aTypeObject.
+
+	typeObject := aTypeObject

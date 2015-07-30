@@ -8,4 +8,4 @@ createFrom: anAction
 		lowerCaseName: anAction name;
 		numTimesSelected: (anAction numTimesSelected);
 		isRelevantForEmptyString: true.
-	^ item.
+	^ item

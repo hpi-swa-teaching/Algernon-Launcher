@@ -1,8 +1,9 @@
 updating
 createCrumb: aString
+
 	^ TextMorph new
 		contents: aString;
-		color: Color white;
+		color: self class defaultTextColor;
 		wrapFlag: false;
 		backgroundColor: self class defaultColor;
-		hasDropShadow: false.
+		hasDropShadow: false

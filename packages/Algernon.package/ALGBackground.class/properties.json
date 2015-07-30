@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"algerInstance" ],
+		"controller" ],
 	"name" : "ALGBackground",
 	"pools" : [
 		 ],

@@ -1,3 +1,4 @@
-relevance
+accessing
 isRelevantForEmptyString: aBool
-	isRelevantForEmptyString := aBool.
+
+	isRelevantForEmptyString := aBool

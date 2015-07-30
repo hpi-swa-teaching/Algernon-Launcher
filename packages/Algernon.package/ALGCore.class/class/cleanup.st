@@ -1,4 +1,4 @@
-instance breakdown
+singleton
 cleanup
 	self currentInstance ifNotNil: [
 		self close.

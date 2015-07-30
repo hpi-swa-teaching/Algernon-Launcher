@@ -1,8 +1,14 @@
 {
 	"class" : {
-		 },
+		"backgroundColor" : "J.J. 7/28/2015 20:12",
+		"defaultFont" : "J.J. 7/28/2015 20:08",
+		"newIn:" : "J.J. 7/28/2015 20:13" },
 	"instance" : {
-		"algerInstance" : "JF 5/27/2015 15:34",
-		"initalize" : "J.J. 7/15/2015 22:54",
-		"mouseDown:" : "JF 6/10/2015 21:00",
-		"mouseUp:" : "JF 5/27/2015 15:39" } }
+		"clear" : "J.J. 7/27/2015 20:02",
+		"controller" : "J.J. 7/28/2015 20:13",
+		"controller:" : "J.J. 7/28/2015 20:13",
+		"currentContent" : "J.J. 7/27/2015 21:43",
+		"initalize" : "J.J. 7/28/2015 20:15",
+		"isEmpty" : "J.J. 7/27/2015 22:18",
+		"mouseDown:" : "J.J. 7/28/2015 20:14",
+		"mouseUp:" : "J.J. 7/28/2015 20:14" } }

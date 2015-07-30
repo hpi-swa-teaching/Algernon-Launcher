@@ -1,3 +1,4 @@
-list creation
+children
 algertemChildrenList
-	^ALGClassType algertemListWith: self typeObject
+
+	^ ALGClassType algertemListWith: self typeObject

@@ -1,3 +1,4 @@
 accessing
 numTimesSelected
-	^numTimesSelected.
+
+	^ numTimesSelected

@@ -1,3 +1,4 @@
 event handling
 mouseDown: anEvent
-	self algerInstance ifNotNil: [algerInstance deactivate]
+
+	self controller ifNotNil: [ self controller deactivate ]

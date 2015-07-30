@@ -1,3 +1,4 @@
 constants
-crumbSpacing 
+crumbSpacing
+
 	^ 8

@@ -1,3 +1,4 @@
 constants
-matchingColor 
+matchingColor
+
 	^ Color red

@@ -1,5 +1,4 @@
-system updates
+system
 systemChanged: evt
-	self wasChanged ifFalse: [
-		self wasChanged: true.
-		self showRefreshLabel].
+
+	self wasChanged: true

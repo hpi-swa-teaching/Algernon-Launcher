@@ -1,7 +1,7 @@
 adding
-add: anAlgertem
+add: anItem
 
-	self algertems add: anAlgertem.
-	self rank: (self rank + anAlgertem rank)
+	self items add: anItem.
+	self rank: (self rank + anItem rank)
 
 	

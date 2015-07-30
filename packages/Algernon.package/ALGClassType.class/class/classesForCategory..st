@@ -1,5 +1,6 @@
-helpers
+algertem lists
 classesForCategory: aCategory
-	|classes|
+
+	| classes |
 	classes := Smalltalk allClasses asOrderedCollection.
-	^classes select:[:each | (each category) = aCategory].
+	^ classes select: [ :each | (each category) = aCategory ]

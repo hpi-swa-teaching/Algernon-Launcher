@@ -1,6 +1,7 @@
 instance creation
 withAlgertype: aType
-	|item|
+
+	| item |
 	item := self new.
 	item initializeWithAlgertype: aType.
-	^item.
+	^ item

@@ -1,4 +1,4 @@
 visibility
 activate
-	self initializePosition.
-	self activate: self activeHand.
+
+	self activate: self activeHand

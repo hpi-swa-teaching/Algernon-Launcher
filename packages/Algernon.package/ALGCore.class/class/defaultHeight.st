@@ -1,0 +1,4 @@
+constants
+defaultHeight
+
+	^ 50

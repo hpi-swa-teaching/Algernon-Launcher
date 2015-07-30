@@ -1,4 +1,4 @@
 accessing
-itemList: anObject
+itemList: aResultItemList
 
-	itemList := anObject
+	itemList := aResultItemList

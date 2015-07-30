@@ -1,3 +1,4 @@
 actions
 inspectit
-	(self doit) inspect.
+
+	(self doit) inspect

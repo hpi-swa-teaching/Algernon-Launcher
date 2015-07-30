@@ -1,3 +1,4 @@
-itemCache
+accessing
 itemsCache: aDict
-	itemsCache := aDict.
+
+	itemsCache := aDict

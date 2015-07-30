@@ -1,3 +1,4 @@
-accessors
+accessing
 typeObject
-	^typeObject.
+
+	^ typeObject

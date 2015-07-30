@@ -1,5 +1,5 @@
 running
 setUp
-	algerstance := Algernon open.
+	algerstance := Algernon new.
 	previouslyOpenedBrowsers := self currentBrowsers.
 	^ nil.

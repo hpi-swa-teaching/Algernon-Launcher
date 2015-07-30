@@ -1,4 +1,4 @@
 accessing
-lastInputTime: anObject
+lastInputTime: aTimestamp
 
-	lastInputTime := anObject
+	lastInputTime := aTimestamp

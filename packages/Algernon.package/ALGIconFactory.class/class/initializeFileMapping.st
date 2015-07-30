@@ -1,5 +1,6 @@
 mapping
 initializeFileMapping
+
 	FileMapping := Dictionary newFrom: {
 		#ALGClassType -> (self classIcon).
 		#ALGActionType -> (self methodIcon).
@@ -15,4 +16,4 @@ initializeFileMapping
 		#ALGTestType -> (self testIcon).
 		#HasChildren -> (self arrowRightIcon).
 		#TopResult -> (self starIcon).
-	}.
+	}

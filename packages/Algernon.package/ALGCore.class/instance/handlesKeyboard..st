@@ -1,4 +1,4 @@
 event handling
 handlesKeyboard: event
-	
-	^ self active and: [event isKeystroke and: [event keyString ~= self class activationString]]
+
+	^ self active & event isKeystroke & (event keyString ~= self class activationString)

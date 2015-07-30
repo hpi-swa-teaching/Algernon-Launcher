@@ -1,0 +1,4 @@
+constants
+maxChildrenToSearch
+
+	^ 3

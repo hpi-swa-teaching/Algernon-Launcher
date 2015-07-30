@@ -1,5 +1,6 @@
 browsing
 openInNewBrowser: anObject
-	|browser|
+
+	| browser |
 	browser := Browser open.
-	self open:anObject inBrowser: browser.
+	self open: anObject inBrowser: browser

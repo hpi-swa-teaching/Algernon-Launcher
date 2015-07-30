@@ -1,3 +1,4 @@
-accessors
+accessing
 defaultAlgeraction
-	^ algeractions at: self defaultIndex.
+
+	^ algeractions at: self defaultIndex

@@ -1,4 +1,5 @@
 singleton
 resetInstance
+
 	FileMapping := nil.
-	iconFactory imagesMap: nil.
+	iconFactory imagesMap: nil

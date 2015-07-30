@@ -1,4 +1,0 @@
-accessing
-currentAlgertem
-
-	^currentAlgertem

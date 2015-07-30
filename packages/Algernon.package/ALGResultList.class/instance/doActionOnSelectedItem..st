@@ -1,5 +1,5 @@
 event handling
-doActionOnSelectedItem: evt 
-	self selectedItem
-		ifNotNil: [self selectedListItem incrementNumTimesSelected. 
-				self selectedItem invokeWithEvent: evt]
+doActionOnSelectedItem: evt
+
+	self selectedItem ifNotNil: [ self selectedListItem incrementNumTimesSelected.
+								evt ifNotNil: [self selectedItem invokeWithEvent: evt] ]

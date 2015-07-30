@@ -1,0 +1,4 @@
+constants
+defaultTextColor
+
+	^ Color white

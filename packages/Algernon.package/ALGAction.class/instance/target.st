@@ -1,3 +1,4 @@
 accessing
 target
-	^ theTarget.
+
+	^ theTarget

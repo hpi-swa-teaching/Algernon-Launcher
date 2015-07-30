@@ -1,3 +1,5 @@
 accessing
-itemList 
+itemList
+
+	itemList ifNil: [ self itemList: (ALGResultList newFrom: {} in: self) ].
 	^ itemList

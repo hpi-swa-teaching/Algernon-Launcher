@@ -1,10 +1,12 @@
 {
 	"class" : {
-		"algertemList" : "JJ 6/16/2015 18:24" },
+		"algertemList" : "J.J. 7/30/2015 19:09" },
 	"instance" : {
-		"algertemChildrenList" : "JJ 6/16/2015 18:26",
-		"createListOfAlgeractions" : "JJ 6/16/2015 18:19",
-		"hasChildren" : "fw 5/27/2015 18:16",
-		"open:" : "fw 5/28/2015 13:43",
-		"openPackage:" : "fw 5/28/2015 14:07",
-		"typeName" : "JJ 5/30/2015 00:02" } }
+		"algertemChildrenList" : "J.J. 7/30/2015 18:50",
+		"createActionBrowseFor:" : "J.J. 7/30/2015 18:52",
+		"createActionOpenFor:" : "J.J. 7/30/2015 18:51",
+		"createListOfAlgeractions" : "J.J. 7/30/2015 18:51",
+		"hasChildren" : "fw 7/30/2015 14:10",
+		"open:" : "J.J. 7/30/2015 18:50",
+		"openPackage:" : "J.J. 7/30/2015 18:50",
+		"typeName" : "J.J. 7/30/2015 18:49" } }

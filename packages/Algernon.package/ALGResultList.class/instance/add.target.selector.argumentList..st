@@ -1,6 +1,6 @@
-adding
+updating
 add: anItem target: target selector: aSymbol argumentList: argList
-	"Override appending of menu items with the given label."
+
 	| itemMorph |
 	itemMorph := ALGResultItemMorph
 		newFrom: anItem
@@ -8,4 +8,4 @@ add: anItem target: target selector: aSymbol argumentList: argList
 		selector: aSymbol
 		argumentList: argList
 		in: self.
-	self addMorphBack: itemMorph.
+	self addMorphBack: itemMorph

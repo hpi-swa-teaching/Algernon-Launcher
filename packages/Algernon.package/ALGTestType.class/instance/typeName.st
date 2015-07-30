@@ -1,3 +1,4 @@
 accessors
 typeName
-	^'Test'.
+
+	^ 'Test'

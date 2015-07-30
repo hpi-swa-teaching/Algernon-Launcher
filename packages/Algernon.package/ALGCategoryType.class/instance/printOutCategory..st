@@ -1,3 +1,4 @@
 actions
 printOutCategory: aCategory
-	 SystemOrganization fileOutCategory:aCategory" asHtml:true".
+
+	SystemOrganization fileOutCategory: aCategory

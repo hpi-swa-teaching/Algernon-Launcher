@@ -1,3 +1,0 @@
-constants
-maxNumTopResults
-	 ^ 3

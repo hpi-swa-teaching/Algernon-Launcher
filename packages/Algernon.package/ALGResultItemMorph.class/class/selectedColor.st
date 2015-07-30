@@ -1,3 +1,4 @@
 constants
 selectedColor
+
 	^ Color black

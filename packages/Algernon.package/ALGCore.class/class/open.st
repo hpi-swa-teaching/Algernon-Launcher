@@ -1,4 +1,4 @@
-instance creation
+singleton
 open
 	
 	self initializeAlgernon.

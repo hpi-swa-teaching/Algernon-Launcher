@@ -1,6 +1,5 @@
-lists
+visibility
 hideItemList
-	itemList ifNotNil:[
-		itemList hide.
-		itemList delete.
-		itemList := nil.].
+
+	self itemList ifNotNil: [self itemList hide; delete.
+						   self itemList: nil ]

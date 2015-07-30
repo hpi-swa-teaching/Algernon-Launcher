@@ -1,5 +1,6 @@
 initialization
 initializeAlgertems
+
 	DefaultAlgertems := OrderedCollection new
 		addAll: ALGClassType algertemList;
 		addAll: ALGCategoryType algertemList;

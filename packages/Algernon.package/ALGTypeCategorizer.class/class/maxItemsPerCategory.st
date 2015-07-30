@@ -1,3 +1,4 @@
 constants
 maxItemsPerCategory
+
 	 ^ 10

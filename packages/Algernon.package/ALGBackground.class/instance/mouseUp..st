@@ -1,3 +1,4 @@
 event handling
 mouseUp: anEvent
-	self algerInstance ifNotNil: [anEvent hand newKeyboardFocus: algerInstance.]
+
+	self controller ifNotNil: [ anEvent hand newKeyboardFocus: self controller ]

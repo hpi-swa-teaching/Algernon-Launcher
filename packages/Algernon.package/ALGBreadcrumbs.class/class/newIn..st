@@ -1,6 +1,7 @@
 instance creation
-newIn: anAlgernon
+newIn: aController
+
 	^ self basicNew
-		controller: anAlgernon;
+		controller: aController;
 		initialize;
 		yourself

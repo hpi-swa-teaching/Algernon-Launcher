@@ -1,3 +1,4 @@
-abstract methods
+sorting
 sort: anOrderedCollection
-	^self subclassResponsibility
+
+	^ self subclassResponsibility

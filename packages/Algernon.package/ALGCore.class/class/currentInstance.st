@@ -1,3 +1,3 @@
-accessing
+singleton
 currentInstance 
 	^ currentInstance

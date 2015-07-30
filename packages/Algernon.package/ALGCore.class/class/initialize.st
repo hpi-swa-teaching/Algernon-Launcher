@@ -1,3 +1,3 @@
-instance creation
+initialization
 initialize
 	self registerAlgernonPreference.

@@ -1,4 +1,4 @@
 accessing
-textField: anObject
+textField: anInputField
 
-	textField := anObject
+	textField := anInputField

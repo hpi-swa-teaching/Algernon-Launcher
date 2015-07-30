@@ -1,3 +1,4 @@
 constants
 categoryFontSize
+
 	^ 14

@@ -1,0 +1,4 @@
+initialization
+reset
+
+	DefaultItems := nil

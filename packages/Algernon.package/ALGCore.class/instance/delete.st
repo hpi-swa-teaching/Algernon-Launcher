@@ -1,4 +1,5 @@
-text field
+system
 delete
+
 	super delete.
 	self unregisterFromSystem.

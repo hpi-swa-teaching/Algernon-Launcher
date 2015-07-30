@@ -1,4 +1,4 @@
 accessing
-breadcrumbs: anObject
+breadcrumbs: aBreadcrumbs
 
-	breadcrumbs := anObject
+	breadcrumbs := aBreadcrumbs

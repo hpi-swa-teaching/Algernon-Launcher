@@ -1,4 +1,4 @@
-accessors
+accessing
 initials
-	"intials are stored in lowercase"
-	^initials.
+
+	^ initials

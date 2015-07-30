@@ -1,5 +1,4 @@
-lists
+updating
 selectPrevious
 
-	self active ifTrue: [
-		(itemList isNil not) ifTrue:[itemList selectPrevious. self currentAlgertem: (itemList selectedListItem).]].
+	self active ifTrue: [ self itemList selectPrevious ]
