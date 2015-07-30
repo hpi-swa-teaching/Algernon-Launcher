@@ -6,6 +6,7 @@
 		"DefaultItems" ],
 	"commentStamp" : "",
 	"instvars" : [
+		"controller",
 		"cache",
 		"items",
 		"sorter",

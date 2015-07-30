@@ -1,11 +1,10 @@
 updating
 showChildList
 
-	| currentType |
-	currentType := self currentItem algertype.
-	currentType hasChildren ifFalse: [ ^ self ].
+	(self currentItem hasChildren) ifFalse: [ ^ self ].
 	self breadcrumbs push: self currentItem.
 	self searchStack push: self textField currentContent.
+	self parentStack push: self currentItem.
 	self itemProvider
 		searchLevel: self searchStack size;
 		parentItem: self currentItem.

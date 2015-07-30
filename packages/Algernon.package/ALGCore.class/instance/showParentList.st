@@ -1,11 +1,11 @@
 updating
 showParentList
 
-	| parentSearch |
 	(self searchStack size = 0) ifTrue: [ ^ self ].
-	parentSearch := self searchStack pop.
 	self breadcrumbs pop.
 	self textField clear.
-	self textField contents: parentSearch.
+	self textField contents: self searchStack pop.
+	self parentStack pop.
 	self itemProvider searchLevel: self searchStack size.
+	(self parentStack size > 0) ifTrue: [ self itemProvider parentItem: self parentStack top ].
 	self updateItemList

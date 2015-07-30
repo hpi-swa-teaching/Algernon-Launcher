@@ -1,4 +1,4 @@
 children
 algertemChildrenList
 
-	^ nil
+	^ {}

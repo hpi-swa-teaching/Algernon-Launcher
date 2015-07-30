@@ -16,6 +16,7 @@
 		"wasChanged",
 		"lastInputTime",
 		"searchStack",
+		"parentStack",
 		"itemProvider",
 		"textField" ],
 	"name" : "ALGCore",
