@@ -3,6 +3,6 @@ testListContents
 	"Make sure Lists are okay"
 	self ensureMorphic.
 
-	self assert: (algerstance relevantAlgertemsFor:'Algernon') size > 0.
+	self assert: (algerstance itemProvider relevantItemsFor:'Algernon') size > 0.
 
 	^ nil
