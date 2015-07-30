@@ -6,7 +6,7 @@ testWorkspaceIsInOrder
 	toolName := 'Workspace'.
 	algerstance class initializeAlgertems.
 
-	findingsRanks := (algerstance relevantAlgertemsFor: 'Workspace') select:
+	findingsRanks := (algerstance itemProvider relevantItemsFor: 'Workspace') select:
 		[ :elem | elem name = toolName ifTrue: [^ elem rank] ifFalse: [^ False] ].
 	self assert: findingsRanks size > 1.	
 	"Test that ranks do not follow after another"

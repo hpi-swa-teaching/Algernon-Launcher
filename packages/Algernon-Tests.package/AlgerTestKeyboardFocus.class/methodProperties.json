@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
+		"oldTestToolsFocus" : "fw 7/12/2015 17:14:28.497",
 		"tearDown" : "JJ 5/20/2015 15:03",
-		"testSelfFocus" : "JJ 5/20/2015 14:55",
-		"testToolsFocus" : "JJ 5/20/2015 15:01",
-		"testWorkspaceFocus" : "JF 5/20/2015 18:15" } }
+		"testSelfFocus" : "JJ 5/20/2015 14:55" } }

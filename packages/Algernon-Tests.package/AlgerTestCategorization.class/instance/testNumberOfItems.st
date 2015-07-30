@@ -4,10 +4,10 @@ testNumberOfItems
 	totalNum := 0.
 	categories do: [ :anAlgercat |
 		| numPerCat |
-		numPerCat := anAlgercat algertems size.
+		numPerCat := anAlgercat items size.
 		totalNum := totalNum + numPerCat.
-		(anAlgercat title = ALGCategory topResults)
-			ifTrue: [ self assert: (numPerCat <= categorizer class maxNumTopResults) ].
-		self assert: (numPerCat <= categorizer class maxItemsPerCategory) ].
-	self assert: (totalNum <= categorizer class maxNumItems).
+		(anAlgercat title = ALGCategory titleTopResults)
+			ifTrue: [ self assert: (numPerCat <= ALGTopCategorizer maxNumTopResults) ].
+		self assert: (numPerCat <= ALGTypeCategorizer maxItemsPerCategory) ].
+	self assert: (totalNum <= ALGTypeCategorizer maxNumItems).
 	 ^ nil

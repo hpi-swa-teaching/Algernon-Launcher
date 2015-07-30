@@ -5,15 +5,14 @@ testRanking
 	self ensureMorphic.
 	algerstance class initializeAlgertems.
 
-	firstRank := (algerstance relevantAlgertemsFor: 'Algernon') first rank.
+	firstRank := (algerstance itemProvider relevantItemsFor: 'Algernon') first rank.
 
 	algerstance show.
 	algerstance textField contents:'Algernon'.
 	algerstance updateItemList.
-	algerstance selectNext.
-	algerstance doActionOnSelectedEvent:nil.
+	algerstance doActionOnSelectedEvent: MorphicEvent new. 
 
-	secondRank := (algerstance relevantAlgertemsFor: 'Algernon') first rank.
+	secondRank := (algerstance itemProvider relevantItemsFor: 'Algernon') first rank.
 
 	self assert: firstRank < secondRank.
 

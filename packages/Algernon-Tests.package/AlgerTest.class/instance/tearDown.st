@@ -1,6 +1,5 @@
 running
 tearDown
-	Algernon close.
 	algerstance delete.	
 
 	allBrowsersNow := self currentBrowsers.
