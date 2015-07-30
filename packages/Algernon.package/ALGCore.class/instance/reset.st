@@ -6,5 +6,5 @@ reset
 	self textField clear.
 	self searchStack: nil.
 	self itemProvider items: self itemProvider defaultItems.
-	self breadcrumbs clear.
+	self breadcrumbs clear
 	
