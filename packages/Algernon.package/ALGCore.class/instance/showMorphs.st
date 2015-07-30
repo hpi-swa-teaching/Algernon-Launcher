@@ -5,4 +5,4 @@ showMorphs
 	self itemList show.
 	self breadcrumbs show.
 	self background show.
-	self show
+	self show.

@@ -7,5 +7,4 @@ initialize
 		initializeProperties;
 		initializeMorphs;
 		registerWithSystem;
-		activate;
-		openInWorld.
+		activate
