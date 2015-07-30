@@ -4,7 +4,7 @@ createListOfAlgeractions
 	list := SortedCollection sortBlock: [:a :b | a rank > b rank].
 	aClass := self typeObject.
 	
-	list add: (ALGAction withName:'run Test' 
+	list add: (ALGAction withName:'run' 
 					rank:10 target: self selector:#runTestSuite args:#()).
 
 	^list.

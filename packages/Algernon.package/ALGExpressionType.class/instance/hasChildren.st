@@ -1,4 +1,4 @@
-family
+accessors
 hasChildren
 	
 	^ true

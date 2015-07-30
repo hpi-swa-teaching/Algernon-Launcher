@@ -1,3 +1,4 @@
 family
 hasChildren
-	^true.
+	
+	^ true

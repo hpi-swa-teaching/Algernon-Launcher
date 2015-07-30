@@ -2,8 +2,9 @@
 	"class" : {
 		"algertemList:" : "JJ 6/16/2015 18:24" },
 	"instance" : {
-		"createListOfAlgeractions" : "JJ 6/16/2015 18:19",
+		"createListOfAlgeractions" : "fw 7/30/2015 14:37",
 		"doit" : "eh 5/2/2008 14:09",
+		"hasChildren" : "fw 7/30/2015 14:15",
 		"inspectit" : "eh 5/2/2008 14:09",
 		"name" : "JH 4/29/2008 02:15",
 		"printit" : "eh 4/29/2008 08:20",

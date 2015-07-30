@@ -1,3 +1,3 @@
 accessing
 name
-	^ algertype action actionVerb, ' ', self provider name.
+	^ algertype action name, ' ', self provider name.

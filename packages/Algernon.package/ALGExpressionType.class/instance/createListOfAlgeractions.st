@@ -6,21 +6,21 @@ createListOfAlgeractions
 	"aClass := self typeObject."
 	list
 		add: (ALGAction
-				withName: 'do it'
+				withName: 'do'
 				rank: 2
 				target: self
 				selector: #doit
 				args: OrderedCollection new).
 	list
 		add: (ALGAction
-				withName: 'print it'
+				withName: 'print'
 				rank: 3
 				target: self
 				selector: #printit
 				args: OrderedCollection new).
 	list
 		add: (ALGAction
-				withName: 'inspect it'
+				withName: 'inspect'
 				rank: 1
 				target: self
 				selector: #inspectit

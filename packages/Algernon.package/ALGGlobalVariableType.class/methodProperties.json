@@ -2,6 +2,7 @@
 	"class" : {
 		"algertemList" : "JJ 6/16/2015 18:24" },
 	"instance" : {
-		"createListOfAlgeractions" : "JJ 6/16/2015 18:19",
+		"createListOfAlgeractions" : "fw 7/30/2015 14:37",
+		"hasChildren" : "fw 7/30/2015 14:18",
 		"name" : "eh 4/27/2008 22:32",
 		"typeName" : "eh 5/5/2008 00:35" } }

@@ -4,19 +4,13 @@ createListOfAlgeractions
 	list := SortedCollection sortBlock: [:a :b | a rank > b rank].
 	aMethod := self typeObject.
 	
-	list add: (ALGAction withName:'browse method (existing)' 
+	list add: (ALGAction withName:'browse (existing)' 
 					rank:10 target:self selector:#openInExistingBrowser: args:(OrderedCollection with:aMethod)).
-	list add: (ALGAction withName:'browse method (new)' 
+	list add: (ALGAction withName:'browse (new)'
 					rank:9 target:self selector:#openInNewBrowser: args:(OrderedCollection with:aMethod)). 
-	list add: (ALGAction withName:'browse senders' 
+	list add: (ALGAction withName:'senders of'
 					rank:8 target:self selector:#browseAllCallsOn: args:(OrderedCollection with:aMethod)). 
-	list add: (ALGAction withName:'browse implementors' 
+	list add: (ALGAction withName:'implementors of'
 					rank:7 target:self selector:#browseAllImplementorsOf: args:(OrderedCollection with:aMethod)). 
-	"list add: (Algeraction withName:'methods' rank:3 target:aClass selector:#allSelectors args:#())."
-"	list add: (Algeraction withName:'fileOut class' 
-					rank:8 target:aMethod selector:#fileOut args:#()).
-	list add: (Algeraction withName:'printOut class' 
-					rank:7 target:aMethod selector:#fileOutAsHtml: args:(OrderedCollection with:true)).
-	list add: (Algeraction withName:'inspect instances' 
-					rank:6 target:(aMethod theNonMetaClass) selector:#inspectAllInstances args:#()).'"
+
 	^list.
