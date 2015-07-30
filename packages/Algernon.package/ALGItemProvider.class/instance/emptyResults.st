@@ -1,0 +1,4 @@
+accessing
+emptyResults
+
+	^ OrderedCollection new

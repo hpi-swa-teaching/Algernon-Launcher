@@ -1,4 +1,4 @@
-accessing
+children
 hasChildren
 	
 	^ true

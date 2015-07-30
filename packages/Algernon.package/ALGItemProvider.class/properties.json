@@ -11,7 +11,9 @@
 		"sorter",
 		"topCategorizer",
 		"typeCategorizer",
-		"yieldTop" ],
+		"yieldTop",
+		"parentItem",
+		"searchLevel" ],
 	"name" : "ALGItemProvider",
 	"pools" : [
 		 ],

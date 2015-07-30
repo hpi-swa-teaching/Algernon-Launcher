@@ -3,7 +3,10 @@
 		 },
 	"instance" : {
 		"clear" : "J.J. 7/28/2015 19:34",
-		"getItem:" : "J.J. 7/28/2015 19:33",
+		"emptyResult" : "J.J. 7/30/2015 20:14",
+		"getAt:" : "J.J. 7/30/2015 21:10",
+		"getItemFor:" : "J.J. 7/30/2015 21:10",
 		"itemsCache" : "J.J. 7/28/2015 19:33",
 		"itemsCache:" : "J.J. 7/28/2015 19:33",
+		"keyFor:level:parent:" : "J.J. 7/30/2015 21:32",
 		"setItem:at:" : "J.J. 7/28/2015 19:35" } }

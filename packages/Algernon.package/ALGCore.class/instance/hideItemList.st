@@ -1,5 +1,4 @@
 visibility
 hideItemList
 
-	self itemList ifNotNil: [self itemList hide; delete.
-						   self itemList: nil ]
+	self itemList hide; delete
