@@ -2,4 +2,4 @@ event handling
 doActionOnSelectedEvent: evt
 
 	self active ifTrue: [ self itemList doActionOnSelectedItem: evt.
-						self deactivate: evt hand ]
+						evt ifNotNil: [self deactivate: evt hand] ]
