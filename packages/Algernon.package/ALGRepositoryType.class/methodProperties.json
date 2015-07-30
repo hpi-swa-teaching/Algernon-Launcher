@@ -1,14 +1,14 @@
 {
 	"class" : {
 		"algertemListWith:" : "J.J. 7/30/2015 19:13",
-		"getWorkingCopyFor:" : "J.J. 7/30/2015 19:12",
+		"getWorkingCopyFor:" : "J.J. 7/30/2015 19:30",
 		"withType:withPackage:" : "J.J. 7/30/2015 19:09" },
 	"instance" : {
 		"createActionOpenFor:" : "J.J. 7/30/2015 18:55",
 		"createActionSaveFor:with:" : "J.J. 7/30/2015 18:56",
-		"createListOfAlgeractions" : "J.J. 7/30/2015 18:59",
+		"createListOfAlgeractions" : "J.J. 7/30/2015 20:03",
 		"getRepositoryFrom:with:" : "J.J. 7/30/2015 18:58",
-		"getWorkingCopy" : "J.J. 7/30/2015 19:00",
+		"getWorkingCopy" : "J.J. 7/30/2015 19:37",
 		"hasChildren" : "fw 7/30/2015 14:17",
 		"open:" : "J.J. 7/30/2015 18:53",
 		"repositoryPackage" : "J.J. 7/30/2015 18:53",

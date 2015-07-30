@@ -1,6 +1,5 @@
 updating
 updateItemListWith: aString
-	"Refreshes the visible search results."
 
 	| results |
 	self itemProvider yieldTop: (self inChild & self textField isEmpty) not.

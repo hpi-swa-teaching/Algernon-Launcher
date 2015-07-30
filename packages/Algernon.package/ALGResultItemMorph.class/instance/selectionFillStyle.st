@@ -1,3 +1,4 @@
 drawing
 selectionFillStyle
-	^ Color veryVeryLightGray.
+
+	^ Color veryVeryLightGray

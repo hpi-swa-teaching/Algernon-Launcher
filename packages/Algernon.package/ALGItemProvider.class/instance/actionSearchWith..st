@@ -1,6 +1,5 @@
 filtering
 actionSearchWith: aCollection
-	"An action verb has been selected as a filter."
 
 	| items actionVerb itemName |
 	actionVerb := aCollection first.

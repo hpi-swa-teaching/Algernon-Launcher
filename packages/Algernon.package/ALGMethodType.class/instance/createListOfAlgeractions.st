@@ -1,11 +1,10 @@
 actions
 createListOfAlgeractions
 
-	| list aMethod |
-	list := SortedCollection sortBlock: [:a :b | a rank > b rank].
+	| aMethod |
 	aMethod := self typeObject.
-	list add: (self createActionBrowseExistingFor: aMethod).
-	list add: (self createActionBrowseNewFor: aMethod).
-	list add: (self createActionSendersFor: aMethod).
-	list add: (self createActionImplementorsFor: aMethod).
-	^ list
+	^ self createSortedListFrom: {
+		self createActionBrowseExistingFor: aMethod.
+		self createActionBrowseNewFor: aMethod.
+		self createActionSendersFor: aMethod.
+		self createActionImplementorsFor: aMethod }

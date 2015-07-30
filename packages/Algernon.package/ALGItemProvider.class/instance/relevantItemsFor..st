@@ -1,6 +1,5 @@
 filtering
 relevantItemsFor: aString
-	"Return a list of relevent Algertems for a given input. The list gets cached for each input."
 
 	| lcs items |
 	lcs := aString asLowercase.

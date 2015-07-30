@@ -7,15 +7,15 @@ testMulipleKeysMissing
 	algerstance show.
 	algerstance textField contents:'gernon'.
 	algerstance updateItemList.	
-	self assert: (algerstance itemList selectedListItem name) = 'Algernon'.
+	self assert: (algerstance currentAlgertem name) = 'Algernon'.
 
 	algerstance show.
 	algerstance textField contents:'Algern'.
 	algerstance updateItemList.	
-	self assert: (algerstance itemList selectedListItem name) = 'Algernon'.
+	self assert: (algerstance currentAlgertem name) = 'Algernon'.
 	
 	algerstance show.
 	algerstance textField contents:'Algenon'.
 	algerstance updateItemList.	
-	self assert: (algerstance itemList selectedListItem name) = 'Algernon'.
+	self assert: (algerstance currentAlgertem name) = 'Algernon'.
 	 ^ nil.

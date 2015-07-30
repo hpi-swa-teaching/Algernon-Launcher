@@ -1,8 +1,6 @@
 actions
 createListOfAlgeractions
 
-	| list aVar |
-	list := SortedCollection sortBlock: [:a :b | a rank > b rank].
+	| aVar |
 	aVar := self typeObject value.
-	list add: (self createActionInspectFor: aVar).
-	^ list
+	^ self createSortedListFrom: { self createActionInspectFor: aVar }

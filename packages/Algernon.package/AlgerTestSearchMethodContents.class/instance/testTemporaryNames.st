@@ -5,10 +5,11 @@ testTemporaryNames
 	self ensureMorphic.
 	algerstance class initializeAlgertems.
 
+	algerstance relevantAlgertemsFor:'MethodAlgertype'.
 	algerstance show.
-	algerstance textField contents:'MethodAlgertype'.
-	algerstance updateItemList.
 	algerstance showChildList.
+	algerstance textField contents:'aLowercaseString'.
+	algerstance updateItemList.	
 	
-	self assert:((algerstance itemProvider relevantItemsFor: 'aLowercaseString')  size >= 1).
+	self assert:(algerstance algertems size >= 2).
 	^ nil

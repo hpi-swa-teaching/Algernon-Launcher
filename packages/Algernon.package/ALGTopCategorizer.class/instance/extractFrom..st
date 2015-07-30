@@ -1,6 +1,5 @@
 categorizing
 extractFrom: anItemCollection
-	"Extracts a fixed number of top results into a separate category."
 
 	| category maxIndex |
 	(anItemCollection size = 0) ifTrue: [ ^ self ].

@@ -8,5 +8,5 @@ testNormalInput
 	algerstance textField contents:'Algernon'.
 	algerstance updateItemList.
 	
-	self assert: (algerstance itemList selectedListItem name) = 'Algernon'.
+	self assert: (algerstance currentAlgertem name) = 'Algernon'.
 	 ^ nil.

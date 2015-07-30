@@ -10,7 +10,7 @@ testRanking
 	algerstance show.
 	algerstance textField contents:'Algernon'.
 	algerstance updateItemList.
-	algerstance doActionOnSelectedEvent: nil. 
+	algerstance doActionOnSelectedEvent: MorphicEvent new. 
 
 	secondRank := (algerstance itemProvider relevantItemsFor: 'Algernon') first rank.
 
