@@ -4,7 +4,6 @@ testWorkspaceIsInOrder
 	| toolName findingsRanks |
 
 	toolName := 'Workspace'.
-	algerstance class initializeAlgertems.
 
 	findingsRanks := (algerstance itemProvider relevantItemsFor: 'Workspace') select:
 		[ :elem | elem name = toolName ifTrue: [^ elem rank] ifFalse: [^ False] ].

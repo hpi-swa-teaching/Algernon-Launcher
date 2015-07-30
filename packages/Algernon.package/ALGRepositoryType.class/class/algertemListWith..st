@@ -1,11 +1,9 @@
 algertem lists
 algertemListWith: aWorkingCopyLabel
 
-	| repos workingCopy algertems |
+	| repos algertems |
 	algertems := OrderedCollection new.
-	workingCopy := self getWorkingCopyFor: aWorkingCopyLabel.
-	workingCopy ifNil: [	^ algertems ].
-	repos := workingCopy repositoryGroup normalizedRepositories.
+	repos := self getReposFor: aWorkingCopyLabel.
 	repos do: [ :each |
 		algertems add: (ALGItem withAlgertype: (self
 			withType: (each description)

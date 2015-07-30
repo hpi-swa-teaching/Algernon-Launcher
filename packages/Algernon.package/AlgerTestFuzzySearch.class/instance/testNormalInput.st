@@ -1,12 +1,14 @@
 running
 testNormalInput
 	"Make sure normal input works"
+	| names |
 	self ensureMorphic.
-	algerstance class initializeAlgertems.
 
 	algerstance show.
 	algerstance textField contents:'Algernon'.
 	algerstance updateItemList.
 	
-	self assert: (algerstance itemList selectedListItem name) = 'Algernon'.
-	 ^ nil.
+	names := algerstance itemList items collect: [ :entries | entries item name ].
+	self assert: (names includes: 'Algernon').
+	
+	 ^ nil

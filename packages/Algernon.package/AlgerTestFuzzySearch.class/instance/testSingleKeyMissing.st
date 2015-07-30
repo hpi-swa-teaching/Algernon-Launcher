@@ -1,21 +1,26 @@
 running
 testSingleKeyMissing
 	"Make sure normal input works"
+	| names |
+
 	self ensureMorphic.
-	algerstance class initializeAlgertems.
 
 	algerstance show.
 	algerstance textField contents:'lgernon'.
 	algerstance updateItemList.
-	self assert: (algerstance itemList selectedListItem name) = 'Algernon'.
+	names := algerstance itemList items collect: [ :entries | entries item name ].
+	self assert: (names includes: 'Algernon').
 
 	algerstance show.
 	algerstance textField contents:'Algernon'.
 	algerstance updateItemList.
-	self assert: (algerstance itemList selectedListItem name) = 'Algernon'.
+	names := algerstance itemList items collect: [ :entries | entries item name ].
+	self assert: (names includes: 'Algernon').
 	
 	algerstance show.
 	algerstance textField contents:'Algenon'.
 	algerstance updateItemList.
-	self assert: (algerstance itemList selectedListItem name) = 'Algernon'.
+	names := algerstance itemList items collect: [ :entries | entries item name ].
+	self assert: (names includes: 'Algernon').
+
 	 ^ nil.

@@ -1,6 +1,5 @@
 testing
 testVisibility
-	algerstance class initializeAlgertems.
 	
 	algerstance deactivate.
 	self deny: algerstance visible.

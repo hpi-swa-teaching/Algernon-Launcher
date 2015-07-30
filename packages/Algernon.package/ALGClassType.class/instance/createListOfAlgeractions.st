@@ -4,9 +4,9 @@ createListOfAlgeractions
 	| aClass |
 	aClass := self typeObject.
 	^ self createSortedListFrom: {
-		self createActionBrowseExistingFor: aClass.
-		self createActionBrowseNewFor: aClass.
-		self createActionFileoutFor: aClass.
-		self createActionPrintoutFor: aClass.
-		self createActionExploreFor: aClass.
-		self createActionInspectFor: aClass }
+		self createActionBrowseExistingFor: aClass;
+			createActionBrowseNewFor: aClass;
+			createActionFileoutFor: aClass;
+			createActionPrintoutFor: aClass;
+			createActionExploreFor: aClass;
+			createActionInspectFor: aClass }

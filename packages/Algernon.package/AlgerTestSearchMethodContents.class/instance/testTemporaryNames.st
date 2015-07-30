@@ -3,7 +3,6 @@ testTemporaryNames
 	"Make sure temporary names are searched"
 		
 	self ensureMorphic.
-	algerstance class initializeAlgertems.
 
 	algerstance show.
 	algerstance textField contents:'MethodAlgertype'.
