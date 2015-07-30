@@ -7,15 +7,15 @@ testSingleKeyMissing
 	algerstance show.
 	algerstance textField contents:'lgernon'.
 	algerstance updateItemList.
-	self assert: (algerstance currentAlgertem name) = 'Algernon'.
+	self assert: (algerstance itemList selectedListItem name) = 'Algernon'.
 
 	algerstance show.
 	algerstance textField contents:'Algernon'.
 	algerstance updateItemList.
-	self assert: (algerstance currentAlgertem name) = 'Algernon'.
+	self assert: (algerstance itemList selectedListItem name) = 'Algernon'.
 	
 	algerstance show.
 	algerstance textField contents:'Algenon'.
 	algerstance updateItemList.
-	self assert: (algerstance currentAlgertem name) = 'Algernon'.
+	self assert: (algerstance itemList selectedListItem name) = 'Algernon'.
 	 ^ nil.
