@@ -1,4 +1,4 @@
 relevant
 isRelevantGiven: aString 
-	"Always wants relevance for strings starting with ="
-	^ (aString beginsWith:'=').
+
+	^ (aString beginsWith: self class evaluateTrigger)

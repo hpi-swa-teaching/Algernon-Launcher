@@ -1,3 +1,4 @@
-abstract methods
+sorting
 sort: aList given: aString
-	^self subclassResponsibility
+
+	^ self subclassResponsibility

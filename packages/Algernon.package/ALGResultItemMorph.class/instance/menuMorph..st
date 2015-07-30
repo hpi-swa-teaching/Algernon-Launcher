@@ -1,4 +1,4 @@
 accessing
-menuMorph: anObject
+menuMorph: aMorph
 
-	menuMorph := anObject
+	menuMorph := aMorph

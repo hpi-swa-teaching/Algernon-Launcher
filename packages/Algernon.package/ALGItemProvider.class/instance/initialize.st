@@ -6,4 +6,4 @@ initialize
 		sorter: ALGSmartSorter new;
 		topCategorizer: ALGTopCategorizer new;
 		typeCategorizer: ALGTypeCategorizer new;
-		items: self defaultItems.
+		items: self defaultItems

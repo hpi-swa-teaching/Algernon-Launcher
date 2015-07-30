@@ -1,3 +1,4 @@
 constants
-titleColor 
+titleColor
+
 	^ Color darkGray

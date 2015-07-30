@@ -1,4 +1,4 @@
 accessing
-indicators: anObject
+indicators: aCollection
 
-	indicators := anObject
+	indicators := aCollection

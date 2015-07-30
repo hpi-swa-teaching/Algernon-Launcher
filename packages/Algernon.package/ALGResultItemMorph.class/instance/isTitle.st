@@ -1,4 +1,5 @@
 accessing
 isTitle
-	^ (self isEnabled not | self item isNil)
+
+	^ self isEnabled not | self item isNil
 	

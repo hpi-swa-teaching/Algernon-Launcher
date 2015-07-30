@@ -1,3 +1,4 @@
-accessors
+relevance
 isTermRelevantFor: aString
+
 	^ false

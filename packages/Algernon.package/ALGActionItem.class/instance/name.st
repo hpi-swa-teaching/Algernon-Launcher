@@ -1,3 +1,4 @@
 accessing
 name
-	^ algertype action name, ' ', self provider name.
+
+	^ algertype action name, ' ', self provider name

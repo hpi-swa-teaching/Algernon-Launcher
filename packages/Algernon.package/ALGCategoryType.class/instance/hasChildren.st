@@ -1,4 +1,4 @@
-family
+children
 hasChildren
 	
 	^ true

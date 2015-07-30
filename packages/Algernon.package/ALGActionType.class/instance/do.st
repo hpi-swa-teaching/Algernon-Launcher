@@ -1,3 +1,4 @@
 actions
 do
-	action target perform: action selector
+
+	self action target perform: self action selector

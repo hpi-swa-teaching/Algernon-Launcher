@@ -1,4 +1,4 @@
 accessing
-action: anObject
+action: anAction
 
-	action := anObject
+	action := anAction

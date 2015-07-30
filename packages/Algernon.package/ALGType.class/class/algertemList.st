@@ -1,3 +1,4 @@
 algertem lists
 algertemList
-	^self subclassResponsibility.
+
+	^ self subclassResponsibility

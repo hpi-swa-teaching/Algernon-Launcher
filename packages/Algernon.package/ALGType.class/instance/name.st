@@ -1,3 +1,4 @@
-accessors
+accessing
 name
-	^self typeObject externalName.
+
+	^ self typeObject externalName
