@@ -9,19 +9,20 @@ testLearningActions
 	algerstance show.
 	algerstance textField contents:'Algernon'.
 	algerstance updateItemList.
-	algerstance toggleSubmenuOnSelectedItem:nil.
-	firstItem := ((algerstance instVarNamed:'itemList') instVarNamed:'actionList') selectedItem contents.
+	algerstance showChildList.
+	firstItem := algerstance itemList selectedListItem.
 	algerstance selectNext.
-	secondItem := ((algerstance instVarNamed:'itemList') instVarNamed:'actionList') selectedItem contents.
-	algerstance doActionOnSelectedEvent:nil.
+	secondItem := algerstance itemList selectedListItem.
+	algerstance doActionOnSelectedEvent: MorphicEvent new.
+	algerstance hide.
 	
 	algerstance show.
 	algerstance textField contents:'Algernon'.
 	algerstance updateItemList.
-	algerstance toggleSubmenuOnSelectedItem:nil.
-	firstItemSecondTry := ((algerstance instVarNamed:'itemList') instVarNamed:'actionList') selectedItem contents.
+	algerstance showChildList.
+	firstItemSecondTry := algerstance itemList selectedListItem.
 	algerstance selectNext.
-	secondItemSecondTry := ((algerstance instVarNamed:'itemList') instVarNamed:'actionList') selectedItem contents.
+	secondItemSecondTry := algerstance itemList selectedListItem.
 	
 	self assert: firstItem = secondItemSecondTry.
 	self assert: secondItem = firstItemSecondTry.
