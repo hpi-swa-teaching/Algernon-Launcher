@@ -1,3 +1,4 @@
-accessors
+accessing
 typeName
-	^'Global Variable'.
+
+	^ 'Global Variable'

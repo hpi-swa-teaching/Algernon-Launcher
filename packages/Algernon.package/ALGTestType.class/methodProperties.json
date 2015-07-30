@@ -1,8 +1,9 @@
 {
 	"class" : {
-		"algertemList" : "JJ 6/16/2015 18:24" },
+		"algertemList" : "J.J. 7/30/2015 19:10" },
 	"instance" : {
-		"createListOfAlgeractions" : "fw 7/30/2015 14:39",
-		"hasChildren" : "TN 6/8/2015 14:26",
-		"runTestSuite" : "TN 6/8/2015 18:06",
-		"typeName" : "TN 6/8/2015 14:26" } }
+		"createActionRun" : "J.J. 7/30/2015 19:04",
+		"createListOfAlgeractions" : "J.J. 7/30/2015 19:03",
+		"hasChildren" : "J.J. 7/30/2015 19:03",
+		"runTestSuite" : "J.J. 7/30/2015 19:03",
+		"typeName" : "J.J. 7/30/2015 19:03" } }

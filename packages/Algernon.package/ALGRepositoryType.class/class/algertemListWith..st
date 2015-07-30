@@ -1,18 +1,15 @@
-algertem list
+algertem lists
 algertemListWith: aWorkingCopyLabel
-	|repos workingCopy algertems|
 
+	| repos workingCopy algertems |
 	algertems := OrderedCollection new.
-
-	"since we only get the label of a package we have to fetch the workingCopyObject again"
-	workingCopy := ((MCWorkingCopyBrowser new workingCopies) select: [ :element |
-		(element packageName) = aWorkingCopyLabel]) at: 1.
-	workingCopy ifNil: [	^algertems ].
-
+	workingCopy := self getWorkingCopyFor: aWorkingCopyLabel.
+	workingCopy ifNil: [	^ algertems ].
 	repos := workingCopy repositoryGroup normalizedRepositories.
-	repos do: [ :each | algertems add: (
-		ALGItem withAlgertype: (self withType:(each description) withPackage: aWorkingCopyLabel) relevantForEmptyString: true)].
-
-	^algertems.
+	repos do: [ :each |
+		algertems add: (ALGItem withAlgertype: (self
+			withType: (each description)
+			withPackage: aWorkingCopyLabel) relevantForEmptyString: true)].
+	^ algertems
 	
 

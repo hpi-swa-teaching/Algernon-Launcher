@@ -1,9 +1,9 @@
-list creation
+actions
 createListOfAlgeractions
+
 	| list aVar |
 	list := SortedCollection sortBlock: [:a :b | a rank > b rank].
 	aVar := self typeObject.
-	list add: (ALGAction withName:'open' 
-					rank:5 target:self selector:#createMorph: args:(OrderedCollection with:aVar)).
-	^list.
+	list add: (self createActionOpenFor: aVar).
+	^ list
 	

@@ -1,3 +1,4 @@
-accessors
+accessing
 typeName
-	^'Package'.
+
+	^ 'Package'

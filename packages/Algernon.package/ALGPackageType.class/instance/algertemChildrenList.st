@@ -1,3 +1,4 @@
-list creation
+children
 algertemChildrenList
-	^ALGRepositoryType algertemListWith: self typeObject
+
+	^ ALGRepositoryType algertemListWith: self typeObject

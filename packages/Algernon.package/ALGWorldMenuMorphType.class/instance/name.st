@@ -1,3 +1,4 @@
-accessors
+accessing
 name
-	^self typeObject at:1.
+
+	^ self typeObject at: 1

@@ -1,3 +1,4 @@
-accessors
+accessing
 methodClass
-	^methodClass.
+
+	^ methodClass

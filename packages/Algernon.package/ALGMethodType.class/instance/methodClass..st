@@ -1,3 +1,4 @@
-accessors
+accessing
 methodClass: aClass
-	methodClass := aClass.
+
+	methodClass := aClass

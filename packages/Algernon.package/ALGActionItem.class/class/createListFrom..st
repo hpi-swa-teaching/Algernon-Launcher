@@ -4,7 +4,7 @@ createListFrom: anItem
 	actions := anItem algeractions.
 	items := OrderedCollection new.
 	actions do: [ :anAction | | item |
-		item := self createFrom: anAction.
-		item provider: anItem.
-		items add: item ].
-	^ items.
+				item := self createFrom: anAction.
+				item provider: anItem.
+				items add: item ].
+	^ items

@@ -1,3 +1,4 @@
-accessors
+accessing
 repositoryPackage: aPackage
-	repositoryPackage := aPackage.
+
+	repositoryPackage := aPackage

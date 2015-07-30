@@ -1,13 +1,17 @@
 {
 	"class" : {
-		"algertemListWith:" : "J.J. 7/11/2015 21:26",
-		"withType:withClass:" : "eh 5/1/2008 16:56" },
+		"algertemListWith:" : "J.J. 7/30/2015 19:07",
+		"withType:withClass:" : "J.J. 7/30/2015 19:07" },
 	"instance" : {
-		"createListOfAlgeractions" : "fw 7/30/2015 14:38",
+		"createActionBrowseExistingFor:" : "J.J. 7/30/2015 18:34",
+		"createActionBrowseNewFor:" : "J.J. 7/30/2015 18:35",
+		"createActionImplementorsFor:" : "J.J. 7/30/2015 18:36",
+		"createActionSendersFor:" : "J.J. 7/30/2015 18:40",
+		"createListOfAlgeractions" : "J.J. 7/30/2015 18:37",
 		"hasChildren" : "fw 7/30/2015 14:19",
 		"isTermRelevantFor:" : "JF 5/30/2015 23:44",
-		"methodClass" : "eh 5/1/2008 16:34",
-		"methodClass:" : "eh 5/1/2008 16:34",
-		"methodContent" : "JF 5/30/2015 23:47",
-		"open:inBrowser:" : "eh 5/1/2008 23:32",
-		"typeName" : "eh 5/1/2008 16:19" } }
+		"methodClass" : "J.J. 7/30/2015 18:32",
+		"methodClass:" : "J.J. 7/30/2015 18:32",
+		"methodContent" : "J.J. 7/30/2015 18:32",
+		"open:inBrowser:" : "J.J. 7/30/2015 18:31",
+		"typeName" : "J.J. 7/30/2015 18:32" } }

@@ -1,9 +1,9 @@
 algertem lists
 algertemListWith: aCategory
-	|classes algertems|
+
+	| classes algertems |
 	algertems := OrderedCollection new.
 	classes := self classesForCategory:aCategory.
-	classes do: [ :each | algertems add: (
-		ALGItem withAlgertype: (self with:each) relevantForEmptyString:true)].
-	^algertems.
+	classes do: [ :each | algertems add: (ALGItem withAlgertype: (self with: each) relevantForEmptyString: true)].
+	^ algertems
 
