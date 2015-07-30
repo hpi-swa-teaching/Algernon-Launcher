@@ -4,6 +4,7 @@ createChildResultsFor: aCollection
 	| childItems |
 	childItems := OrderedCollection new.
 	aCollection do: [ :item |
-		childItems addAll: item algertype algertemChildrenList.
-		childItems addAll: (ALGActionItem createListFrom: item) ].
+		(item algertype hasChildren)
+			ifTrue: [ childItems addAll: item algertype algertemChildrenList.
+					childItems addAll: (ALGActionItem createListFrom: item) ] ].
 	^ childItems

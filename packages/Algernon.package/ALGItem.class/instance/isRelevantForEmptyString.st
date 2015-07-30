@@ -1,3 +1,4 @@
-relevance
+accessing
 isRelevantForEmptyString
-	^isRelevantForEmptyString.
+
+	^ isRelevantForEmptyString

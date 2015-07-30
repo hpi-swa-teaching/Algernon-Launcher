@@ -1,3 +1,4 @@
-accessors
+accessing
 algeractions
-	^algeractions.
+
+	^ algeractions

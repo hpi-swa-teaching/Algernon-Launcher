@@ -1,0 +1,19 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"lastPosition",
+		"positionBackup",
+		"isMatch",
+		"foundChars",
+		"matchingPositions",
+		"itemName" ],
+	"name" : "ALGFuzzyMatcher",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

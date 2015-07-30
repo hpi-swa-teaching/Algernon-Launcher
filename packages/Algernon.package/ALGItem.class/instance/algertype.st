@@ -1,3 +1,4 @@
-accessors
+accessing
 algertype
-	^algertype.
+
+	^ algertype

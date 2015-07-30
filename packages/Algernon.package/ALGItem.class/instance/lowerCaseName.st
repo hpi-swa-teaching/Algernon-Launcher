@@ -1,3 +1,4 @@
-accessors
+accessing
 lowerCaseName
-	^lowerCaseName.
+
+	^ lowerCaseName
