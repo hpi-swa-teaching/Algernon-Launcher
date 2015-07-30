@@ -5,11 +5,10 @@ testMethodCalls
 	self ensureMorphic.
 	algerstance class initializeAlgertems.
 
-	algerstance relevantAlgertemsFor:'MethodAlgertype'.
 	algerstance show.
+	algerstance textField contents:'MethodAlgertype:'.
+	algerstance updateItemList.
 	algerstance showChildList.
-	algerstance textField contents:'sourceCodeAt:'.
-	algerstance updateItemList.	
 	
-	self assert:(algerstance algertems size >= 1).
+	self assert:((algerstance itemProvider relevantItemsFor: 'sourceCodeAt:') size >= 1).
 	^ nil

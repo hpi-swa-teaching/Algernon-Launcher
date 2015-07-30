@@ -8,6 +8,7 @@
 	"instvars" : [
 		"algertemList",
 		"categorizer",
+		"topCategorizer",
 		"categories" ],
 	"name" : "AlgerTestCategorization",
 	"pools" : [
