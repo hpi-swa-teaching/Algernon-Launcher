@@ -1,3 +1,4 @@
 singleton
-currentInstance 
+currentInstance
+
 	^ currentInstance

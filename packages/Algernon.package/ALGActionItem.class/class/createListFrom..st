@@ -1,5 +1,6 @@
 instance creation
 createListFrom: anItem
+
 	| items actions |
 	actions := anItem algeractions.
 	items := OrderedCollection new.

@@ -1,6 +1,6 @@
 caching
-getItem: aTerm
+getItemFor: aTerm
 
 	self itemsCache at: aTerm
 		ifPresent: [ :items | ^ items ]
-		ifAbsent: [ ^ nil ]
+		ifAbsent: [ ^ self emptyResult ]

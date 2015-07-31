@@ -1,21 +1,23 @@
 running
 testMulipleKeysMissing
 	"Make sure normal input works"
+	| names |
 	self ensureMorphic.
-	algerstance class initializeAlgertems.
 
 	algerstance show.
 	algerstance textField contents:'gernon'.
-	algerstance updateItemList.	
-	self assert: (algerstance itemList selectedListItem name) = 'Algernon'.
+	algerstance updateItemList.
+	names := algerstance itemList items collect: [ :entries | entries item name ].
+	self assert: (names includes: 'Algernon').
 
 	algerstance show.
 	algerstance textField contents:'Algern'.
 	algerstance updateItemList.	
-	self assert: (algerstance itemList selectedListItem name) = 'Algernon'.
+	names := algerstance itemList items collect: [ :entries | entries item name ].
+	self assert: (names includes: 'Algernon').
 	
 	algerstance show.
 	algerstance textField contents:'Algenon'.
 	algerstance updateItemList.	
-	self assert: (algerstance itemList selectedListItem name) = 'Algernon'.
-	 ^ nil.
+	names := algerstance itemList items collect: [ :entries | entries item name ].
+	self assert: (names includes: 'Algernon').

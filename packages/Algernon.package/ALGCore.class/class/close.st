@@ -1,5 +1,5 @@
 singleton
 close
-	self currentInstance ifNotNil: [
-		self currentInstance deactivate].
+
+	self currentInstance ifNotNil: [self currentInstance deactivate]
 	

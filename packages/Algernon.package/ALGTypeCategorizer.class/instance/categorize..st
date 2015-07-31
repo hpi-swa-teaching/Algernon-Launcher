@@ -1,7 +1,5 @@
 categorizing
 categorize: anItemCollection
-	"Returns a collection of categories indexed by their Algertype and sorted
-	by their rank."
 
 	| categories typeDictionary |
 	categories := OrderedCollection new.

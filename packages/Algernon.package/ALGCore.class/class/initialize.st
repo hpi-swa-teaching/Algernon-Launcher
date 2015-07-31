@@ -1,3 +1,3 @@
 initialization
 initialize
-	self registerAlgernonPreference.
+	self registerAlgernonPreference

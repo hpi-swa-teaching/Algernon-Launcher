@@ -4,4 +4,4 @@ initializeMorphs
 	self initializeWindow;
 		initializeBackground;
 		initializeInputField;
-		initializeBreadcrumbs.
+		initializeBreadcrumbs

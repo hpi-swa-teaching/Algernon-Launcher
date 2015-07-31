@@ -1,1 +1,1 @@
-The Expression algertem subclass enables the expression algertem to override isRelevantGiven: and show up for anything with an "=" prefix
+An ALGExpressionItem is a subclass that enables expressions to show up for anything with an "=" prefix.

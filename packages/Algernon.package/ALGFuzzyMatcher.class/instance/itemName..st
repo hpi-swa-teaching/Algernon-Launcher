@@ -1,4 +1,4 @@
 accessing
-itemName: anObject
+itemName: aString
 
-	itemName := anObject
+	itemName := aString

@@ -4,14 +4,17 @@
 		 ],
 	"classvars" : [
 		"DefaultItems" ],
-	"commentStamp" : "",
+	"commentStamp" : "J.J. 7/31/2015 19:17",
 	"instvars" : [
+		"controller",
 		"cache",
 		"items",
 		"sorter",
 		"topCategorizer",
 		"typeCategorizer",
-		"yieldTop" ],
+		"yieldTop",
+		"parentItem",
+		"searchLevel" ],
 	"name" : "ALGItemProvider",
 	"pools" : [
 		 ],

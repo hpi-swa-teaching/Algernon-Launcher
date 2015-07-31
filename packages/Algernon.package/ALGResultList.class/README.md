@@ -1,4 +1,4 @@
-The list of items that shows up when you start typing
+An ALGResultList is a GUI component that represents the list of items that shows up when you start typing. It consists of a list of ALGResultItemMorph.
 
-actionList 			ActionList                action list that appears when you hit tab
-typeList                TypeList                  shows types on the right side of the list
+Instance Variables
+	controller:		ALGController 		reference to ALGController

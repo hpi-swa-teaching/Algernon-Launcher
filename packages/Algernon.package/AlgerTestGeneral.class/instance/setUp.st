@@ -1,5 +1,5 @@
 running
 setUp
+
 	super setUp.
-	previouslyOpenedBrowsers := self currentBrowsers.
-	^ nil.
+	previouslyOpenedBrowsers := self currentBrowsers

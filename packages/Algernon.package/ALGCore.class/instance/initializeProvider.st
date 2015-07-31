@@ -1,4 +1,4 @@
 initialization
 initializeProvider
 
-	self itemProvider: ALGItemProvider new
+	self itemProvider: (ALGItemProvider newIn: self)

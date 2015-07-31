@@ -2,4 +2,4 @@ system
 delete
 
 	super delete.
-	self unregisterFromSystem.
+	self unregisterFromSystem

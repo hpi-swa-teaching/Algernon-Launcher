@@ -4,17 +4,15 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "eh 5/5/2008 00:26",
+	"commentStamp" : "J.J. 7/31/2015 19:18",
 	"instvars" : [
 		"initials",
 		"numTimesSelected",
-		"rank",
 		"lowerCaseName",
 		"algeractions",
 		"algertype",
 		"isRelevantForEmptyString",
 		"lastUsage",
-		"icon",
 		"matchingPositions",
 		"defaultIndex" ],
 	"name" : "ALGItem",

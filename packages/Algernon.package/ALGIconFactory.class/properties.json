@@ -4,7 +4,7 @@
 		"iconFactory" ],
 	"classvars" : [
 		"FileMapping" ],
-	"commentStamp" : "",
+	"commentStamp" : "J.J. 7/31/2015 18:42",
 	"instvars" : [
 		"imagesMap" ],
 	"name" : "ALGIconFactory",

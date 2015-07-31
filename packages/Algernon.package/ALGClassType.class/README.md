@@ -1,1 +1,1 @@
-This algertype represents a class
+An ALGClassType represents a class.

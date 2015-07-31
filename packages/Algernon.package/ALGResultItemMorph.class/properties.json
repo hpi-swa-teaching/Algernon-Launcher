@@ -4,11 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "J.J. 7/31/2015 19:24",
 	"instvars" : [
 		"item",
-		"menuMorph",
-		"indicators" ],
+		"menuMorph" ],
 	"name" : "ALGResultItemMorph",
 	"pools" : [
 		 ],

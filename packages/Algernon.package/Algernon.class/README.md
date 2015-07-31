@@ -1,1 +1,1 @@
-Ensures backwards compatibility.
+For backwards compatibility.

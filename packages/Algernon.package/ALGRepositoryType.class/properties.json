@@ -4,10 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "J.J. 7/31/2015 19:54",
 	"instvars" : [
-		"repositoryPackage",
-		"aMethod" ],
+		"repositoryPackage" ],
 	"name" : "ALGRepositoryType",
 	"pools" : [
 		 ],

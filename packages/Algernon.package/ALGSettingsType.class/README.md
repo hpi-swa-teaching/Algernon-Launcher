@@ -1,1 +1,1 @@
-This algertype represents a class
+An ALGSettingsType represents a system setting.

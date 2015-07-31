@@ -9,4 +9,4 @@ popup
 		forHand: self controller activeHand
 		in: self controller
 		allowKeyboard: false;
-		initializePosition.
+		initializePosition

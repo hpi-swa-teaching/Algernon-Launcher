@@ -1,4 +1,5 @@
 running
 tearDown
+
 	super tearDown.
-	toolWindow ifNotNil: [ toolWindow delete ].
+	toolWindow ifNotNil: [ toolWindow delete ]

@@ -3,8 +3,8 @@ runTestSuite
 
 	| runner testSuite |
 	runner := TestRunner new.
-	ToolBuilder open: runner.
 	testSuite := TestSuite  named: self name.
+	ToolBuilder open: runner.
 	TestCase addTestsFor: self name toSuite: testSuite.
 	runner runSuite: testSuite
 	

@@ -3,17 +3,19 @@
 		"minFaultToleranceLength" : "J.J. 7/30/2015 15:39",
 		"newFor:" : "J.J. 7/30/2015 16:00" },
 	"instance" : {
+		"faultyMatch" : "J.J. 7/30/2015 19:53",
 		"foundChars" : "J.J. 7/30/2015 15:37",
 		"foundChars:" : "J.J. 7/30/2015 15:37",
 		"isMatch" : "J.J. 7/30/2015 15:47",
 		"isMatch:" : "J.J. 7/30/2015 15:47",
 		"itemName" : "J.J. 7/30/2015 15:52",
-		"itemName:" : "J.J. 7/30/2015 15:52",
+		"itemName:" : "J.J. 7/30/2015 20:44",
 		"lastPosition" : "J.J. 7/30/2015 15:37",
 		"lastPosition:" : "J.J. 7/30/2015 15:37",
-		"match:" : "J.J. 7/30/2015 15:53",
-		"matches:" : "J.J. 7/30/2015 15:50",
+		"match:" : "J.J. 7/30/2015 19:53",
+		"matches:" : "J.J. 7/30/2015 20:46",
 		"matchingPositions" : "J.J. 7/30/2015 15:38",
 		"matchingPositions:" : "J.J. 7/30/2015 15:37",
 		"positionBackup" : "J.J. 7/30/2015 15:39",
-		"positionBackup:" : "J.J. 7/30/2015 15:37" } }
+		"positionBackup:" : "J.J. 7/30/2015 15:37",
+		"registerMatch" : "J.J. 7/30/2015 19:52" } }

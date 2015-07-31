@@ -1,1 +1,1 @@
-This algertype represents a class
+An ALGTestType represents a test in the system.
