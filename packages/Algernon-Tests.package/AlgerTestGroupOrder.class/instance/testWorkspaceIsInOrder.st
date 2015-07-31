@@ -9,4 +9,4 @@ testWorkspaceIsInOrder
 		[ :elem | elem name = toolName ifTrue: [^ elem rank] ifFalse: [^ False] ].
 	self assert: findingsRanks size > 1.	
 	"Test that ranks do not follow after another"
-	self assert: ((findingsRanks at: 1 + 1) ~= (findingsRanks at: 2)).
+	self assert: ((findingsRanks at: 1 + 1) ~= (findingsRanks at: 2))

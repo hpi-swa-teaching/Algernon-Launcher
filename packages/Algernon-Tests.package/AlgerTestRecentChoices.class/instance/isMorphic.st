@@ -1,3 +1,0 @@
-private
-isMorphic
-	^Smalltalk isMorphic

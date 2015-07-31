@@ -9,5 +9,4 @@ testTemporaryNames
 	algerstance updateItemList.
 	algerstance showChildList.
 	
-	self assert:((algerstance itemProvider relevantItemsFor: 'aLowercaseString')  size >= 1).
-	^ nil
+	self assert:((algerstance itemProvider relevantItemsFor: 'aLowercaseString')  size >= 1)

@@ -13,6 +13,4 @@ testRanking
 
 	secondRank := (algerstance itemProvider relevantItemsFor: 'Algernon') first rank.
 
-	self assert: firstRank < secondRank.
-
-	^ nil
+	self assert: firstRank < secondRank
