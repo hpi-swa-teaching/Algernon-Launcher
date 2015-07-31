@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAlgernonCleanup" : "fw 7/31/2015 03:00",
+		"testAlgernonClose" : "fw 7/31/2015 03:02",
+		"testAlgernonOpen" : "fw 7/31/2015 03:03",
+		"testInitializeAlgernon" : "fw 7/31/2015 03:04" } }
