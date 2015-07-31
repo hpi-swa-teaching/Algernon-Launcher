@@ -1,1 +1,1 @@
-Morphs that appear in the world menu 'open' menu.The typeObject for this algertype should be in the same format as that in TheWorldMenu registry.
+An ALGWorldMenuMorphType represents a Morph that appears in the world menu 'open' menu. The typeObject for this ALGType should be in the same format as that in TheWorldMenu registry.

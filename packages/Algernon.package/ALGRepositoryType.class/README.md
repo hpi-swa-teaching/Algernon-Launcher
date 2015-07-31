@@ -1,1 +1,4 @@
-An algertype representing a method inside a given class. These show up when you drill down into a class by pressing right arrow.
+An ALGPackageType represents a Monticello repository.
+
+Instance Variables
+	repositoryPackage:		Object 		the parent package

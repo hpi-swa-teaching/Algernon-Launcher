@@ -1,0 +1,1 @@
+An ALGTopCategorizer is responsible for extracting an ALGCategory for the highest ranked items in a given collection of ALGItem.

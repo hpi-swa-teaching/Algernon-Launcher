@@ -1,1 +1,1 @@
-Smart sorter that sorts items at the top which are more frequently used. Assumes that items passed in will have isLessThan: and isLessThan:given: methods.
+An ALGSmartSorter sorts items at the top which are more frequently used. Assumes that items passed in will have isLessThan: and isLessThan:given: methods.

@@ -1,1 +1,1 @@
-This algertype represents a class
+An ALGPackageType represents a Monticello package.

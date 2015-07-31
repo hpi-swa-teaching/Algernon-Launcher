@@ -1,3 +1,4 @@
-Every Algertem has an Algertype that tells it what possible Algeractions it can perform.
+An ALGType represents a set of system entities and the actions that can be performed on these entities. Every ALGItem has an ALGType that defines its actions.
 
-typeObject 		object that is of the type represented by the Algertype (e.g., in ClassAlgertype this would be a class)
+Instance Variables
+	typeObject:		Object 		entity of the type represented (e.g. for ALGClassType this would be a class)

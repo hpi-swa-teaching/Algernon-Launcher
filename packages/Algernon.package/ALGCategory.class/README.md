@@ -1,7 +1,7 @@
-An Algercat is a simple datastructure that contains a collection of Algertems belonging
-to the same category.
+An ALGCategory is a simple datastructure that contains a collection of ALGItem belonging to some common category.
 
 Instance Variables
-	algertems:		A collection of Algertems
-	rank:			The relevancy in comparison to other Algercats.
-	title:			The display name of this instance.
+	title:			String 		the name that shows up in the menu
+	rank:			Integer 	the relevance in comparison to another instance of ALGCategory
+	items:			Collection 	a collection of ALGItem
+	

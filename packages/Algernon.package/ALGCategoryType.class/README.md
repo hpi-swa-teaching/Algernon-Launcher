@@ -1,1 +1,1 @@
-This algertype represents a category
+An ALGCategoryType represents a system category.

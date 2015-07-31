@@ -1,1 +1,1 @@
-Abstract sorter. A sorter represents an encapsulated sorting algorithm. The default subclass is the SmartSorter, but it can be replaced by creating a new Sorter subclass and initializing Algernon with the different sorter.
+An ALGSorter represents an encapsulated sorting algorithm. The default subclass is the SmartSorter, but it can be replaced by creating a new Sorter subclass and initializing Algernon with the different sorter.

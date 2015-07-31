@@ -1,9 +1,12 @@
-An "Algertem" is an Algernon List Item. These are items which show up in the drop down menu when you start typing in the main window.
+An ALGItem represents a result provided by the system for a certain search term. Every ALGItem has an ALGType and a list of ALGAction that can be performed on the item.
 
-initials					String					This is a string that contains all the capital letters in the name of the Algertem (stored in lowercase)
-numTimesSelected	integer 				Each time you hit return on an Algertem, this variable is incremented by one
-rank					integer 				rank is used for sorting. Higher rank appears at the top of the list.
-algeractions			SortedCollection		list of actions that can be performed on this algertem
-lowerCaseName    	String					Algertem name stored in lowercase
-algertype				Algertype				The type of this algertem (e.g., class, category, etc.)
-isRelevantForEmptyString    boolean   		If this is true, then the algertem will show up in the list even if there is nothing typed in the text field
+Instance Variables
+	lowerCaseName: 		 	String 			the item name stored in lowercase
+	initials:					 	String			contains all the capital letters of the item name
+	algeractions: 			 	Collection 		list of ALGAction that can be performed on this item
+	algertype: 				 	ALGType 		the type of this item
+	numTimesSelected: 	 	Integer 		incremented every time this item is hit return on
+	isRelevantForEmptyString: 	Boolean 		whether this item will show up in the results even if there is no input
+	lastUsage: 					TimeStamp 	the last time this item has been selected
+	matchingPositions: 			Collection 		a list of icharacter indizes in the item name that are currently being matched
+	defaultIndex: 				Integer 		the index of the default ALGAction in algeractions

@@ -1,0 +1,4 @@
+constants
+refreshString
+
+	^ '<Cmd-r>'

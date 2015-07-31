@@ -1,1 +1,1 @@
-An algertype representing a global variable, e.g. Transcript
+An ALGCategoryType represents a global variable, e.g. Transcript.

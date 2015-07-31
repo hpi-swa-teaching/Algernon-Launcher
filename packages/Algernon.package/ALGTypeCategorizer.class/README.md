@@ -1,0 +1,1 @@
+An ALGTopCategorizer is responsible for extracting a collection of ALGCategory for a given collection of ALGItem based on the ALGType of these items.
