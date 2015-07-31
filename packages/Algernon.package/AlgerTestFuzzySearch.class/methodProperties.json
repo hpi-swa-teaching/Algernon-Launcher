@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"ensureMorphic" : "JF 6/3/2015 22:52",
-		"isMorphic" : "JF 6/3/2015 22:52",
-		"testMulipleKeysMissing" : "fw 7/31/2015 03:20",
-		"testNormalInput" : "fw 7/31/2015 03:21",
-		"testSingleKeyMissing" : "fw 7/31/2015 03:21" } }
