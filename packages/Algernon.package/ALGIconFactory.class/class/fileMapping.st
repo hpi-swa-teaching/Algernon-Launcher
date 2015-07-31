@@ -1,4 +1,5 @@
 mapping
 fileMapping
 
-	^ FileMapping ifNil: [self initializeFileMapping. FileMapping]  
+	FileMapping ifNil: [self initializeFileMapping].
+	^ FileMapping

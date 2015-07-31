@@ -14,5 +14,4 @@ Instance Variables
 	lastInputTime: 		TimeStamp 		keeps track of the last time a search term was entered
 
 Class Variables
-	DefaultAlgertems:	OrderedCollection 	default list of algertems that's initialized once at startup and reinitialized if you manually refresh
 	KeyBindings:  		Dictionary 			maintains list of global keybindings (e.g., key binding to activate Algernon)

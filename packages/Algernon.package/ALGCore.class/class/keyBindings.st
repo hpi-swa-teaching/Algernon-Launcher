@@ -1,4 +1,5 @@
 constants
 keyBindings
 
-	^ KeyBindings ifNil: [self initializeGlobalKeyBindings. KeyBindings]
+	KeyBindings ifNil: [ self initializeGlobalKeyBindings ].
+	^ KeyBindings
