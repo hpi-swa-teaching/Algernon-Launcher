@@ -1,5 +1,6 @@
 running
 setUp
+
 	| testAlgertem1 testAlgertem2 topCategories |
 	super setUp.
 	algertemList := OrderedCollection new.
@@ -11,5 +12,4 @@ setUp
 	algertemList add: testAlgertem2.
 	categories := categorizer categorize: algertemList.
 	topCategories := topCategorizer categorize: algertemList.
-	categories addAll: topCategories.
-	^ nil
+	categories addAll: topCategories

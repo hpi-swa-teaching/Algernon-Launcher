@@ -1,3 +1,4 @@
 helpers
 isMorphic
+
 	^Smalltalk isMorphic

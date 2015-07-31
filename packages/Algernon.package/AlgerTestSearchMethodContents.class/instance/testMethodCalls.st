@@ -9,5 +9,4 @@ testMethodCalls
 	algerstance updateItemList.
 	algerstance showChildList.
 	
-	self assert:((algerstance itemProvider relevantItemsFor: 'sourceCodeAt:') size >= 1).
-	^ nil
+	self assert:((algerstance itemProvider relevantItemsFor: 'sourceCodeAt:') size >= 1)

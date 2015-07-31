@@ -5,5 +5,4 @@ testCategoriesInOrder
 	previousRank := categories first rank.
 	categories do: [ :anAlgercat |
 		self assert: (anAlgercat rank <= previousRank).
-		previousRank := anAlgercat rank ].
-	 ^ nil
+		previousRank := anAlgercat rank ]

@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testInitializeAlgernon
 
 	Algernon initializeAlgernon.

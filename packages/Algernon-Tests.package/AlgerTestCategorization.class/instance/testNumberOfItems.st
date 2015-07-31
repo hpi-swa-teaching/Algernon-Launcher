@@ -9,5 +9,4 @@ testNumberOfItems
 		(anAlgercat title = ALGCategory titleTopResults)
 			ifTrue: [ self assert: (numPerCat <= ALGTopCategorizer maxNumTopResults) ].
 		self assert: (numPerCat <= ALGTypeCategorizer maxItemsPerCategory) ].
-	self assert: (totalNum <= ALGTypeCategorizer maxNumItems).
-	 ^ nil
+	self assert: (totalNum <= ALGTypeCategorizer maxNumItems)

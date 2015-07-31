@@ -1,5 +1,5 @@
-as yet unclassified
+running
 testAlgernonCleanup
 
 	Algernon cleanup.
-	self assert: Algernon currentInstance isNil.
+	self assert: Algernon currentInstance isNil

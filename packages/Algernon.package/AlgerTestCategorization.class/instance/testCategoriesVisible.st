@@ -5,4 +5,4 @@ testCategoriesVisible
 	algerstance updateItemList.
 	"Categories show up as disabled list items."
 	self assert: ((algerstance itemList items select: [ :each |
-		each isEnabled not ]) size > 0). 
+		each isEnabled not ]) size > 0)
