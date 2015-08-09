@@ -1,4 +1,4 @@
-Algernon [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SWT15-Project-12.svg)](https://travis-ci.org/HPI-SWA-Teaching/SWT15-Project-12)
+Algernon-Launcher [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/Algernon-Launcher.svg)](https://travis-ci.org/HPI-SWA-Teaching/Algernon-Launcher)
 ===================
 
 <p align="center">
