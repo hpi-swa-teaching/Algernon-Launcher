@@ -7,35 +7,41 @@ Algernon-Launcher [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/Algern
 
 Algernon is a productivity tool for Squeak programmers; your personal assistant for Squeak. Algernon aims to make programming in Squeak faster and more keyboard centric. It provides lightning quick access to the core functionalities (classes, methods, morphs, tests, repositories ...) and even gives you a quick way to evaluate Smalltalk expressions.
 
+## Installation
+1. Make sure you have [metacello-work](https://github.com/dalehenrich/metacello-work) installed.
 
-To use Algernon, load the package into your image and activate the panel in the preferences:
+2. Load the project by running the following in your workspace:
+  ```smalltalk
+  Metacello new
+    baseline: 'Algernon';
+    repository: 'github://HPI-SWA-Teaching/Algernon-Launcher:master/packages';
+    onConflict: [:ex | ex allow];
+    load
+  ```
 
-```
-Tools > Preferences > Algernon
-```
+3. Activate the panel in the preferences:
+  ```
+  Tools > Preferences > Algernon
+  ```
 
-Now you can toggle the Algernon panel using:
+4. Now you can toggle the Algernon panel using:
+  ```
+  Alt + Space
+  ```
 
-```
-Alt + Space
-```
+## Usage
 
----
+| Control     | Action            |
+|-------------|-------------------|
+| Alt + Space | Show Algernon     |
+| Esc         | Hide Algernon     |
+| Arrow up    | Navigate up       |
+| Arrow down  | Navigate down     |
+| Arrow right | Navigate in       |
+| Arrow left  | Navigate out      |
+| Enter       | Run selected item |
 
-#### Usage
-
-| Control        | Action            |
-|----------------|-------------------|
-| Alt + Space    | Show Algernon     |
-| Esc            | Hide Algernon     |
-| Arrow up, down | Navigate up, down |
-| Arrow right    | Navigate in       |
-| Arrow left     | Navigate out      |
-| Enter          | Run selected item |
-
----
-
-#### Features
+## Features
 
 - Search using fuzzy matching
 - Search and open categories, classes and methods
@@ -45,11 +51,9 @@ Alt + Space
 - Search preferences
 - Search morphs
 - Search global variables
-- Print and evaluate Smalltalk expressions (e.g. enter '= 2*3')
+- Print and evaluate Smalltalk expressions (e.g. enter `= 2*3`)
 - [...]
 
----
-
-#### Credits
+## Credits
 
 Credits to Erik Hinterbichler and Joey Hagedorn, [the original creators of Algernon.](http://erikhinterbichler.com/apps/algernon/)
