@@ -1,5 +1,7 @@
 initialization
 initializeBackground
 
-	self background: (ALGBackground newIn: self).
-	self addMorphBack: self background
+	self background ifNotNil: [ self removeMorph: self background ].
+	self 
+		background: (ALGBackground newIn: self);
+		addMorphBack: self background
