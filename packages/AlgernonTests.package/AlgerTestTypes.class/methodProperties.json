@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testCategoryNotEmpty" : "fw 7/31/2015 19:06",
+		"testClassNotEmpty" : "fw 7/31/2015 19:07",
+		"testExpressionNotEmpty" : "fw 7/31/2015 19:09",
+		"testGlobalVariableNotEmpty" : "fw 7/31/2015 19:10",
+		"testMethodNotEmpty" : "fw 7/31/2015 19:12",
+		"testPackageNotEmpty" : "fw 7/31/2015 19:18",
+		"testSettingsNotEmpty" : "fw 7/31/2015 19:20",
+		"testTestNotEmpty" : "fw 7/31/2015 19:21",
+		"testWorldMenuMorphNotEmpty" : "fw 7/31/2015 19:17" } }

@@ -1,0 +1,4 @@
+private
+isMorphic
+
+	^ Smalltalk isMorphic
