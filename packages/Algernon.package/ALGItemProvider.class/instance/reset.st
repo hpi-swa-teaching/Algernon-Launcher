@@ -1,4 +1,5 @@
 initialization
 reset
 
-	self cache clear
+	self parentItem: nil;
+		searchLevel: 0.
