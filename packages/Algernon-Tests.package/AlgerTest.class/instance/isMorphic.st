@@ -1,4 +1,0 @@
-helpers
-isMorphic
-
-	^Smalltalk isMorphic

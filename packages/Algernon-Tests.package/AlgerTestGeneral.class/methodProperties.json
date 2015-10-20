@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"setUp" : "fw 7/31/2015 03:12",
-		"tearDown" : "fw 7/31/2015 03:12",
-		"testAlgernonClass" : "fw 7/31/2015 03:12",
-		"testListContents" : "fw 7/31/2015 03:12",
-		"testVisibility" : "J.J. 7/31/2015 20:38" } }
