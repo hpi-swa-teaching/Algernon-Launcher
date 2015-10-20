@@ -1,4 +1,0 @@
-preferences
-defaultPreferenceSetting
-
-	^ false

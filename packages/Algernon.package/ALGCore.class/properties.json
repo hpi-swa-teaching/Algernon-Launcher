@@ -1,9 +1,9 @@
 {
 	"category" : "Algernon",
 	"classinstvars" : [
-		"wasChanged",
-		"currentInstance" ],
+		 ],
 	"classvars" : [
+		"CurrentInstance",
 		"KeyBindings" ],
 	"commentStamp" : "J.J. 7/31/2015 20:08",
 	"instvars" : [
