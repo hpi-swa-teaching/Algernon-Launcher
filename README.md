@@ -52,7 +52,7 @@ Algernon is a productivity tool for Squeak programmers; your personal assistant 
 - Search morphs
 - Search global variables
 - Print and evaluate Smalltalk expressions (e.g. enter `= 2*3`)
-- [...]
+- Action verbs for filtering and quick access (e.g. `run SomeTest` will only search for tests and set a default action)
 
 ## Credits
 
