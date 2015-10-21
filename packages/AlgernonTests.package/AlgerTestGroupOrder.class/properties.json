@@ -1,0 +1,14 @@
+{
+	"category" : "AlgernonTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AlgerTestGroupOrder",
+	"pools" : [
+		 ],
+	"super" : "AlgerTest",
+	"type" : "normal" }

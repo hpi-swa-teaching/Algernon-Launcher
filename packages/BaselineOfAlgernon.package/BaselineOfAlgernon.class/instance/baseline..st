@@ -6,8 +6,8 @@ baseline: spec
         do: [ 
             spec
                 package: 'Algernon';
-                package: 'Algernon-Tests' with: [ spec requires: #('default') ].
+                package: 'AlgernonTests' with: [ spec requires: #('default') ].
             spec
                 group: 'default' with: #('Algernon');
-                group: 'Tests' with: #('Algernon-Tests');
+                group: 'Tests' with: #('AlgernonTests');
                 group: 'TravisCI' with: #('Tests') ]

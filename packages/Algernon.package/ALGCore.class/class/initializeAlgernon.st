@@ -2,5 +2,5 @@ initialization
 initializeAlgernon
 	
 	self cleanup.
-	currentInstance := self new.
-	currentInstance deactivate
+	CurrentInstance := self new.
+	CurrentInstance deactivate

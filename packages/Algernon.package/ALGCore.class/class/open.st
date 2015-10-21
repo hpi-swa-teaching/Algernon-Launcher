@@ -2,5 +2,5 @@ singleton
 open
 
 	self initializeAlgernon.
-	currentInstance activate.
-	^ currentInstance
+	self currentInstance activate.
+	^ self currentInstance

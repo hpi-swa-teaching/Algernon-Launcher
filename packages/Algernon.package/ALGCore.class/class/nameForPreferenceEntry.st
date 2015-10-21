@@ -1,4 +1,0 @@
-preferences
-nameForPreferenceEntry
-
-	^ 'AlgernonKeyboardBinding' asSymbol 
