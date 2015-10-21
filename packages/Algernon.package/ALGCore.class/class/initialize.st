@@ -1,3 +1,4 @@
 initialization
 initialize
-	self registerAlgernonPreference
+	
+	Preferences removePreference:  #AlgernonKeyboardBinding.
