@@ -5,6 +5,7 @@
 		"classesForCategory:" : "J.J. 7/30/2015 19:05" },
 	"instance" : {
 		"algertemChildrenList" : "J.J. 7/30/2015 17:09",
+		"comment" : "J.J. 12/14/2015 00:51",
 		"createActionBrowseExistingFor:" : "J.J. 7/30/2015 17:48",
 		"createActionBrowseNewFor:" : "J.J. 7/30/2015 17:49",
 		"createActionExploreFor:" : "J.J. 7/30/2015 17:52",
@@ -13,5 +14,6 @@
 		"createActionPrintoutFor:" : "J.J. 7/30/2015 17:51",
 		"createListOfAlgeractions" : "pre 10/18/2015 13:45",
 		"hasChildren" : "J.J. 7/30/2015 17:09",
+		"hasComment" : "J.J. 12/14/2015 00:49",
 		"open:inBrowser:" : "J.J. 7/30/2015 17:09",
 		"typeName" : "J.J. 7/30/2015 17:44" } }

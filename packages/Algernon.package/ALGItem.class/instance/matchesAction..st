@@ -1,4 +1,4 @@
 relevance
-supportsActionVerb: aString
+matchesAction: aString
 
 	^ self algeractions anySatisfy: [:action | action actionVerb = aString]
