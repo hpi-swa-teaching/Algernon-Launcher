@@ -1,13 +1,12 @@
-language: erlang
-sudo: false
+language: smalltalk
+
+smalltalk:
+  - Squeak-4.6
 
 env:
   global:
     - BASELINE=Algernon
-  matrix:
-    # - SMALLTALK="SqueakTrunk"
-    - SMALLTALK="Squeak4.6"
-    # - SMALLTALK="Squeak4.5"
+    - PACKAGES="/packages"
 
 addons:
   apt:
@@ -16,21 +15,3 @@ addons:
     - libc6:i386
     # UUIDPlugin
     - libuuid1:i386
-
-install:
-   - export PROJECT_HOME="$(pwd)"
-   - cd $HOME
-   - wget -q -O filetreeCI.zip https://github.com/fniephaus/filetreeCI/archive/master.zip
-   - unzip -q filetreeCI.zip
-   - cd filetreeCI-*
-   - export FILETREE_CI_HOME="$(pwd)"
-
-script: $FILETREE_CI_HOME/run.sh
-
-notifications:
-  webhooks:
-    urls:
-      - http://isqueakbot.appspot.com
-    on_success: always
-    on_failure: always
-    on_start: never
