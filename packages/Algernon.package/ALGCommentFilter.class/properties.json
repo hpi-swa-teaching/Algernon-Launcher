@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "J.J. 12/13/2015 21:46",
+	"commentStamp" : "",
 	"instvars" : [
-		"controller" ],
-	"name" : "ALGInputField",
+		 ],
+	"name" : "ALGCommentFilter",
 	"pools" : [
 		 ],
-	"super" : "TextMorph",
+	"super" : "ALGItemFilter",
 	"type" : "normal" }
