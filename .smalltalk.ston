@@ -1,0 +1,16 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'Algernon',
+      #directory : 'packages',
+      #load : 'Tests',
+      #platforms : [ #squeak ]
+    }
+  ],
+  #testing : {
+    #exclude : {
+      #classes : [ #AlgerTestKeyboardFocus, #AlgerTestFuzzySearch ]
+    }
+  }
+}
+
