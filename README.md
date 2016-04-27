@@ -56,4 +56,5 @@ Algernon is a productivity tool for Squeak programmers; your personal assistant 
 
 ## Credits
 
+
 Credits to Erik Hinterbichler and Joey Hagedorn, [the original creators of Algernon.](http://erikhinterbichler.com/apps/algernon/)
