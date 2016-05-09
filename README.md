@@ -1,4 +1,4 @@
-Algernon-Launcher [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/Algernon-Launcher.svg)](https://travis-ci.org/HPI-SWA-Teaching/Algernon-Launcher)
+Algernon-Launcher [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/Algernon-Launcher.svg)](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-06) [![Coverage Status](https://coveralls.io/repos/github/HPI-SWA-Teaching/SWT16-Project-06/badge.svg?branch=master)](https://coveralls.io/github/HPI-SWA-Teaching/SWT16-Project-06?branch=master)
 ===================
 
 <p align="center">
