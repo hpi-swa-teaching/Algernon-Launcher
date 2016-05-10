@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"activateAlgernon" : "mt 10/20/2015 14:30:54",
+		"activateAlgernon" : "LK 5/11/2016 00:11",
 		"activateAlgernon:" : "mt 10/20/2015 14:23:33",
 		"activationString" : "J.J. 7/28/2015 20:07",
 		"cleanup" : "mt 10/20/2015 14:26:27",
@@ -69,6 +69,7 @@
 		"parentStack:" : "J.J. 7/30/2015 22:19",
 		"registerNotifierFor:" : "J.J. 7/30/2015 19:50",
 		"registerWithSystem" : "J.J. 7/30/2015 19:49",
+		"registeredWithSystem" : "LK 5/11/2016 00:12",
 		"reset" : "fw 7/30/2015 22:13",
 		"searchStack" : "J.J. 7/11/2015 21:40",
 		"searchStack:" : "J.J. 7/11/2015 21:40",

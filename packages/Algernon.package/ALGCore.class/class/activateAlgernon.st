@@ -5,4 +5,4 @@ activateAlgernon
 		description: 'Registers the keyboard shortcut [ALT]+[Space] to open Algernon.'
 		type: #Boolean>
 		
-	^ self currentInstance notNil
+	^ self currentInstance notNil and: [self currentInstance registeredWithSystem]
