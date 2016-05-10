@@ -4,5 +4,6 @@
 	"instance" : {
 		"testAlgernonCleanup" : "fw 7/31/2015 03:13",
 		"testAlgernonClose" : "fw 7/31/2015 03:02",
+		"testAlgernonEnabledShortcut" : "LK 5/11/2016 00:02",
 		"testAlgernonOpen" : "fw 7/31/2015 03:13",
 		"testInitializeAlgernon" : "fw 7/31/2015 03:04" } }
