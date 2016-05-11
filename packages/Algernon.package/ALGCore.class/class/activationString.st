@@ -1,4 +1,5 @@
-constants
+accessing
 activationString
 
-	^ '<Cmd- >'
+	ActivationString ifEmpty: [^'<Cmd- >'].
+	^ActivationString 

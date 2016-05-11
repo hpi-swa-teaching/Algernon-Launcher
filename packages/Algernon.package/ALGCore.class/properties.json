@@ -3,6 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
+		"ActivationString",
 		"CurrentInstance",
 		"KeyBindings" ],
 	"commentStamp" : "J.J. 7/31/2015 20:08",

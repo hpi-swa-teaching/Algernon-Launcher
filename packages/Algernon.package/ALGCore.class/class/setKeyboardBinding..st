@@ -1,7 +1,5 @@
 preferences
 setKeyboardBinding: aString
-	"Dictionary newFrom: 
-	{'<space>' -> 
+	self activationString: aString.
+	^true
 	
-	
-	}"
