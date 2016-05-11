@@ -1,5 +1,6 @@
 accessing
 activationString
 
-	ActivationString ifEmpty: [^'<Cmd- >'].
+	ActivationString ifNil:  [ALGCore activationString: '<Cmd- >' ].
+	 ActivationString ifEmpty: [ALGCore activationString: '<Cmd- >'].
 	^ActivationString 
