@@ -1,4 +1,4 @@
-running
+testing
 testAlgernonEnabledShortcut
 
 	self assert: [Algernon activateAlgernon not or:

@@ -1,4 +1,4 @@
-running
+testing
 testMulipleKeysMissing
 	"Make sure normal input works"
 	| names |

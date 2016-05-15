@@ -1,4 +1,4 @@
-running
+testing
 testTemporaryNames
 	"Make sure temporary names are searched"
 		

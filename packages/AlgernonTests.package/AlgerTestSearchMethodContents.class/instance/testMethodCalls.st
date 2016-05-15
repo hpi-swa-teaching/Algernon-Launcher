@@ -1,4 +1,4 @@
-running
+testing
 testMethodCalls
 	"Make sure temporary names are searched"
 		

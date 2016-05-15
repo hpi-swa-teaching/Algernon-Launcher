@@ -2,8 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"ensureMorphic" : "fw 7/31/2015 03:10",
-		"isMorphic" : "JJ 5/29/2015 02:00",
 		"setUp" : "fw 7/31/2015 03:11",
 		"testCategoriesInOrder" : "fw 7/31/2015 03:11",
 		"testCategoriesVisible" : "fw 7/31/2015 03:11",

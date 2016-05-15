@@ -1,4 +1,4 @@
-running
+testing
 testAlgernonOpen
 
 	Algernon open.

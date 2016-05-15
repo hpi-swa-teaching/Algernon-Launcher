@@ -1,4 +1,4 @@
-running
+testing
 testSingleKeyMissing
 	"Make sure normal input works"
 	| names |

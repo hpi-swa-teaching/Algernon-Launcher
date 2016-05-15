@@ -1,4 +1,4 @@
-running
+testing
 testSelfFocus
 	"Make sure Algernon has focus when launched."
 

@@ -2,7 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"ensureMorphic" : "fw 7/31/2015 03:14",
-		"isMorphic" : "JF 5/30/2015 23:49",
 		"testMethodCalls" : "fw 7/31/2015 03:14",
 		"testTemporaryNames" : "fw 7/31/2015 03:14" } }

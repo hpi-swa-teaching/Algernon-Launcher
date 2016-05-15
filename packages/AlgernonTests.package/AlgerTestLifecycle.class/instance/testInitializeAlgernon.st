@@ -1,4 +1,4 @@
-running
+testing
 testInitializeAlgernon
 
 	Algernon initializeAlgernon.

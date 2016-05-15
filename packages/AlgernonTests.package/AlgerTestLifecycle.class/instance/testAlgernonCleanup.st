@@ -1,4 +1,4 @@
-running
+testing
 testAlgernonCleanup
 
 	Algernon cleanup.

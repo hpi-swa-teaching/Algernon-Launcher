@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"previouslyOpenedBrowsers",
-		"allBrowsersNow" ],
+		 ],
 	"name" : "AlgerTestFuzzySearch",
 	"pools" : [
 		 ],

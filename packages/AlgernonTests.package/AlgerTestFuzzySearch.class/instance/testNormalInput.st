@@ -1,4 +1,4 @@
-running
+testing
 testNormalInput
 	"Make sure normal input works"
 	| names |
