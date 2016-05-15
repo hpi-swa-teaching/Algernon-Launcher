@@ -18,7 +18,8 @@
 		"searchStack",
 		"parentStack",
 		"itemProvider",
-		"textField" ],
+		"textField",
+		"receivedActivation" ],
 	"name" : "ALGCore",
 	"pools" : [
 		 ],

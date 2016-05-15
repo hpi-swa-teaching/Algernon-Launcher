@@ -3,4 +3,5 @@ initializeProperties
 
 	self
 		active: false;
-		wasChanged: false
+		wasChanged: false;
+		receivedActivation: false.
