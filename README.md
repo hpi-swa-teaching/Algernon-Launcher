@@ -41,6 +41,25 @@ Algernon is a productivity tool for Squeak programmers; your personal assistant 
 | Arrow left  | Navigate out      |
 | Enter       | Run selected item |
 
+## Hotwords
+Type one of the following Action Words to filter your search and for quick access (e.g. `run SomeTest` will only search for tests and set a default action).
+
+| Action Word | Action                                                    | Example                    |
+|-------------|-----------------------------------------------------------|----------------------------|
+| run         | run testcase                                              | run AbstractMergerTests    |
+| browse      | open Browser                                              | browse ALGActionWordFilter |
+| printout    | print on Transcript (when already opend) & ????           | printout ALGAction         |
+| fileout     | print on Transcript (when already opend) & ????           |                            |
+| open        | opens Tool                                                | open Dependency Browser    |
+| save        | ???                                                       |                            |
+| do          | ???                                                       |                            |
+| inspect     | ???                                                       |                            |
+| explore     | ???                                                       |                            |
+| apropos     | display matching comments                                 | apropos anything           |
+| which       | display matching comments                                 | which anything             |
+| ?           | display matching comments                                 | ? anything                 |
+
+
 ## Features
 
 - Search using fuzzy matching
