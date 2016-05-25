@@ -1,13 +1,9 @@
 testing
 testKeyboardInputOnlyOpensOnce
 	| openAlgernonEvent |
-	openAlgernonEvent := KeyboardEvent new
-		setType: #keystroke
-		buttons: 72
-		position: 600@610
-		keyValue: 32
-		hand: ActiveHand
-		stamp: 0.
+	openAlgernonEvent := AlgerTestKeyboardEventMock new 
+										keyString: ALGCore activationString;
+										isKeyUp: false.
 	algerstance deactivate.
 	algerstance handleListenEvent: openAlgernonEvent.
 	self assert: algerstance active.
