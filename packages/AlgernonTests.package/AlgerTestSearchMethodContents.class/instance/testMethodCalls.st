@@ -1,11 +1,11 @@
 testing
 testMethodCalls
-	"Make sure temporary names are searched"
+	"Make sure method calls are searched"
 		
 	self ensureMorphic.
 
 	algerstance show.
-	algerstance textField contents:'MethodAlgertype:'.
+	algerstance textField contents:'ALGMethodType'.
 	algerstance updateItemList.
 	algerstance showChildList.
 	

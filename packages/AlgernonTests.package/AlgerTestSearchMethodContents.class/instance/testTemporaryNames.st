@@ -5,7 +5,7 @@ testTemporaryNames
 	self ensureMorphic.
 
 	algerstance show.
-	algerstance textField contents:'MethodAlgertype'.
+	algerstance textField contents:'ALGMethodType'.
 	algerstance updateItemList.
 	algerstance showChildList.
 	
