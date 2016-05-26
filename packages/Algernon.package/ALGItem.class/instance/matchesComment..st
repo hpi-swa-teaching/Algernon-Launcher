@@ -1,8 +1,6 @@
 relevance
 matchesComment: aString
 
-	| substrings |
 	(self algertype hasComment)
 		ifFalse: [ ^ false ].
-	substrings := self algertype comment string asLowercase subStrings: ' '.
-	^ substrings anySatisfy: [ :each | each = aString ]
+	^ (self class commentCache at: aString ifAbsent: [^ false] ) includes: self algertype typeObject.

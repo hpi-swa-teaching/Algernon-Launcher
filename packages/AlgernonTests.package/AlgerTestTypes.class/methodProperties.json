@@ -3,6 +3,8 @@
 		 },
 	"instance" : {
 		"testCategoryNotEmpty" : "fw 7/31/2015 19:06",
+		"testClassFoundByCommentWithoutActionVerbs" : "LK 5/26/2016 21:32",
+		"testClassFoundOnlyOnce" : "LK 5/26/2016 22:54",
 		"testClassNotEmpty" : "fw 7/31/2015 19:07",
 		"testExpressionNotEmpty" : "fw 7/31/2015 19:09",
 		"testGlobalVariableNotEmpty" : "fw 7/31/2015 19:10",
