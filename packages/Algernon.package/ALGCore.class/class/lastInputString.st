@@ -1,3 +1,3 @@
 accessing
 lastInputString
-	^ LastInputString
+	LastInputString ifNil: [^''] ifNotNil: [^LastInputString]
