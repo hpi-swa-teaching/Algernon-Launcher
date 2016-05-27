@@ -8,5 +8,8 @@ activate: hand
 		grabFocus: self activeHand;
 		initializeBackground;
 		showMorphs;
-		openInWorld
+		openInWorld.
+	self textField
+			contents: self class lastInputString;
+			selectAll
 	

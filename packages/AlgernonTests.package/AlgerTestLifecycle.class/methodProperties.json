@@ -2,11 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
+		"inputs" : "PL 5/27/2016 17:15",
 		"shortcuts" : "td 5/25/2016 16:38",
 		"testAlgernonChangeShortcut" : "td 5/25/2016 16:37",
 		"testAlgernonChangeShortcut:" : "td 5/25/2016 16:41",
 		"testAlgernonCleanup" : "fw 7/31/2015 03:13",
 		"testAlgernonClose" : "fw 7/31/2015 03:02",
 		"testAlgernonEnabledShortcut" : "LK 5/11/2016 00:02",
+		"testAlgernonKeepInput" : "PL 5/27/2016 17:18",
+		"testAlgernonKeepInput:" : "PL 5/27/2016 17:52",
 		"testAlgernonOpen" : "fw 7/31/2015 03:13",
 		"testInitializeAlgernon" : "fw 7/31/2015 03:04" } }
