@@ -1,14 +1,18 @@
 testing
 testSingleResultList
 	
-	| resultListCount |
-	resultListCount := ALGResultList allInstances size.
 	Algernon open.
 	Algernon currentInstance textField contents: 'stuff'.
-	self assert: 1 equals: (ALGResultList allInstances size - resultListCount).
-	Algernon
-			close;
-			open.
-	Algernon currentInstance textField contents: 'other'.
-	self assert: 1 equals: (ALGResultList allInstances size - resultListCount).
-	Algernon close
+	Algernon currentInstance updateItemList.
+	
+	self assert: 1 equals: ((World submorphs select: [ :aMorph | aMorph isKindOf: Algernon] thenCollect: [ :anAlgernon | self  numberOfResultListsFor: anAlgernon ]) sum).
+	
+	Algernon 
+		close;
+		open.
+			
+	Algernon currentInstance textField contents: 'test'.
+	Algernon currentInstance updateItemList.
+	self assert: 1 equals: ((World submorphs select: [ :aMorph | aMorph isKindOf: Algernon] thenCollect: [ :anAlgernon | self  numberOfResultListsFor: anAlgernon ]) sum).
+	
+	Algernon close.
