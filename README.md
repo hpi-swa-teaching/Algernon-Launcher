@@ -73,6 +73,14 @@ Type one of the following Action Words to filter your search and for quick acces
 - Print and evaluate Smalltalk expressions (e.g. enter `= 2*3`)
 - Action verbs for filtering and quick access (e.g. `run SomeTest` will only search for tests and set a default action)
 
+### Full Text Search in Classes
+
+Enter a class name to search within.
+Hit the right arrow key.
+Enter the search term for full text search (mehtod names and code) in that class.
+Matching methods are listed.
+
+
 ## Credits
 
 
