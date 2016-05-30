@@ -1,9 +1,6 @@
 instance creation
 newFrom: aCollection in: aController
 
-	| anItemList |
-	anItemList := self new.
-	anItemList
+	^ self new
 		controller: aController;
-		updateWith: aCollection.
-	^ anItemList
+		updateWith: aCollection
