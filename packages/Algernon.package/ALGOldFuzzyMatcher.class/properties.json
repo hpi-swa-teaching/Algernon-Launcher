@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "J.J. 7/31/2015 19:26",
 	"instvars" : [
 		"lastPosition",
 		"positionBackup",
@@ -13,7 +13,7 @@
 		"matchingPositions",
 		"itemName",
 		"matchingStart" ],
-	"name" : "ALGFuzzyMatcher",
+	"name" : "ALGOldFuzzyMatcher",
 	"pools" : [
 		 ],
 	"super" : "Object",

@@ -6,5 +6,4 @@ initialsLessThan: anItem given: aLowercaseString
 	other := anItem initials beginsWith: aLowercaseString.
 	(me & other not) ifTrue: [^true].
 	(other & me not) ifTrue: [^false].
-	^ nil
-	
+	^ #equals

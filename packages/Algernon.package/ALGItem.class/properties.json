@@ -14,7 +14,8 @@
 		"isRelevantForEmptyString",
 		"lastUsage",
 		"matchingPositions",
-		"defaultIndex" ],
+		"defaultIndex",
+		"fuzzyRank" ],
 	"name" : "ALGItem",
 	"pools" : [
 		 ],

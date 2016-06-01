@@ -3,5 +3,7 @@
 		 },
 	"instance" : {
 		"accepts:" : "J.J. 12/13/2015 23:40",
+		"computeFuzzyItems:outOf:given:" : "td 6/1/2016 21:33",
 		"filter:" : "J.J. 12/13/2015 22:43",
+		"minimumItemsToCompute" : "td 6/1/2016 21:43",
 		"selectors" : "J.J. 12/13/2015 23:38" } }

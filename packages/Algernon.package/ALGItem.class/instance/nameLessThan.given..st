@@ -6,5 +6,4 @@ nameLessThan: anItem given: aLowercaseString
 	other := anItem lowerCaseName beginsWith: aLowercaseString.
 	(me & other not) ifTrue: [^true].
 	(other & me not) ifTrue: [^false].
-	^ nil
-	
+	^ #equals
