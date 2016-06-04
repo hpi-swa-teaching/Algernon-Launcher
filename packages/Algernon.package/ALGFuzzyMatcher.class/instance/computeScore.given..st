@@ -1,5 +1,9 @@
-as yet unclassified
+matching
 computeScore: anItem given: aStringCollection
+ 	"A bigger Rank is better" 
 
- 	"a smaller Rank is better" 
-	^ 10000000
+	| score query |
+	query := aStringCollection joinSeparatedBy: ' '.
+	score := self scoreAlgorithm scoreBetween: anItem lowerCaseName and: query.
+	anItem lowerCaseName = 'algcore' ifTrue: [ Transcript show: query ].
+	^ score negated

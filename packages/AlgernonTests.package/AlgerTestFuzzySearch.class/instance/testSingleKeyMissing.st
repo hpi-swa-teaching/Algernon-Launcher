@@ -2,7 +2,6 @@ testing
 testSingleKeyMissing
 	"Make sure normal input works"
 	| names |
-
 	self ensureMorphic.
 
 	algerstance show.

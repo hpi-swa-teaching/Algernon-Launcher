@@ -1,0 +1,14 @@
+{
+	"category" : "AlgernonTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"algorithm" ],
+	"name" : "ALGEditDistanceAlgorithmTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

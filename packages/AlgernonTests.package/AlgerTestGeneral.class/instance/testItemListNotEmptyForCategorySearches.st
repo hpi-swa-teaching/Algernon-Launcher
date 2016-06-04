@@ -1,5 +1,5 @@
 testing
-disabledTestItemListNotEmptyForCategorySearches
+testItemListNotEmptyForCategorySearches
 
 	self ensureMorphic.
 
