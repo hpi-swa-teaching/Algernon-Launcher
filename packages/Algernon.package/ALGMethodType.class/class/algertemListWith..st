@@ -1,10 +1,10 @@
 algertem lists
 algertemListWith: aClass
 
-	| classes algertems |
+	| algertems methods |
 	algertems := OrderedCollection new.
-	classes := aClass selectors asOrderedCollection.
-	classes do: [ :each | algertems add: (
+	methods := aClass selectors asOrderedCollection.
+	methods do: [ :each | algertems add: (
 		ALGItem withAlgertype: (self withType:each withClass:aClass) relevantForEmptyString: false)].
 	^ algertems
 

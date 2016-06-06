@@ -1,0 +1,15 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"childrenDict",
+		"methodSet" ],
+	"name" : "ALGPrefixTreeNode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

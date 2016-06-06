@@ -1,0 +1,14 @@
+{
+	"category" : "AlgernonTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rootNode" ],
+	"name" : "AlgerPrefixTreeNode",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

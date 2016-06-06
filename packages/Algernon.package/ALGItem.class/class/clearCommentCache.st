@@ -1,0 +1,3 @@
+caching
+clearCommentCache
+	commentCache := nil

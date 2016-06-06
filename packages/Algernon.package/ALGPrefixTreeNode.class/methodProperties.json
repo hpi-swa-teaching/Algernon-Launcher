@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"childrenDict" : "LK 6/6/2016 19:11",
+		"childrenDict:" : "LK 6/6/2016 19:11",
+		"find:" : "LK 6/6/2016 19:42",
+		"find:ifAbsent:" : "LK 6/6/2016 19:41",
+		"findAndCreate:" : "LK 6/6/2016 19:23",
+		"initialize" : "LK 6/6/2016 19:25",
+		"insert:with:" : "LK 6/6/2016 19:26",
+		"methodSet" : "LK 6/6/2016 19:25",
+		"methodSet:" : "LK 6/6/2016 19:25" } }

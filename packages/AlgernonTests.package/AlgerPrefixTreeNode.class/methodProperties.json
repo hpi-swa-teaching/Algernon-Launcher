@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "LK 6/6/2016 19:34",
+		"testFindNoMatch" : "LK 6/6/2016 19:38",
+		"testInsertExistingWord" : "LK 6/6/2016 19:35",
+		"testInsertNotExistingWord" : "LK 6/6/2016 19:37" } }
