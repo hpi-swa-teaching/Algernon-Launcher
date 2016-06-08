@@ -8,6 +8,9 @@ SmalltalkCISpec {
     }
   ],
   #testing : {
+    #coverage : {
+      #categories : [ 'Algernon' ]
+    }
     #exclude : {
       #classes : [ #AlgerTestKeyboardFocus, #AlgerTestFuzzySearch ]
     }
