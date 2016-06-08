@@ -1,4 +1,8 @@
 Algernon-Launcher [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-06.svg)](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-06)
+
+
+<!--  [![Coverage Status](https://coveralls.io/repos/github/HPI-SWA-Teaching/SWT16-Project-06/badge.svg?branch=master)](https://coveralls.io/github/HPI-SWA-Teaching/SWT16-Project-06?branch=master) -->
+
 ===================
 
 <p align="center">
@@ -46,18 +50,19 @@ Type one of the following Action Words to filter your search and for quick acces
 
 | Action Word | Action                                                    | Example                    |
 |-------------|-----------------------------------------------------------|----------------------------|
-| run         | run testcase                                              | run AbstractMergerTests    |
-| browse      | open Browser                                              | browse ALGActionWordFilter |
-| printout    | print on Transcript (when already opend) & ????           | printout ALGAction         |
-| fileout     | print on Transcript (when already opend) & ????           |                            |
-| open        | opens Tool                                                | open Dependency Browser    |
-| save        | ???                                                       |                            |
-| do          | ???                                                       |                            |
-| inspect     | ???                                                       |                            |
-| explore     | ???                                                       |                            |
-| apropos     | display matching comments                                 | apropos anything           |
-| which       | display matching comments                                 | which anything             |
-| ?           | display matching comments                                 | ? anything                 |
+| run         | runs testcase                                             | run AbstractMergerTests    |
+| browse      | opens browser                                             | browse ALGActionWordFilter |
+| printout    | generates a .html file in Resources of squeak image Folder| printout ALGAction         |
+| fileout     | generates a .st file in Resources of squeak image Folder  | printout ALGAction         |
+| open        | opens tool                                                | open Dependency Browser    |
+| save        |                                                           |                            |
+| do          | DoIt action with given argument                           |                            |
+| inspect     | inspect given argument (object)                           | inspect Algernon           |
+| explore     | explore given argument (opens explore window)             | explore ALGCore            |
+| apropos     | display matching class comments                           | apropos anything           |
+| which       | display matching class comments                           | which anything             |
+| ?           | display matching class comments                           | ? anything                 |
+| =           | prints result of numeric expression | =2*3| 
 
 
 ## Features
