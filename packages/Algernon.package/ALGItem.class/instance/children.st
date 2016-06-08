@@ -1,4 +1,4 @@
 accessing
 children
 
-	^ self algertype algertemChildrenList
+	^ self algerType algertemChildrenList

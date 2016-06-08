@@ -1,4 +1,4 @@
 accessing
-algertype
+algerType
 
-	^ algertype
+	^ algerType

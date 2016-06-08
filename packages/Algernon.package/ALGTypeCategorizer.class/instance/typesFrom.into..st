@@ -6,7 +6,7 @@ typesFrom: anItemCollection into: aDictionary
 	(anItemCollection size < maxIndex) ifTrue: [ maxIndex := anItemCollection size ].
 	(1 to: maxIndex) do: [ :i | | item key categories |
 		item := anItemCollection at: i.
-		key := item algertype typeName.
+		key := item algerType typeName.
 		aDictionary at: key ifAbsentPut: [ OrderedCollection new ].
 		categories := aDictionary at: key.
 		(categories size >= self class maxItemsPerCategory)

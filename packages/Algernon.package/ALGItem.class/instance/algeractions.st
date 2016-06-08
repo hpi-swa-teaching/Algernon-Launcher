@@ -1,4 +1,4 @@
 accessing
-algeractions
+algerActions
 
-	^ algeractions
+	^ algerActions

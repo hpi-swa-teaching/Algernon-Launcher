@@ -2,4 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"scoreBetween:and:" : "LK 6/2/2016 16:35" } }
+		"arrayOne" : "td 6/8/2016 20:45",
+		"arrayOne:" : "td 6/8/2016 20:45",
+		"arrayTwo" : "td 6/8/2016 20:45",
+		"arrayTwo:" : "td 6/8/2016 20:45",
+		"scoreBetween:and:" : "td 6/8/2016 20:53",
+		"scoreBetween:and:with:and:" : "td 6/8/2016 20:46" } }

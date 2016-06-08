@@ -3,5 +3,5 @@ iconFor: anItem
 
 	| typeName |
 	"(anItem isKindOf: ALGItem) ifFalse: [ ^ nil ]."
-	typeName := anItem algertype class name.
+	typeName := anItem algerType class name.
 	^ self loadIconFor: typeName

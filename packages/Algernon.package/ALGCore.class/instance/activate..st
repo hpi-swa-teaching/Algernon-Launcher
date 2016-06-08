@@ -10,6 +10,6 @@ activate: hand
 		showMorphs;
 		openInWorld.
 	self textField
-			contents: self class lastInputString;
-			selectAll
+		contents: self class lastInputString;
+		selectAll
 	

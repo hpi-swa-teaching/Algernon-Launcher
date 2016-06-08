@@ -1,6 +1,6 @@
 relevance
 matchesComment: aString
 
-	(self algertype hasComment)
+	(self algerType hasComment)
 		ifFalse: [ ^ false ].
-	^ (self class commentCache at: aString asSymbol ifAbsent: [^ false] ) includes: self algertype typeObject.
+	^ (self class commentCache at: aString asSymbol ifAbsent: [^ false] ) includes: self algerType typeObject.

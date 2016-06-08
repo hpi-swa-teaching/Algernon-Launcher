@@ -1,4 +1,4 @@
 accessing
-algeractions: anObject
+algerActions: anObject
 
-	algeractions := anObject
+	algerActions := anObject

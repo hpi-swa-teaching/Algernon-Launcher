@@ -1,4 +1,4 @@
 accessing
 name
 
-	^ algertype name
+	^ algerType name

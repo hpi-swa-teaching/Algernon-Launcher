@@ -1,4 +1,4 @@
 accessing
 hasChildren
 
-	^ self algertype hasChildren
+	^ self algerType hasChildren

@@ -2,7 +2,7 @@ drawing
 drawChildArrowOn: aCanvas with: anOffset
 
 	| childIcon |
-	(self item algertype hasChildren) ifFalse: [ ^ self ].
+	(self item algerType hasChildren) ifFalse: [ ^ self ].
 	childIcon := ((ALGIconFactory getInstance loadIconFor: #HasChildren)
 		scaledToSize: ALGIconFactory iconSize).
 	aCanvas

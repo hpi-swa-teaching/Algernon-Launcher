@@ -2,7 +2,7 @@ instance creation
 createListFrom: anItem
 
 	| items actions |
-	actions := anItem algeractions.
+	actions := anItem algerActions.
 	items := OrderedCollection new.
 	actions do: [ :anAction | | item |
 				item := self createFrom: anAction.
