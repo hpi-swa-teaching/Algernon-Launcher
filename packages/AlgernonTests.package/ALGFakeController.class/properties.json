@@ -1,0 +1,16 @@
+{
+	"category" : "AlgernonTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"deactivated",
+		"receivedKeyboardFocus",
+		"focus" ],
+	"name" : "ALGFakeController",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

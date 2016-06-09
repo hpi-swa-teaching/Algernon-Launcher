@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "LK 6/9/2016 11:51",
+		"testMouseDownDeactivates" : "LK 6/9/2016 11:50",
+		"testMouseUpPropagatesFocus" : "LK 6/9/2016 12:04" } }

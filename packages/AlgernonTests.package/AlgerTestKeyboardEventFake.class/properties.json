@@ -1,0 +1,15 @@
+{
+	"category" : "AlgernonTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"keyString",
+		"isKeyUp" ],
+	"name" : "AlgerTestKeyboardEventFake",
+	"pools" : [
+		 ],
+	"super" : "KeyboardEvent",
+	"type" : "normal" }

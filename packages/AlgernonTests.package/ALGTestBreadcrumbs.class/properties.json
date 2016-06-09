@@ -1,0 +1,15 @@
+{
+	"category" : "AlgernonTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"controller",
+		"breadcrumbs" ],
+	"name" : "ALGTestBreadcrumbs",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
