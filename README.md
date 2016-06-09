@@ -1,9 +1,7 @@
-Algernon-Launcher [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-06.svg)](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-06)
+# Algernon-Launcher [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-06.svg)](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-06)
 
 
 <!--  [![Coverage Status](https://coveralls.io/repos/github/HPI-SWA-Teaching/SWT16-Project-06/badge.svg?branch=master)](https://coveralls.io/github/HPI-SWA-Teaching/SWT16-Project-06?branch=master) -->
-
-===================
 
 <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/7422050/9015196/964cdde0-37c7-11e5-8ef6-f9baef559391.png" alt="Algernon"/>
