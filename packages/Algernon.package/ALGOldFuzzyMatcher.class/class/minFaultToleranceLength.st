@@ -1,4 +1,0 @@
-constants
-minFaultToleranceLength
-
-	^ 5
