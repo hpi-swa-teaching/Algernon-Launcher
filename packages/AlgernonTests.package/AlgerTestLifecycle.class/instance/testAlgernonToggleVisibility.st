@@ -2,7 +2,7 @@ testing
 testAlgernonToggleVisibility
 
 	|openAlgernonEvent|
-	openAlgernonEvent := AlgerTestKeyboardEventMock new 
+	openAlgernonEvent := AlgerTestKeyboardEventFake new 
 										keyString: ALGCore activationString;
 										isKeyUp: false.
 										
