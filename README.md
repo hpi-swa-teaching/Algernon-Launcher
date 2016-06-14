@@ -80,7 +80,7 @@ Type one of the following Action Words to filter your search and for quick acces
 
 Enter a class name to search within.
 Hit the right arrow key.
-Enter the search term for full text search (mehtod names and code) in that class.
+Enter the search term for full text search (method names and code) in that class.
 Matching methods are listed.
 
 
