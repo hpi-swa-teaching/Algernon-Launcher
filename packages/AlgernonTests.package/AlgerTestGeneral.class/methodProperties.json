@@ -4,6 +4,7 @@
 	"instance" : {
 		"testAlgernonClass" : "fw 7/31/2015 03:12",
 		"testBreadcrumbsList" : "PL 6/9/2016 12:20",
+		"testCloseWithEscape" : "PL 6/14/2016 10:27",
 		"testItemListEmptyForEmptyInput" : "LK 6/2/2016 16:17",
 		"testItemListNotEmptyForCategorySearches" : "LK 6/2/2016 16:17",
 		"testKeyboardInputOnlyOpensOnce" : "LK 6/9/2016 12:09",
