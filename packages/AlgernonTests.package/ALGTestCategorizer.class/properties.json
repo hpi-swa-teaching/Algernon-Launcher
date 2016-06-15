@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "LK 6/14/2016 10:28",
+	"commentStamp" : "",
 	"instvars" : [
-		"keyString",
-		"isKeyUp" ],
-	"name" : "AlgerTestKeyboardEventFake",
+		 ],
+	"name" : "ALGTestCategorizer",
 	"pools" : [
 		 ],
-	"super" : "KeyboardEvent",
+	"super" : "TestCase",
 	"type" : "normal" }

@@ -1,6 +1,6 @@
 caching
-getAt: aTerm
+getAt: aCacheKey
 
-	self itemsCache at: aTerm
+	self itemsCache at: aCacheKey
 		ifPresent: [ :items | ^ items ]
 		ifAbsent: [ ^ self emptyResult ]

@@ -8,5 +8,5 @@ relevantItemsFor: aString
 	(items isEmpty)
 		ifTrue: [ items := self evaluateSearchFor: lcs ]
 		ifFalse: [ self updateRelevanceFor: items given: lcs ].
-	self cache setItem: items at: cacheKey.
+	self cache putItems: items at: cacheKey.
 	^ items

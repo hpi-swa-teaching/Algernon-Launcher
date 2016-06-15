@@ -1,0 +1,1 @@
+An ALGFakeItem fakes an ALGItem in terms of providing means to set the rank explicitly.

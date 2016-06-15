@@ -1,6 +1,0 @@
-caching
-getItemFor: aTerm
-
-	self itemsCache at: aTerm
-		ifPresent: [ :items | ^ items ]
-		ifAbsent: [ ^ self emptyResult ]

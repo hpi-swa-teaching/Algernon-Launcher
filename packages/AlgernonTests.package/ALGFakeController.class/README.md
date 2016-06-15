@@ -1,0 +1,1 @@
+An ALGFakeController fakes an entity that accepts keboard events and stores received events instead of delegating them to Algernon.

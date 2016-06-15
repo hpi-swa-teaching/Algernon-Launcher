@@ -2,7 +2,7 @@ categorizing
 extractFrom: anItemCollection
 
 	| category maxIndex |
-	(anItemCollection size = 0) ifTrue: [ ^ self ].
+	anItemCollection ifEmpty: [ ^ self ].
 	category := ALGCategory newForTopResults.
 	maxIndex := self class maxNumTopResults.
 	(anItemCollection size < maxIndex)
