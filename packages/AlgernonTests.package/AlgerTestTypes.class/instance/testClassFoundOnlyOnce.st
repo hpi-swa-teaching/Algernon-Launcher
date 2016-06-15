@@ -5,7 +5,7 @@ testClassFoundOnlyOnce
 	self ensureMorphic.
 
 	algerstance show.
-	algerstance textField contents:'ALGAction'.
+	algerstance textField contents: 'ALGAction'.
 	algerstance updateItemList.
 
 	classSeperator := algerstance itemList items detect: [ :entries | entries contents = 'Class']. 
