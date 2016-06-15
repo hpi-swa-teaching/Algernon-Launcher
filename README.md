@@ -4,7 +4,7 @@
 <!--  [![Coverage Status](https://coveralls.io/repos/github/HPI-SWA-Teaching/SWT16-Project-06/badge.svg?branch=master)](https://coveralls.io/github/HPI-SWA-Teaching/SWT16-Project-06?branch=master) -->
 
 <p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/7422050/9015196/964cdde0-37c7-11e5-8ef6-f9baef559391.png" alt="Algernon"/>
+  <img src="https://cloud.githubusercontent.com/assets/6453623/16036676/47e23582-321d-11e6-9032-bcb96873d348.png" width="465" alt="Algernon"/>
 </p>
 
 Algernon is a productivity tool for Squeak programmers; your personal assistant for Squeak. Algernon aims to make programming in Squeak faster and more keyboard centric. It provides lightning quick access to the core functionalities (classes, methods, morphs, tests, repositories ...) and even gives you a quick way to evaluate Smalltalk expressions.
@@ -80,7 +80,7 @@ Type one of the following Action Words to filter your search and for quick acces
 
 Enter a class name to search within.
 Hit the right arrow key.
-Enter the search term for full text search (mehtod names and code) in that class.
+Enter the search term for full text search (method names and code) in that class.
 Matching methods are listed.
 
 
