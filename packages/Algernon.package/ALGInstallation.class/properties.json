@@ -1,0 +1,14 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Instance" ],
+	"commentStamp" : "JS 6/16/2016 18:19",
+	"instvars" : [
+		"versionNumber" ],
+	"name" : "ALGInstallation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

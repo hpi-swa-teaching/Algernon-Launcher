@@ -1,0 +1,3 @@
+accessing
+latestVersion
+	^ 1
