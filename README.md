@@ -1,5 +1,4 @@
-# Algernon-Launcher [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-06.svg)](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-06)
-
+# Algernon-Launcher [![GitHub release](https://img.shields.io/github/release/HPI-SWA-Teaching/SWT16-Project-06.svg?label=small release&maxAge=2592000)](https://github.com/HPI-SWA-Teaching/SWT16-Project-06/releases/latest) [![Github All Releases](https://img.shields.io/github/downloads/HPI-SWA-Teaching/SWT16-Project-06/total.svg?maxAge=60)](https://github.com/HPI-SWA-Teaching/SWT16-Project-06/releases) [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-06.svg)](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-06) [![GitHub stars](https://img.shields.io/github/stars/HPI-SWA-Teaching/SWT16-Project-06.svg?style=social&label=Star&maxAge=2592000)](https://github.com/HPI-SWA-Teaching/SWT16-Project-06/stargazers)
 
 <!--  [![Coverage Status](https://coveralls.io/repos/github/HPI-SWA-Teaching/SWT16-Project-06/badge.svg?branch=master)](https://coveralls.io/github/HPI-SWA-Teaching/SWT16-Project-06?branch=master) -->
 
