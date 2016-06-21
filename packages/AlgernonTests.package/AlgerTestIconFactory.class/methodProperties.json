@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testIconFactoryFileMapping" : "fw 7/31/2015 03:13" } }
+		"testIconFactoryFileMapping" : "fw 7/31/2015 03:13",
+		"testLoadIconFor" : "PL 6/21/2016 10:05",
+		"testLoadIconFor:withFactory:" : "PL 6/21/2016 10:04" } }
