@@ -2,8 +2,8 @@ actions
 doit
 
 	| command textFieldContents |
-	textFieldContents := typeObject textField contents.
-	(textFieldContents size = 0) ifTrue: [ ^ true ].
+	textFieldContents := self typeObject textField contents.
+	textFieldContents ifEmpty:  [self flag: #bug.  ^ true ]. "textField should not be empty"
 	command := textFieldContents copyFrom: 2 to: textFieldContents size.
 	^ Compiler evaluate: command for: self logged: false
 		

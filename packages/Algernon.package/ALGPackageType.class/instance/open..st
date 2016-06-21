@@ -1,4 +1,4 @@
 actions
 open: aPackage
 
-	MCWorkingCopyBrowser new show
+	MCWorkingCopyBrowser open

@@ -2,8 +2,9 @@ actions
 openPackage: aPackage
 
 	| mc workingCopy |
-	workingCopy := ((MCWorkingCopyBrowser new workingCopies)
-		select: [ :element | (element packageName) = aPackage]) at: 1.
+	workingCopy := (MCWorkingCopyBrowser new workingCopies)
+		detect: [ :element | (element packageName) = aPackage].
 	mc := MCWorkingCopyBrowser new.
-	mc workingCopy: workingCopy.
-	mc browseWorkingCopy
+	mc 
+		show;
+		workingCopy: workingCopy

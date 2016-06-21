@@ -1,5 +1,5 @@
 accessing
 getRepositoryFrom: aWorkingCopy with: aLabel
 
-	^ ((aWorkingCopy repositoryGroup normalizedRepositories)
-		select: [ :element | (element description) = aLabel]) at: 1
+	^ (aWorkingCopy repositoryGroup normalizedRepositories)
+		detect: [ :element | element description = aLabel]

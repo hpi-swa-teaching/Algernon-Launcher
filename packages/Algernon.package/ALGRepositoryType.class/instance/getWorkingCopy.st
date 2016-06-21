@@ -1,5 +1,5 @@
 accessing
 getWorkingCopy
 
-	^ ((MCWorkingCopyBrowser new workingCopies)
-			select: [ :element | (element packageName) = self repositoryPackage]) at: 1
+	^ (MCWorkingCopyBrowser new workingCopies)
+			detect: [ :element | element packageName = self repositoryPackage]

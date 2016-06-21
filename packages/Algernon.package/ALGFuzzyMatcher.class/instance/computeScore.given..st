@@ -5,5 +5,4 @@ computeScore: anItem given: aStringCollection
 	| score query |
 	query := aStringCollection joinSeparatedBy: ' '.
 	score := self scoreAlgorithm scoreBetween: anItem lowerCaseName and: query.
-	anItem lowerCaseName = 'algcore' ifTrue: [ Transcript show: query ].
 	^ score negated

@@ -3,7 +3,7 @@ createActionBrowseNewFor: aCategory
 
 	^ ALGAction
 			withName: 'browse (new)' 
-			rank: 4
+			rank: 5
 			target: self
 			selector: #openInNewBrowser: 
 			args: (OrderedCollection with: aCategory)

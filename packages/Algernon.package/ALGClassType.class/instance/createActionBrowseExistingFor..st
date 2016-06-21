@@ -3,7 +3,7 @@ createActionBrowseExistingFor: aClass
 
 	^ ALGAction
 			withName: 'browse (existing)' 
-			rank: 10
+			rank: 9
 			target: self
 			selector: #openInExistingBrowser: 
 			args: (OrderedCollection with: aClass)	
