@@ -6,5 +6,4 @@ createListOfAlgeractions
 	^ self createSortedListFrom: {
 		self createActionBrowseExistingFor: aCategory.
 		self createActionBrowseNewFor: aCategory.
-		self createActionFileoutFor: aCategory.
-		self createActionPrintoutFor: aCategory }
+		self createActionFileoutFor: aCategory }

@@ -47,8 +47,7 @@ Type one of the following Action Words to filter your search and for quick acces
 |-------------|-----------------------------------------------------------|----------------------------|
 | run         | runs testcase                                             | run AbstractMergerTests    |
 | browse      | opens browser                                             | browse ALGActionWordFilter |
-| printout    | generates a .html file in Resources of squeak image Folder| printout ALGAction         |
-| fileout     | generates a .st file in Resources of squeak image Folder  | printout ALGAction         |
+| fileout     | generates a .st file in Resources of squeak image Folder  | fileout ALGAction          |
 | open        | opens tool                                                | open Dependency Browser    |
 | save        |                                                           |                            |
 | do          | DoIt action with given argument                           |                            |

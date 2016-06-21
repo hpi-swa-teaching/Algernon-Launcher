@@ -8,6 +8,5 @@ createListOfAlgeractions
 		self createActionBrowseExistingFor: aClass .
 		self createActionBrowseNewFor: aClass .
 		self createActionFileoutFor: aClass .
-		self createActionPrintoutFor: aClass .
 		self createActionExploreFor: aClass .
 		self createActionInspectFor: aClass }
