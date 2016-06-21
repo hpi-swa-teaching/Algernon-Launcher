@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"setup" : "td 6/21/2016 12:14",
 		"testAlgernonClass" : "fw 7/31/2015 03:12",
 		"testBreadcrumbsList" : "PL 6/9/2016 12:20",
 		"testCloseWithEscape" : "PL 6/14/2016 10:27",
