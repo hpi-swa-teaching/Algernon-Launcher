@@ -1,4 +1,0 @@
-constants
-maxChildrenToSearch
-
-	^ 3
