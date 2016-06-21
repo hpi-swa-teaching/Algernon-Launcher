@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
+		"setUp" : "td 6/21/2016 10:22",
 		"testMethodCalls" : "LK 5/26/2016 21:23",
 		"testTemporaryNames" : "LK 5/26/2016 21:23" } }
