@@ -1,7 +1,6 @@
 {
 	"class" : {
-		"minFaultToleranceLength" : "td 6/1/2016 21:53:43.980442",
-		"newFor:" : "td 6/1/2016 21:53:43.980442" },
+		 },
 	"instance" : {
 		"computeScore:given:" : "LK 6/4/2016 11:14",
 		"initialize" : "LK 6/2/2016 16:37",

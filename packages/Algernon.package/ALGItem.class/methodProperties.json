@@ -1,7 +1,6 @@
 {
 	"class" : {
 		"add:toDict:atValue:" : "LK 6/1/2016 22:00",
-		"addClass:toDict:atValue:" : "LK 5/26/2016 23:35",
 		"buildCommentCache" : "LK 6/1/2016 22:22",
 		"buildMethodCache" : "LK 6/6/2016 20:04",
 		"clearCommentCache" : "LK 6/1/2016 21:30",
