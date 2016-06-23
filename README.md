@@ -33,7 +33,10 @@ Algernon is a productivity tool for Squeak programmers; your personal assistant 
   ```
   Cmd + Shift + Space
   ```
-You can always customize the keyboard shortcut in Tools > Preferences > Algernon.
+You can always customize the keyboard shortcut :
+  ```
+  Tools > Preferences > Algernon
+  ```
 
 ## Usage
 
