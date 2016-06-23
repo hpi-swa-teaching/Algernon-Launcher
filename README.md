@@ -25,7 +25,7 @@ Algernon is a productivity tool for Squeak programmers; your personal assistant 
 
 4. Now you can toggle the Algernon panel using:
 
-  Windows:
+  Windows and Linux:
   ```
   Alt + Space
   ```
@@ -33,7 +33,7 @@ Algernon is a productivity tool for Squeak programmers; your personal assistant 
   ```
   Cmd + Shift + Space
   ```
-
+You can always customize the keyboard shortcut in Tools > Preferences > Algernon.
 
 ## Usage
 
@@ -50,8 +50,6 @@ Algernon is a productivity tool for Squeak programmers; your personal assistant 
 
 ## Features
 
-
-
 - Search using fuzzy matching
 - Search and open categories, classes and methods
 - Explore and inspect classes and methods
@@ -64,7 +62,7 @@ Algernon is a productivity tool for Squeak programmers; your personal assistant 
 - Action verbs for filtering and quick access (e.g. `run SomeTest` will only search for tests and set a default action)
 - full text search in classe
 
-For explanations regarding the usage features check out the wiki.
+For explanations regarding the usage of the features check out the wiki.
 
 
 ## Credits
