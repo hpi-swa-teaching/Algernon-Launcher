@@ -40,26 +40,10 @@ Algernon is a productivity tool for Squeak programmers; your personal assistant 
 | Arrow left  | Navigate out      |
 | Enter       | Run selected item |
 
-## Hotwords
-Type one of the following Action Words to filter your search and for quick access (e.g. `run SomeTest` will only search for tests and set a default action).
-
-| Action Word | Action                                                    | Example                    |
-|-------------|-----------------------------------------------------------|----------------------------|
-| run         | runs testcase                                             | run AbstractMergerTests    |
-| browse      | opens browser                                             | browse ALGActionWordFilter |
-| fileout     | generates a .st file in Resources of squeak image Folder  | fileout ALGAction          |
-| open        | opens tool                                                | open Dependency Browser    |
-| save        |                                                           |                            |
-| do          | DoIt action with given argument                           |                            |
-| inspect     | inspect given argument (object)                           | inspect Algernon           |
-| explore     | explore given argument (opens explore window)             | explore ALGCore            |
-| apropos     | display matching class comments                           | apropos anything           |
-| which       | display matching class comments                           | which anything             |
-| ?           | display matching class comments                           | ? anything                 |
-| =           | prints result of numeric expression | =2*3| 
-
 
 ## Features
+
+
 
 - Search using fuzzy matching
 - Search and open categories, classes and methods
@@ -69,15 +53,11 @@ Type one of the following Action Words to filter your search and for quick acces
 - Search preferences
 - Search morphs
 - Search global variables
-- Print and evaluate Smalltalk expressions (e.g. enter `= 2*3`)
+- Print and evaluate Smalltalk expressions 
 - Action verbs for filtering and quick access (e.g. `run SomeTest` will only search for tests and set a default action)
+- full text search in classe
 
-### Full Text Search in Classes
-
-Enter a class name to search within.
-Hit the right arrow key.
-Enter the search term for full text search (method names and code) in that class.
-Matching methods are listed.
+For explanations regarding the usage features check out the wiki.
 
 
 ## Credits
