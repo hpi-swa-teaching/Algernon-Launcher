@@ -24,9 +24,16 @@ Algernon is a productivity tool for Squeak programmers; your personal assistant 
   ```
 
 4. Now you can toggle the Algernon panel using:
+
+  Windows:
   ```
   Alt + Space
   ```
+  Mac:
+  ```
+  Cmd + Shift + Space
+  ```
+
 
 ## Usage
 
