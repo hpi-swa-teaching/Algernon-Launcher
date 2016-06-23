@@ -1,8 +1,10 @@
 {
 	"class" : {
 		"maxItemsPerCategory" : "J.J. 7/28/2015 19:44",
-		"maxNumItems" : "J.J. 7/30/2015 19:38" },
+		"maxNumItems" : "JS 6/23/2016 11:48" },
 	"instance" : {
-		"categorize:" : "J.J. 7/30/2015 19:38",
+		"categorize:" : "JS 6/23/2016 11:33",
+		"countCategoriesFrom:" : "JS 6/23/2016 11:43",
 		"extractFrom:to:" : "J.J. 7/28/2015 19:43",
-		"typesFrom:into:" : "td 6/8/2016 21:04" } }
+		"typesFrom:" : "JS 6/23/2016 11:46",
+		"typesFrom:withMaximum:" : "JS 6/23/2016 11:40" } }
