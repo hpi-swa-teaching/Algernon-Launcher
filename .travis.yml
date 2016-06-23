@@ -5,3 +5,7 @@ smalltalk:
   - Squeak-trunk
   - Squeak-5.0
   - Squeak-4.6
+
+os:
+  - linux
+  - osx
