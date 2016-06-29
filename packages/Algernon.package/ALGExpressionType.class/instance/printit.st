@@ -3,7 +3,7 @@ printit
 
 	| command textFieldContents |
 	textFieldContents := self typeObject textField contents.
-	textFieldContents ifEmpty: [ ^ nil ].
+	textFieldContents ifEmpty: [ ^ false ].
 	command := textFieldContents allButFirst. "first character is '=' "
 	World findATranscript: nil.
 	Transcript show: command; show: ' -> ';

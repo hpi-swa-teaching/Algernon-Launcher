@@ -1,4 +1,4 @@
 accessing
 name
 
-	^ self typeObject at: 1
+	^ self typeObject first

@@ -1,4 +1,4 @@
 accessing
 oldKeyboardFocus
 
-	^ oldFoci at: 1
+	^ oldFoci first

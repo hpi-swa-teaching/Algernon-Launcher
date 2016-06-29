@@ -1,4 +1,4 @@
 accessing
 isEmpty
 
-	^ self currentContent size = 0
+	^ self currentContent isEmpty

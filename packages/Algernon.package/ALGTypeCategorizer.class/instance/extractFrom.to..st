@@ -8,5 +8,5 @@ extractFrom: aDictionary to: aCollection
 		items := aDictionary at: key.
 		(items size < maxIndex)
 			ifTrue: [ maxIndex := items size ].
-		(1 to: maxIndex) do: [ :i | category add: (items at: i) ].
+		1 to: maxIndex do: [ :i | category add: (items at: i) ].
 		aCollection add: category ]

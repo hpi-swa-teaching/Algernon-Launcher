@@ -7,5 +7,5 @@ extractFrom: anItemCollection
 	maxIndex := self class maxNumTopResults.
 	(anItemCollection size < maxIndex)
 		ifTrue: [ maxIndex := anItemCollection size ].
-	(1 to: maxIndex) do: [ :i | category add: (anItemCollection at: i) ].
+	1 to: maxIndex do: [ :i | category add: (anItemCollection at: i) ].
 	^ category

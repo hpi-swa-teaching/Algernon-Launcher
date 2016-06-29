@@ -1,4 +1,4 @@
 accessing
 inChild
 
-	^ self searchStack size > 0
+	^ self searchStack isEmpty
