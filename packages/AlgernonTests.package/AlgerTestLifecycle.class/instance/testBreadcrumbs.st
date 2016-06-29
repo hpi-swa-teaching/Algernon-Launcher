@@ -1,5 +1,5 @@
 testing
-testBreadcrubs
+testBreadcrumbs
 
 	|searchTerm|
 	searchTerm := 'test'.
