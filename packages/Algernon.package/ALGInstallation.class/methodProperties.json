@@ -2,11 +2,11 @@
 	"class" : {
 		"instance" : "JS 6/16/2016 18:53" },
 	"instance" : {
-		"cleanup" : "JS 6/16/2016 18:57",
-		"exportAsSarArchive" : "JS 6/16/2016 20:00",
+		"cleanup" : "JS 6/30/2016 00:03",
+		"exportAsSarArchive" : "JS 6/29/2016 23:31",
 		"initialize" : "JS 6/16/2016 18:45",
-		"latestVersion" : "JS 6/16/2016 19:28",
-		"sarFromPackage:" : "JS 6/16/2016 19:58",
+		"latestVersion" : "JS 6/29/2016 22:07",
+		"sarFromPackage:" : "JS 6/29/2016 22:10",
 		"upgrade" : "JS 6/16/2016 19:16",
 		"versionNumber" : "JS 6/16/2016 18:17",
 		"versionNumber:" : "JS 6/16/2016 18:17" } }

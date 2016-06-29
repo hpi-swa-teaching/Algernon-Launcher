@@ -6,6 +6,7 @@ sarFromPackage: package
 	mczStream := RWBinaryOrTextStream on: (String new: 10000).
 	workingCopy := MCWorkingCopy forPackage: (MCPackage new name: package).
 	version := workingCopy newVersion.
+	version ifNil: [ ^ self]. "user canceled export"
 	version fileOutOn: mczStream.
 	(zip addString: mczStream contents as: package , '.mcz') desiredCompressionLevel: 0.
 	zip addString: 'self fileInMonticelloZipVersionNamed:
