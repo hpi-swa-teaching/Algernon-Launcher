@@ -3,17 +3,5 @@
 		 },
 	"instance" : {
 		"setUp" : "LK 6/9/2016 11:38",
-		"testCreateListeOfAlgeractionsActionType" : "td 6/23/2016 09:41",
-		"testCreateListeOfAlgeractionsCategoryType" : "td 6/23/2016 09:42",
-		"testCreateListeOfAlgeractionsClassType" : "td 6/23/2016 09:45",
-		"testCreateListeOfAlgeractionsExpressionType" : "td 6/23/2016 09:43",
-		"testCreateListeOfAlgeractionsGlobalVariableType" : "td 6/23/2016 09:43",
-		"testCreateListeOfAlgeractionsMethodType" : "td 6/23/2016 09:44",
-		"testCreateListeOfAlgeractionsMorphType" : "td 6/23/2016 09:46",
-		"testCreateListeOfAlgeractionsPackageType" : "td 6/23/2016 09:47",
-		"testCreateListeOfAlgeractionsRepositoryType" : "td 6/23/2016 09:59",
-		"testCreateListeOfAlgeractionsSettingsType" : "td 6/23/2016 09:47",
-		"testCreateListeOfAlgeractionsTestType" : "td 6/23/2016 09:49",
-		"testCreateListeOfAlgeractionsWorldMenuMorphType" : "td 6/23/2016 09:46",
 		"testRanking" : "LK 6/9/2016 11:39",
 		"testSelectionIncrement" : "LK 6/9/2016 11:26" } }
