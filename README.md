@@ -63,7 +63,7 @@ You can always customize the keyboard shortcut :
 - Search global variables
 - Print and evaluate Smalltalk expressions 
 - Action verbs for filtering and quick access (e.g. `run SomeTest` will only search for tests and set a default action)
-- full text search in classe
+- full text search in classes
 
 For explanations regarding the usage of the features check out the [wiki](https://github.com/HPI-SWA-Teaching/SWT16-Project-06/wiki).
 
