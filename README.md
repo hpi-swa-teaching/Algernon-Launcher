@@ -25,15 +25,11 @@ Algernon is a productivity tool for Squeak programmers; your personal assistant 
 
 4. Now you can toggle the Algernon panel using:
 
-  Windows and Linux:
-  ```
-  Alt + Space
-  ```
-  Mac:
-  ```
-  Cmd + Shift + Space
-  ```
-You can always customize the keyboard shortcut :
+  Windows and Linux:  <kbd>Alt</kbd>+<kbd>Space</kbd>
+
+  Mac: <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>Space</kbd>
+
+  You can always customize the keyboard shortcut :
   ```
   Tools > Preferences > Algernon
   ```
