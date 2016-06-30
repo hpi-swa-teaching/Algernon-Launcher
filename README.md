@@ -66,5 +66,11 @@ For explanations regarding the usage of the features check out the [wiki](https:
 
 ## Credits
 
+*  [Ann Katrin Kuessner](https://github.com/annkatrinkuessner)
+*  [Jonathan Schneider](https://github.com/jonaschn)
+*  [Louis Kirsch](https://github.com/timediv)
+*  [Pius Ladenburger](https://github.com/GittiHab)
+*  [Tobias Dürschmid](https://github.com/tobiduer)
+
 
 Credits to Erik Hinterbichler and Joey Hagedorn, [the original creators of Algernon.](http://erikhinterbichler.com/apps/algernon/)
