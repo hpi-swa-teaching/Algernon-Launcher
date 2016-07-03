@@ -3,5 +3,17 @@
 		 },
 	"instance" : {
 		"setUp" : "LK 6/9/2016 11:38",
+		"testCreateListeOfAlgeractionsActionType" : "JS 6/30/2016 00:26:18.09153",
+		"testCreateListeOfAlgeractionsCategoryType" : "JS 6/30/2016 00:26:18.09153",
+		"testCreateListeOfAlgeractionsClassType" : "JS 6/30/2016 00:26:18.09153",
+		"testCreateListeOfAlgeractionsExpressionType" : "JS 6/30/2016 00:26:18.09153",
+		"testCreateListeOfAlgeractionsGlobalVariableType" : "JS 6/30/2016 00:26:18.09153",
+		"testCreateListeOfAlgeractionsMethodType" : "JS 6/30/2016 00:26:18.09153",
+		"testCreateListeOfAlgeractionsMorphType" : "JS 6/30/2016 00:26:18.09153",
+		"testCreateListeOfAlgeractionsPackageType" : "JS 6/30/2016 00:26:18.09153",
+		"testCreateListeOfAlgeractionsRepositoryType" : "JS 6/30/2016 00:26:18.09153",
+		"testCreateListeOfAlgeractionsSettingsType" : "JS 6/30/2016 00:26:18.09153",
+		"testCreateListeOfAlgeractionsTestType" : "JS 6/30/2016 00:26:18.09153",
+		"testCreateListeOfAlgeractionsWorldMenuMorphType" : "JS 6/30/2016 00:26:18.09153",
 		"testRanking" : "LK 6/9/2016 11:39",
 		"testSelectionIncrement" : "LK 6/9/2016 11:26" } }
