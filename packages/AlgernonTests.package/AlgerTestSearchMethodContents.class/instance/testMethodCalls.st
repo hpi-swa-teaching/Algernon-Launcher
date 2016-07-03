@@ -9,4 +9,4 @@ testMethodCalls
 	algerstance updateItemList.
 	algerstance showChildList.
 	
-	self assert:((algerstance itemProvider relevantItemsFor: 'sourceCodeAt:') size >= 1)
+	self deny: (algerstance itemProvider relevantItemsFor: 'sourceCodeAt:') isEmpty

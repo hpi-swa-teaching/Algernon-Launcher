@@ -8,5 +8,5 @@ testTemporaryNames
 	algerstance textField contents:'ALGMethodType'.
 	algerstance updateItemList.
 	algerstance showChildList.
-	
-	self assert:((algerstance itemProvider relevantItemsFor: 'aLowercaseString')  size >= 1)
+
+	self deny: (algerstance itemProvider relevantItemsFor: 'aLowercaseString')  isEmpty

@@ -1,4 +1,4 @@
 as yet unclassified
 testEditDistanceEmptyStrings
 	
-	self assert: (algorithm scoreBetween: '' and: '') equals: 0
+	self assert: 0 equals: (algorithm scoreBetween: String empty and: String empty)

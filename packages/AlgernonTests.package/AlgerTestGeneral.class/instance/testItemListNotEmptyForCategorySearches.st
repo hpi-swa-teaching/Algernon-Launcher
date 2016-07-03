@@ -7,4 +7,4 @@ testItemListNotEmptyForCategorySearches
 	algerstance textField contents:'AlgernonTests'.
 	algerstance updateItemList.
 
-	self assert: algerstance itemList items size > 0
+	self deny: algerstance itemList items isEmpty

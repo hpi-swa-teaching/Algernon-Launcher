@@ -11,4 +11,4 @@ testClassFoundOnlyOnce
 	classSeperator := algerstance itemList items detect: [ :entries | entries contents = 'Class']. 
 	classItems := algerstance itemList items copyAfter: classSeperator.
 	names := classItems collect: [ :entries | entries item name ].
-	self assert: ((names count: [ :each | each = 'ALGAction']) = 1).
+	self assert: 1 equals: (names count: [ :each | each = 'ALGAction'])

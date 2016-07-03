@@ -1,4 +1,4 @@
 as yet unclassified
 testEditDistance1Deletion
 	
-	self assert: (algorithm scoreBetween: 'hamburger' and: 'haburger') equals: 1
+	self assert: 1 equals: (algorithm scoreBetween: 'hamburger' and: 'haburger')

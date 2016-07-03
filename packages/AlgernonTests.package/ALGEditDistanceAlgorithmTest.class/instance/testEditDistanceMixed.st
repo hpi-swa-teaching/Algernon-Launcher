@@ -1,4 +1,4 @@
 as yet unclassified
 testEditDistanceMixed
 	
-	self assert: (algorithm scoreBetween: 'comuter' and: 'commuta') equals: 3
+	self assert: 3 equals: (algorithm scoreBetween: 'comuter' and: 'commuta')

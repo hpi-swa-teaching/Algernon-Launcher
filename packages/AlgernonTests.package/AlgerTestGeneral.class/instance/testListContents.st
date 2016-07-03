@@ -2,4 +2,4 @@ testing
 testListContents
 
 	self ensureMorphic.
-	self assert: (algerstance itemProvider relevantItemsFor:'Algernon') size > 0
+	self deny: (algerstance itemProvider relevantItemsFor:'Algernon') isEmpty

@@ -10,11 +10,11 @@ testAlgernonToggleVisibility
 	self assert: algerstance active. 
 	
 	algerstance toggleVisibility: openAlgernonEvent.
-	self assert: algerstance active not. 
+	self deny: algerstance active.
 	
 	algerstance toggleVisibility: openAlgernonEvent.
 	self assert: algerstance active.
 
 	algerstance deactivate.
-	self assert: algerstance active not. 
+	self deny: algerstance active.
 	

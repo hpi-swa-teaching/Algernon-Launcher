@@ -3,4 +3,4 @@ testEmptyCache
 
 	| cache |
 	cache := ALGCache new.
-	self assert: 0 equals: (cache getAt: 'testKey') size
+	self assert: (cache getAt: 'testKey') isEmpty

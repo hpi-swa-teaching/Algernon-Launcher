@@ -4,7 +4,7 @@
 	"instance" : {
 		"testCategoryNotEmpty" : "fw 7/31/2015 19:06",
 		"testClassFoundByCommentWithoutActionVerbs" : "AKK 6/14/2016 09:17",
-		"testClassFoundOnlyOnce" : "AKK 6/14/2016 09:17",
+		"testClassFoundOnlyOnce" : "td 7/3/2016 15:38",
 		"testClassNotEmpty" : "fw 7/31/2015 19:07",
 		"testExpressionNotEmpty" : "fw 7/31/2015 19:09",
 		"testGlobalVariableNotEmpty" : "fw 7/31/2015 19:10",
