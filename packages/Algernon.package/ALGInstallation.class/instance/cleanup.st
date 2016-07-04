@@ -7,4 +7,5 @@ cleanup
 	ALGCache allInstancesDo: [ :cache | cache clear]. 
 	Smalltalk garbageCollect.
 	Algernon activateAlgernon: isActive.
-	ALGItemProvider initializeItems
+	ALGItemProvider initializeItems.
+	ALGItem clearCommentCache

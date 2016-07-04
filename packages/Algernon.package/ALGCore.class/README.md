@@ -1,4 +1,4 @@
-Algernon is a system wide launcher/search tool that lets you easily find and open things in Squeak. Inspired by similar tools for Mac OS X (Quicksilver, Launchbar, Butler).
+Algernon is a system wide launcher/search tool that lets you easily find and open things in Squeak. Inspired by similar tools for Mac OS X (Quicksilver, Launchbar, Butler, Spotlight ).
 
 Instance Variables
 	itemList:			ALGResultList 		the menu of items that pops up as you type
