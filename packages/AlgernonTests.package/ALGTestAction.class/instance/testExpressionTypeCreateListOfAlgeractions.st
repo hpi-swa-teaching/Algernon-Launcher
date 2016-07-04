@@ -1,0 +1,4 @@
+testing
+testExpressionTypeCreateListOfAlgeractions
+	
+	self assert: ALGExpressionType new createListOfAlgeractions notEmpty

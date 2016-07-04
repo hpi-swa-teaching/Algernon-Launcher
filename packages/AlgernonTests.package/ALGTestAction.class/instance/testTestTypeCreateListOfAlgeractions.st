@@ -1,0 +1,4 @@
+testing
+testTestTypeCreateListOfAlgeractions
+	
+	self assert: ALGTestType new createListOfAlgeractions notEmpty

@@ -1,0 +1,4 @@
+testing
+testWorldMenuMorphTypeCreateListOfAlgeractions
+	
+	self assert: ALGWorldMenuMorphType new createListOfAlgeractions notEmpty
