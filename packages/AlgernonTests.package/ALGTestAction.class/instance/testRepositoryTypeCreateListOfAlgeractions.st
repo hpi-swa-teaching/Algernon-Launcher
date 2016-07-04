@@ -6,4 +6,4 @@ testRepositoryTypeCreateListOfAlgeractions
 	repos do: [ :each |
 		self assert: (ALGRepositoryType
 				withType: (each description)
-				withPackage: 'Algernon') createListOfAlgeractions notEmpty ].
+				withPackage: 'Algernon') createListOfAlgeractions notEmpty]
