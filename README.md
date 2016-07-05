@@ -7,32 +7,7 @@
 Algernon is a productivity tool for Squeak programmers; your personal assistant for Squeak. Algernon aims to make programming in Squeak faster and more keyboard centric. It provides lightning quick access to the core functionalities (classes, methods, morphs, tests, repositories ...) and even gives you a quick way to evaluate Smalltalk expressions.
 
 ## Installation
-1. Make sure you have [metacello-work](https://github.com/dalehenrich/metacello-work) installed.
-
-2. Load the project by running the following in your workspace:
-  ```smalltalk
-  Metacello new
-    baseline: 'Algernon';
-    repository: 'github://HPI-SWA-Teaching/Algernon-Launcher:master/packages';
-    onConflict: [:ex | ex allow];
-    load
-  ```
-
-3. Activate the panel in the preferences:
-  ```
-  Tools > Preferences > Algernon
-  ```
-
-4. Now you can toggle the Algernon panel using:
-
-  Windows and Linux:  <kbd>Alt</kbd>+<kbd>Space</kbd>
-
-  Mac: <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>Space</kbd>
-
-  You can always customize the keyboard shortcut :
-  ```
-  Tools > Preferences > Algernon
-  ```
+Follow our [setup guide](https://github.com/HPI-SWA-Teaching/SWT16-Project-06/wiki/Setup-Guide) to install Algernon.
 
 ## Usage
 
