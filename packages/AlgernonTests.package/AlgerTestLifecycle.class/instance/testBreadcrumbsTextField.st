@@ -2,8 +2,7 @@ testing
 testBreadcrumbsTextField
 
 	|searchTerm|
-	searchTerm := 'test'.
-	
+	searchTerm := 'test'.	
 	Algernon open. 
 	Algernon currentInstance textField contents: searchTerm.
 	Algernon currentInstance updateItemList.
