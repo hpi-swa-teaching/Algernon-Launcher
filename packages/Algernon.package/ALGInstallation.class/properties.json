@@ -6,7 +6,8 @@
 		"Instance" ],
 	"commentStamp" : "JS 6/16/2016 18:19",
 	"instvars" : [
-		"versionNumber" ],
+		"versionNumber",
+		"lastCleanupDate" ],
 	"name" : "ALGInstallation",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
-accessing
+export
 sarFromPackage: package
 	| mczStream version workingCopy zip |
 	

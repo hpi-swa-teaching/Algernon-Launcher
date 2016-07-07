@@ -2,10 +2,13 @@
 	"class" : {
 		"instance" : "JS 6/16/2016 18:53" },
 	"instance" : {
-		"cleanup" : "LK 7/4/2016 18:37",
+		"cleanup" : "LK 7/7/2016 11:23",
+		"cleanupIfNewDay" : "LK 7/7/2016 11:31",
 		"exportAsSarArchive" : "JS 6/29/2016 23:31",
-		"initialize" : "JS 6/16/2016 18:45",
-		"latestVersion" : "JS 6/29/2016 22:07",
+		"initialize" : "LK 7/7/2016 11:39",
+		"lastCleanupDate" : "LK 7/7/2016 11:41",
+		"lastCleanupDate:" : "LK 7/7/2016 11:20",
+		"latestVersion" : "LK 7/7/2016 11:22",
 		"sarFromPackage:" : "JS 6/29/2016 22:10",
 		"upgrade" : "JS 6/16/2016 19:16",
 		"versionNumber" : "JS 6/16/2016 18:17",

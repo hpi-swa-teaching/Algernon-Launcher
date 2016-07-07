@@ -1,4 +1,4 @@
-accessing
+version
 upgrade
 	self latestVersion > self versionNumber
 		ifTrue: [ self cleanup. 

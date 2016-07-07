@@ -1,4 +1,4 @@
-accessing
+cleanup
 cleanup 
 	| isActive |
 	isActive := Algernon activateAlgernon.
@@ -8,4 +8,5 @@ cleanup
 	Smalltalk garbageCollect.
 	Algernon activateAlgernon: isActive.
 	ALGItemProvider initializeItems.
-	ALGItem clearCommentCache
+	ALGItem clearCommentCache.
+	self lastCleanupDate: Date today
