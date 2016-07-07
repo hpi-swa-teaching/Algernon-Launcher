@@ -1,4 +1,4 @@
-as yet unclassified
+finding
 find: aString
 
 	^ self find: aString ifAbsent: [ ^ nil ]

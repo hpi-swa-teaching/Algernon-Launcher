@@ -1,7 +1,7 @@
 instance creation
 newForTopResults
 
-	^ self basicNew
+	^ self new
 		rank: self rankTopResults;
 		title: self titleTopResults;
 		yourself

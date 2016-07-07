@@ -1,4 +1,4 @@
-as yet unclassified
+finding
 findAndCreate: aString
 
 	aString ifEmpty: [ ^ self ].

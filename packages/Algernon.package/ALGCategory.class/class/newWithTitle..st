@@ -1,6 +1,6 @@
 instance creation
 newWithTitle: aString
 
-	^ self basicNew
+	^ self new
 		title: aString;
 		yourself

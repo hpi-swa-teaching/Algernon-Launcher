@@ -1,4 +1,4 @@
-as yet unclassified
+finding
 find: aString ifAbsent: aBlock
 
 	aString ifEmpty: [ ^ self ].
