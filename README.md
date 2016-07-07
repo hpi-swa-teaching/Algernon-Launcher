@@ -11,6 +11,8 @@ Follow our [setup guide](https://github.com/HPI-SWA-Teaching/SWT16-Project-06/wi
 
 ## Usage
 
+Algernon allows for keyboard only interaction - no need to use your mouse!
+
 | Control     | Action            |
 |-------------|-------------------|
 | Alt + Space | Show Algernon     |
