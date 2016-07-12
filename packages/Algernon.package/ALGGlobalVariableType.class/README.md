@@ -1,1 +1,1 @@
-An ALGCategoryType represents a global variable, e.g. Transcript.
+An ALGGlobalVariableType represents a global variable, e.g. Transcript.
