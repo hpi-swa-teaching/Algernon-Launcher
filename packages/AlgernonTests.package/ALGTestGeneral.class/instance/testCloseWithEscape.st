@@ -1,7 +1,7 @@
 testing
 testCloseWithEscape
 	| closeAlgernonEvent |
-	closeAlgernonEvent := ALGTestKeyboardEventFake new 
+	closeAlgernonEvent := ALGFakeKeyboardEvent new 
 										keyString: '<escape>';
 										isKeyUp: false.
 	Algernon open.

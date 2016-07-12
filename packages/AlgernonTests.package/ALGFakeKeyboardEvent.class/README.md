@@ -1,0 +1,1 @@
+An AlgerTestKeyboardEventFake is a keyboard event that allows setting the keyString and keyValue explicitly.

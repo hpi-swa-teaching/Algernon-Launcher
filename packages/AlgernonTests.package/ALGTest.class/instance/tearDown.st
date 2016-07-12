@@ -2,6 +2,6 @@ running
 tearDown
 
 	algerstance delete.	
-	allBrowsersNow := self currentBrowsers.
-	previouslyOpenedBrowsers do:[:each | allBrowsersNow remove:each ifAbsent:[]].
-	allBrowsersNow do:[:each | each delete]
+	allBrowsersAfterwards := self currentBrowsers.
+	previouslyOpenedBrowsers do: [ :each | allBrowsersAfterwards remove:each ifAbsent: []].
+	allBrowsersAfterwards do: [ :each | each delete]

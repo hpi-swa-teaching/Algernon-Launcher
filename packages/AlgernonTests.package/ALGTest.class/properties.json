@@ -1,14 +1,14 @@
 {
 	"category" : "AlgernonTests",
 	"classinstvars" : [
-		"previouslyOpenedBrowsers" ],
+		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JS 7/12/2016 10:56",
 	"instvars" : [
 		"algerstance",
 		"previouslyOpenedBrowsers",
-		"allBrowsersNow" ],
+		"allBrowsersAfterwards" ],
 	"name" : "ALGTest",
 	"pools" : [
 		 ],
