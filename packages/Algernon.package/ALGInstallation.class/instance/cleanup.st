@@ -1,6 +1,7 @@
 cleanup
 cleanup 
 	| isActive |
+	self lastCleanupDate: Date today.
 	isActive := Algernon activateAlgernon.
 	Algernon allInstancesDo: [ :algernon | algernon delete].
 	ALGCore allInstancesDo: [ :algcore | algcore delete].
@@ -8,5 +9,4 @@ cleanup
 	Smalltalk garbageCollect.
 	Algernon activateAlgernon: isActive.
 	ALGItemProvider initializeItems.
-	ALGItem clearCommentCache.
-	self lastCleanupDate: Date today
+	ALGItem clearCommentCache
