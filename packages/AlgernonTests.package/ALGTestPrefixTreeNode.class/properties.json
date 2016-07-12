@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "ALGTestUI",
+		"rootNode" ],
+	"name" : "ALGTestPrefixTreeNode",
 	"pools" : [
 		 ],
-	"super" : "ALGTest",
+	"super" : "TestCase",
 	"type" : "normal" }

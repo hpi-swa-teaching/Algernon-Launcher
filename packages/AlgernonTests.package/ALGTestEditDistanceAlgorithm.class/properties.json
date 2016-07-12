@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "ALGTestUI",
+		"algorithm" ],
+	"name" : "ALGTestEditDistanceAlgorithm",
 	"pools" : [
 		 ],
-	"super" : "ALGTest",
+	"super" : "TestCase",
 	"type" : "normal" }

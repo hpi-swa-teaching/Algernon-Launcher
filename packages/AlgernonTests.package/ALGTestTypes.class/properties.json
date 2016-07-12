@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "ALGTestUI",
+	"name" : "ALGTestTypes",
 	"pools" : [
 		 ],
 	"super" : "ALGTest",

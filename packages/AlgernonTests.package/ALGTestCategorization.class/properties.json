@@ -6,8 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "ALGTestUI",
+		"algertemList",
+		"categorizer",
+		"topCategorizer",
+		"categories" ],
+	"name" : "ALGTestCategorization",
 	"pools" : [
 		 ],
 	"super" : "ALGTest",

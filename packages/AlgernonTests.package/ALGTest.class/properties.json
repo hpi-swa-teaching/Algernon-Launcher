@@ -1,14 +1,16 @@
 {
 	"category" : "AlgernonTests",
 	"classinstvars" : [
-		 ],
+		"previouslyOpenedBrowsers" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "ALGTestUI",
+		"algerstance",
+		"previouslyOpenedBrowsers",
+		"allBrowsersNow" ],
+	"name" : "ALGTest",
 	"pools" : [
 		 ],
-	"super" : "ALGTest",
+	"super" : "TestCase",
 	"type" : "normal" }
