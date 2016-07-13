@@ -11,5 +11,6 @@ sarFromPackage: package
 	(zip addString: mczStream contents as: package , '.mcz') desiredCompressionLevel: 0.
 	zip addString: 'self fileInMonticelloZipVersionNamed:
 		''' , package , '.mcz''.' as: 'install/preamble'.
-	zip addString: 'ALGInstallation instance upgrade.' as: 'install/postscript'. 
+	zip addString: 'ALGInstallation instance upgrade. Algernon activateAlgernon: true.'
+		as: 'install/postscript'. 
 	zip writeToFileNamed: package , '.sar'
