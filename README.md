@@ -7,7 +7,7 @@
 Algernon is a productivity tool for Squeak programmers; your personal assistant for Squeak. Algernon aims to make programming in Squeak faster and more keyboard centric. It provides lightning quick access to the core functionalities (classes, methods, morphs, tests, repositories ...) and even gives you a quick way to evaluate Smalltalk expressions.
 
 ## Why is the build failing?
-Currently Travis CI is not sucessfully testing Algernon in the Squeak trunk because the trunk includes a new even managing which is not yet compatible with Algernon. **Algernon works up to version 5.0 though.**
+Currently Travis CI is not sucessfully testing Algernon in the Squeak trunk because the trunk includes a new keyboard-event handling which is not yet compatible with Algernon. **Algernon works up to version 5.0 though.**
 
 ## Installation
 Follow our [setup guide](https://github.com/HPI-SWA-Teaching/SWT16-Project-06/wiki/Setup-Guide) to install Algernon.
