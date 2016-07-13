@@ -7,7 +7,8 @@ filter: anItemCollection given: aStringCollection
 	itemName := aStringCollection second.
 	resultItems := anItemCollection select:
 		[ :each | (each isRelevantGiven: itemName) & (each matchesAction: actionVerb) ].
-	self flag: #TODO. "This is ugly, we should have fuzzy search results and non fuzzy ones. We need to set this, otherwise scoring is messed up."
+	self flag: #TODO. "The following line is a workaround. We should have fuzzy search results and non fuzzy ones."
+	"We need to reset the fuzzyRank, otherwise scoring is not correctly calculated."
 	resultItems do: [ :item | item fuzzyRank: 0 ].
 	resultItems size < self minimumItemsToCompute 
 		ifTrue: [ itemsToMatchFuzzy := (anItemCollection copyWithoutAll: resultItems) select: [:each | each matchesAction: actionVerb].
