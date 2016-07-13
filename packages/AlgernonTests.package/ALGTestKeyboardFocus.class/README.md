@@ -1,0 +1,1 @@
+Responsible for testing keyboard focus of ALGCore

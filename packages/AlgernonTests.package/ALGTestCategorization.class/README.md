@@ -1,0 +1,1 @@
+Responsible for testing ALGCategory and ALGCategorizer

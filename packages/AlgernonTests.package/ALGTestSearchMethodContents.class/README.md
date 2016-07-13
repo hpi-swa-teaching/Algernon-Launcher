@@ -1,0 +1,1 @@
+Responsible for testing the seach of a given term in a given method.

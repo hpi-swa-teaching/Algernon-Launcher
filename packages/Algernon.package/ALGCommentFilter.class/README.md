@@ -1,0 +1,1 @@
+Responsible for selecting relevant ALGItems according to matching class comments out of a given collection

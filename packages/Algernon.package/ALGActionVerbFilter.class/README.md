@@ -1,0 +1,1 @@
+Responsible for selecting relevant ALGItems according to an action verb (e.g. run) out of a given collection

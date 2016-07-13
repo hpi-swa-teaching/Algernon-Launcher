@@ -1,0 +1,1 @@
+Responsible for selecting relevant ALGItems out of a given collection
