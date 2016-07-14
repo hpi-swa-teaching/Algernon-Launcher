@@ -1,0 +1,14 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LK 7/14/2016 22:56",
+	"instvars" : [
+		 ],
+	"name" : "ALGNullItem",
+	"pools" : [
+		 ],
+	"super" : "ALGItem",
+	"type" : "normal" }

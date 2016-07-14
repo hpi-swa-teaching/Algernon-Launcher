@@ -6,6 +6,7 @@
 		"testAlgernonClass" : "fw 7/31/2015 03:12",
 		"testBreadcrumbsList" : "PL 6/9/2016 12:20",
 		"testCloseWithEscape" : "JS 7/12/2016 10:36",
+		"testEmptyItemListYieldsALGNullItem" : "LK 7/14/2016 23:00",
 		"testItemListEmptyForEmptyInput" : "td 7/3/2016 08:15",
 		"testItemListNotEmptyForCategorySearches" : "td 7/3/2016 15:33",
 		"testKeyboardInputOnlyOpensOnce" : "JS 7/12/2016 10:36",

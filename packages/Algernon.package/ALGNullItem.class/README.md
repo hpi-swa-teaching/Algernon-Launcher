@@ -1,0 +1,1 @@
+An ALGNullItem is an ALGItem that has no children and no effect.
