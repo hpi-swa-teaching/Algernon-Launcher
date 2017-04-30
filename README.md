@@ -15,7 +15,7 @@ Algernon allows for keyboard only interaction - no need to use your mouse!
 
 | Control     | Action            |
 |-------------|-------------------|
-| Alt + Space | Show Algernon     |
+| Alt/Cmd + P | Toggle Algernon   |
 | Esc         | Hide Algernon     |
 | Arrow up    | Navigate up       |
 | Arrow down  | Navigate down     |
@@ -34,7 +34,7 @@ Algernon allows for keyboard only interaction - no need to use your mouse!
 - Search preferences
 - Search morphs
 - Search global variables
-- Print and evaluate Smalltalk expressions 
+- Print and evaluate Smalltalk expressions
 - Action verbs for filtering and quick access (e.g. `run SomeTest` will only search for tests and set a default action)
 - full text search in classes
 
