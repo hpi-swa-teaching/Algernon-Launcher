@@ -7,11 +7,6 @@ SmalltalkCISpec {
       #platforms : [ #squeak ],
       #useLatestMetacello : true
     }
-  ],
-  #testing : {
-    #coverage : {
-      #categories : [ 'Algernon' ]
-    }
-  }
+  ]
 }
 
