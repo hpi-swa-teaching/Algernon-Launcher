@@ -4,7 +4,8 @@ SmalltalkCISpec {
       #baseline : 'Algernon',
       #directory : 'packages',
       #load : 'Tests',
-      #platforms : [ #squeak ]
+      #platforms : [ #squeak ],
+      #useLatestMetacello : true
     }
   ],
   #testing : {
