@@ -3,5 +3,5 @@ isRelevantGiven: aLowercaseString
 
 	aLowercaseString ifEmpty: [^ self isRelevantForEmptyString].
 	^ (self initials includesSubstring: aLowercaseString)
-		| (self lowerCaseName includesSubstring: aLowercaseString)
-		| (self algerType isTermRelevantFor: aLowercaseString)
+		or: [self lowerCaseName includesSubstring: aLowercaseString]
+		or: [self algerType isTermRelevantFor: aLowercaseString]
