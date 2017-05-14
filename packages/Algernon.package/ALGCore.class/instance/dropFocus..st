@@ -1,9 +1,8 @@
 event handling
 dropFocus: hand
-
 	hand
 		newKeyboardFocus: self oldKeyboardFocus;
 		newMouseFocus: self oldMouseFocus.
-	self 
+	self
 		oldKeyboardFocus: nil;
 		oldMouseFocus: nil
