@@ -1,4 +1,5 @@
 constants
 defaultFont
-	
-	^ Preferences standardMenuFont textStyle fontOfPointSize: 30
+	^ (Preferences standardMenuFont textStyle
+		ifNil: [TextStyle defaultFont textStyle])
+			fontOfPointSize: 30

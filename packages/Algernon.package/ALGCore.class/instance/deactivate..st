@@ -7,4 +7,5 @@ deactivate: hand
 		active: false;
 		reset;
 		stopStepping;
-		hideMorphs
+		hideMorphs;
+		dropFocus: hand

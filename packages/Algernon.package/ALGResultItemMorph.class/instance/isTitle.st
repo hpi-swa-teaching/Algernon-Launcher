@@ -1,5 +1,5 @@
 accessing
 isTitle
 
-	^ self isEnabled not | self item isNil
+	^ self isEnabled not or: [self item isNil]
 	
