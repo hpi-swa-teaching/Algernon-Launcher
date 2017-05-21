@@ -1,4 +1,4 @@
 stepping
 stepTime
 
-	^ 200
+	^ self filteringThreshold

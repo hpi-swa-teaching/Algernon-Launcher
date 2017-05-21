@@ -20,7 +20,8 @@
 		"parentStack",
 		"itemProvider",
 		"textField",
-		"receivedActivation" ],
+		"receivedActivation",
+		"firstStep" ],
 	"name" : "ALGCore",
 	"pools" : [
 		 ],
