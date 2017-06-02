@@ -1,5 +1,9 @@
 stepping
 step
 
-	self updateItemList.
-	self stopStepping
+	self isFirstStep
+		ifTrue: [
+			self firstStep: false]
+		ifFalse: [
+			self updateItemList.
+			self stopStepping]
