@@ -5,5 +5,6 @@ step
 		ifTrue: [
 			self firstStep: false]
 		ifFalse: [
-			self updateItemList.
-			self stopStepping]
+			self stopStepping.
+			Cursor wait
+				showWhile: [self updateItemList]]
