@@ -3,6 +3,6 @@ handleListenEvent: anEvent
 
 	| isActivationString shouldToggle |
 	isActivationString := (anEvent keyString = self class activationString).
-	shouldToggle := (anEvent isKeystroke and: [isActivationString] and: [self receivedActivation not]).
+	shouldToggle := (isActivationString and: [self receivedActivation not]).
 	shouldToggle ifTrue: [self toggleVisibility: anEvent. self receivedActivation: true].
 	(self receivedActivation and: [anEvent isKeyUp]) ifTrue: [self receivedActivation: false]
