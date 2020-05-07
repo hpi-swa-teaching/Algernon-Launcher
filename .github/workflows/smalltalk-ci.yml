@@ -1,4 +1,4 @@
-smalltalkCI: name
+name: smalltalkCI
 on: [push]
 
 jobs:
