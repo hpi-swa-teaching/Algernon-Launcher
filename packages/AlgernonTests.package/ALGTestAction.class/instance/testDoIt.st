@@ -6,3 +6,4 @@ testDoIt
 	tempCore textField contents: 'do (Random new) nextValue'.
 	(ALGExpressionType new
 	  typeObject: tempCore) doit. 
+	tempCore deactivate. "close Algernon after test is done"
