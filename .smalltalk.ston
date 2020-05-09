@@ -10,7 +10,8 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-      #categories : [ 'Algernon' ]
+      #categories : [ 'Algernon' ],
+      #service : #coveralls
     }
   }
 }
