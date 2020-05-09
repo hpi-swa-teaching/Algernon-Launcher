@@ -11,7 +11,7 @@ SmalltalkCISpec {
   #testing : {
     #coverage : {
       #categories : [ 'Algernon' ],
-      #service : #local
+      #service : #coveralls
     }
   }
 }
