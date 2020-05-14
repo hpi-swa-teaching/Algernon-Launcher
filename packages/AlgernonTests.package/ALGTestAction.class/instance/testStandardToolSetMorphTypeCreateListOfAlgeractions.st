@@ -1,0 +1,4 @@
+testing
+testStandardToolSetMorphTypeCreateListOfAlgeractions
+	
+	self assert: ALGStandardToolSetMorphType new createListOfAlgeractions notEmpty
