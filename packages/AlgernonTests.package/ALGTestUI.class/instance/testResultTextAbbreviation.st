@@ -6,4 +6,4 @@ testResultTextAbbreviation
 	textField contents: 'OptimizedBlockLocalTempReadBeforeWrittenVisitor'.
 	algerstance updateItemList.
 	resultItem := algerstance itemList submorphs at: 2.
-	self assert: (resultItem abbreviatedString includesSubString: '...').
+	self assert: (resultItem abbreviatedString includesSubstring: '...').
