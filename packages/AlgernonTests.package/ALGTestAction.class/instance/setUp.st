@@ -1,3 +1,4 @@
 running
 setUp
-	actions := ALGAction createListOfAlgeractionsGiven: (ALGClassType with: ALGCore)
+	actions := ALGAction createListOfAlgeractionsGiven: (ALGClassType with: ALGCore).
+	self core: ALGCore new. 
