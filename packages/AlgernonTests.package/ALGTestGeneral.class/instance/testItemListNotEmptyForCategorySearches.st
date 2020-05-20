@@ -3,8 +3,8 @@ testItemListNotEmptyForCategorySearches
 
 	self ensureMorphic.
 
-	algerstance show.
-	algerstance textField contents:'AlgernonTests'.
-	algerstance updateItemList.
+	algerInstance show.
+	algerInstance textField contents:'AlgernonTests'.
+	algerInstance updateItemList.
 
-	self deny: algerstance itemList items isEmpty
+	self deny: algerInstance itemList items isEmpty

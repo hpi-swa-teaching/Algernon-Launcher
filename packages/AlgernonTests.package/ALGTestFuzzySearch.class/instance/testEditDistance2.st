@@ -4,9 +4,9 @@ testEditDistance2
 	| names |
 	self ensureMorphic.
 
-	algerstance show.
-	algerstance textField contents:'Algxnon'.
-	algerstance updateItemList.
+	algerInstance show.
+	algerInstance textField contents:'Algxnon'.
+	algerInstance updateItemList.
 	
-	names := algerstance itemList items collect: [ :entries | entries item name ].
+	names := algerInstance itemList items collect: [ :entries | entries item name ].
 	self assert: (names includes: 'Algernon').

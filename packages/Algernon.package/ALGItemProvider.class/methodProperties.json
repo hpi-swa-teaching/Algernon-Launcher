@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"defaultItems" : "J.J. 7/27/2015 17:37",
-		"initializeItems" : "Jro 5/14/2020 16:06",
+		"filters" : "beb 5/20/2020 15:52",
+		"initializeItems" : "beb 5/20/2020 16:36",
 		"newIn:" : "J.J. 7/30/2015 22:00",
 		"reset" : "J.J. 7/27/2015 17:29",
 		"searchDelimeter" : "J.J. 7/28/2015 17:11" },
@@ -13,9 +14,8 @@
 		"createCategoriesFor:" : "JS 6/21/2016 23:34",
 		"defaultItems" : "J.J. 7/30/2015 22:01",
 		"evaluateSearchFor:" : "td 6/8/2016 20:59",
-		"filters" : "J.J. 12/13/2015 23:47",
 		"initialize" : "J.J. 7/30/2015 16:38",
-		"itemFilterFor:" : "J.J. 12/14/2015 00:05",
+		"itemFilterFor:" : "beb 5/20/2020 15:52",
 		"items" : "td 6/8/2016 21:14",
 		"items:" : "J.J. 7/27/2015 18:18",
 		"parentItem" : "J.J. 7/30/2015 20:38",

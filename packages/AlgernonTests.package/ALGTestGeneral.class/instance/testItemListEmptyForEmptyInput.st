@@ -3,8 +3,8 @@ testItemListEmptyForEmptyInput
 
 	self ensureMorphic.
 
-	algerstance show.
-	algerstance textField contents: String empty.
-	algerstance updateItemList.
+	algerInstance show.
+	algerInstance textField contents: String empty.
+	algerInstance updateItemList.
 
-	self assert: algerstance itemList isEmpty
+	self assert: algerInstance itemList isEmpty

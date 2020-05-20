@@ -2,6 +2,6 @@ testing
 testSelfFocus
 	"Make sure Algernon has focus when launched."
 
-	algerstance show.
-	self assert: algerstance hasKeyboardFocus.
-	algerstance hide
+	algerInstance show.
+	self assert: algerInstance hasKeyboardFocus.
+	algerInstance hide

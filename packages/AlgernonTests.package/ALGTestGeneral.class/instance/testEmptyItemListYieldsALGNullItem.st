@@ -3,8 +3,8 @@ testEmptyItemListYieldsALGNullItem
 
 	self ensureMorphic.
 
-	algerstance show.
-	algerstance textField contents: String empty.
-	algerstance updateItemList.
+	algerInstance show.
+	algerInstance textField contents: String empty.
+	algerInstance updateItemList.
 
-	self assert: ALGNullItem equals: algerstance itemList selectedListItem class
+	self assert: ALGNullItem equals: algerInstance itemList selectedListItem class

@@ -2,15 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setup" : "td 6/21/2016 12:18",
-		"testAlgernonClass" : "fw 7/31/2015 03:12",
+		"setUp" : "beb 5/20/2020 16:18",
+		"testAlgernonClass" : "beb 5/20/2020 16:20",
 		"testBreadcrumbsList" : "PL 6/9/2016 12:20",
 		"testCloseWithEscape" : "JS 7/12/2016 10:36",
-		"testEmptyItemListYieldsALGNullItem" : "LK 7/14/2016 23:00",
-		"testItemListEmptyForEmptyInput" : "td 7/3/2016 08:15",
-		"testItemListNotEmptyForCategorySearches" : "td 7/3/2016 15:33",
-		"testKeyboardInputOnlyOpensOnce" : "JS 7/12/2016 10:36",
-		"testListContents" : "td 7/3/2016 15:33",
+		"testEmptyItemListYieldsALGNullItem" : "beb 5/20/2020 16:20",
+		"testHelpItems" : "beb 5/20/2020 16:51",
+		"testHelpItemsForKeyword" : "beb 5/20/2020 17:03",
+		"testItemListEmptyForEmptyInput" : "beb 5/20/2020 16:20",
+		"testItemListNotEmptyForCategorySearches" : "beb 5/20/2020 16:20",
+		"testKeyboardInputOnlyOpensOnce" : "beb 5/20/2020 16:20",
+		"testListContents" : "beb 5/20/2020 16:20",
 		"testShowParentList" : "AKK 6/9/2016 12:07",
-		"testVisibility" : "J.J. 7/31/2015 20:38",
-		"testWorkspaceIsInOrder" : "td 7/3/2016 15:35" } }
+		"testVisibility" : "beb 5/20/2020 16:20",
+		"testWorkspaceIsInOrder" : "beb 5/20/2020 16:20" } }

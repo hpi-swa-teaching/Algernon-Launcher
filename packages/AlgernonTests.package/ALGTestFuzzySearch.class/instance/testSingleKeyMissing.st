@@ -4,14 +4,14 @@ testSingleKeyMissing
 	| names |
 	self ensureMorphic.
 
-	algerstance show.
-	algerstance textField contents:'lgernon'.
-	algerstance updateItemList.
-	names := algerstance itemList items collect: [ :entries | entries item name ].
+	algerInstance show.
+	algerInstance textField contents:'lgernon'.
+	algerInstance updateItemList.
+	names := algerInstance itemList items collect: [ :entries | entries item name ].
 	self assert: (names includes: 'Algernon').
 
-	algerstance show.
-	algerstance textField contents:'Algernon'.
-	algerstance updateItemList.
-	names := algerstance itemList items collect: [ :entries | entries item name ].
+	algerInstance show.
+	algerInstance textField contents:'Algernon'.
+	algerInstance updateItemList.
+	names := algerInstance itemList items collect: [ :entries | entries item name ].
 	self assert: (names includes: 'Algernon').

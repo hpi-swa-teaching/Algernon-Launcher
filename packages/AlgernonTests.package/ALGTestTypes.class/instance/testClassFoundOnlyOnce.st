@@ -4,11 +4,11 @@ testClassFoundOnlyOnce
 	| names classSeperator classItems |
 	self ensureMorphic.
 
-	algerstance show.
-	algerstance textField contents: 'ALGAction'.
-	algerstance updateItemList.
+	algerInstance show.
+	algerInstance textField contents: 'ALGAction'.
+	algerInstance updateItemList.
 
-	classSeperator := algerstance itemList items detect: [ :entries | entries contents = 'Class']. 
-	classItems := algerstance itemList items copyAfter: classSeperator.
+	classSeperator := algerInstance itemList items detect: [ :entries | entries contents = 'Class']. 
+	classItems := algerInstance itemList items copyAfter: classSeperator.
 	names := classItems collect: [ :entries | entries item name ].
 	self assert: 1 equals: (names count: [ :each | each = 'ALGAction'])

@@ -1,8 +1,8 @@
 testing
 testCategoriesVisible
 
-	algerstance textField contents: 'Algernon'.
-	algerstance updateItemList.
+	algerInstance textField contents: 'Algernon'.
+	algerInstance updateItemList.
 	"Categories show up as disabled list items."
-	self assert: ((algerstance itemList items select: [ :each |
+	self assert: ((algerInstance itemList items select: [ :each |
 		each isEnabled not ]) size > 0)

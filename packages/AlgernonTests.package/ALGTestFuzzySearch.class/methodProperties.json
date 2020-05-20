@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testEditDistance1Insert" : "LK 6/4/2016 11:22",
-		"testEditDistance1Replace" : "LK 6/2/2016 16:21",
-		"testEditDistance2" : "LK 6/2/2016 16:21",
-		"testMulipleKeysMissing" : "LK 6/2/2016 16:17",
-		"testNormalInput" : "fw 7/31/2015 03:21",
-		"testSingleKeyMissing" : "LK 6/2/2016 16:17" } }
+		"testEditDistance1Insert" : "beb 5/20/2020 16:20",
+		"testEditDistance1Replace" : "beb 5/20/2020 16:20",
+		"testEditDistance2" : "beb 5/20/2020 16:20",
+		"testMulipleKeysMissing" : "beb 5/20/2020 16:20",
+		"testNormalInput" : "beb 5/20/2020 16:20",
+		"testSingleKeyMissing" : "beb 5/20/2020 16:20" } }

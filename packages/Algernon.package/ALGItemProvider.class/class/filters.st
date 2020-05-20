@@ -1,6 +1,5 @@
-accessing
+initialization
 filters
-	
 	^ OrderedCollection newFrom: {
 		ALGActionVerbFilter new.
 		ALGCommentFilter new.

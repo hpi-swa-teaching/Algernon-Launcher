@@ -4,9 +4,9 @@ testNormalInput
 	| names |
 	self ensureMorphic.
 
-	algerstance show.
-	algerstance textField contents:'Algernon'.
-	algerstance updateItemList.
+	algerInstance show.
+	algerInstance textField contents:'Algernon'.
+	algerInstance updateItemList.
 	
-	names := algerstance itemList items collect: [ :entries | entries item name ].
+	names := algerInstance itemList items collect: [ :entries | entries item name ].
 	self assert: (names includes: 'Algernon').

@@ -4,9 +4,9 @@ testClassFoundByCommentWithoutActionVerbs
 	| names |
 	self ensureMorphic.
 
-	algerstance show.
-	algerstance textField contents: 'Quicksilver'.
-	algerstance updateItemList.
+	algerInstance show.
+	algerInstance textField contents: 'Quicksilver'.
+	algerInstance updateItemList.
 	
-	names := algerstance itemList items collect: [ :entries | entries item name ].
+	names := algerInstance itemList items collect: [ :entries | entries item name ].
 	self assert: (names includes: 'ALGCore').
