@@ -1,5 +1,7 @@
 {
 	"class" : {
-		 },
+		"helpTexts" : "beb 5/20/2020 17:43" },
 	"instance" : {
-		"filter:given:" : "beb 5/20/2020 16:32" } }
+		"accepts:" : "beb 5/20/2020 17:52",
+		"filter:given:" : "beb 5/20/2020 17:45",
+		"selectors" : "beb 5/20/2020 17:40" } }
