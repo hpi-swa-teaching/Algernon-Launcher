@@ -2,11 +2,7 @@ testing
 testClassFoundOnlyOnce
 	"Make sure normal input works"
 	| names classSeperator classItems |
-	self ensureMorphic.
-
-	algerInstance show.
-	algerInstance textField contents: 'ALGAction'.
-	algerInstance updateItemList.
+	self runQuery: 'ALGAction'.
 
 	classSeperator := algerInstance itemList items detect: [ :entries | entries contents = 'Class']. 
 	classItems := algerInstance itemList items copyAfter: classSeperator.

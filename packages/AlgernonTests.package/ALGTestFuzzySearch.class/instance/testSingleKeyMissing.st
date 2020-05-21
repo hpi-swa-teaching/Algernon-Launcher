@@ -2,16 +2,11 @@ testing
 testSingleKeyMissing
 	"Make sure normal input works"
 	| names |
-	self ensureMorphic.
-
-	algerInstance show.
-	algerInstance textField contents:'lgernon'.
-	algerInstance updateItemList.
+	self runQuery: 'lgernon'.
+	
 	names := algerInstance itemList items collect: [ :entries | entries item name ].
 	self assert: (names includes: 'Algernon').
 
-	algerInstance show.
-	algerInstance textField contents:'Algernon'.
-	algerInstance updateItemList.
+	self runQuery: 'Algernon'.
 	names := algerInstance itemList items collect: [ :entries | entries item name ].
 	self assert: (names includes: 'Algernon').

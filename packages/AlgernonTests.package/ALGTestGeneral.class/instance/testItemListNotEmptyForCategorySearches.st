@@ -1,10 +1,6 @@
 testing
 testItemListNotEmptyForCategorySearches
 
-	self ensureMorphic.
-
-	algerInstance show.
-	algerInstance textField contents:'AlgernonTests'.
-	algerInstance updateItemList.
+	self runQuery: 'AlgernonTests'.
 
 	self deny: algerInstance itemList items isEmpty

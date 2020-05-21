@@ -2,11 +2,7 @@ testing
 testMulipleKeysMissing
 	"Make sure normal input works"
 	| names |
-	self ensureMorphic.
-
-	algerInstance show.
-	algerInstance textField contents:'gernon'.
-	algerInstance updateItemList.
+	self runQuery: 'gernon'.
 	names := algerInstance itemList items collect: [ :entries | entries item name ].
 	self assert: (names includes: 'Algernon').
 

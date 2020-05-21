@@ -1,4 +1,4 @@
 helpers
 runQuery: aString
-	self algerInstance textField contents: aString.
+	self algerInstance query: aString.
 	self algerInstance updateItemList.
