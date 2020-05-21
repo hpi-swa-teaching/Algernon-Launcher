@@ -1,4 +1,3 @@
 accessing
-lowerCaseName
-
+fuzzyMatchName
 	^ self name asLowercase

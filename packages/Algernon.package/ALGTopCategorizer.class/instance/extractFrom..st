@@ -1,11 +1,10 @@
 categorizing
 extractFrom: anItemCollection
 
-	| category maxIndex |
-	anItemCollection ifEmpty: [ ^ self ].
+	| category |
 	category := ALGCategory newForTopResults.
-	maxIndex := self class maxNumTopResults.
-	(anItemCollection size < maxIndex)
-		ifTrue: [ maxIndex := anItemCollection size ].
-	1 to: maxIndex do: [ :i | category add: (anItemCollection at: i) ].
+	((anItemCollection
+		select: [:each | each canBeTopResult ])
+		take: self class maxNumTopResults)
+		do: [:each | category add: each. ].
 	^ category

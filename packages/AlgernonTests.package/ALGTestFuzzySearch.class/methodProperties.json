@@ -2,9 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testEditDistance1Insert" : "beb 5/20/2020 16:20",
+		"editDistanceAlgorithm" : "beb 5/21/2020 10:53",
+		"editDistanceAlgorithm:" : "beb 5/21/2020 10:53",
+		"setUp" : "beb 5/21/2020 10:59",
+		"testEditDistance1Insert" : "beb 5/21/2020 10:58",
 		"testEditDistance1Replace" : "beb 5/20/2020 16:20",
 		"testEditDistance2" : "beb 5/20/2020 16:20",
+		"testEditDistanceHelpExample" : "beb 5/21/2020 10:55",
 		"testMulipleKeysMissing" : "beb 5/20/2020 16:20",
 		"testNormalInput" : "beb 5/20/2020 16:20",
 		"testSingleKeyMissing" : "beb 5/20/2020 16:20" } }
