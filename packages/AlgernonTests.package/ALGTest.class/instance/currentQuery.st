@@ -1,3 +1,3 @@
 helpers
 currentQuery
-	^ self algerInstance textField contents
+	^ self algerInstance query

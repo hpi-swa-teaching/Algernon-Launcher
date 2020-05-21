@@ -4,5 +4,5 @@ createListOfAlgeractions
 			withName: '' 
 			rank: 0
 			target: self
-			selector: #doNothing 
+			selector: #setQueryToKeyword 
 			args: #() }
