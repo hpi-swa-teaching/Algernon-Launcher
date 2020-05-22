@@ -19,7 +19,6 @@ jobs:
       id: smalltalkci
       with:
         smalltalk-version: ${{ matrix.smalltalk }}
-        github-token: ${{ secrets.GITHUB_TOKEN }}
     - run: smalltalkci -s ${{ steps.smalltalkci.outputs.smalltalk-version }}
       timeout-minutes: 15
     - run: echo "::set-env name=SCI_COVERAGE_FILE_LOCATION::${HOME}/.smalltalkCI/_builds/coveralls_results.json"
