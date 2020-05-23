@@ -15,7 +15,7 @@ jobs:
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
     - uses: actions/checkout@v2
-    - uses: hpi-swa/setup-smalltalkCI@v1
+    - uses: ba-st-actions/setup-smalltalkCI@v1.0.0
       id: smalltalkci
       with:
         smalltalk-version: ${{ matrix.smalltalk }}
