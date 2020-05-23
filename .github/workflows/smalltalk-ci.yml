@@ -32,3 +32,4 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         flag-name: run-${{ matrix.os }}-${{ matrix.smalltalk }}
         parallel: true
+        path-to-lcov: ${{ env.SCI_COVERAGE_FILE_LOCATION }}
