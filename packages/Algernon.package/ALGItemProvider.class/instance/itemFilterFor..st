@@ -1,6 +1,6 @@
 filtering
 itemFilterFor: aStringCollection
 
-	^ self filters
+	^ self class filters
 		detect: [ :each | each accepts: aStringCollection ]
 		ifNone: [ ALGRegularFilter new ]

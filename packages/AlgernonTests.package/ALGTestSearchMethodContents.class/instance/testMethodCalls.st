@@ -2,11 +2,7 @@ testing
 testMethodCalls
 	"Make sure method calls are searched"
 		
-	self ensureMorphic.
-
-	algerstance show.
-	algerstance textField contents:'ALGMethodType'.
-	algerstance updateItemList.
-	algerstance showChildList.
+	self runQuery:'ALGMethodType'.
+	algerInstance showChildList.
 	
-	self deny: (algerstance itemProvider relevantItemsFor: 'sourceCodeAt:') isEmpty
+	self deny: (algerInstance itemProvider relevantItemsFor: 'sourceCodeAt:') isEmpty

@@ -4,5 +4,5 @@ computeScore: anItem given: aStringCollection
 
 	| score query |
 	query := aStringCollection joinSeparatedBy: ' '.
-	score := self scoreAlgorithm scoreBetween: anItem lowerCaseName and: query.
+	score := self scoreAlgorithm scoreBetween: anItem fuzzyMatchName and: query.
 	^ score negated

@@ -1,4 +1,4 @@
 accessing
 lowerCaseName
 
-	^ lowerCaseName
+	^ self name asLowercase

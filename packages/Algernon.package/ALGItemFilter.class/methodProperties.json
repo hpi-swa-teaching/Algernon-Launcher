@@ -1,9 +1,9 @@
 {
 	"class" : {
-		 },
+		"helpTexts" : "beb 5/20/2020 15:39" },
 	"instance" : {
 		"accepts:" : "J.J. 12/13/2015 23:40",
 		"computeFuzzyItems:outOf:given:" : "DS 5/12/2017 22:53",
-		"filter:" : "J.J. 12/13/2015 22:43",
+		"filter:given:" : "beb 5/20/2020 16:30",
 		"minimumItemsToCompute" : "td 6/1/2016 21:43",
 		"selectors" : "J.J. 12/13/2015 23:38" } }

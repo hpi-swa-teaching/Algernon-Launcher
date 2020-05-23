@@ -2,7 +2,7 @@ drawing
 drawCharAt: anIndex in: aRectangle on: aCanvas start: aCoordinate
 
 	| refMorph originPoint cornerPoint rectBounds charString charColor |
-	charString := String with: (contents at: anIndex).
+	charString := String with: (self abbreviatedString at: anIndex).
 	refMorph := StringMorph new font: self font; contents: charString.
 	originPoint := aCoordinate @ aRectangle origin y.
 	cornerPoint := (originPoint x + refMorph width) @ aRectangle corner y.

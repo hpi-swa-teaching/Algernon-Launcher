@@ -1,0 +1,15 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"keyword",
+		"helptext" ],
+	"name" : "ALGHelpType",
+	"pools" : [
+		 ],
+	"super" : "ALGType",
+	"type" : "normal" }

@@ -2,15 +2,13 @@ testing
 testRanking
 	"Make sure the rank increases when an entry is selected"
 	| firstRank secondRank |
-	self ensureMorphic.
 
-	firstRank := (algerstance itemProvider relevantItemsFor: 'Algernon') first rank.
+	firstRank := (algerInstance itemProvider relevantItemsFor: 'Algernon') first rank.
+	
+	self runQuery: 'Algernon'.
 
-	algerstance show.
-	algerstance textField contents:'Algernon'.
-	algerstance updateItemList.
-	algerstance doActionOnSelectedEvent: nil. 
+	algerInstance doActionOnSelectedEvent: nil. 
 
-	secondRank := (algerstance itemProvider relevantItemsFor: 'Algernon') first rank.
+	secondRank := (algerInstance itemProvider relevantItemsFor: 'Algernon') first rank.
 
 	self assert: firstRank < secondRank
