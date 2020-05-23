@@ -26,3 +26,4 @@ jobs:
       uses: codecov/codecov-action@v1.0.6
       with:
         file: ${{ env.SCI_COVERAGE_FILE_LOCATION }}
+        name: ${{ matrix.os }}-${{ matrix.smalltalk }}
