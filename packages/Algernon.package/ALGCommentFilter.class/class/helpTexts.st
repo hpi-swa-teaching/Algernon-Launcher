@@ -1,3 +1,5 @@
 help
 helpTexts
-	^ Dictionary new.
+	^ (Dictionary new)
+		add: 'which'->'Search for class comment';
+		yourself
