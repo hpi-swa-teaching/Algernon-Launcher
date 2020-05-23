@@ -5,6 +5,6 @@ extractFrom: anItemCollection
 	category := ALGCategory newForTopResults.
 	topResults := anItemCollection
 		select: [:each | each canBeTopResult ].
-	(topResults any: (self class maxNumTopResults min: topResults size))
+	(topResults first: (self class maxNumTopResults min: topResults size))
 		do: [:each | category add: each. ].
 	^ category
