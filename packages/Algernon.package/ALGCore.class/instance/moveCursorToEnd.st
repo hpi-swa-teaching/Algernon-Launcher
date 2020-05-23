@@ -1,0 +1,3 @@
+initialization
+moveCursorToEnd
+	self textField moveCursorToEnd.
