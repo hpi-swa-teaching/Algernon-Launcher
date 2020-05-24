@@ -1,5 +1,4 @@
 helpers
 deleteNewPluggableSystemWindowsByLabel: aString old: oldWindows
-	^ ((self findPluggableSystemWindowsByLabel: aString)
-		select: [:each | (oldWindows includes: each) not])
+	^ (self findNewPluggableSystemWindowsByLabel: aString old: oldWindows)
 		do: [:each | each delete].
