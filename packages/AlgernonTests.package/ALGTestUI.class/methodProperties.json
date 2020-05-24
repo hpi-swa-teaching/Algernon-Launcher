@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testClickOnAlgernonDoesNotThrow" : "beb 5/24/2020 11:14",
 		"testNotOverlapping" : "beb 5/21/2020 12:26",
+		"testResultListMovement" : "beb 5/24/2020 11:11",
 		"testResultTextAbbreviation" : "beb 5/21/2020 12:27" } }
