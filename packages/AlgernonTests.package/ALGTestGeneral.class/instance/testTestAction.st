@@ -2,8 +2,7 @@ testing
 testTestAction
 	| oldTestRunners |
 	self runQuery: 'ALGFakeTest'.
-	self assert: (self items anySatisfy: [:each | each algerType typeName = 'Test' ]).
-	[self algerInstance currentItem algerType typeName = 'Test'] whileFalse:  [self algerInstance selectNext].
+	self moveCursorTo: 'Test'.
 
 	oldTestRunners := self findPluggableSystemWindowsByLabel: 'Test Runner'.
 	

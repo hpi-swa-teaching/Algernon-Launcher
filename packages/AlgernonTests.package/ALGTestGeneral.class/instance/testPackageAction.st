@@ -2,7 +2,7 @@ testing
 testPackageAction
 	| browsersBefore |
 	self runQuery: 'Algernon'.
-	[self algerInstance currentItem algerType typeName = 'Package'] whileFalse:  [self algerInstance selectNext].
+	self moveCursorTo: 'Package'.
 	
 	browsersBefore := self findPluggableSystemWindowsByLabel: 'Monticello Browser'.
 

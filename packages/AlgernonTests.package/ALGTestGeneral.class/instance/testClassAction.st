@@ -2,8 +2,7 @@ testing
 testClassAction
 	| oldBrowsers newBrowser |
 	self runQuery: 'ALGCore'.
-	self assert: (self items anySatisfy: [:each | each algerType typeName = 'Class' ]).
-	[self algerInstance currentItem algerType typeName = 'Class'] whileFalse:  [self algerInstance selectNext].
+	self moveCursorTo: 'Class'.
 
 	oldBrowsers := self findPluggableSystemWindowsByLabel: 'System Browser'.
 	

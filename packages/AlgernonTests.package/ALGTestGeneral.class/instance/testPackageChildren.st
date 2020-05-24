@@ -1,7 +1,7 @@
 testing
 testPackageChildren
 	self runQuery: 'Monticello'.
-	[self algerInstance currentItem algerType typeName = 'Package'] whileFalse:  [self algerInstance selectNext].
+	self moveCursorTo: 'Package'.
 	self algerInstance showChildList.
 	self assert: (self items anySatisfy: [:each |
 		each algerType typeName = 'Action'

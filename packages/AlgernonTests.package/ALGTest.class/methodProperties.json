@@ -14,6 +14,7 @@
 		"findPluggableSystemWindowsByLabel:" : "beb 5/24/2020 11:30",
 		"isMorphic" : "fw 7/31/2015 03:09",
 		"items" : "beb 5/20/2020 16:49",
+		"moveCursorTo:" : "beb 5/24/2020 18:39",
 		"runQuery:" : "beb 5/21/2020 12:19",
 		"setUp" : "beb 5/21/2020 10:58",
 		"tearDown" : "beb 5/20/2020 16:20",
