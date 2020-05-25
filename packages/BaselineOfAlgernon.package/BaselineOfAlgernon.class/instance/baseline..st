@@ -11,39 +11,8 @@ baseline: spec
 					className: 'ConfigurationOfRefactoringBrowser';
 					versionString: #'stable';
 					loads: #('Core' );
-					repository: 'http://www.squeaksource.com/MetacelloRepository' ];
-			project: 'Grease' with: [
-				spec
-					className: 'ConfigurationOfGrease';
-					versionString: #'stable';
-					loads: #('Slime');
-					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
-					repository: 'http://www.squeaksource.com/MetacelloRepository'];
-			project: 'Seaside3' with: [
-				spec
-					className: 'ConfigurationOfSeaside3';
-					versionString: #'stable';
-					loads: #('Development');
-					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
-					repository: 'http://www.squeaksource.com/MetacelloRepository'].
-			spec   
-				package: 'JSON'
-						with: [
-							spec
-								file: 'JSON-ul.35';
-								repository: 
-										'http://www.squeaksource.com/JSON' ];
-				package: 'FFI-Pools' with: [
-							spec
-								file: 'FFI-Pools-eem.13';
-								repository: 
-										'http://source.squeakfoundation.org/FFI' ];
-				package: 'FFI-Kernel' with: [
-							spec
-								file: 'FFI-Kernel-nice.68';
-								repository: 
-										'http://source.squeakfoundation.org/FFI' ];
-			
+					repository: 'http://www.squeaksource.com/MetacelloRepository' ].
+			spec
 			"swalint setup"
 			package: 'SwaLint-Preferences' with: [
 							spec
