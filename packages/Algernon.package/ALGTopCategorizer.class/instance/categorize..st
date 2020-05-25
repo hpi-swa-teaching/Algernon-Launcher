@@ -1,8 +1,9 @@
 categorizing
 categorize: anItemCollection
 
-	| categories |
+	| categories topCategory |
 	categories := OrderedCollection new.
-	(anItemCollection isEmpty) ifTrue: [ ^ categories ].
-	categories add: (self extractFrom: anItemCollection).
+	topCategory := self extractFrom: anItemCollection.
+	(anItemCollection isEmpty or: [topCategory isEmpty]) ifTrue: [ ^ categories ].
+	categories add: topCategory.
 	^ self sorter sort: categories inOrder: #desc

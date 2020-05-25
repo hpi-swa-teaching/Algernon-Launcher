@@ -2,8 +2,20 @@
 	"class" : {
 		 },
 	"instance" : {
+		"activateCurrentItemAction" : "beb 5/24/2020 11:19",
+		"algerInstance" : "beb 5/20/2020 16:21",
+		"algerInstance:" : "beb 5/20/2020 16:21",
+		"categoryResultItems" : "beb 5/21/2020 11:52",
 		"currentBrowsers" : "JS 6/30/2016 00:18",
+		"currentQuery" : "beb 5/21/2020 12:48",
+		"deleteNewPluggableSystemWindowsByLabel:old:" : "beb 5/24/2020 18:25",
 		"ensureMorphic" : "fw 7/31/2015 03:09",
+		"findNewPluggableSystemWindowsByLabel:old:" : "beb 5/24/2020 18:25",
+		"findPluggableSystemWindowsByLabel:" : "beb 5/24/2020 11:30",
 		"isMorphic" : "fw 7/31/2015 03:09",
-		"setUp" : "td 5/26/2016 00:04",
-		"tearDown" : "JS 7/12/2016 10:53" } }
+		"items" : "beb 5/20/2020 16:49",
+		"moveCursorTo:" : "beb 5/24/2020 18:39",
+		"runQuery:" : "beb 5/21/2020 12:19",
+		"setUp" : "beb 5/21/2020 10:58",
+		"tearDown" : "beb 5/20/2020 16:20",
+		"topResults" : "beb 5/21/2020 11:51" } }
