@@ -1,9 +1,7 @@
 as yet unclassified
 algertemList
 	| algertems |
-	algertems := OrderedCollection
-				with: (ALGItem
-						withAlgertype: (self with: #('Browser', #openClassBrowser))).
+	algertems := self additionalToolEntries.
 	(StandardToolSet menuItems
 		reject: [:item | item = #-])
 		do: [:item | algertems
