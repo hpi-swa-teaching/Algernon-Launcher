@@ -7,7 +7,7 @@ testOpenTools
 			self runQuery: 'open ' , tool.
 			browserResults := self items
 						select: [:each | each name = tool
-								and: [each algerType typeName = 'Morph']].
+								and: [each algerType typeName = 'StandardToolSetMorph']].
 			self assert: browserResults notEmpty.
 			browserWindowCount := self currentBrowsers size.
 			self doActionForItem: browserResults first.
