@@ -8,8 +8,8 @@ SmalltalkCISpec {
       #useLatestMetacello : true
     }
   ],
-  #postLoading : [
-    'scripts/postLoading.st'
+  #preLoading : [
+    'scripts/preLoading.st'
   ],
   #testing : {
     #coverage : {
