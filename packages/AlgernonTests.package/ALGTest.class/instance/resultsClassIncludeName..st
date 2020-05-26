@@ -1,5 +1,6 @@
 helpers
-resultsClassIncludeName: t1 
+resultsClassIncludeName: aNameString 
 	^ self algerInstance itemList items
-		anySatisfy: [:t2 | t2 item algerType typeName = 'Class'
-				and: [t2 item name = t1]]
+		anySatisfy: [:each | each item notNil
+				and: [each item algerType typeName = 'Class'
+						and: [each item name = aNameString]]]
