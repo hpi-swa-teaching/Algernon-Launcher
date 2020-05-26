@@ -1,4 +1,4 @@
 helpers
-currentBrowsers
+currentSystemWindows
 	^ (ActiveWorld submorphs
 		select: [:each | each isKindOf: SystemWindow]) asOrderedCollection
