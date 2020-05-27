@@ -4,4 +4,4 @@ setUp
 	self algerInstance: Algernon new.
 	Algernon currentInstance ifNil: [Algernon open.
 									Algernon close].
-	previouslyOpenedBrowsers := self currentBrowsers
+	previouslyOpenedBrowsers := self currentSystemWindows

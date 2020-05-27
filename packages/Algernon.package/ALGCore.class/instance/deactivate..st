@@ -1,11 +1,11 @@
 visibility
-deactivate: hand
-
-	self active ifFalse: [^ self].
+deactivate: hand 
+	self active
+		ifFalse: [^ self].
 	self class lastInputString: self textField contents.
-	self
-		active: false;
-		reset;
-		stopStepping;
-		hideMorphs;
-		dropFocus: hand
+	self active: false;
+		 reset;
+		 stopStepping;
+		 hideMorphs.
+	hand
+		ifNotNil: [self dropFocus: hand]
