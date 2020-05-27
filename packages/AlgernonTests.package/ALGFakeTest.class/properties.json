@@ -1,0 +1,14 @@
+{
+	"category" : "AlgernonTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"WasRun" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ALGFakeTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

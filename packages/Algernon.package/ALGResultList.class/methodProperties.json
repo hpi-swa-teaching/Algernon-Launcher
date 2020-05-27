@@ -1,7 +1,6 @@
 {
 	"class" : {
 		"backgroundAlpha" : "J.J. 7/30/2015 16:43",
-		"categoryFontSize" : "J.J. 7/30/2015 16:43",
 		"newFrom:in:" : "td 5/30/2016 18:50",
 		"verticalOffset" : "J.J. 7/30/2015 16:43" },
 	"instance" : {
@@ -12,7 +11,6 @@
 		"controller:" : "J.J. 7/30/2015 16:45",
 		"doActionOnSelectedItem:" : "pre 10/18/2015 12:48",
 		"drawOn:" : "J.J. 7/30/2015 16:47",
-		"handlesMouseDown:" : "pre 10/18/2015 13:06",
 		"handlesMouseOver:" : "J.J. 7/30/2015 16:46",
 		"handlesMouseOverDragging:" : "J.J. 7/30/2015 16:46",
 		"initialize" : "pre 10/18/2015 13:15",
