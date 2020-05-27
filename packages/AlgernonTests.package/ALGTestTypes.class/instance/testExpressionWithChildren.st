@@ -7,7 +7,7 @@ testExpressionWithChildren
 	self runQuery: 'inspect'.
 	expressionItem := self items first.
 	self
-		assert: (expressionItem name includesSubString:  'inspect').
+		assert: (expressionItem name includesSubstring:  'inspect').
 	oldSystemWindows := self currentSystemWindows.
 	self doActionForItem: expressionItem.
 	self assert: (self findNewSystemWindowsByLabel: 'SmallInteger' old: oldSystemWindows) notNil
