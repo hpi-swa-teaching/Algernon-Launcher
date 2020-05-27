@@ -1,3 +1,3 @@
-as yet unclassified
+visibility
 deactivate
 	deactivated := true.

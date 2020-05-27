@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 createMorph: aTypeObject 
 	| toolSetClass |
 	toolSetClass := aTypeObject
