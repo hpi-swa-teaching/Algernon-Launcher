@@ -1,4 +1,0 @@
-constants
-categoryFontSize
-
-	^ 14

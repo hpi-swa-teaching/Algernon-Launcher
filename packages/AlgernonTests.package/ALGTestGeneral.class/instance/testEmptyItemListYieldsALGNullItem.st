@@ -1,10 +1,6 @@
 testing
 testEmptyItemListYieldsALGNullItem
 
-	self ensureMorphic.
+	self runQuery: String empty.
 
-	algerstance show.
-	algerstance textField contents: String empty.
-	algerstance updateItemList.
-
-	self assert: ALGNullItem equals: algerstance itemList selectedListItem class
+	self assert: ALGNullItem equals: algerInstance itemList selectedListItem class

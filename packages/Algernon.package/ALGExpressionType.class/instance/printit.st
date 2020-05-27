@@ -7,5 +7,5 @@ printit
 	command := textFieldContents allButFirst. "first character is '=' "
 	World findATranscript: nil.
 	Transcript show: command; show: ' -> ';
-		show: (Compiler evaluate: command for: self logged: false); cr.
+		show: (Compiler evaluate: command for: self logged: false).
 	^ true

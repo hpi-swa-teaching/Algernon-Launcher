@@ -7,6 +7,7 @@ initializeFileMapping
 		#ALGMethodType -> (self methodIcon).
 		#ALGCategoryType  -> (self categoryIcon).
 		#ALGExpressionType -> (self expressionIcon).
+		#ALGHelpType -> (self helpIcon).
 		#ALGGlobalVariableType -> (self globalVariableIcon).
 		#ALGMorphType -> (self morphIcon).
 		#ALGWorldMenuMorphType -> (self worldMenuIcon).

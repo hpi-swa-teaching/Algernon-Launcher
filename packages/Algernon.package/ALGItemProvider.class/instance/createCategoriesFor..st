@@ -1,6 +1,5 @@
 factory methods
 createCategoriesFor: anItemList
-
 	| categories |
 	categories := OrderedCollection new.
 	self yieldTop
