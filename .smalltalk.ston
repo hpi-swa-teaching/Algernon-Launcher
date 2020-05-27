@@ -8,6 +8,9 @@ SmalltalkCISpec {
       #useLatestMetacello : true
     }
   ],
+  #preLoading : [
+    'scripts/preLoading.st'
+  ],
   #testing : {
     #coverage : {
       #categories : [ 'Algernon' ]
