@@ -1,5 +1,5 @@
 accessing
 firstOnSearchStack
 	^ self searchStack linkedList
-		ifEmpty: [self query]
+		ifEmpty: ['']
 		ifNotEmpty: [self searchStack linkedList last element]

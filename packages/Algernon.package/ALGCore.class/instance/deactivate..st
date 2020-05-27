@@ -2,7 +2,7 @@ visibility
 deactivate: hand 
 	self active
 		ifFalse: [^ self].
-	self class lastInputString: self firstOnSearchStack.
+	self lastInputString: self topmostQuery.
 	self active: false;
 		 reset;
 		 stopStepping;

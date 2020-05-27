@@ -10,6 +10,6 @@ activate: hand
 		initializeBackground;
 		showMorphs;
 		openInWorld.
-	self textField contents: self class lastInputString;
+	self textField contents: self lastInputString;
 		selectAll
 	

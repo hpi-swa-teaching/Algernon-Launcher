@@ -2,8 +2,7 @@ testing
 testExpressionWithChildren
 	| expressionItem oldSystemWindows |
 	self runQuery: '= 1+1'.
-	[self algerInstance currentItem algerType typeName = 'Expression']
-		whileFalse: [self algerInstance selectNext].
+	self moveCursorTo: 'Expression'.
 	self algerInstance showChildList.
 	self runQuery: 'inspect'.
 	expressionItem := self items first.
