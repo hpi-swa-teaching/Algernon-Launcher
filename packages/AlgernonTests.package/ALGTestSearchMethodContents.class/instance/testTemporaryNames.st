@@ -2,11 +2,7 @@ testing
 testTemporaryNames
 	"Make sure temporary names are searched"
 		
-	self ensureMorphic.
+	self runQuery: 'ALGMethodType'.
+	algerInstance showChildList.
 
-	algerstance show.
-	algerstance textField contents:'ALGMethodType'.
-	algerstance updateItemList.
-	algerstance showChildList.
-
-	self deny: (algerstance itemProvider relevantItemsFor: 'aLowercaseString')  isEmpty
+	self deny: (algerInstance itemProvider relevantItemsFor: 'aLowercaseString')  isEmpty

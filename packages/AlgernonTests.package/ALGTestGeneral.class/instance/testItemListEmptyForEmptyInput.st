@@ -1,10 +1,6 @@
 testing
 testItemListEmptyForEmptyInput
 
-	self ensureMorphic.
+	self runQuery: String empty.
 
-	algerstance show.
-	algerstance textField contents: String empty.
-	algerstance updateItemList.
-
-	self assert: algerstance itemList isEmpty
+	self assert: algerInstance itemList isEmpty

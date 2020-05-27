@@ -2,9 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testEditDistance1Insert" : "LK 6/4/2016 11:22",
-		"testEditDistance1Replace" : "LK 6/2/2016 16:21",
-		"testEditDistance2" : "LK 6/2/2016 16:21",
-		"testMulipleKeysMissing" : "LK 6/2/2016 16:17",
-		"testNormalInput" : "fw 7/31/2015 03:21",
-		"testSingleKeyMissing" : "LK 6/2/2016 16:17" } }
+		"editDistanceAlgorithm" : "beb 5/21/2020 10:53",
+		"editDistanceAlgorithm:" : "beb 5/21/2020 10:53",
+		"setUp" : "beb 5/21/2020 10:59",
+		"testEditDistance1Insert" : "beb 5/21/2020 12:20",
+		"testEditDistance1Replace" : "beb 5/21/2020 12:20",
+		"testEditDistance2" : "beb 5/21/2020 12:21",
+		"testEditDistanceHelpExample" : "beb 5/21/2020 10:55",
+		"testMulipleKeysMissing" : "beb 5/21/2020 12:21",
+		"testNormalInput" : "beb 5/21/2020 12:21",
+		"testSingleKeyMissing" : "beb 5/21/2020 12:22" } }

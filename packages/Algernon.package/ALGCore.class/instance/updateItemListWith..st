@@ -1,6 +1,5 @@
 updating
 updateItemListWith: aString
-
 	| results |
 	self itemProvider yieldTop: (self inChild and: [self textField isEmpty]) not.
 	results := self itemProvider resultsFor: aString.

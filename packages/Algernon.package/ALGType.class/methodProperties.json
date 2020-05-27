@@ -4,15 +4,18 @@
 		"with:" : "J.J. 7/30/2015 16:54" },
 	"instance" : {
 		"algertemChildrenList" : "J.J. 7/30/2015 22:24",
+		"canBeTopResult" : "beb 5/21/2020 11:45",
 		"createListOfAlgeractions" : "J.J. 7/30/2015 17:00",
 		"createSortedListFrom:" : "J.J. 7/30/2015 19:57",
 		"existingBrowserIfNone:" : "J.J. 7/30/2015 17:05",
+		"fuzzyMatchName" : "beb 5/21/2020 11:03",
 		"hasChildren" : "J.J. 7/30/2015 17:00",
 		"hasComment" : "J.J. 12/14/2015 00:48",
 		"isTermRelevantFor:" : "J.J. 7/30/2015 16:55",
 		"name" : "J.J. 7/30/2015 16:55",
 		"openInExistingBrowser:" : "J.J. 7/30/2015 17:04",
 		"openInNewBrowser:" : "J.J. 7/30/2015 17:04",
+		"rankBonus" : "beb 5/21/2020 11:25",
 		"typeName" : "J.J. 7/30/2015 16:55",
 		"typeObject" : "J.J. 7/30/2015 16:55",
 		"typeObject:" : "J.J. 7/30/2015 16:55" } }

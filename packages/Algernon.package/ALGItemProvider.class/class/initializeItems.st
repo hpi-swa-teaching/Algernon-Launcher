@@ -11,4 +11,5 @@ initializeItems
 		addAll: ALGPackageType algertemList;
 		addAll: ALGSettingsType algertemList;
 		addAll: ALGTestType algertemList;
+		addAll: ALGHelpType algertemList;
 		yourself
