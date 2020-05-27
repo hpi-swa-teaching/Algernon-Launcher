@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "JS 7/12/2016 10:56",
 	"instvars" : [
-		"previouslyOpenedBrowsers",
-		"allBrowsersAfterwards",
-		"algerInstance" ],
+		"algerInstance",
+		"previouslyOpenedWindows",
+		"allWindowsAfterwards" ],
 	"name" : "ALGTest",
 	"pools" : [
 		 ],
