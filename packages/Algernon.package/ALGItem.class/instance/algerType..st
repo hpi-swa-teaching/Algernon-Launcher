@@ -1,7 +1,7 @@
 accessing
 algerType: aType
 
-	algerType := aType.
-	lowerCaseName := self name asLowercase.
-	initials := (self name select: [ :each | each isUppercase ]) asLowercase
+	self algerType: aType.
+	self lowerCaseName: self name asLowercase.
+	self initials:(self name select: [ :each | each isUppercase ]) asLowercase
 	
