@@ -13,7 +13,8 @@
 		"actionMorph",
 		"contents",
 		"icon",
-		"selected" ],
+		"selected",
+		"hasChildrenMorph" ],
 	"name" : "ALGResultItemMorph",
 	"pools" : [
 		 ],

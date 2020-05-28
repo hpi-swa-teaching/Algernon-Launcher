@@ -6,4 +6,4 @@ initializeTitleLayout
 			 yourself).
 	self addMorph: self titleMorph
 		fullFrame: (LayoutFrame
-				fractions: (0.005 @ 0 corner: 0.75 @ 1)).
+				fractions: (0.055 @ 0 corner: 0.75 @ 1)).
