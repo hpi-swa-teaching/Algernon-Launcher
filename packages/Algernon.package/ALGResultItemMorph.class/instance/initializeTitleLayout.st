@@ -1,6 +1,8 @@
 initialization
 initializeTitleLayout
-
-	self
-		color: self class titleColor;
-		extent: self menuMorph width @ self class titleHeight
+	self extent: self menuMorph width @ self class titleHeight.
+	self titleMorph: (TextMorph new contents: self contents;
+			 textColor: self class titleColor;
+			 font: self fontToUse;
+			 yourself).
+	self addMorph: self titleMorph

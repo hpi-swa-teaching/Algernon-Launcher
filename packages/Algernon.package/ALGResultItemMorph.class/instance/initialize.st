@@ -1,8 +1,8 @@
 initialization
 initialize
-
 	super initialize.
-	self initializeIcons.
-	(self isTitle)
-		ifTrue: [ self initializeTitleLayout ]
-		ifFalse: [ self initializeItemLayout ]
+	self initializeLayout.
+	self isTitle
+		ifTrue: [self initializeTitleLayout]
+		ifFalse: [self initializeIcons.
+			self initializeItemLayout]
