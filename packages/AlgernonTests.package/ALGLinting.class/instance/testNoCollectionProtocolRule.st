@@ -1,3 +1,3 @@
 code-style
 testNoCollectionProtocolRule
-	self ArbitraryCodeRule: #collectionProtocolRule
+	self ArbitraryCodeRule: #collectionProtocolRule:
