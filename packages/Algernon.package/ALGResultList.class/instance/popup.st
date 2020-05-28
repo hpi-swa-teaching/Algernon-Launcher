@@ -24,3 +24,4 @@ popup
 	self controller activeHand newMouseFocus: self;
 		 showTemporaryCursor: nil.
 	self initializePosition.
+	self moveSelectionDown: 1
