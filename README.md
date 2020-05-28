@@ -41,11 +41,24 @@ Algernon allows for keyboard only interaction - no need to use your mouse!
 For explanations regarding the usage of the features check out the [wiki](https://github.com/hpi-swa-teaching/Algernon-Launcher/wiki).
 
 
+## CI Pipeline
+[GitHub Actions](https://github.com/hpi-swa-teaching/Algernon-Launcher/actions) are executed on all pushed code to the repository. [Smalltalk CI](https://github.com/hpi-swa/setup-smalltalkCI) checks run for different OS and displays the the test results as badges to each branch.
+
+## Test Coverage
+Use the Test Runner Tool in your Squeak Image and select all *AlgernonTests*. Now you can run the test coverage for all *Algernon* methods and check what methods might not be tested yet.
+
+
 ## Credits
 
+
 *  [Ann Katrin Kuessner](https://github.com/annkatrinkuessner)
+*  [Ben Bals](https://github.com/BenBals)
+*  [Jannis Rosenbaum](https://github.com/sinnaj-r)
 *  [Jonathan Schneider](https://github.com/jonaschn)
+*  [Kai Robert Kirsten](https://github.com/robertkirsten)
+*  [Kay Erik Jenß](https://github.com/kej-jay)
 *  [Louis Kirsch](https://github.com/timediv)
+*  [Philip Weidenfeller](https://github.com/phlprcks)
 *  [Pius Ladenburger](https://github.com/GittiHab)
 *  [Tobias Dürschmid](https://github.com/tobiduer)
 
