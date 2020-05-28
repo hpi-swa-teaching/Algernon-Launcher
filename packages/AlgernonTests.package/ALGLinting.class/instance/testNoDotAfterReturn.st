@@ -1,3 +1,3 @@
 code-style
-testNodotAfterReturn
+testNoDotAfterReturn
 	self ArbitraryCodeRule: #dotAfterReturn

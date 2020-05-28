@@ -1,3 +1,3 @@
 code-style
-testNotoDoRule
+testNoToDoRule
 	self ArbitraryCodeRule: #toDoRule

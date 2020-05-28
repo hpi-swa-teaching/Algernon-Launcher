@@ -1,3 +1,3 @@
 code-style
-testNoinstanceVariableCapitalizationRule
+testNoInstanceVariableCapitalizationRule
 	self ArbitraryCodeRule: #instanceVariableCapitalizationRule

@@ -1,3 +1,3 @@
 code-style
-testNoclassNameInSelector
+testNoClassNameInSelector
 	self ArbitraryCodeRule: #classNameInSelector

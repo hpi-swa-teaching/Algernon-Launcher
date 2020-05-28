@@ -1,3 +1,3 @@
 code-style
-testNoinstVarInAllSubclasses
+testNoInstVarInAllSubclasses
 	self ArbitraryCodeRule: #instVarInAllSubclasses

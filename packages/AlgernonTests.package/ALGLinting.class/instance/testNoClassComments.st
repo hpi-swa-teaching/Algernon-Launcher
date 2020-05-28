@@ -1,3 +1,3 @@
 code-style
-testNonoClassComments
+testNoClassComments
 	self ArbitraryCodeRule: #noClassComments
