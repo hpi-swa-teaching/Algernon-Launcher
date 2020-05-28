@@ -1,4 +1,4 @@
 testing
 testListItemMorphSubmorphs
 	self runQuery: 'Algernon'.
-	self assert: (self algerInstance itemList allSatisfy: [:item | item isTitle not and:[item submorphs size = 4]])
+	self assert: (self algerInstance itemList items allSatisfy: [:item | item isTitle ifFalse: [item submorphs size = 5] ifTrue: [item submorphs size = 1]])
