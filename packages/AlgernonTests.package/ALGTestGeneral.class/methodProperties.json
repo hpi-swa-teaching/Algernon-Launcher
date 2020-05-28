@@ -13,6 +13,7 @@
 		"testHelpItemsForKeyword" : "beb 5/21/2020 11:38",
 		"testItemListEmptyForEmptyInput" : "beb 5/21/2020 12:23",
 		"testItemListNotEmptyForCategorySearches" : "beb 5/21/2020 12:23",
+		"testKeyBindingsValid" : "jRo 5/28/2020 20:20",
 		"testKeyboardInputOnlyOpensOnce" : "beb 5/20/2020 16:20",
 		"testListContents" : "beb 5/20/2020 16:20",
 		"testPackageAction" : "jRo 5/27/2020 16:47",
