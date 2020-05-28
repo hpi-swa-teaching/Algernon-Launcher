@@ -1,0 +1,3 @@
+code-style
+testNoModifiesCollection
+	self ArbitraryCodeRule: #smallLintModifiesCollection

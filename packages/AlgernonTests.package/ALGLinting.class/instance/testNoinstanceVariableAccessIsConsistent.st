@@ -1,0 +1,3 @@
+code-style
+testNoinstanceVariableAccessIsConsistent
+	self ArbitraryCodeRule: #instanceVariableAccessIsConsistent

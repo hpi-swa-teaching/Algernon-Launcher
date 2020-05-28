@@ -1,0 +1,3 @@
+code-style
+testNoLiteralArrayCharacters
+	self ArbitraryCodeRule: #smallLintLiteralArrayCharacters

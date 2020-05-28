@@ -1,0 +1,3 @@
+code-style
+testNoAssignmentWithoutEffect
+	self ArbitraryCodeRule: #smallLintAssignmentWithoutEffect

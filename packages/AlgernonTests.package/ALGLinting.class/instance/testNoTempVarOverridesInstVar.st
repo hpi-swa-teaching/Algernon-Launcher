@@ -1,0 +1,3 @@
+code-style
+testNoTempVarOverridesInstVar
+	self ArbitraryCodeRule: #smallLintTempVarOverridesInstVar

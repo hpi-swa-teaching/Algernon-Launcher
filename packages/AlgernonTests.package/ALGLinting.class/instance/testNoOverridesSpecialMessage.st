@@ -1,0 +1,3 @@
+code-style
+testNoOverridesSpecialMessage
+	self ArbitraryCodeRule: #smallLintOverridesSpecialMessage

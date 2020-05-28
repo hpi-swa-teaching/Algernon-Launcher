@@ -1,0 +1,3 @@
+code-style
+testNounnecessaryAssignmentRule
+	self ArbitraryCodeRule: #unnecessaryAssignmentRule

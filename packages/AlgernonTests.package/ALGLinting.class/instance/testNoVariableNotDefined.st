@@ -1,0 +1,3 @@
+code-style
+testNoVariableNotDefined
+	self ArbitraryCodeRule: #smallLintVariableNotDefined

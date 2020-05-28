@@ -1,0 +1,3 @@
+code-style
+testNoSentNotImplemented
+	self ArbitraryCodeRule: #smallLintSentNotImplemented

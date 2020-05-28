@@ -1,0 +1,3 @@
+code-style
+testNoEquivalentSuperclassMethods
+	self ArbitraryCodeRule: #smallLintEquivalentSuperclassMethods

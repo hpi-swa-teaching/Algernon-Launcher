@@ -1,0 +1,3 @@
+code-style
+testNoinstVarInAllSubclasses
+	self ArbitraryCodeRule: #instVarInAllSubclasses
