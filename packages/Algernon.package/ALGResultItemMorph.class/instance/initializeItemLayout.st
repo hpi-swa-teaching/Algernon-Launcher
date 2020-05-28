@@ -1,6 +1,5 @@
 initialization
 initializeItemLayout
-	self extent: self menuMorph width @ self class itemHeight.
 	self hasIcon
 		ifTrue: [icon := self icon.
 			self

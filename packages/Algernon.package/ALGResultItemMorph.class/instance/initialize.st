@@ -3,6 +3,8 @@ initialize
 	super initialize.
 	self initializeLayout.
 	self isTitle
-		ifTrue: [self initializeTitleLayout]
-		ifFalse: [self initializeIcons.
+		ifTrue: [self initializeTitleBounds.
+			self initializeTitleLayout]
+		ifFalse: [self initializeItemBounds.
+			self initializeIcons.
 			self initializeItemLayout]
