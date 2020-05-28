@@ -1,3 +1,3 @@
 code-style
 testNoClassComments
-	self ArbitraryCodeRule: #noClassComments
+	self ArbitraryCodeRule: #noClassComments:

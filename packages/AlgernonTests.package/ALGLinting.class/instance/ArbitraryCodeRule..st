@@ -2,7 +2,7 @@ private
 ArbitraryCodeRule: rule
 "Verifies an arbritrary code rule."
 	| testRunner testObjects positiveResults |
-	testRunner := SLTestRunner new environment: SLDefaultEnvironment new.
+	testRunner := SLTestRunner  environment: SLDefaultEnvironment new.
 	testObjects := SystemNavigation default allClasses .
 
 	testObjects := testObjects select: [:x| x class category beginsWith: 'Algernon' ].
@@ -11,5 +11,7 @@ ArbitraryCodeRule: rule
 	testRunner runOnTests: {rule} andTestObjects: testObjects.
 	positiveResults := testObjects select: [:testObject | | result |
 		result := testObject resultOf: rule.
-		result result > 0].
+		(result respondsTo: #>)
+			ifTrue: [result result > 0]
+			ifFalse: [result isNegative ] ].
 	self assert: 0  equals: positiveResults size. 
