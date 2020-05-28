@@ -2,8 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testBackgroundDoesHandleMouseEvents" : "jRo 5/27/2020 15:01",
 		"testClickOnAlgernonDoesNotThrow" : "beb 5/24/2020 11:14",
 		"testClickOnInputField" : "beb 5/24/2020 18:08",
+		"testCoreDoesNotHandleMouseEvents" : "jRo 5/27/2020 15:11",
+		"testItemMorphDoesNotHandleMouseEvents" : "jRo 5/27/2020 15:01",
 		"testNotOverlapping" : "beb 5/21/2020 12:26",
 		"testResultListDoesNotHandleMouseEvents" : "beb 5/24/2020 18:19",
 		"testResultListMovement" : "beb 5/24/2020 11:11",

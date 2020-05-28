@@ -1,9 +1,6 @@
 testing
-testAlgernonKeepInput: input
-
-	Algernon open.
-	Algernon currentInstance textField contents: input.
-	Algernon
-			close;
-			open.
-	self assert: Algernon currentInstance textField contents equals: input
+testAlgernonKeepInput: input 
+	self runQuery: input.
+	self algerInstance deactivate.
+	self algerInstance activate: nil.
+	self assert: self algerInstance textField contents equals: input

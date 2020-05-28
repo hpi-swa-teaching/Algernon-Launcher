@@ -4,10 +4,10 @@ testTestAction
 	self runQuery: 'ALGFakeTest'.
 	self moveCursorTo: 'Test'.
 
-	oldTestRunners := self findPluggableSystemWindowsByLabel: 'Test Runner'.
+	oldTestRunners := self findSystemWindowsByLabel: 'Test Runner'.
 	
 	ALGFakeTest wasRun: false.
 	self activateCurrentItemAction.
 	self assert: ALGFakeTest wasRun.
 
-	self deleteNewPluggableSystemWindowsByLabel: 'Test Runner' old: oldTestRunners.
+	self deleteNewSystemWindowsByLabel: 'Test Runner' old: oldTestRunners.
