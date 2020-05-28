@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "J.J. 7/31/2015 19:19",
 	"instvars" : [
-		"controller" ],
+		"controller",
+		"selectedItem",
+		"originalFocusHolder" ],
 	"name" : "ALGResultList",
 	"pools" : [
 		 ],
-	"super" : "MenuMorph",
+	"super" : "Morph",
 	"type" : "normal" }

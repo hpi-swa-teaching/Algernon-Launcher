@@ -3,7 +3,6 @@ newWithContents: aString in: aMenuMorph
 
 	^ self basicNew
 		menuMorph: aMenuMorph;
+		contents: aString;
 		initialize;
-		contentsClipped: aString;
-		isEnabled: false;
 		yourself

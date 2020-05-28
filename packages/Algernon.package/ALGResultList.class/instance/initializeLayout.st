@@ -8,6 +8,5 @@ initializeLayout
 		cornerStyle: #square;
 		hResizing: #rigid;
 		shadowOffset: 0@0;
-		stayUp: true;
 		lock: true;
 		layoutPolicy: TableLayout new.

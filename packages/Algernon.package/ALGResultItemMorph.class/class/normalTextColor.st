@@ -1,4 +1,4 @@
 constants
-nonSelectedColor
+normalTextColor
 
 	^ Color black

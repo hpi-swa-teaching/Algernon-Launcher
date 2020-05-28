@@ -1,5 +1,5 @@
 accessing
 hasIcon
 
-	^ false
+	^ self icon isNil not
 	

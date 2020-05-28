@@ -10,9 +10,12 @@
 		"menuMorph",
 		"titleMorph",
 		"nameMorph",
-		"actionMorph" ],
+		"actionMorph",
+		"contents",
+		"icon",
+		"selected" ],
 	"name" : "ALGResultItemMorph",
 	"pools" : [
 		 ],
-	"super" : "MenuItemMorph",
+	"super" : "Morph",
 	"type" : "normal" }
