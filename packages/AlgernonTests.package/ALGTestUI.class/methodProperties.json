@@ -4,7 +4,7 @@
 	"instance" : {
 		"testBackgroundDoesHandleMouseEvents" : "jRo 5/27/2020 15:01",
 		"testClickOnAlgernonDoesNotThrow" : "beb 5/24/2020 11:14",
-		"testClickOnInputField" : "beb 5/24/2020 18:08",
+		"testClickOnInputField" : "beb 5/29/2020 18:46",
 		"testCoreDoesNotHandleMouseEvents" : "jRo 5/27/2020 15:11",
 		"testItemMorphDoesNotHandleMouseEvents" : "jRo 5/27/2020 15:01",
 		"testNotOverlapping" : "beb 5/21/2020 12:26",

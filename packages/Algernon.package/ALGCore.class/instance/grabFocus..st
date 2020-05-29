@@ -2,5 +2,5 @@ event handling
 grabFocus: hand
 
 	hand 
-		newKeyboardFocus: self;
+		newKeyboardFocus: self textField;
 		newMouseFocus: self
