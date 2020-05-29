@@ -1,0 +1,3 @@
+constants
+cursorColor
+	^ Color black

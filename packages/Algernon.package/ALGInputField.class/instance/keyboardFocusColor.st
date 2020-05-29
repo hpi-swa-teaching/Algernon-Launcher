@@ -1,0 +1,3 @@
+accessing
+keyboardFocusColor
+	^ ALGBreadcrumbs defaultColor
