@@ -1,3 +1,3 @@
 code-style
 testNoUnnecessaryAssignmentRule
-	self ArbitraryCodeRule: #unnecessaryAssignmentRule
+	self ArbitraryCodeRule: #unnecessaryAssignmentRule:
