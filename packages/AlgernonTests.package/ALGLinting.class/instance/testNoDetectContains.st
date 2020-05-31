@@ -1,0 +1,3 @@
+code-style
+testNoDetectContains
+	self ArbitraryCodeRule: #smallLintDetectContains

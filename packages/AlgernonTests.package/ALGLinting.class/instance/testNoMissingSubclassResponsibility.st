@@ -1,0 +1,3 @@
+code-style
+testNoMissingSubclassResponsibility
+	self ArbitraryCodeRule: #smallLintMissingSubclassResponsibility

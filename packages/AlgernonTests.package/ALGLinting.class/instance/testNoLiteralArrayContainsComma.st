@@ -1,0 +1,3 @@
+code-style
+testNoLiteralArrayContainsComma
+	self ArbitraryCodeRule: #smallLintLiteralArrayContainsComma

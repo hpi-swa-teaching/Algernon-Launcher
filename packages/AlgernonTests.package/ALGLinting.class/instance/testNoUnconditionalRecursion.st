@@ -1,0 +1,3 @@
+code-style
+testNoUnconditionalRecursion
+	self ArbitraryCodeRule: #smallLintUnconditionalRecursion

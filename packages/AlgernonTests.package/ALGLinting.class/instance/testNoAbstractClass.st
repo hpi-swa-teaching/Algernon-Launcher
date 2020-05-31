@@ -1,0 +1,3 @@
+code-style
+testNoAbstractClass
+	self ArbitraryCodeRule: #smallLintAbstractClass
