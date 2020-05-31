@@ -1,3 +1,0 @@
-code-style
-testNoInstanceVariableAccessIsConsistent
-	self ArbitraryCodeRule: #instanceVariableAccessIsConsistent:

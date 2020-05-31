@@ -1,3 +1,0 @@
-code-style
-testNoRefersToClass
-	self ArbitraryCodeRule: #smallLintRefersToClass

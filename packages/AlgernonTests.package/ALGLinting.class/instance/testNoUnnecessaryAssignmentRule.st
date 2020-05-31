@@ -1,3 +1,0 @@
-code-style
-testNoUnnecessaryAssignmentRule
-	self ArbitraryCodeRule: #unnecessaryAssignmentRule:

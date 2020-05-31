@@ -1,3 +1,0 @@
-code-style
-testNoInstVarInAllSubclasses
-	self ArbitraryCodeRule: #instVarInAllSubclasses:

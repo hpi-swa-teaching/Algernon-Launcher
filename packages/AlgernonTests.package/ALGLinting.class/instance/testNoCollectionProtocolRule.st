@@ -1,3 +1,0 @@
-code-style
-testNoCollectionProtocolRule
-	self ArbitraryCodeRule: #collectionProtocolRule:

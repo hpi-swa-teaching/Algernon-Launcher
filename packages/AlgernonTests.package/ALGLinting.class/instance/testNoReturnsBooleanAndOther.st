@@ -1,3 +1,0 @@
-code-style
-testNoReturnsBooleanAndOther
-	self ArbitraryCodeRule: #smallLintReturnsBooleanAndOther

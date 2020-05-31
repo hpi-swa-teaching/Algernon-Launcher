@@ -1,3 +1,0 @@
-code-style
-testNoConsistencyCheck
-	self ArbitraryCodeRule: #smallLintConsistencyCheck
