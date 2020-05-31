@@ -1,3 +1,0 @@
-code-style
-testNoVariableReferencedOnce
-	self ArbitraryCodeRule: #smallLintVariableReferencedOnce
