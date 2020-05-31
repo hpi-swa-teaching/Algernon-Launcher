@@ -1,3 +1,3 @@
 code-style
 testNoInstanceVariableAccessIsConsistent
-	self ArbitraryCodeRule: #instanceVariableAccessIsConsistent
+	self ArbitraryCodeRule: #instanceVariableAccessIsConsistent:
