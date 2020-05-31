@@ -1,5 +1,5 @@
 initialization
 initializeIcons
 	self
-		icon: ((ALGIconFactory getInstance iconFor: self item)
+		icon: ((ALGIconFactory iconFor: self item)
 				scaledToSize: ALGIconFactory iconSizeItemType)
