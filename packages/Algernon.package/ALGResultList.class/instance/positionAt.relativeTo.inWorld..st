@@ -3,6 +3,7 @@ positionAt: aPoint relativeTo: aMenuItem inWorld: aWorld
 	"Note: items may not be laid out yet (I found them all to be at 0@0), 
 	so we have to add up heights of items above the selected item."
 	| i yOffset sub delta |
+	self flag: #refactor.
 	self fullBounds.
 	"force layout"
 	i := 0.

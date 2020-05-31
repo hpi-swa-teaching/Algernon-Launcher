@@ -1,4 +1,4 @@
 event handling
 selectNext
 
-	self moveSelectionDown: 1
+	self moveSelection: 1

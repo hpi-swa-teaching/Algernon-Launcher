@@ -1,0 +1,3 @@
+constants
+backgroundColor
+	^ Color white

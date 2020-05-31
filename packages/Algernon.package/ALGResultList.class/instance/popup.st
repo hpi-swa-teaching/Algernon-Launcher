@@ -2,6 +2,7 @@ drawing
 popup
 
 	| x y |
+	self flag: #refactor.
 	x := self controller center x - (self width / 2).
 	y := self controller bottom + self class verticalOffset.
 	
@@ -24,4 +25,4 @@ popup
 	self controller activeHand newMouseFocus: self;
 		 showTemporaryCursor: nil.
 	self initializePosition.
-	self moveSelectionDown: 1
+	self moveSelection: 1

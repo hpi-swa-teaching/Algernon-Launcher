@@ -5,5 +5,4 @@ initializeItemLayoutIcon
 		ifTrue: [iconMorph := self icon asMorph.
 			self
 				addMorph: iconMorph
-				fullFrame: (LayoutFrame
-						fractions: (0.01 @ 0.3 corner: 0.04 @ 1))]
+				fullFrame: (self layoutFrameFor: #IconMorph)]

@@ -5,6 +5,5 @@ initializeItemLayoutName
 			 yourself).
 	self
 		addMorph: self nameMorph
-		fullFrame: (LayoutFrame
-				fractions: (0.055 @ 0 corner: 0.75 @ 1)).
+		fullFrame: (self layoutFrameFor: #NameMorph).
 	self nameMorph vResizing: #shrinkWrap

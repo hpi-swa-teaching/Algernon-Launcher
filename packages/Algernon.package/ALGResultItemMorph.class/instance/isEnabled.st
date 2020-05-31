@@ -1,3 +1,3 @@
 drawing
 isEnabled
- ^ self item isNil not
+	^ self item isNil not

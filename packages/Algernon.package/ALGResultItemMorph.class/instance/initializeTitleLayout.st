@@ -2,8 +2,7 @@ initialization
 initializeTitleLayout
 	self titleMorph: (TextMorph new contents: self contents;
 			 textColor: self class titleColor;
-			 "font: self fontToUse;"
 			 yourself).
-	self addMorph: self titleMorph
-		fullFrame: (LayoutFrame
-				fractions: (0.055 @ 0 corner: 0.75 @ 1)).
+	self
+		addMorph: self titleMorph
+		fullFrame: (self layoutFrameFor: #TitleMorph)

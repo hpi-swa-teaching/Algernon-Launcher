@@ -1,3 +1,4 @@
 accessing
 hasChildrenMorph
 	^ hasChildrenMorph
+	
