@@ -1,3 +1,0 @@
-code-style
-testNoCollectSelectNotUsed
-	self ArbitraryCodeRule: #smallLintCollectSelectNotUsed

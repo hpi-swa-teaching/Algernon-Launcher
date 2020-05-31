@@ -12,7 +12,6 @@
 		"testNoClassInstVarNotInitialized" : "KEJ 5/28/2020 16:45",
 		"testNoClassNameInSelector" : "beb 5/28/2020 18:02",
 		"testNoClassVariableCapitalization" : "KEJ 5/28/2020 16:43",
-		"testNoCollectSelectNotUsed" : "KEJ 5/28/2020 16:44",
 		"testNoCollectionProtocolRule" : "beb 5/28/2020 18:02",
 		"testNoConsistencyCheck" : "KEJ 5/28/2020 16:54",
 		"testNoContains" : "KEJ 5/28/2020 16:55",

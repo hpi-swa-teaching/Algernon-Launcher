@@ -1,0 +1,1 @@
+A help item displays a description of a hotwort
