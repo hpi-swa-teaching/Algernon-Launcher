@@ -5,5 +5,5 @@ testCloseWithEscape
 										keyString: '<escape>';
 										isKeyUp: false.
 	Algernon open.
-	Algernon currentInstance handleEvent: closeAlgernonEvent.
+	Algernon currentInstance textField handleEvent: closeAlgernonEvent.
 	self deny: Algernon currentInstance active.
