@@ -1,6 +1,6 @@
 initialization
 initializeItemLayoutName
-	self nameMorph: (TextMorph new contents: self contents;
+	self nameMorph: (TextMorph new contentsWrapped: self contents;
 			 textColor: self class normalTextColor;
 			 yourself).
 	self
