@@ -1,5 +1,5 @@
 initialization
 initializeItemLayout
-
-	self color: self class nonSelectedColor;
-		extent: self menuMorph width @ self class itemHeight
+	self initializeItemLayoutIcon.
+	self initializeItemLayoutName.
+	self initializeItemLayoutAction

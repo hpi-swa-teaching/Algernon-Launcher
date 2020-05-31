@@ -7,7 +7,8 @@
 		"testClickOnInputField" : "beb 5/24/2020 18:08",
 		"testCoreDoesNotHandleMouseEvents" : "jRo 5/27/2020 15:11",
 		"testItemMorphDoesNotHandleMouseEvents" : "jRo 5/27/2020 15:01",
+		"testListItemMorphSubmorphs" : "jRo 5/28/2020 18:57",
 		"testNotOverlapping" : "beb 5/21/2020 12:26",
 		"testResultListDoesNotHandleMouseEvents" : "beb 5/24/2020 18:19",
 		"testResultListMovement" : "beb 5/24/2020 11:11",
-		"testResultTextAbbreviation" : "beb 5/21/2020 12:27" } }
+		"testResultTextWrap" : "jRo 5/31/2020 12:28" } }

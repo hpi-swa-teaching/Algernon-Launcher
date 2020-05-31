@@ -1,0 +1,3 @@
+constants
+borderColor
+	^ Color veryLightGray
