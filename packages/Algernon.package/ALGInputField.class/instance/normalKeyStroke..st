@@ -1,5 +1,6 @@
 event handling
 normalKeyStroke: event
+	
 	"the controller notifies the text field of symbols entered,
 	special keys are handled by the controller"
 	self editor hasSelection ifTrue: [^super keyStroke: event].
@@ -12,3 +13,4 @@ normalKeyStroke: event
 	because it needs the bounds. That's why this is not in
 	initialize"
 	self paragraph caretColor: (self class cursorColor).
+	

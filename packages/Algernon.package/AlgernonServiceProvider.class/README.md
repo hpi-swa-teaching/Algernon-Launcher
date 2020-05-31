@@ -1,0 +1,1 @@
+Register algernon as a Squeak service
