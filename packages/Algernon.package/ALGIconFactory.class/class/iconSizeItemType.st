@@ -1,4 +1,4 @@
 constants
 iconSizeItemType
 
-	^ self iconSize * 0.75
+	^ 16.5@16.5

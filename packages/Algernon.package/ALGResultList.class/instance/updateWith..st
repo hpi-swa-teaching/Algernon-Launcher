@@ -1,7 +1,7 @@
 updating
 updateWith: aCollection 
 	self removeAllSubmorphs.
-	aCollection copy
+	aCollection
 		do: [:aCategory | 
 			self addCategory: aCategory.
 			aCategory items

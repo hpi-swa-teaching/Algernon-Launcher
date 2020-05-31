@@ -1,3 +1,3 @@
 constants
 actionFontSize
-	^ 13
+	^ 8

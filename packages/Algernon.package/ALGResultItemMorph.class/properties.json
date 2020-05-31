@@ -14,7 +14,7 @@
 		"contents",
 		"icon",
 		"selected",
-		"hasChildrenMorph" ],
+		"childrenIndicatorMorph" ],
 	"name" : "ALGResultItemMorph",
 	"pools" : [
 		 ],

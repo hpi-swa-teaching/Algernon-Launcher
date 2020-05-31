@@ -5,5 +5,5 @@ select
 	
 	self color: self class selectionFillStyle.
 	
-	self hasChildrenMorph show.
+	self childrenIndicatorMorph show.
 	self actionMorph show.

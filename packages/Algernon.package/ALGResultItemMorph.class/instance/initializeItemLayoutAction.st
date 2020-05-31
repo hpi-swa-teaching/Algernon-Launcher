@@ -1,10 +1,10 @@
 initialization
 initializeItemLayoutAction
 	self actionMorph: self createActionMorph.
-	self hasChildrenMorph: self createHasChildrenMorph.
+	self childrenIndicatorMorph: self createChildrenIndicatorMorph.
 	self item algerType hasChildren
 		ifTrue: [self
-				addMorph: self hasChildrenMorph
+				addMorph: self childrenIndicatorMorph
 				fullFrame: (self layoutFrameFor: #HasChildrenMorph)].
 	self
 		addMorph: self actionMorph
