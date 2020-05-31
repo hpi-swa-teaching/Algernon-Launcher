@@ -1,8 +1,8 @@
 testing
 testResultTextWrap
 	"Try running the garbage collector if test fails"
-	| resultItem longClassName |
-	longClassName := 'OptimizedBlockLocalTempReadBeforeWrittenVisitor'.
-	self runQuery: longClassName.
-	resultItem := algerInstance itemList submorphs at: 2.
+	| resultItem queryWithLongResult |
+	queryWithLongResult := 'help do'.
+	self runQuery: queryWithLongResult.
+	resultItem :=self algerInstance itemList items second.
 	self assert: (resultItem nameMorph) isWrapped
