@@ -1,0 +1,1 @@
+When typing help, the help menu should be openend meaning that only help items are displayed
