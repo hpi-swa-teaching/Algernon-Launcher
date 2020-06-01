@@ -5,7 +5,7 @@ testClickOnInputField
 	event := MouseButtonEvent new.
 	event setHand: HandMorph new.
 	self algerInstance textField mouseUp: event.
-	self assert: (self algerInstance hasKeyboardFocus).
+	self assert: (self algerInstance textField hasKeyboardFocus).
 	self algerInstance textField mouseDown: event.
 	self deny: self algerInstance active.
 	

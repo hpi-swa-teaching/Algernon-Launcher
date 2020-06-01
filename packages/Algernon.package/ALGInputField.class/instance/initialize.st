@@ -1,9 +1,8 @@
 initialization
-initalize
-
+initialize
 	super initialize.
 	self
-		beAllFont: self class font;
+		beAllFont: self class defaultFont;
 		backgroundColor: self class backgroundColor;
 		setProperty: #holdsSeparateDataForEachInstance toValue: true;
 		fillsOwner: true

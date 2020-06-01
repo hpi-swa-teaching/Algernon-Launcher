@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"backgroundColor" : "J.J. 7/28/2015 20:12",
+		"cursorColor" : "beb 5/29/2020 19:07",
 		"defaultFont" : "DS 5/11/2017 10:57",
 		"newIn:" : "J.J. 7/28/2015 20:13" },
 	"instance" : {
@@ -8,10 +9,13 @@
 		"controller" : "J.J. 7/28/2015 20:13",
 		"controller:" : "J.J. 7/28/2015 20:13",
 		"currentContent" : "J.J. 7/27/2015 21:43",
-		"initalize" : "J.J. 7/28/2015 20:15",
+		"handlesKeyboard:" : "beb 5/29/2020 18:45",
+		"initialize" : "beb 5/29/2020 19:06",
 		"isEmpty" : "td 6/29/2016 08:11",
-		"keyStroke:" : "td 6/1/2016 19:57",
+		"keyStroke:" : "beb 5/29/2020 18:45",
+		"keyboardFocusColor" : "rk 5/31/2020 14:53",
 		"mouseDown:" : "J.J. 7/30/2015 20:19",
 		"mouseUp:" : "J.J. 7/30/2015 20:20",
-		"moveCursorToEnd" : "beb 5/23/2020 16:03",
+		"moveCursorToEnd" : "jRo 5/31/2020 22:38",
+		"normalKeyStroke:" : "pw 5/31/2020 21:47",
 		"size" : "beb 5/23/2020 16:04" } }
