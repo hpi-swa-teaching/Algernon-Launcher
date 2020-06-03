@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testBackgroundDoesHandleMouseEvents" : "jRo 5/27/2020 15:01",
+		"testBackgroundDoesHandleMouseEvents" : "pw 6/3/2020 19:08",
+		"testBreadcrumbDoesHandleMouseEvents" : "pw 6/3/2020 19:08",
 		"testClickOnAlgernonDoesNotThrow" : "beb 5/24/2020 11:14",
 		"testClickOnInputField" : "beb 5/29/2020 18:46",
 		"testCoreDoesNotHandleMouseEvents" : "jRo 5/27/2020 15:11",
