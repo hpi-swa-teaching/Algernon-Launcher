@@ -1,4 +1,4 @@
 relevance
 isTermRelevantFor: aLowercaseString
 
-	^ self methodContent asLowercase includesSubstring: aLowercaseString
+	^ self typeObject asLowercase includesSubstring: aLowercaseString
