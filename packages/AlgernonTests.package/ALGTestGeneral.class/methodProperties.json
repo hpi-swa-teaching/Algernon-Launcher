@@ -16,6 +16,7 @@
 		"testKeyBindingsValid" : "jRo 5/28/2020 20:20",
 		"testKeyboardInputOnlyOpensOnce" : "beb 5/20/2020 16:20",
 		"testListContents" : "beb 5/20/2020 16:20",
+		"testMethodAction" : "jRo 6/4/2020 15:22",
 		"testMethodItems" : "jRo 6/4/2020 13:56",
 		"testNormalKeyStrokesSetsCursorColor" : "pw 5/31/2020 22:16",
 		"testPackageAction" : "jRo 5/27/2020 16:47",

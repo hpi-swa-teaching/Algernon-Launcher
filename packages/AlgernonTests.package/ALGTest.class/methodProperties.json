@@ -13,7 +13,7 @@
 		"doActionForItem:withName:" : "jRo 5/27/2020 16:10",
 		"ensureMorphic" : "fw 7/31/2015 03:09",
 		"findNewSystemWindowsByLabel:old:" : "jRo 5/27/2020 17:44",
-		"findSystemWindowsByLabel:" : "jRo 6/4/2020 14:26",
+		"findSystemWindowsByLabel:" : "jRo 6/4/2020 15:08",
 		"getResultItemForType:" : "jRo 5/27/2020 15:44",
 		"isMorphic" : "fw 7/31/2015 03:09",
 		"items" : "beb 5/20/2020 16:49",
@@ -22,5 +22,5 @@
 		"resultsIncludeName:" : "Jro 5/26/2020 12:41",
 		"runQuery:" : "beb 5/21/2020 12:19",
 		"setUp" : "jRo 5/27/2020 15:28",
-		"tearDown" : "jRo 5/27/2020 15:28",
+		"tearDown" : "jRo 6/4/2020 14:48",
 		"topResults" : "beb 5/21/2020 11:51" } }
