@@ -2,17 +2,12 @@
 	"class" : {
 		"add:toDict:atValue:" : "LK 6/1/2016 22:00",
 		"buildCommentCache" : "LK 6/1/2016 22:22",
-		"buildMethodCache" : "LK 6/6/2016 20:04",
 		"clearCommentCache" : "LK 6/1/2016 21:30",
 		"clearMethodCache" : "LK 6/1/2016 21:30",
 		"commentCache" : "LK 5/26/2016 23:38",
-		"contentFromMethod:" : "LK 6/1/2016 21:23",
-		"methodCache" : "LK 6/6/2016 20:46",
 		"withAlgertype:" : "J.J. 7/30/2015 15:12",
 		"withAlgertype:relevantForEmptyString:" : "J.J. 7/30/2015 15:12",
-		"wordsOfCommentFromClass:" : "LK 5/26/2016 23:30",
-		"wordsOfCommentFromMethod:" : "LK 6/1/2016 21:43",
-		"wordsOfMethod:" : "JS 6/1/2016 20:07" },
+		"wordsOfCommentFromClass:" : "LK 5/26/2016 23:30" },
 	"instance" : {
 		"algerActions" : "td 6/8/2016 21:04",
 		"algerActions:" : "td 6/8/2016 21:04",
