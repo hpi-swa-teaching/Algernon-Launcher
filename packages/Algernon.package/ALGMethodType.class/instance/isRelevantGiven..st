@@ -1,4 +1,4 @@
 relevance
-isTermRelevantFor: aLowercaseString
+isRelevantGiven: aLowercaseString
 
 	^ self typeObject asLowercase includesSubstring: aLowercaseString

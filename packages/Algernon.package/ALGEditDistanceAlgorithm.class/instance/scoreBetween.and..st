@@ -2,12 +2,13 @@ scoring
 scoreBetween: stringOne and: stringTwo 	
 	"Iterative calculation of the Levenshtein distance between two strings."
 	
+	stringTwo  isEmpty
+		ifTrue:[^(stringOne size)].
+	stringOne  isEmpty
+		ifTrue:[^(stringTwo size)].
 	stringTwo = stringOne 
 		ifTrue:[^0].
-	(stringTwo size) = 0 
-		ifTrue:[^(stringOne size)].
-	(stringOne size) = 0 
-		ifTrue:[^(stringTwo size)].
+
 	
 	self arrayOne: (Array new: (stringTwo size + 1)).
 	self arrayTwo: (Array new: (stringTwo size + 1)).
