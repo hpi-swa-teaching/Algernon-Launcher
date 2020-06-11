@@ -11,11 +11,9 @@
 		"clear" : "fw 7/30/2015 16:07",
 		"controller" : "J.J. 7/16/2015 22:48",
 		"controller:" : "J.J. 7/28/2015 19:25",
-		"createCrumb:" : "J.J. 7/28/2015 19:29",
-		"handlesMouseDown:" : "pw 6/3/2020 19:00",
-		"initialize" : "J.J. 7/28/2015 19:27",
+		"createCrumb:" : "KEJ 6/11/2020 12:20",
+		"initialize" : "KEJ 6/11/2020 12:11",
 		"initializeDefaultCrumb" : "J.J. 7/28/2015 19:32",
-		"mouseDown:" : "pw 6/3/2020 19:26",
 		"pop" : "J.J. 7/28/2015 19:30",
 		"push:" : "J.J. 7/28/2015 19:32",
 		"updateWidth" : "J.J. 7/28/2015 19:31" } }
