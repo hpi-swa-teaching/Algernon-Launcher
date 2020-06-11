@@ -3,6 +3,5 @@
 		 },
 	"instance" : {
 		"setUp" : "LK 6/9/2016 12:11",
-		"testMouseDownDoesNotDeactivate" : "pw 6/3/2020 19:30",
 		"testPop" : "LK 6/9/2016 12:20",
 		"testPush" : "LK 6/9/2016 12:17" } }
