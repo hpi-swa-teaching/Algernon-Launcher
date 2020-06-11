@@ -1,0 +1,4 @@
+relevance
+isRelevantGiven: aString
+
+	^ false

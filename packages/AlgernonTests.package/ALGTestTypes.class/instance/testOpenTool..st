@@ -1,11 +1,12 @@
 testing
 testOpenTool: tool 
-	| browserResults browserWindowCount |
+	| browserResults newBrowser oldBrowsers |
 	self runQuery: 'open ' , tool.
 	browserResults := self items
 				select: [:each | each name = tool
 						and: [each algerType typeName = 'StandardToolSetMorph']].
 	self assert: browserResults notEmpty.
-	browserWindowCount := self currentSystemWindows size.
+	oldBrowsers := self findSystemWindowsByLabel: tool.
 	self doActionForItem: browserResults first.
-	self assert: browserWindowCount < self currentSystemWindows size
+	newBrowser := self findNewSystemWindowsByLabel: tool old: oldBrowsers.
+	self assert: newBrowser notEmpty
