@@ -10,5 +10,5 @@
 	"name" : "ALGWorldMenuMorphType",
 	"pools" : [
 		 ],
-	"super" : "ALGMorphType",
+	"super" : "ALGType",
 	"type" : "normal" }
