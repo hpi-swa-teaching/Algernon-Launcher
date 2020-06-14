@@ -1,4 +1,4 @@
 accessing
 name
 
-	^ self typeObject formalName
+	self subclassResponsibility
