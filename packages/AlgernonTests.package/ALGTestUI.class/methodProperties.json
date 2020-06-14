@@ -6,6 +6,7 @@
 		"testClickOnAlgernonDoesNotThrow" : "beb 5/24/2020 11:14",
 		"testClickOnInputField" : "beb 5/29/2020 18:46",
 		"testCoreDoesNotHandleMouseEvents" : "jRo 5/27/2020 15:11",
+		"testCoreStepTime" : "jRo 6/14/2020 23:55",
 		"testItemMorphDoesNotHandleMouseEvents" : "jRo 5/27/2020 15:01",
 		"testListItemMorphSubmorphs" : "jRo 5/28/2020 18:57",
 		"testNotOverlapping" : "beb 5/21/2020 12:26",

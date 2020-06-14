@@ -56,7 +56,7 @@
 		"initializeItems" : "PL 6/30/2016 12:06",
 		"initializeMorphs" : "fw 7/30/2015 22:13",
 		"initializePosition" : "J.J. 7/27/2015 19:38",
-		"initializeProperties" : "TD 4/27/2018 15:22",
+		"initializeProperties" : "jRo 6/14/2020 23:56",
 		"initializeProvider" : "J.J. 7/30/2015 22:00",
 		"initializeStacks" : "PL 6/30/2016 12:26",
 		"initializeWindow" : "td 6/8/2016 21:12",
@@ -97,12 +97,10 @@
 		"showParentList" : "jRo 5/31/2020 22:37",
 		"step" : "DS 6/2/2017 15:01",
 		"stepTime" : "DS 5/21/2017 16:53",
-		"systemChanged:" : "J.J. 7/27/2015 19:37",
 		"textField" : "J.J. 7/27/2015 21:10",
 		"textField:" : "J.J. 7/27/2015 21:10",
 		"toggleVisibility:" : "JF 5/7/2015 14:35",
 		"topmostQuery" : "jRo 6/14/2020 18:23",
 		"unregisterFromSystem" : "J.J. 7/27/2015 19:38",
 		"updateItemList" : "J.J. 7/27/2015 21:43",
-		"updateItemListWith:" : "beb 5/20/2020 17:56",
-		"wasChanged:" : "J.J. 7/28/2015 19:52" } }
+		"updateItemListWith:" : "beb 5/20/2020 17:56" } }
