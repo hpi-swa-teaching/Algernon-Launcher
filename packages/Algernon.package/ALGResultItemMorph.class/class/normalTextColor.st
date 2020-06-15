@@ -1,0 +1,4 @@
+constants
+normalTextColor
+
+	^ Color black

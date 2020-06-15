@@ -5,8 +5,7 @@
 	"classvars" : [
 		"ActivationString",
 		"CurrentInstance",
-		"KeyBindings",
-		"LastInputString" ],
+		"KeyBindings" ],
 	"commentStamp" : "LK 7/4/2016 18:38",
 	"instvars" : [
 		"itemList",
@@ -21,7 +20,8 @@
 		"itemProvider",
 		"textField",
 		"receivedActivation",
-		"firstStep" ],
+		"firstStep",
+		"lastInputString" ],
 	"name" : "ALGCore",
 	"pools" : [
 		 ],

@@ -1,0 +1,3 @@
+code-style
+testNoClassVariableCapitalization
+	self ArbitraryCodeRule: #smallLintClassVariableCapitalization

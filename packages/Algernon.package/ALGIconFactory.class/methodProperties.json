@@ -8,7 +8,9 @@
 		"getInstance" : "J.J. 7/30/2015 15:07",
 		"globalVariableIcon" : "fw 7/21/2015 22:02",
 		"helpIcon" : "beb 5/20/2020 17:42",
+		"iconFor:" : "jRo 5/31/2020 15:35",
 		"iconSize" : "J.J. 7/30/2015 15:07",
+		"iconSizeItemType" : "jRo 5/31/2020 15:16",
 		"initializeFileMapping" : "beb 5/20/2020 16:37",
 		"methodIcon" : "fw 7/21/2015 22:02",
 		"morphIcon" : "fw 7/21/2015 22:02",
@@ -22,7 +24,6 @@
 	"instance" : {
 		"hasCachedIconFor:" : "J.J. 7/30/2015 15:06",
 		"hasIconFor:" : "J.J. 7/30/2015 15:06",
-		"iconFor:" : "td 6/8/2016 21:04",
 		"imagesMap" : "J.J. 7/30/2015 15:05",
 		"imagesMap:" : "fw 7/21/2015 22:02",
 		"loadFromCacheFor:" : "J.J. 7/30/2015 15:07",

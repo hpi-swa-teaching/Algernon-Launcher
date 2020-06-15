@@ -9,7 +9,6 @@
 	"instvars" : [
 		"initials",
 		"numTimesSelected",
-		"lowerCaseName",
 		"isRelevantForEmptyString",
 		"lastUsage",
 		"matchingPositions",

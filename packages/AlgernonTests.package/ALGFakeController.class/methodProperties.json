@@ -2,6 +2,7 @@
 	"class" : {
 		"title" : "LK 6/9/2016 12:20" },
 	"instance" : {
+		"containingWindow" : "beb 5/12/2020 11:35",
 		"deactivate" : "LK 6/9/2016 11:47",
 		"deactivated" : "LK 6/9/2016 11:48",
 		"deactivated:" : "LK 6/9/2016 11:48",
@@ -11,4 +12,5 @@
 		"position" : "LK 6/9/2016 12:18",
 		"receivedKeyboardFocus" : "LK 6/9/2016 12:00",
 		"receivedKeyboardFocus:" : "LK 6/9/2016 12:00",
-		"width" : "LK 6/9/2016 12:17" } }
+		"width" : "LK 6/9/2016 12:17",
+		"world" : "beb 5/12/2020 11:36" } }

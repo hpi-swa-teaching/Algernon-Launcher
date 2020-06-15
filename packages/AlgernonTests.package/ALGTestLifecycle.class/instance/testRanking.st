@@ -7,7 +7,7 @@ testRanking
 	
 	self runQuery: 'Algernon'.
 
-	algerInstance doActionOnSelectedEvent: nil. 
+	self activateCurrentItemAction.
 
 	secondRank := (algerInstance itemProvider relevantItemsFor: 'Algernon') first rank.
 

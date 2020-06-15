@@ -1,0 +1,4 @@
+constants
+normalFillStyle
+
+	^ Color white

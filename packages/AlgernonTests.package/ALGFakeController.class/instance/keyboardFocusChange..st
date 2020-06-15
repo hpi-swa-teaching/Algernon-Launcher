@@ -1,3 +1,3 @@
-as yet unclassified
+event handling
 keyboardFocusChange: aBoolean
 	focus := aBoolean

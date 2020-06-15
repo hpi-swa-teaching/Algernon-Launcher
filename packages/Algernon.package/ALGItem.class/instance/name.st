@@ -1,4 +1,3 @@
 accessing
 name
-
-	^ algerType name
+	^ self algerType name 

@@ -1,4 +1,0 @@
-drawing
-selectionFillStyle
-
-	^ Color veryVeryLightGray

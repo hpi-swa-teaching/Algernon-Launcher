@@ -1,4 +1,0 @@
-constants
-selectedColor
-
-	^ Color black

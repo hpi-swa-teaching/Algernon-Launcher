@@ -1,3 +1,5 @@
 updating
 query
-	^ self textField contents
+	^ self active
+		ifTrue: [self textField contents]
+		ifFalse: [self lastInputString]

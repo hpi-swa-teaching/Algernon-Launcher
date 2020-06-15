@@ -1,4 +1,0 @@
-constants
-matchingColor
-
-	^ Color red

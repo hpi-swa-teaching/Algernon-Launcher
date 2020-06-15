@@ -1,0 +1,3 @@
+code-style
+testNoUncommonMessageSend
+	self ArbitraryCodeRule: #smallLintUncommonMessageSend

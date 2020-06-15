@@ -3,4 +3,4 @@ doActionOnSelectedItem: evt
 
 	self selectedItem
 		ifNotNil: [self selectedListItem incrementNumTimesSelected.
-				 self selectedItem invokeWithEvent: evt]
+				 self selectedListItem defaultAlgeraction do]

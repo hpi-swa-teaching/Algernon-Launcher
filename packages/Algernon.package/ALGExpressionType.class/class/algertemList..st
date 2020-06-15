@@ -1,7 +1,7 @@
 algertem lists
-algertemList: textField
+algertemList: algerInstance
 
 	| algertems |
 	algertems := OrderedCollection with: (ALGExpressionItem
-				withAlgertype: (self with: textField)).
+				withAlgertype: (self with: algerInstance)).
 	^ algertems
