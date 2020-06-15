@@ -1,0 +1,3 @@
+relevance
+rankBonus
+	^ -3

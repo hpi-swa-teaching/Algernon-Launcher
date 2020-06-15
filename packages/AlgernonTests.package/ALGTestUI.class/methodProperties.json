@@ -8,6 +8,7 @@
 		"testClickOnAlgernonDoesNotThrow" : "beb 5/24/2020 11:14",
 		"testClosingAlgernonClosesBackground" : "beb 6/11/2020 15:13",
 		"testCoreDoesNotHandleMouseEvents" : "jRo 5/27/2020 15:11",
+		"testCoreStepTime" : "jRo 6/14/2020 23:55",
 		"testItemMorphDoesNotHandleMouseEvents" : "jRo 5/27/2020 15:01",
 		"testListItemMorphSubmorphs" : "jRo 5/28/2020 18:57",
 		"testMovingAlgernon" : "beb 6/11/2020 14:38",
@@ -16,4 +17,5 @@
 		"testOpeningAlgernonOpensBackground" : "beb 6/11/2020 15:12",
 		"testResultListDoesNotHandleMouseEvents" : "beb 5/24/2020 18:19",
 		"testResultListMovement" : "beb 5/24/2020 11:11",
-		"testResultTextWrap" : "jRo 5/31/2020 12:28" } }
+		"testResultTextWrap" : "jRo 5/31/2020 12:28",
+		"testStepping" : "Jro 6/15/2020 00:26" } }
