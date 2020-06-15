@@ -4,8 +4,8 @@ testNormalKeyStrokesSetsCursorColor
 	input := ALGFakeKeyboardEvent new 
 						keyString: 'a'; 
 						isKeyUp: false.
-	Algernon open.
-	field := Algernon currentInstance textField
+	self algerInstance activate.
+	field :=self algerInstance textField
 	normalKeyStroke: input.
 	self assert: (field paragraph caretColor = field class cursorColor).
 	 

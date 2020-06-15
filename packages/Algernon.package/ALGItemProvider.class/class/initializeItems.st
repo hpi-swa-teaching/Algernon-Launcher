@@ -6,7 +6,6 @@ initializeItems
 		addAll: ALGClassType algertemList;
 		addAll: ALGCategoryType algertemList;
 		addAll: ALGGlobalVariableType algertemList;
-		addAll: ALGMorphType algertemList;
 		addAll: ALGWorldMenuMorphType algertemList;
 		addAll: ALGStandardToolSetMorphType algertemList;
 		addAll: ALGPackageType algertemList;
