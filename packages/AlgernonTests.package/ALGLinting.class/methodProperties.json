@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"ArbitraryCodeRule:" : "beb 5/28/2020 18:19",
+		"defaultTimeout" : "jRo 6/14/2020 19:19",
 		"testNoAbstractClass" : "KEJ 5/28/2020 16:50",
 		"testNoAsOrderedCollectionNotNeeded" : "KEJ 5/28/2020 16:42",
 		"testNoAssignmentInBlock" : "KEJ 5/28/2020 16:53",
