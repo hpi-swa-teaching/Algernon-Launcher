@@ -8,6 +8,7 @@
 		"clear" : "J.J. 7/27/2015 20:02",
 		"controller" : "J.J. 7/28/2015 20:13",
 		"controller:" : "J.J. 7/28/2015 20:13",
+		"createParagraph" : "rk 6/15/2020 23:26",
 		"currentContent" : "J.J. 7/27/2015 21:43",
 		"handlesKeyboard:" : "beb 5/29/2020 18:45",
 		"initialize" : "beb 5/29/2020 19:06",
@@ -16,6 +17,6 @@
 		"keyboardFocusColor" : "rk 5/31/2020 14:53",
 		"mouseDown:" : "J.J. 7/30/2015 20:19",
 		"mouseUp:" : "J.J. 7/30/2015 20:20",
-		"moveCursorToEnd" : "jRo 5/31/2020 22:38",
-		"normalKeyStroke:" : "pw 5/31/2020 21:47",
+		"moveCursorToEnd" : "rk 6/15/2020 23:30",
+		"normalKeyStroke:" : "rk 6/15/2020 23:30",
 		"size" : "beb 5/23/2020 16:04" } }
