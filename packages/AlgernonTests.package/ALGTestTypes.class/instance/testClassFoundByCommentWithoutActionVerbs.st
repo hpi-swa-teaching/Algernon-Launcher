@@ -1,5 +1,8 @@
 testing
 testClassFoundByCommentWithoutActionVerbs
 	"Make sure normal input works"
+	| names |
 	self runQuery: 'Quicksilver'.
-	self assert: (algerInstance itemList items anySatisfy:  [ :entries | entries item name = 'ALGCore']).
+	
+	names := algerInstance itemList items collect: [ :entries | entries item name ].
+	self assert: (names includes: 'ALGCore').

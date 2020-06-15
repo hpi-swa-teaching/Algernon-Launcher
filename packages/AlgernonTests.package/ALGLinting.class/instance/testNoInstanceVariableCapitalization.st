@@ -1,0 +1,3 @@
+intention revealing
+testNoInstanceVariableCapitalization
+	self ArbitraryCodeRule: #instanceVariableCapitalizationRule

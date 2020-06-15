@@ -1,0 +1,3 @@
+bugs-prevention
+testNoMissingPrecedenceRule
+	self ArbitraryCodeRule: #precedenceRule

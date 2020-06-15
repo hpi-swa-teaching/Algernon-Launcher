@@ -1,3 +1,4 @@
 accessing
 typeName
-	^ 'Morph'.
+
+	^ 'Morph'

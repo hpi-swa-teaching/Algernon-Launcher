@@ -1,0 +1,3 @@
+bugs-prevention
+testNoSuperCallRequired
+	self ArbitraryCodeRule: #smallLintMethodModifierSuper

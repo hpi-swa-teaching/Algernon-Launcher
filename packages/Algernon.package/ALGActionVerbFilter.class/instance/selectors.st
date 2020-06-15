@@ -1,4 +1,4 @@
 accessing
 selectors
 
-	^ Set newFrom: {'run'. 'browse' . 'fileout'. 'open'. 'save'. 'do'. 'inspect'. 'explore'}
+	^ Set newFrom: {'run'. 'browse'. 'printout'. 'fileout'. 'open'. 'save'. 'do'. 'inspect'. 'explore'}

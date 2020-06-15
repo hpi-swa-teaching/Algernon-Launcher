@@ -1,0 +1,3 @@
+bugs-prevention
+testNoUndeclaredVariable
+	self ArbitraryCodeRule: #smallLintUndeclaredReference

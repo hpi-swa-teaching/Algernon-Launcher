@@ -1,3 +1,3 @@
-code-style
+bugs-prevention
 testNoSubclassResponsibilityNotDefined
 	self ArbitraryCodeRule: #smallLintSubclassResponsibilityNotDefined

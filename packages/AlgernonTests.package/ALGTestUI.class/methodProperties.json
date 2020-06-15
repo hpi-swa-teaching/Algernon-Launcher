@@ -3,14 +3,14 @@
 		 },
 	"instance" : {
 		"testBackgroundDoesHandleMouseEvents" : "jRo 5/27/2020 15:01",
+		"testBreadcrumbDoesHanldeMouseEvents" : "pw 6/3/2020 18:48",
 		"testClickOnAlgernonDoesNotThrow" : "beb 5/24/2020 11:14",
+		"testClickOnBreadcrumpDoesNotDeacitvateAlgernon" : "pw 6/3/2020 18:49",
 		"testClickOnInputField" : "beb 5/29/2020 18:46",
 		"testCoreDoesNotHandleMouseEvents" : "jRo 5/27/2020 15:11",
-		"testCoreStepTime" : "jRo 6/14/2020 23:55",
 		"testItemMorphDoesNotHandleMouseEvents" : "jRo 5/27/2020 15:01",
 		"testListItemMorphSubmorphs" : "jRo 5/28/2020 18:57",
 		"testNotOverlapping" : "beb 5/21/2020 12:26",
 		"testResultListDoesNotHandleMouseEvents" : "beb 5/24/2020 18:19",
 		"testResultListMovement" : "beb 5/24/2020 11:11",
-		"testResultTextWrap" : "jRo 5/31/2020 12:28",
-		"testStepping" : "Jro 6/15/2020 00:26" } }
+		"testResultTextWrap" : "jRo 5/31/2020 12:28" } }

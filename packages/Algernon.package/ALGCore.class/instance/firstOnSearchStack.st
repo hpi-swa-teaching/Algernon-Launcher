@@ -1,5 +1,5 @@
 accessing
 firstOnSearchStack
 	^ self searchStack linkedList
-		ifEmpty: [nil]
+		ifEmpty: ['']
 		ifNotEmpty: [self searchStack linkedList last element]

@@ -1,0 +1,3 @@
+bugs-prevention
+testNoUnknownMessageToGlobal
+	self ArbitraryCodeRule: #smallLintSendsUnknownMessageToGlobal
