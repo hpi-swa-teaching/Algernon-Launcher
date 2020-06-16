@@ -6,4 +6,6 @@ initialize
 		color: self class backgroundColor;
 		extent: World extent;
 		center: World center;
-		borderWidth: 0
+		borderWidth: 0.
+	self currentWorld addMorphFront: self.
+	self hide.

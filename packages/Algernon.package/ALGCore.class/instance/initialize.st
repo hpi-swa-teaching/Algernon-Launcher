@@ -10,4 +10,5 @@ initialize
 		initializeFoci;
 		initializeItems;
 		registerWithSystem;
+		initializePosition;
 		activate.

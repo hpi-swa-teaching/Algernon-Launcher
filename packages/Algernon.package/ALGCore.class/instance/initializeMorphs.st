@@ -2,6 +2,6 @@ initialization
 initializeMorphs
 
 	self initializeWindow;
+		initializeBreadcrumbs;
 		initializeBackground;
-		initializeInputField;
-		initializeBreadcrumbs
+		initializeInputField
