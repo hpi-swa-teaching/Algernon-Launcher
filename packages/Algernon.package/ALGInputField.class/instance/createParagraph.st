@@ -1,4 +1,4 @@
-event handling
+initialization
 createParagraph
 
 	| aParagraph |
