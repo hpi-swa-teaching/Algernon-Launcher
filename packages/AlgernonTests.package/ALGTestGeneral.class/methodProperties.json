@@ -8,6 +8,7 @@
 		"testBreadcrumbsList" : "beb 5/21/2020 12:35",
 		"testClassAction" : "jRo 5/27/2020 16:47",
 		"testCloseWithEscape" : "jRo 6/14/2020 23:20",
+		"testCursorColorAfterReturningFromChildList" : "rk 6/17/2020 13:52",
 		"testDoIt" : "jRo 6/14/2020 22:54",
 		"testEmptyItemListYieldsALGNullItem" : "beb 5/21/2020 12:22",
 		"testHelpItemAction" : "beb 5/24/2020 11:19",
