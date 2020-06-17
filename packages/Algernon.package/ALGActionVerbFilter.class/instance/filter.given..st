@@ -4,7 +4,7 @@ filter: anItemCollection given: aStringCollection
 	self flag: #TODO.
 	"Severe redundancies with ALGRegularFilter"
 	actionVerb := aStringCollection first.
-	itemName := aStringCollection allButFirst join.
+	itemName := aStringCollection allButFirst joinSeparatedBy: ' '.
 	"The isRelevantGiven actionVerb is only needed for Expression"
 	resultItems := anItemCollection
 				select: [:each | (each isRelevantGiven: itemName)
