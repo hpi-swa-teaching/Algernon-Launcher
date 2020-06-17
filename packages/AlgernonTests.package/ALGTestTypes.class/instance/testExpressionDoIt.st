@@ -7,4 +7,4 @@ testExpressionDoIt
 	self assert: expressionItem notNil.
 	oldSystemWindows := self currentSystemWindows.
 	self doActionForItem: expressionItem withName: 'do'.
-	self assert: (self findNewSystemWindowsByLabel: 'System Browser' old:  oldSystemWindows) notNil.
+	self assert: (self findNewSystemWindowsByLabel: 'System Browser' old:  oldSystemWindows) notEmpty.

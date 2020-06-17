@@ -10,4 +10,4 @@ testExpressionWithChildren
 		assert: (expressionItem name includesSubstring:  'inspect').
 	oldSystemWindows := self currentSystemWindows.
 	self doActionForItem: expressionItem.
-	self assert: (self findNewSystemWindowsByLabel: 'SmallInteger' old: oldSystemWindows) notNil
+	self assert: (self findNewSystemWindowsByLabel: 'SmallInteger' old: oldSystemWindows) notEmpty
