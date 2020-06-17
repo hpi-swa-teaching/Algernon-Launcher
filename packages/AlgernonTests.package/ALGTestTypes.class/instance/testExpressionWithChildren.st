@@ -9,5 +9,6 @@ testExpressionWithChildren
 	self
 		assert: (expressionItem name includesSubstring:  'inspect').
 	oldSystemWindows := self currentSystemWindows.
-	self doActionForItem: expressionItem.
+	expressionItem defaultAlgeraction do.
+
 	self assert: (self findNewSystemWindowsByLabel: 'SmallInteger' old: oldSystemWindows) notEmpty
