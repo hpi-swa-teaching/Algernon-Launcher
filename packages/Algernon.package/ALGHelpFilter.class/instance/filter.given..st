@@ -6,4 +6,6 @@ filter: anItemCollection given: aStringCollection
 	^ self
 		computeFuzzyItems: self minimumItemsToCompute
 		outOf: allHelpItems
-		given: aStringCollection
+		given: (aStringCollection size > 1
+				ifTrue: [aStringCollection allButFirst]
+				ifFalse: [aStringCollection])

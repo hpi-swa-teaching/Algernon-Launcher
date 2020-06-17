@@ -5,3 +5,6 @@ testSpecificHelpItem
 	
 	self runQuery: 'help fileout'.
 	self assert: (self nameOfFirstResult includesSubstring: 'fileout: ').
+	
+	self runQuery: 'help do'.
+	self assert: (self nameOfFirstResult includesSubstring: 'do: ').

@@ -1,4 +1,4 @@
 relevant
-isRelevantGiven: aString 
-
-	^ (aString beginsWith: self class evaluateTrigger)
+isRelevantGiven: aString
+	aString ifEmpty: [^ self isRelevantForEmptyString].
+	^true

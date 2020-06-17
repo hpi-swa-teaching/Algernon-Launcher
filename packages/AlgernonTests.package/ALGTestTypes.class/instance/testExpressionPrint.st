@@ -7,4 +7,4 @@ testExpressionPrint
 	self assert: expressionItem notNil.
 	oldSytemWindows := self currentSystemWindows.
 	self doActionForItem: expressionItem withName: 'print'.
-	self assert: (self findNewSystemWindowsByLabel: 'Transcript' old:  oldSytemWindows) notNil.
+	self assert: (self findNewSystemWindowsByLabel: 'Transcript' old:  oldSytemWindows) notEmpty.

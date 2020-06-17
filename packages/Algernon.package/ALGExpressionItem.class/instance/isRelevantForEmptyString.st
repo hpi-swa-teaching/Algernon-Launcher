@@ -1,0 +1,3 @@
+relevant
+isRelevantForEmptyString
+	^ false
