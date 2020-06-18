@@ -1,6 +1,5 @@
 filtering
 computeFuzzyItems: aNumber outOf: anItemCollection given: aStringCollection
-
 	| fuzzyMatcher fuzzySortedItems|
 	(aNumber <= 0 or: [aStringCollection first isEmpty]) ifTrue: [ ^OrderedCollection new ].
 	fuzzyMatcher := ALGFuzzyMatcher new.
