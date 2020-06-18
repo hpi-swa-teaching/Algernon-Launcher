@@ -7,5 +7,4 @@ filter: anItemCollection given: aStringCollection
 	fuzzyMatchedItems := (((self computeFuzzyItemsOutOf: (anItemCollection) given: aStringCollection allButFirst))
 		select: [:each | each matchesAction: actionVerb ]).	
 			
-	^  (fuzzyMatchedItems first: (self minimumItemsToCompute min: fuzzyMatchedItems size))
-		do: [:each | each updateDefaultActionTo: actionVerb].
+	^  (fuzzyMatchedItems first: (self minimumItemsToCompute min: fuzzyMatchedItems size)).

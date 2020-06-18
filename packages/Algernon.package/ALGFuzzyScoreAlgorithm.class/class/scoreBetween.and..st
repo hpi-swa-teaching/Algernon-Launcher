@@ -22,6 +22,9 @@ scoreBetween: pattern and: text
 				ifFalse: [score := score + 1.
 					patternIndex > 1 ifTrue: [score := score + 1]].
 			textIndex := textIndex + 1].
+
+	"punish text after the pattern sligthly"		
+	score := (text size - textIndex) * 0.1 + score.
 	
 	"have we reached the end of the text without finding the whole pattern?"
 	(textIndex > text size
