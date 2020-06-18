@@ -3,10 +3,11 @@
 		 },
 	"instance" : {
 		"testScore0" : "beb 6/18/2020 14:48",
-		"testScore1" : "beb 6/18/2020 14:48",
-		"testScore3" : "beb 6/18/2020 14:48",
+		"testScore1" : "beb 6/18/2020 15:25",
+		"testScore2" : "beb 6/18/2020 15:25",
+		"testScore6" : "beb 6/18/2020 15:26",
 		"testScoreEmptyPattern" : "beb 6/18/2020 14:48",
 		"testScoreEmptyText" : "beb 6/18/2020 14:48",
 		"testScoreExactMatch" : "beb 6/18/2020 14:48",
 		"testScoreNotMatching" : "beb 6/18/2020 14:48",
-		"testScoreSubstringMatch" : "beb 6/18/2020 14:48" } }
+		"testScoreSubstringMatch" : "beb 6/18/2020 15:26" } }
