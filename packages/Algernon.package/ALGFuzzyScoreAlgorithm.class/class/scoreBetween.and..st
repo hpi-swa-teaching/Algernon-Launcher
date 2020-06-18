@@ -4,7 +4,8 @@ scoreBetween: pattern and: text
 	the result in the right order.
 	2. We score the result by the number of
 	characters between the first and the last of
-	the query."
+	the query.
+	3. Matches at the start of the text are preferred."
 	| score patternIndex textIndex |
 	"if the pattern is longer than the text, we can never find it."
 	pattern size > text size
