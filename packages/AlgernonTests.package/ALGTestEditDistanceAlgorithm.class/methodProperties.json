@@ -3,10 +3,11 @@
 		 },
 	"instance" : {
 		"setUp" : "LK 6/2/2016 16:42",
-		"testEditDistance0" : "td 7/3/2016 15:26",
-		"testEditDistance1" : "td 7/3/2016 15:26",
-		"testEditDistance1Deletion" : "td 7/3/2016 15:26",
-		"testEditDistance2" : "td 7/3/2016 15:26",
-		"testEditDistance3OneEmptyString" : "td 7/3/2016 15:26",
-		"testEditDistanceEmptyStrings" : "td 7/3/2016 15:27",
-		"testEditDistanceMixed" : "td 7/3/2016 15:27" } }
+		"testScore0" : "beb 6/18/2020 14:04",
+		"testScore1" : "beb 6/18/2020 14:04",
+		"testScore3" : "beb 6/18/2020 14:02",
+		"testScoreEmptyPattern" : "beb 6/18/2020 14:04",
+		"testScoreEmptyText" : "beb 6/18/2020 14:05",
+		"testScoreExactMatch" : "beb 6/18/2020 14:11",
+		"testScoreNotMatching" : "beb 6/18/2020 14:07",
+		"testScoreSubstringMatch" : "beb 6/18/2020 14:12" } }

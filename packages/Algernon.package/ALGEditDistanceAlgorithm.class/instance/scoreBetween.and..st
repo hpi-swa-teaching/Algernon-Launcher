@@ -1,22 +1,20 @@
 scoring
-scoreBetween: stringOne and: stringTwo 	
-	"Iterative calculation of the Levenshtein distance between two strings."
+scoreBetween: pattern and: text 	
+	"1. All characters of the search must be in the result in the right order.
+    2. We score the result by the number of characters between the first and the last of the query."
+	| score patternIndex textIndex |
+	pattern size > text size ifTrue: [ ^ SmallInteger maxVal. ].
 	
-	stringTwo  isEmpty
-		ifTrue:[^(stringOne size)].
-	stringOne  isEmpty
-		ifTrue:[^(stringTwo size)].
-	stringTwo = stringOne 
-		ifTrue:[^0].
-
+	score := 0.
+	patternIndex := 1.
+	textIndex := 1.
 	
-	self arrayOne: (Array new: (stringTwo size + 1)).
-	self arrayTwo: (Array new: (stringTwo size + 1)).
+	[(patternIndex <= pattern size) & (textIndex <= text size)]
+			whileTrue: [ ((text at: textIndex) = (pattern at: patternIndex))
+				ifTrue: [ patternIndex := patternIndex + 1 ]
+				ifFalse: [ (patternIndex > 1) ifTrue: [score := score + 1] ] .
+				textIndex := textIndex + 1. ].
 	
-	1 to: self arrayOne size do: [ :i | self arrayOne at: i put: i-1 ].
+	((textIndex > text size) and: [patternIndex <= pattern size]) ifTrue: [ ^ SmallInteger maxVal ].
 	
-	1 to: stringOne size do: [ : i | self arrayTwo at: 1 put: i.		
-		1 to: stringTwo size do: [ :j | self scoreBetween: stringOne and: stringTwo with: i and: j].
-		1 to: self arrayOne size do: [ :j | self arrayOne at: j put: (self arrayTwo at: j)]].
-
-	^ self arrayTwo at: (stringTwo size + 1)
+	^ score
