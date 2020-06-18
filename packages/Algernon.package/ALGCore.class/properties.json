@@ -20,7 +20,8 @@
 		"textField",
 		"receivedActivation",
 		"firstStep",
-		"lastInputString" ],
+		"lastInputString",
+		"lastWorldBounds" ],
 	"name" : "ALGCore",
 	"pools" : [
 		 ],

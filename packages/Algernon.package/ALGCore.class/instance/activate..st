@@ -6,7 +6,8 @@ activate: hand
 		active: true; 
 		reset;
 		backupFocus: self activeHand;
-		grabFocus: self activeHand;		
+		grabFocus: self activeHand;	
+		checkWorldBounds;	
 		initializeBackground;
 		showMorphs;
 		openInWorld.
