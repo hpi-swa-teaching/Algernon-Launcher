@@ -17,9 +17,9 @@ scoreBetween: pattern and: text
 	[patternIndex <= pattern size & (textIndex <= text size)]
 		whileTrue: [(text at: textIndex)
 					= (pattern at: patternIndex)
-				ifTrue: [patternIndex := patternIndex + 1]
-				ifFalse: [patternIndex > 1
-						ifTrue: [score := score + 1]].
+				ifTrue: [ patternIndex := patternIndex + 1]
+				ifFalse: [ score := score + 1.
+					patternIndex > 1 ifTrue: [score := score + 1]].
 			textIndex := textIndex + 1].
 	
 	"have we reached the end of the text without finding the whole pattern?"
