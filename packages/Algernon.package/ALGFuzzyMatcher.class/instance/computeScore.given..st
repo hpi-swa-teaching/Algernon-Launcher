@@ -4,5 +4,5 @@ computeScore: anItem given: aStringCollection
 
 	| score query |
 	query := aStringCollection joinSeparatedBy: ' '.
-	score := ALGFuzzyScoreAlgorithm scoreBetween: anItem fuzzyMatchName and: query.
+	score := ALGFuzzyScoreAlgorithm scoreBetween: query and: anItem fuzzyMatchName.
 	^ score negated
