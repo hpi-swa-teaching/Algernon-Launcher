@@ -1,8 +1,10 @@
 updating
-updateDefaultActionTo: aString
-
-	| action index |
-	self algerActions ifEmpty: [^ self].
-	action := (self algerActions select: [:each | each actionVerb = aString]) first.
-	index := self algerActions indexOf: action.
-	self defaultIndex: index
+updateDefaultActionTo: aString 
+	| actions index |
+	self algerActions
+		ifEmpty: [^ self].
+	actions := self algerActions
+				select: [:each | each actionVerb = aString].
+	actions
+		ifNotEmpty: [index := self algerActions indexOf: actions first.
+			self defaultIndex: index]
