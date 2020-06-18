@@ -1,5 +1,5 @@
 testing
-testEditDistance1Replace
+testScore0CaseInsensitive
 	"Make sure normal input works"
-	self runQuery: 'Algxrnon'.
+	self runQuery: 'aLGERNON'.
 	self assert: (self resultsClassIncludeName: 'Algernon').
