@@ -1,3 +1,3 @@
 testing
 testScoreSubstringMatch
-	self assert: 0 equals: (algorithm scoreBetween: 'ger' and: 'Algernon')
+	self assert: 0 equals: (ALGFuzzyScoreAlgorithm scoreBetween: 'ger' and: 'Algernon')

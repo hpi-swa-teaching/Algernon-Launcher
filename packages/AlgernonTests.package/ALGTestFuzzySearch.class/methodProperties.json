@@ -4,10 +4,9 @@
 	"instance" : {
 		"editDistanceAlgorithm" : "beb 5/21/2020 10:53",
 		"editDistanceAlgorithm:" : "beb 5/21/2020 10:53",
-		"setUp" : "beb 5/21/2020 10:59",
 		"testScore0" : "beb 6/18/2020 14:44",
 		"testScore0CaseInsensitive" : "beb 6/18/2020 14:44",
 		"testScore1" : "beb 6/18/2020 14:43",
 		"testScore2" : "beb 6/18/2020 14:44",
-		"testScoreExample" : "beb 6/18/2020 14:44",
+		"testScoreExampleHelp" : "beb 6/18/2020 14:48",
 		"testSingleKeyMissing" : "Jro 5/26/2020 12:43" } }

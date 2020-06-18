@@ -2,12 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "LK 6/2/2016 16:42",
-		"testScore0" : "beb 6/18/2020 14:04",
-		"testScore1" : "beb 6/18/2020 14:04",
-		"testScore3" : "beb 6/18/2020 14:02",
-		"testScoreEmptyPattern" : "beb 6/18/2020 14:04",
-		"testScoreEmptyText" : "beb 6/18/2020 14:05",
-		"testScoreExactMatch" : "beb 6/18/2020 14:11",
-		"testScoreNotMatching" : "beb 6/18/2020 14:07",
-		"testScoreSubstringMatch" : "beb 6/18/2020 14:12" } }
+		"testScore0" : "beb 6/18/2020 14:48",
+		"testScore1" : "beb 6/18/2020 14:48",
+		"testScore3" : "beb 6/18/2020 14:48",
+		"testScoreEmptyPattern" : "beb 6/18/2020 14:48",
+		"testScoreEmptyText" : "beb 6/18/2020 14:48",
+		"testScoreExactMatch" : "beb 6/18/2020 14:48",
+		"testScoreNotMatching" : "beb 6/18/2020 14:48",
+		"testScoreSubstringMatch" : "beb 6/18/2020 14:48" } }

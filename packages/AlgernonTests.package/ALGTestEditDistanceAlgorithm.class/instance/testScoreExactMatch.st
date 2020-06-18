@@ -1,3 +1,3 @@
 testing
 testScoreExactMatch
-	self assert: 0 equals: (algorithm scoreBetween: 'Algernon' and: 'Algernon')
+	self assert: 0 equals: (ALGFuzzyScoreAlgorithm scoreBetween: 'Algernon' and: 'Algernon')

@@ -6,9 +6,8 @@
 		 ],
 	"commentStamp" : "JS 7/12/2016 10:16",
 	"instvars" : [
-		"arrayOne",
-		"arrayTwo" ],
-	"name" : "ALGEditDistanceAlgorithm",
+		 ],
+	"name" : "ALGFuzzyScoreAlgorithm",
 	"pools" : [
 		 ],
 	"super" : "Object",
