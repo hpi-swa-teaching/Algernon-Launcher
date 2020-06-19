@@ -1,10 +1,13 @@
 filtering
 filter: anItemCollection given: aStringCollection 
-	| fuzzyMatchedItems actionVerb itemName |
+	| matchedItems actionVerb itemName |
 	actionVerb := aStringCollection first.
 	itemName := aStringCollection allButFirst joinSeparatedBy: ' '.
 	
-	fuzzyMatchedItems := (((self computeFuzzyItemsOutOf: (anItemCollection) given: aStringCollection allButFirst))
-		select: [:each | each matchesAction: actionVerb ]).	
+	matchedItems := self specialSelection: anItemCollection given: actionVerb.
+	matchedItems ifNil: [
+		matchedItems := self computeFuzzyItemsOutOf: (anItemCollection) given: aStringCollection allButFirst ].
+	
+	matchedItems := matchedItems select: [:each | each matchesAction: actionVerb ].	
 			
-	^  (fuzzyMatchedItems first: (self minimumItemsToCompute min: fuzzyMatchedItems size)).
+	^  (matchedItems first: (self minimumItemsToCompute min: matchedItems size)).
