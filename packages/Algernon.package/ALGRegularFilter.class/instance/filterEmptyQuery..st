@@ -1,3 +1,4 @@
 filtering
 filterEmptyQuery: anItemCollection
-	^ anItemCollection do: [ :each | each fuzzyRank: 0 ].
+	^ (anItemCollection first: (anItemCollection size min: self minimumItemsToCompute))
+		 do: [ :each | each fuzzyRank: 0 ].
