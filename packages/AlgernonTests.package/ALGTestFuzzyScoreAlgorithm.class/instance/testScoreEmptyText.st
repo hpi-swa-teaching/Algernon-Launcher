@@ -1,3 +1,3 @@
 testing
 testScoreEmptyText
-	self assert: (SmallInteger maxVal) equals: (ALGFuzzyScoreAlgorithm scoreBetween: '123' and: '')
+	self assert: nil equals: (ALGFuzzyScoreAlgorithm scoreBetween: '123' and: '')

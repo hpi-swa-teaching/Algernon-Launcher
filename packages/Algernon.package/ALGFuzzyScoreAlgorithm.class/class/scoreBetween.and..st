@@ -9,7 +9,7 @@ scoreBetween: pattern and: text
 	| score patternIndex textIndex |
 	"if the pattern is longer than the text, we can never find it."
 	pattern size > text size
-		ifTrue: [^ SmallInteger maxVal].
+		ifTrue: [^ nil ].
 	
 	score := 0.
 	patternIndex := 1.
@@ -29,6 +29,6 @@ scoreBetween: pattern and: text
 	"have we reached the end of the text without finding the whole pattern?"
 	(textIndex > text size
 			and: [patternIndex <= pattern size])
-		ifTrue: [^ SmallInteger maxVal].
+		ifTrue: [^ nil ].
 	
 	^ score
