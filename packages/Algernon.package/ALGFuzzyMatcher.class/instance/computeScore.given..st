@@ -1,8 +1,7 @@
 matching
-computeScore: anItem given: aStringCollection
+computeScore: anItem given: aQueryString
  	"A bigger Rank is better" 
-
-	| score query |
-	query := aStringCollection joinSeparatedBy: ' '.
-	score := ALGFuzzyScoreAlgorithm scoreBetween: query and: anItem fuzzyMatchName.
+	| score |
+	score := ALGFuzzyScoreAlgorithm scoreBetween: aQueryString and: anItem fuzzyMatchName.
+	score ifNil: [ ^ nil ].
 	^ score negated
