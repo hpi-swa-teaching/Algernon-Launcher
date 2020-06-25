@@ -1,4 +1,4 @@
 testing
 testScoreExampleHelp
 	"Make sure help input works"
-	self assert: ((ALGFuzzyScoreAlgorithm scoreBetween: 'browse' and: 'help browse') = 5)
+	self assert: ((ALGFuzzyMatcher scoreBetween: 'browse' and: 'help browse') = 5)
