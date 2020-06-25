@@ -1,10 +1,11 @@
 {
 	"class" : {
 		"classCommentFuzzyPenalty" : "beb 6/19/2020 09:48",
+		"emptyQueryLimit" : "beb 6/25/2020 10:50",
 		"helpTexts" : "beb 5/23/2020 16:11" },
 	"instance" : {
 		"accepts:" : "J.J. 12/13/2015 23:44",
 		"filter:classesByCommentContaining:" : "beb 6/19/2020 09:56",
-		"filter:given:" : "beb 6/19/2020 09:58",
-		"filterEmptyQuery:" : "beb 6/19/2020 10:03",
+		"filter:given:" : "beb 6/25/2020 10:46",
+		"filterEmptyQuery:" : "beb 6/25/2020 10:53",
 		"selectors" : "J.J. 12/13/2015 23:42" } }
