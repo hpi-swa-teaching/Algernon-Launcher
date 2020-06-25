@@ -1,5 +1,7 @@
 {
 	"class" : {
-		"defaultScore" : "beb 6/25/2020 10:11" },
+		"computeScore:given:" : "beb 6/25/2020 11:03",
+		"defaultScore" : "beb 6/25/2020 10:11",
+		"scoreBetween:and:" : "beb 6/25/2020 10:58" },
 	"instance" : {
-		"computeScore:given:" : "beb 6/25/2020 10:10" } }
+		"computeScore:given:" : "beb 6/25/2020 10:58" } }

@@ -1,4 +1,4 @@
-matching
+computation
 computeScore: anItem given: aQueryString
  	"A bigger Rank is better" 
 	| score |
