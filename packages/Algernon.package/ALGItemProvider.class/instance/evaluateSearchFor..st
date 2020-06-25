@@ -4,4 +4,5 @@ evaluateSearchFor: aString
 	tokens := self tokenize: aString.
 	filterStrategy := self itemFilterFor: tokens.
 	resultItems := filterStrategy filter: self items given: tokens.
+	self halt.
 	^ self sorter sort: resultItems given: aString.
