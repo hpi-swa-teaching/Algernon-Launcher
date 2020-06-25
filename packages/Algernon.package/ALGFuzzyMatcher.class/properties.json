@@ -11,8 +11,7 @@
 		"isMatch",
 		"foundChars",
 		"matchingPositions",
-		"matchingStart",
-		"scoreAlgorithm" ],
+		"matchingStart" ],
 	"name" : "ALGFuzzyMatcher",
 	"pools" : [
 		 ],

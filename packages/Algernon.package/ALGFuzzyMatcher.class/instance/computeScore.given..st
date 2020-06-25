@@ -1,8 +1,8 @@
 matching
-computeScore: anItem given: aStringCollection
+computeScore: anItem given: aQueryString
  	"A bigger Rank is better" 
-
-	| score query |
-	query := aStringCollection joinSeparatedBy: ' '.
-	score := self scoreAlgorithm scoreBetween: anItem fuzzyMatchName and: query.
+	| score |
+	anItem isRelevantForAllStrings ifTrue: [ ^ self class defaultScore ].
+	score := self class scoreBetween: aQueryString and: anItem fuzzyMatchName.
+	score ifNil: [ ^ nil ].
 	^ score negated

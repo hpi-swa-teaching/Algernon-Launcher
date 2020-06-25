@@ -1,0 +1,3 @@
+accessing
+isRelevantForAllStrings
+	^ self algerType isRelevantForAllStrings

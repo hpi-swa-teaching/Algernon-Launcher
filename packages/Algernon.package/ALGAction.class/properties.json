@@ -11,7 +11,8 @@
 		"numTimesSelected",
 		"theTarget",
 		"theSelector",
-		"theArgs" ],
+		"theArgs",
+		"actionVerb" ],
 	"name" : "ALGAction",
 	"pools" : [
 		 ],
