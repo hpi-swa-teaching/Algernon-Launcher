@@ -1,0 +1,3 @@
+intention revealing
+testNoRepeatedLiteralEquality
+	self ArbitraryCodeRule: #smallLintSearchingLiteral

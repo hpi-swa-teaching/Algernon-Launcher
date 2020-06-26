@@ -1,3 +1,0 @@
-intention revealing
-testNoInconsistentEqualityTests
-	self ArbitraryCodeRule: #smallLintConsistencyCheck
