@@ -1,3 +1,3 @@
-code-style
+miscellaneous
 testNoUnoptimizedToDo
 	self ArbitraryCodeRule: #smallLintUnoptimizedToDo

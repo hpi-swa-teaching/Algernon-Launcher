@@ -1,4 +1,4 @@
-event handling
+events-processing
 handleTextEntered: event
 
 	self textField normalKeyStroke: event.

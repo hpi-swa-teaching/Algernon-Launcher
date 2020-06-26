@@ -1,0 +1,3 @@
+miscellaneous
+testNoSingleLiteralValue
+	self ArbitraryCodeRule: #smallLintVariableAssignedLiteral

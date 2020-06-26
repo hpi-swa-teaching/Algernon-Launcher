@@ -1,3 +1,3 @@
-code-style
+miscellaneous
 testNoAsOrderedCollectionNotNeeded
 	self ArbitraryCodeRule: #smallLintAsOrderedCollectionNotNeeded

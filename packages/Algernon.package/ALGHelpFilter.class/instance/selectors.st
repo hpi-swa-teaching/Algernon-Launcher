@@ -1,3 +1,3 @@
-filtering
+accessing
 selectors
 	^ Set newFrom: { 'help' }

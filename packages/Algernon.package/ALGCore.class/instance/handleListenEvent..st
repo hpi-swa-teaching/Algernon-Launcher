@@ -1,4 +1,4 @@
-event handling
+events-processing
 handleListenEvent: anEvent
 	| isActivationString shouldToggle |
 	isActivationString := (anEvent keyString = self class activationString).

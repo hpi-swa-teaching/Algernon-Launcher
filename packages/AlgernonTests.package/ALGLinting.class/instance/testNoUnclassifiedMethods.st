@@ -1,3 +1,3 @@
-code-style
+miscellaneous
 testNoUnclassifiedMethods
 	self ArbitraryCodeRule: #smallLintUnclassifiedMethods

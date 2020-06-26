@@ -1,3 +1,3 @@
-accessing
+thumbnail
 icon: anObject
 	icon := anObject

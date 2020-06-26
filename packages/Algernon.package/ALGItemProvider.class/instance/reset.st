@@ -1,4 +1,4 @@
-initialization
+initialize-release
 reset
 
 	self parentItem: nil;
