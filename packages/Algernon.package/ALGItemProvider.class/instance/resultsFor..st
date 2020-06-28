@@ -1,9 +1,9 @@
 filtering
 resultsFor: aString
 
-	| items |
+	| resultItems |
 	self updateItemPool.
-	items := self relevantItemsFor: aString.
-	(items isEmpty) ifFalse: [ ^ self createCategoriesFor: items ].
-	^ items
+	resultItems := self relevantItemsFor: aString.
+	(resultItems isEmpty) ifFalse: [ ^ self createCategoriesFor: resultItems ].
+	^ resultItems
 	

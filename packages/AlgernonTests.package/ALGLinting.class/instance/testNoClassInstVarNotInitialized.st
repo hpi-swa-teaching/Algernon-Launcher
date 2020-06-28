@@ -1,3 +1,3 @@
-code-style
+possible bugs
 testNoClassInstVarNotInitialized
 	self ArbitraryCodeRule: #smallLintClassInstVarNotInitialized

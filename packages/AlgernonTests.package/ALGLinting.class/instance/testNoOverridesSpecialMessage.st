@@ -1,3 +1,3 @@
-bugs-prevention
+bugs
 testNoOverridesSpecialMessage
 	self ArbitraryCodeRule: #smallLintOverridesSpecialMessage
