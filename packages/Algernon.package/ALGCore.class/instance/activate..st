@@ -1,6 +1,5 @@
 visibility
 activate: hand
-	
 	self active ifTrue: [^ self].
 	self 
 		active: true; 

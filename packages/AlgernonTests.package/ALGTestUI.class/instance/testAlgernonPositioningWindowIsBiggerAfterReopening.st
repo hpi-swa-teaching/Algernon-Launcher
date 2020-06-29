@@ -1,8 +1,7 @@
 testing
 testAlgernonPositioningWindowIsBiggerAfterReopening
-	| point oldPosition|
-	point := 1 @ 1.
+	| oldPosition|
 	oldPosition := self algerInstance position.
-	self algerInstance lastWorldBounds: World bounds corner - point.
+	World extent: (World extent + (100@100)).
 	self algerInstance activate.
 	self assert: (self algerInstance position = oldPosition).
