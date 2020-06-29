@@ -6,7 +6,6 @@ relevantItemsFor: aString
 	cacheKey := self cache keyFor: lcs level: self searchLevel parent: self parentItem.
 	items := self cache getAt: cacheKey.
 	items
-		ifEmpty: [ items := self evaluateSearchFor: lcs ]
-		ifNotEmpty: [ self updateRelevanceFor: items given: lcs ].
+		ifEmpty: [ items := self evaluateSearchFor: lcs ].
 	self cache putItems: items at: cacheKey.
 	^ items

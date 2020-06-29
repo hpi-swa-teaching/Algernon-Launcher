@@ -1,0 +1,3 @@
+help
+classCommentFuzzyPenalty
+	^ -5

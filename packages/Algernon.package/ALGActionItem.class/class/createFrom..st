@@ -6,6 +6,5 @@ createFrom: anAction
 	item := self new.
 	item algerType: type;
 		algerActions: (OrderedCollection newFrom: {anAction});
-		numTimesSelected: anAction numTimesSelected;
-		isRelevantForEmptyString: true.
+		numTimesSelected: anAction numTimesSelected.
 	^ item

@@ -4,5 +4,4 @@ testMethodCalls
 		
 	self runQuery:'ALGMethodType'.
 	self algerInstance showChildList.
-	
-	self deny: (algerInstance itemProvider relevantItemsFor: 'sourceCodeAt:') isEmpty
+	self assert: (self items anySatisfy: [:each | each algerType class = ALGMethodType ]).
