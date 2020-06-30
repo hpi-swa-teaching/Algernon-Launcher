@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testDynamicRank
 	| item oldRank |
 	item := ALGItem new.
