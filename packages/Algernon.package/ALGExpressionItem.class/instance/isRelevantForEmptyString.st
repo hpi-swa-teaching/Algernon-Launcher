@@ -1,3 +1,0 @@
-relevant
-isRelevantForEmptyString
-	^ false
