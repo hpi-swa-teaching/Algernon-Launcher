@@ -1,6 +1,6 @@
 caching
 getAt: aCacheKey
 
-	self itemsCache at: aCacheKey
+	self at: aCacheKey
 		ifPresent: [ :items | ^ items ]
 		ifAbsent: [ ^ self emptyResult ]

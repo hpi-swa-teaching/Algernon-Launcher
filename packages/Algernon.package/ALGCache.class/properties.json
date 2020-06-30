@@ -10,5 +10,5 @@
 	"name" : "ALGCache",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Dictionary",
 	"type" : "normal" }

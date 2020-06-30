@@ -6,6 +6,6 @@ testClear
 	cacheKey := 'testKey'.
 	items := { ALGItem new . ALGItem new }.
 	cache putItems: items at: cacheKey.
-	self assert: cache itemsCache notEmpty.
+	self assert: cache notEmpty.
 	cache clear.
 	self assert: cache itemsCache isEmpty

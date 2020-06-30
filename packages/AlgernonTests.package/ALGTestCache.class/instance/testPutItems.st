@@ -6,4 +6,4 @@ testPutItems
 	cacheKey := 'testKey'.
 	items := { ALGItem new . ALGItem new }.
 	cache putItems: items at: cacheKey.
-	self assert: 1 equals: cache itemsCache size
+	self assert: 1 equals: cache size
