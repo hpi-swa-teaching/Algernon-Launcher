@@ -1,4 +1,4 @@
 accessing
-selectors
+keywords
 
 	^ Set new

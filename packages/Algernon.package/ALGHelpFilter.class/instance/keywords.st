@@ -1,3 +1,3 @@
 filtering
-selectors
+keywords
 	^ Set newFrom: { 'help' }
