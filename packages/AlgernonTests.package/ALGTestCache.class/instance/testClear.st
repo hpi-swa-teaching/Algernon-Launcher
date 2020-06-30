@@ -1,11 +1,5 @@
 testing
 testClear
-
-	| cache cacheKey items |
-	cache := ALGCache new.
-	cacheKey := 'testKey'.
-	items := { ALGItem new . ALGItem new }.
-	cache putItems: items at: cacheKey.
-	self assert: cache notEmpty.
-	cache clear.
-	self assert: cache isEmpty
+	self assert: self cache notEmpty.
+	self cache clear.
+	self assert: self cache isEmpty

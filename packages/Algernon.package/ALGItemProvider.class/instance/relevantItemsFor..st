@@ -4,8 +4,8 @@ relevantItemsFor: aString
 	| lcs items cacheKey |
 	lcs := aString asLowercase.
 	cacheKey := self cache keyFor: lcs level: self searchLevel parent: self parentItem.
-	items := self cache getAt: cacheKey.
+	items := self cache get: cacheKey.
 	items
 		ifEmpty: [ items := self evaluateSearchFor: lcs ].
-	self cache putItems: items at: cacheKey.
+	self cache at: cacheKey put: items.
 	^ items

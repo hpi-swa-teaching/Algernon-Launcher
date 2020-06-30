@@ -2,12 +2,19 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testCacheKeyGeneration" : "beb 6/30/2020 10:05",
-		"testCacheKeyGenerationLevel0" : "beb 6/30/2020 10:05",
-		"testCacheKeyGenerationLevel1" : "LK 6/14/2016 09:50",
-		"testClear" : "beb 6/30/2020 10:17",
-		"testCreateCache" : "beb 6/30/2020 10:05",
-		"testEmptyCache" : "td 7/3/2016 15:28",
-		"testGetAt" : "LK 6/14/2016 09:31",
-		"testPutItems" : "beb 6/30/2020 10:05",
-		"testSubstringMatching" : "beb 6/30/2020 10:37" } }
+		"cache" : "beb 6/30/2020 14:44",
+		"cache:" : "beb 6/30/2020 14:44",
+		"cacheKey" : "beb 6/30/2020 14:45",
+		"cacheKey:" : "beb 6/30/2020 14:45",
+		"items" : "beb 6/30/2020 14:45",
+		"items:" : "beb 6/30/2020 14:45",
+		"setup" : "beb 6/30/2020 14:45",
+		"testCacheKeyGeneration" : "beb 6/30/2020 14:46",
+		"testCacheKeyGenerationLevel0" : "beb 6/30/2020 14:47",
+		"testCacheKeyGenerationLevel1" : "beb 6/30/2020 14:47",
+		"testClear" : "beb 6/30/2020 14:48",
+		"testCreateCache" : "beb 6/30/2020 14:48",
+		"testEmptyCache" : "beb 6/30/2020 14:48",
+		"testGetAt" : "beb 6/30/2020 14:48",
+		"testPutItems" : "beb 6/30/2020 14:49",
+		"testSubstringMatching" : "beb 6/30/2020 14:49" } }

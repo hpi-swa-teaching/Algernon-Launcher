@@ -1,5 +1,5 @@
 caching
-getAt: aCacheKey
+get: aCacheKey
 
 	self at: aCacheKey
 		ifPresent: [ :items | ^ items ]

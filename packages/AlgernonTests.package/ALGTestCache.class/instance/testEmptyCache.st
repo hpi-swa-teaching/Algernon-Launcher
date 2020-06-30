@@ -1,6 +1,3 @@
 testing
 testEmptyCache
-
-	| cache |
-	cache := ALGCache new.
-	self assert: (cache getAt: 'testKey') isEmpty
+	self assert: (self cache get: 'keyThatIsNotPresent') isEmpty

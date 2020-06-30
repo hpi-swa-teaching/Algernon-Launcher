@@ -1,10 +1,8 @@
 testing
 testCacheKeyGenerationLevel0
 
-	| cache items parent |
-	cache := ALGCache new.
-	items := { ALGItem new . ALGItem new }.
+	| parent |
 	parent := ALGItem new.
-	cache putItems: items at: (cache keyFor: '1' level: 0 parent: nil).
-	cache putItems: items at: (cache keyFor: '1' level: 0 parent: parent).
-	self assert: 1 equals: cache size
+	self cache at: (self cache keyFor: '1' level: 0 parent: nil) put: self items.
+	self cache at: (self cache keyFor: '1' level: 0 parent: parent) put: self items.
+	self assert: 1 equals: self cache size
