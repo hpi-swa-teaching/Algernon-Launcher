@@ -1,5 +1,5 @@
 caching
-getLargestSubstringMatch: aString 
+getLargestSubstringMatch: aString ifMiss: missItems
 	| searchFor |
 	searchFor := aString allButLast.
 	[searchFor ~= '']
@@ -7,4 +7,4 @@ getLargestSubstringMatch: aString
 				at: searchFor
 				ifPresent: [:items | ^ items]
 				ifAbsent: [searchFor := searchFor allButLast]].
-	^ self items
+	^ missItems

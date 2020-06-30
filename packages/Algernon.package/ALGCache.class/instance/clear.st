@@ -1,4 +1,3 @@
 caching
 clear
-
-	self itemsCache: Dictionary new
+	self removeAll.

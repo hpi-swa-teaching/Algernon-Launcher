@@ -1,11 +1,8 @@
 testing
-testClear
-
+testSubstringMatch
 	| cache cacheKey items |
 	cache := ALGCache new.
 	cacheKey := 'testKey'.
 	items := { ALGItem new . ALGItem new }.
 	cache putItems: items at: cacheKey.
-	self assert: cache notEmpty.
-	cache clear.
-	self assert: cache isEmpty
+	self deny: (cache getLargestSubstringMatch: cacheKey, '123' ifMiss: #()) isEmpty.
