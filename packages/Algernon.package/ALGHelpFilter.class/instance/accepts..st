@@ -1,3 +1,3 @@
 filtering
 accepts: aStringCollection
-	^ self keywords includes: aStringCollection first
+	^ self class keywords includes: aStringCollection first
