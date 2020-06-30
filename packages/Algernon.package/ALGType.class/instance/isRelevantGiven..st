@@ -1,4 +1,0 @@
-relevance
-isRelevantGiven: aString
-
-	^ false
