@@ -8,4 +8,4 @@ relevantItemsFor: aString
 	items
 		ifEmpty: [ items := self evaluateSearchFor: lcs ].
 	self cache at: cacheKey put: items.
-	^ items
+	^ self processMatchedItems: items given: aString

@@ -1,4 +1,3 @@
-accessing
+constants
 minimumItemsToCompute
-
-	^10
+	^ 10
