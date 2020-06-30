@@ -7,4 +7,4 @@ testCacheKeyGeneration
 	self cache at: (self cache keyFor: '1' level: 0 parent: nil) put: self items.
 	self cache at: (self cache keyFor: '2' level: 0 parent: nil) put: self items.
 	self cache at: (self cache keyFor: '2' level: 1 parent: parent) put: self items.
-	self assert: 4 equals: self cache size
+	self assert: 5 equals: self cache size
