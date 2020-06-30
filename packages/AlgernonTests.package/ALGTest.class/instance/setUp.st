@@ -1,7 +1,7 @@
 running
 setUp
-	"ClassOrganizer allInstancesDo: [:ea | ea removeEmptyCategories]."
+	ClassOrganizer allInstancesDo: [:ea | ea removeEmptyCategories].
 	self algerInstance: Algernon new.
-	"Algernon currentInstance ifNil: [Algernon open.
-									Algernon close]."
+	Algernon currentInstance ifNil: [Algernon open.
+									Algernon close].
 	previouslyOpenedWindows := self currentSystemWindows
