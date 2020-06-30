@@ -1,3 +1,3 @@
 accessing
 fuzzyMatchName
-	^ self keyword
+	^ self typeName, ' ', self keyword
