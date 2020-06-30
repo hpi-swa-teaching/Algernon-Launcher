@@ -1,6 +1,7 @@
 caching
 getLargestSubstringMatch: aString ifMiss: missItems
 	| searchFor |
+	aString isEmpty ifTrue: [ ^ missItems ]. 
 	searchFor := aString allButLast.
 	[searchFor ~= '']
 		whileTrue: [self
