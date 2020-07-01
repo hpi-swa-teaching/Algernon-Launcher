@@ -1,3 +1,0 @@
-relevance
-isRelevantForAllStrings
-	^ true
