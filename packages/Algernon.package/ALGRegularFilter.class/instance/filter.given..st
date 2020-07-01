@@ -3,8 +3,8 @@ filter: anItemCollection given: aStringCollection
 	| resultItems keyword itemsMatchingComment |
 	keyword := aStringCollection first.
 	keyword = '' ifTrue: [ ^ self filterEmptyQuery: anItemCollection ].
-	resultItems := super filter: anItemCollection given: aStringCollection.
+	resultItems := (super filter: anItemCollection given: aStringCollection) asSet.
 	itemsMatchingComment := self filter: anItemCollection classesByCommentContaining: keyword.
-	itemsMatchingComment do: [ :each | resultItems addIfNotPresent: each ].
+	itemsMatchingComment do: [ :each | resultItems add: each ].
 	resultItems do: [ :each | each defaultIndex: 1 ].
-	^ resultItems
+	^ resultItems asOrderedCollection
