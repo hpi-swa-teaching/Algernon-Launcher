@@ -1,5 +1,5 @@
 filtering
-evaluateSearchFor: aString
+filteredItemsFor: aString
 	| filterStrategy tokens |
 	tokens := self tokenize: aString.
 	filterStrategy := self itemFilterFor: tokens.

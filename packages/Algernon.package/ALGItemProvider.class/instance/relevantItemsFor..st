@@ -1,9 +1,0 @@
-filtering
-relevantItemsFor: aString
-
-	| lcs items cacheKey |
-	lcs := aString asLowercase.
-	cacheKey := self cache keyFor: lcs level: self searchLevel parent: self parentItem.
-	items := self evaluateSearchFor: lcs.
-	self cache at: cacheKey put: items.
-	^ self processMatchedItems: items given: aString
