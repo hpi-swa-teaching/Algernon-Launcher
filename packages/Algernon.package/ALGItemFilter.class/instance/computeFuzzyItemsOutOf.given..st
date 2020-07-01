@@ -5,4 +5,4 @@ computeFuzzyItemsOutOf: anItemCollection given: aStringCollection
 	queryString := aStringCollection joinSeparatedBy: ' '.
 	anItemCollection do: [ :item | item fuzzyRank: (ALGFuzzyMatcher computeScore: item given: queryString)].
 	fuzzySortedItems := (anItemCollection select: [ :each | each fuzzyRank isNil not ]) sort: [ :a :b | (b fuzzyRank) < (a fuzzyRank)].
-	^ fuzzySortedItems
+	^ self sortByFuzzyRank: anItemCollection.

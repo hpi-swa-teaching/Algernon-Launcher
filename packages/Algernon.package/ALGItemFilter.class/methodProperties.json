@@ -4,6 +4,7 @@
 		"keywords" : "beb 6/30/2020 11:59" },
 	"instance" : {
 		"accepts:" : "beb 6/30/2020 11:59",
-		"computeFuzzyItemsOutOf:given:" : "beb 6/25/2020 11:03",
+		"computeFuzzyItemsOutOf:given:" : "beb 7/1/2020 13:26",
 		"filter:given:" : "beb 6/30/2020 19:48",
+		"sortByFuzzyRank:" : "beb 7/1/2020 13:25",
 		"supportsSubstringCaching" : "beb 6/30/2020 11:23" } }
