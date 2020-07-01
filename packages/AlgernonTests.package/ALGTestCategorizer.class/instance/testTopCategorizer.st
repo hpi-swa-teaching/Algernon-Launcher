@@ -8,7 +8,7 @@ testTopCategorizer
 	expectedItems := {	ALGFakeItem new rank: 450; algerType: typeB; yourself .
 							ALGFakeItem new rank: 550; algerType: typeA; yourself .
 							ALGFakeItem new rank: 223; algerType: typeB; yourself }.
-	items := items asOrderedCollection addAll:expectedItems.
+	items := items asOrderedCollection addAll: expectedItems; yourself.
 	items sort: [ :a :b | a rank > b rank ].
 	
 	categorizer := ALGTopCategorizer new.
