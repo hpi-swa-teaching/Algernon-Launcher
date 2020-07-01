@@ -7,5 +7,4 @@ createCategoriesFor: anItemList
 				addAll: (self topCategorizer categorize: anItemList)].
 	categories
 		addAll: (self typeCategorizer categorize: anItemList withExistingCategories: categories).
-	self halt.
 	^ categories

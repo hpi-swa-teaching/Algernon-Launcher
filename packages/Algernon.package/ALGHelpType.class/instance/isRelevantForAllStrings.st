@@ -1,0 +1,3 @@
+relevance
+isRelevantForAllStrings
+	^ true
