@@ -1,5 +1,5 @@
 categorizing
-categorize: anItemList
+categorize: anItemList withExistingCategories: aCategoriesCollection 
 
 	| categories topCategory |
 	categories := OrderedCollection new.

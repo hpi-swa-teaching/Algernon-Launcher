@@ -6,4 +6,4 @@ categorize: anItemList withExistingCategories: aCategoriesCollection
 				ifFound: [:cat | cat items]
 				ifNone: [#()].
 	^ self
-		categorize: (anItemList copyWithoutAll: topCategoryItems)
+		categorizeItems: (anItemList copyWithoutAll: topCategoryItems)
