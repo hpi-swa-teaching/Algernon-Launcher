@@ -5,4 +5,4 @@ testCloseWithEscape
 				isKeyUp: true.
 	self algerInstance activate.
 	self algerInstance textField handleEvent: closeAlgernonEvent.
-	self deny: Algernon currentInstance active
+	self deny: self algerInstance active

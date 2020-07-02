@@ -7,5 +7,5 @@ testCursorColorAfterReturningFromChildList
 	self algerInstance showChildList.
 	self algerInstance showParentList.
 	
-	field := Algernon currentInstance textField.
+	field :=  self algerInstance textField.
 	self assert: (field paragraph caretColor = field class cursorColor).
