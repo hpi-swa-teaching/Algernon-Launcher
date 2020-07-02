@@ -1,5 +1,5 @@
 categorizing
-categorize: anItemCollection
+categorizeItems: anItemCollection
 
 	| categories typeDictionary |
 	categories := OrderedCollection new.

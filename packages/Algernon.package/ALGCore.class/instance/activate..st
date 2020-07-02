@@ -9,7 +9,8 @@ activate: hand
 		checkWorldBounds;	
 		initializeBackground;
 		showMorphs;
-		openInWorld.
+		openInWorld;
+		startStepping.
 	self textField contents: self lastInputString;
 		selectAll
 	
