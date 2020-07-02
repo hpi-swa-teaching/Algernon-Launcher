@@ -1,3 +1,3 @@
 accessing
 algerInstance
-	^ algerInstance
+	^ self class algernonInstance

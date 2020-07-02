@@ -2,6 +2,6 @@ testing
 testAlgernonClass
 
 	self ensureMorphic.
-	self deny: algerInstance textField = nil.
-	self deny: algerInstance = nil.
-	self deny: algerInstance class activationString = nil
+	self deny: self algerInstance textField = nil.
+	self deny: self algerInstance = nil.
+	self deny: self algerInstance class activationString = nil

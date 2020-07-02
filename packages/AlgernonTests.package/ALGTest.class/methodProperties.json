@@ -1,10 +1,14 @@
 {
 	"class" : {
-		 },
+		"algernonInstance" : "jRo 7/2/2020 10:50",
+		"algernonInstance:" : "jRo 7/2/2020 10:06",
+		"initializeAlgernonInstance" : "jRo 7/2/2020 10:49",
+		"lastResetSeconds" : "jRo 7/2/2020 10:50",
+		"lastResetSeconds:" : "jRo 7/2/2020 10:49" },
 	"instance" : {
 		"activateCurrentItemAction" : "beb 5/24/2020 11:19",
-		"algerInstance" : "beb 5/20/2020 16:21",
-		"algerInstance:" : "beb 5/20/2020 16:21",
+		"algerInstance" : "jRo 7/2/2020 10:03",
+		"algerInstance:" : "jRo 7/2/2020 10:04",
 		"categoryResultItems" : "beb 5/21/2020 11:52",
 		"currentQuery" : "beb 5/21/2020 12:48",
 		"currentSystemWindows" : "jRo 6/4/2020 14:25",
@@ -20,9 +24,11 @@
 		"items" : "beb 5/20/2020 16:49",
 		"moveCursorTo:" : "beb 5/24/2020 18:39",
 		"nameOfFirstResult" : "jRo 6/6/2020 20:32",
+		"previouslyOpenedWindows" : "jRo 7/2/2020 10:52",
+		"previouslyOpenedWindows:" : "jRo 7/2/2020 10:52",
 		"resultsClassIncludeName:" : "jRo 5/26/2020 13:01",
 		"resultsIncludeName:" : "Jro 5/26/2020 12:41",
 		"runQuery:" : "beb 5/21/2020 12:19",
-		"setUp" : "jRo 5/27/2020 15:28",
-		"tearDown" : "jRo 6/14/2020 18:13",
+		"setUp" : "jRo 7/2/2020 10:52",
+		"tearDown" : "jRo 7/2/2020 10:53",
 		"topResults" : "beb 5/21/2020 11:51" } }

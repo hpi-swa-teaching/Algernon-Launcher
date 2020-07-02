@@ -1,3 +1,3 @@
 accessing
 algerInstance: anObject
-	algerInstance := anObject
+	^self class algernonInstance:  anObject
