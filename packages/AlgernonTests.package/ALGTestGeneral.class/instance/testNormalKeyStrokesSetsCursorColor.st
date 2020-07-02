@@ -3,7 +3,7 @@ testNormalKeyStrokesSetsCursorColor
 	| input field|
 	input := ALGFakeKeyboardEvent new 
 						keyString: 'a'; 
-						isKeyUp: false.
+						isKeyUp: true.
 	self algerInstance activate.
 	field :=self algerInstance textField
 	normalKeyStroke: input.

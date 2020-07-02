@@ -1,6 +1,5 @@
 running
 tearDown
 	self algerInstance deactivate: nil.
-	(self currentSystemWindows
-		reject: [:each | self previouslyOpenedWindows includes: each])
+	(self currentSystemWindows difference: self previouslyOpenedWindows)
 		do: [:each | each delete]

@@ -1,3 +1,0 @@
-testing
-setUp
-	super setUp.

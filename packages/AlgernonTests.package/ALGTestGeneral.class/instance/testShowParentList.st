@@ -11,4 +11,3 @@ testShowParentList
 	self algerInstance showChildList.
 	self assert: self algerInstance itemList hasItems.
 	self assert: list ~= self algerInstance itemList.
-	self algerInstance close.

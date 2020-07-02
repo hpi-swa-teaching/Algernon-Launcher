@@ -10,6 +10,7 @@ activate: hand
 		initializeBackground;
 		showMorphs;
 		openInWorld.
+	self startStepping.
 	self textField contents: self lastInputString;
 		selectAll
 	

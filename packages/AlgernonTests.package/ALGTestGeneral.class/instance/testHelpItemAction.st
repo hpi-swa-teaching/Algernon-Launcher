@@ -1,6 +1,8 @@
 testing
 testHelpItemAction
-	| textField |
+	| textField oldCurrentInstance |
+	oldCurrentInstance := ALGCore currentInstance.
+	ALGCore currentInstance: self algerInstance.
 	self runQuery: 'help fileout'.
 	self activateCurrentItemAction. "pressing enter on a help text does not throw"
 	self assert: (self algerInstance query = 'fileout ').
@@ -9,3 +11,4 @@ testHelpItemAction
 	self assert: textField selection size = 0.
 	self assert: textField cursor = textField size.
 	self algerInstance deactivate.
+	ALGCore currentInstance: ALGCore currentInstance..

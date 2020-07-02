@@ -1,13 +1,11 @@
 testing
-testAlgernonChangeShortcut: shortcut
-
+testAlgernonChangeShortcut: shortcut 
 	ALGCore activationString: shortcut shallowCopy.
-	self deny: Algernon currentInstance isNil.
-	Algernon currentInstance handleListenEvent: (ALGFakeKeyboardEvent new 
-																	keyString: shortcut shallowCopy;
-																	isKeyUp: false).
-	self assert: Algernon currentInstance active.
-	Algernon currentInstance handleListenEvent: (ALGFakeKeyboardEvent new 
-																	keyString: shortcut shallowCopy;
-																	isKeyUp: true).
-	Algernon close		
+	self algerInstance deactivate: nil.
+	self deny: self algerInstance active.
+	self algerInstance handleListenEvent: (ALGFakeKeyboardEvent new keyString: shortcut shallowCopy;
+			 isKeyUp: true).
+	self assert: self algerInstance active.
+	self algerInstance handleListenEvent: (ALGFakeKeyboardEvent new keyString: shortcut shallowCopy;
+			 isKeyUp: true).
+	self algerInstance deactivate: nil

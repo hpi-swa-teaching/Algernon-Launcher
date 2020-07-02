@@ -1,3 +1,3 @@
 helpers
 currentSystemWindows
-	^ PluggableSystemWindow allInstances 
+	^ SystemWindow windowsIn: (Object currentWorld)

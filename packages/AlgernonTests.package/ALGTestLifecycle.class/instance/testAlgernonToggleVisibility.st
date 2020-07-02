@@ -4,12 +4,12 @@ testAlgernonToggleVisibility
 	|openAlgernonEvent|
 	openAlgernonEvent := ALGFakeKeyboardEvent new 
 										keyString: ALGCore activationString;
-										isKeyUp: false.										
-	algerInstance activate.
-	self assert: algerInstance active. 	
-	algerInstance toggleVisibility: openAlgernonEvent.
-	self deny: algerInstance active.
-	algerInstance toggleVisibility: openAlgernonEvent.
-	self assert: algerInstance active.
-	algerInstance deactivate.
-	self deny: algerInstance active.
+										isKeyUp: true.										
+	self algerInstance activate.
+	self assert: self algerInstance active. 	
+	self algerInstance toggleVisibility: openAlgernonEvent.
+	self deny: self algerInstance active.
+	self algerInstance toggleVisibility: openAlgernonEvent.
+	self assert: self algerInstance active.
+	self algerInstance deactivate.
+	self deny: self algerInstance active.
