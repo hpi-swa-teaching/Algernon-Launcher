@@ -1,6 +1,4 @@
 testing
 testItemListNotEmptyForCategorySearches
-
 	self runQuery: 'AlgernonTests'.
-
-	self deny: algerInstance itemList items isEmpty
+	self deny: self items isEmpty
