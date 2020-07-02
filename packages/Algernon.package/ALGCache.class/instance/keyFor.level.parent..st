@@ -4,5 +4,5 @@ keyFor: aString level: aNumber parent: anItem
 	self assert: aNumber >= 0.
 	self assert: (aNumber = 0 or: [ anItem notNil ]).
 	(aNumber = 0)
-		ifFalse: [ ^ aString, '#', aNumber, '#', anItem hash ].
+		ifFalse: [ ^ '#', aNumber, '#', anItem hash, '#', aString ].
 	^ aString
