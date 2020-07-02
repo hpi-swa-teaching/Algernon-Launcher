@@ -4,7 +4,7 @@ getLargestSubstringMatch: aString ifMiss: missItems
 	aString isEmpty ifTrue: [ ^ missItems ].
 	searchFor := aString.
 	[searchFor ~= '']
-		whileTrue: [self
+		whileTrue: [self allMatchedItems
 				at: searchFor
 				ifPresent: [:items | ^ items]
 				ifAbsent: [searchFor := searchFor allButLast]].

@@ -1,3 +1,4 @@
 caching
 clear
-	self removeAll.
+	self finalResults removeAll.
+	self allMatchedItems removeAll.
