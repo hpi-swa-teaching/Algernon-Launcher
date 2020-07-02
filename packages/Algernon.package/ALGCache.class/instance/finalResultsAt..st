@@ -1,5 +1,5 @@
 caching
-at: aCacheKey
-	super at: aCacheKey
+finalResultsAt: aCacheKey
+	self finalResults at: aCacheKey
 		ifPresent: [ :items | ^ items ]
 		ifAbsent: [ ^ self emptyResult ]
