@@ -7,5 +7,6 @@ deactivate: hand
 		 reset;
 		 stopStepping;
 		 hideMorphs.
+	ALGInstallation instance cleanupIfNewDay.
 	hand
 		ifNotNil: [self dropFocus: hand]

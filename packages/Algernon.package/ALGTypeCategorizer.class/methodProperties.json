@@ -3,7 +3,8 @@
 		"maxItemsPerCategory" : "J.J. 7/28/2015 19:44",
 		"maxNumItems" : "JS 6/23/2016 11:48" },
 	"instance" : {
-		"categorize:" : "JS 6/23/2016 11:33",
+		"categorize:withExistingCategories:" : "jRo 7/2/2020 01:03",
+		"categorizeItems:" : "jRo 7/2/2020 01:00",
 		"countCategoriesFrom:" : "JS 6/23/2016 11:43",
 		"extractFrom:to:" : "td 6/29/2016 08:22",
 		"typesFrom:" : "JS 6/23/2016 11:46",
