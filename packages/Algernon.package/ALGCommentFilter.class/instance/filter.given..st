@@ -3,6 +3,6 @@ filter: anItemCollection given: aStringCollection
 
 	| commentKeyWord |
 	commentKeyWord := aStringCollection second.
-	^ (anItemCollection
-		select: [ :each | each matchesComment: commentKeyWord ])
-		do: [ :each | each fuzzyRank: self class classCommentFuzzyPenalty ]
+	^ anItemCollection
+		select: [ :each | each matchesComment: commentKeyWord ]
+		thenDo: [ :each | each fuzzyRank: self class classCommentFuzzyPenalty ]
