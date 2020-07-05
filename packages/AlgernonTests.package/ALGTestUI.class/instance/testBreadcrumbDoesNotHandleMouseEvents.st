@@ -1,3 +1,3 @@
 testing
 testBreadcrumbDoesNotHandleMouseEvents
-	self deny: (self algerInstance breadcrumbs handlesMouseDown: nil).
+	self deny: (self algInstance breadcrumbs handlesMouseDown: nil).

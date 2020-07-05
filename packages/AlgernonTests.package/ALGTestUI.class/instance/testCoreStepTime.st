@@ -1,3 +1,3 @@
 testing
 testCoreStepTime
-	self assert: self algerInstance stepTime = self algerInstance filteringThreshold
+	self assert: self algInstance stepTime = self algInstance filteringThreshold

@@ -7,12 +7,12 @@ testKeyboardInputOnlyOpensOnce
 	openAlgernonEventUp := ALGFakeKeyboardEvent new 
 										keyString: ALGCore activationString;
 										isKeyUp: true.
-	self algerInstance deactivate.
-	self algerInstance handleListenEvent: openAlgernonEventDown.
-	self assert: self algerInstance active.
-	self algerInstance handleListenEvent: openAlgernonEventUp.
-	self assert:self  algerInstance active.
-	self algerInstance handleListenEvent: openAlgernonEventDown.
-	self deny:self  algerInstance active.
-	self algerInstance handleListenEvent: openAlgernonEventUp.
-	self deny:self  algerInstance active.
+	self algInstance deactivate.
+	self algInstance handleListenEvent: openAlgernonEventDown.
+	self assert: self algInstance active.
+	self algInstance handleListenEvent: openAlgernonEventUp.
+	self assert:self  algInstance active.
+	self algInstance handleListenEvent: openAlgernonEventDown.
+	self deny:self  algInstance active.
+	self algInstance handleListenEvent: openAlgernonEventUp.
+	self deny:self  algInstance active.

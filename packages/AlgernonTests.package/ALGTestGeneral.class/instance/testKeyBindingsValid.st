@@ -1,7 +1,7 @@
 testing
 testKeyBindingsValid
-	self algerInstance class initializeGlobalKeyBindings.
+	self algInstance class initializeGlobalKeyBindings.
 	self
-		assert: (self algerInstance class keyBindings associations
+		assert: (self algInstance class keyBindings associations
 				allSatisfy: [:each | each key isString
 						and: [each value isBlock]])

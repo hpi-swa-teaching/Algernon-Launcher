@@ -1,3 +1,3 @@
 accessing
-algerInstance: anObject
+algInstance: anObject
 	^self class algernonInstance:  anObject
