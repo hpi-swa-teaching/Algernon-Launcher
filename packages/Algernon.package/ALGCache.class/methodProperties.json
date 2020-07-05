@@ -2,8 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
-		"at:" : "beb 6/30/2020 19:37",
-		"clear" : "beb 6/30/2020 10:35",
-		"emptyResult" : "J.J. 7/30/2015 20:14",
-		"getLargestSubstringMatch:ifMiss:" : "beb 6/30/2020 19:59",
-		"keyFor:level:parent:" : "LK 6/14/2016 09:46" } }
+		"allMatchedItems" : "beb 7/2/2020 15:04",
+		"allMatchedItems:" : "beb 7/2/2020 15:04",
+		"allMatchedItemsAt:" : "beb 7/2/2020 15:05",
+		"allMatchedItemsAt:put:" : "beb 7/2/2020 17:16",
+		"at:" : "beb 7/2/2020 15:04",
+		"clear" : "beb 7/2/2020 17:00",
+		"emptyResult" : "beb 7/2/2020 15:14",
+		"finalResults" : "beb 7/2/2020 15:04",
+		"finalResults:" : "beb 7/2/2020 15:04",
+		"finalResultsAt:" : "beb 7/2/2020 15:05",
+		"finalResultsAt:put:" : "beb 7/2/2020 15:05",
+		"getLargestSubstringMatch:ifMiss:" : "beb 7/2/2020 15:07",
+		"initialize" : "beb 7/2/2020 15:12",
+		"keyFor:level:parent:" : "beb 7/2/2020 09:32" } }

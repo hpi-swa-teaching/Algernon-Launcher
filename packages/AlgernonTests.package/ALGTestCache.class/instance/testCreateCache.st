@@ -2,4 +2,5 @@ testing
 testCreateCache
 	| cache |
 	cache := ALGCache new.
-	self assert: cache isEmpty
+	self assert: cache allMatchedItems isEmpty.
+	self assert: cache finalResults isEmpty.

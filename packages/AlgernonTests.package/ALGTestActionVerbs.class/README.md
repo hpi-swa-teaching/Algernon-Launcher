@@ -1,0 +1,1 @@
+Tests related to entering keywords  (e. g. help or browse) into Algernon.

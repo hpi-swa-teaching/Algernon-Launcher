@@ -5,7 +5,7 @@ testPrintIt
 	the last character."
 	self runQuery: '= 1+1'.
 	(ALGExpressionType new
-	  typeObject: self algInstance) printit.
+	  typeObject: self algerInstance) printit.
 	"2 was printed"
 	self assert: (Transcript peekLast = $2).
 	"a Transcript is open"
