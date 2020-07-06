@@ -1,5 +1,5 @@
 testing
 testClickOnAlgernonDoesNotThrow
-	self assert: (self algerInstance itemList handlesMouseDown: nil).
+	self assert: (self algInstance itemList handlesMouseDown: nil).
 	self runQuery: 'Algernon'.
-	self algerInstance itemList mouseDown: nil.
+	self algInstance itemList mouseDown: nil.

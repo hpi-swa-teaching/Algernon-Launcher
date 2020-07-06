@@ -1,4 +1,4 @@
 testing
 testOpeningAlgernonOpensBackground
-	self algerInstance activate.
-	self assert: (self algerInstance background visible).
+	self algInstance activate.
+	self assert: (self algInstance background visible).

@@ -1,7 +1,7 @@
 testing
 testAlgernonOpen
 
-	self algerInstance activate.
-	self deny: self algerInstance isNil.
-	self assert: self algerInstance  active.
-	self algerInstance deactivate
+	self algInstance activate.
+	self deny: self algInstance isNil.
+	self assert: self algInstance  active.
+	self algInstance deactivate

@@ -1,5 +1,5 @@
 testing
 testCoreDoesNotHandleMouseEvents
-	self deny: (self algerInstance handlesMouseOver: nil).
-	self deny: (self algerInstance handlesMouseOverDragging: nil).
-	self deny: (self algerInstance handlesMouseDown: nil).
+	self deny: (self algInstance handlesMouseOver: nil).
+	self deny: (self algInstance handlesMouseOverDragging: nil).
+	self deny: (self algInstance handlesMouseDown: nil).

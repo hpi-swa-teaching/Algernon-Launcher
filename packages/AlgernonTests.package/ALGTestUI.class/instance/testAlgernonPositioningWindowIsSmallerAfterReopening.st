@@ -3,7 +3,7 @@ testAlgernonPositioningWindowIsSmallerAfterReopening
 	| oldExtent |
 	oldExtent := World extent.
 	World extent: (100@100).
-	self algerInstance deactivate.
-	self algerInstance activate.
-	self assert: (self algerInstance center = ALGCore defaultPosition rounded).
+	self algInstance deactivate.
+	self algInstance activate.
+	self assert: (self algInstance center = ALGCore defaultPosition rounded).
 	World extent: oldExtent.

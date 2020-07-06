@@ -1,4 +1,4 @@
 testing
 testResultListDoesNotHandleMouseEvents
-	self deny: (self algerInstance itemList handlesMouseOver: nil).
-	self deny: (self algerInstance itemList handlesMouseOverDragging: nil).
+	self deny: (self algInstance itemList handlesMouseOver: nil).
+	self deny: (self algInstance itemList handlesMouseOverDragging: nil).
