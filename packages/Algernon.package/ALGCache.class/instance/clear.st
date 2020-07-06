@@ -1,4 +1,4 @@
 caching
 clear
-
-	self itemsCache: Dictionary new
+	self finalResults removeAll.
+	self allMatchedItems removeAll.

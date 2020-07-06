@@ -1,5 +1,7 @@
-submorphs-add/remove
+system
 delete
 
 	super delete.
-	self unregisterFromSystem
+	self unregisterFromSystem.
+	self background abandon.
+	self breadcrumbs abandon.

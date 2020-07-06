@@ -1,3 +1,3 @@
 helpers
 currentQuery
-	^ self algerInstance query
+	^ self algInstance query

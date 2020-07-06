@@ -1,8 +1,8 @@
 testing
 testVisibility
 	
-	algerInstance deactivate.
-	self deny: algerInstance visible.
-	algerInstance activate.
-	self assert: algerInstance visible.
+	self algInstance deactivate.
+	self deny: self algInstance visible.
+	self algInstance activate.
+	self assert: self algInstance visible.
 	

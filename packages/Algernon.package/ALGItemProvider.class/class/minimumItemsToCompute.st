@@ -1,0 +1,3 @@
+constants
+minimumItemsToCompute
+	^ 10

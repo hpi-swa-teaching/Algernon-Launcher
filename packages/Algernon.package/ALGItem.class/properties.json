@@ -9,7 +9,6 @@
 	"instvars" : [
 		"initials",
 		"numTimesSelected",
-		"isRelevantForEmptyString",
 		"lastUsage",
 		"matchingPositions",
 		"defaultIndex",

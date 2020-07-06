@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"evaluateTrigger" : "J.J. 7/30/2015 16:37",
-		"withAlgertype:" : "J.J. 7/30/2015 15:13" },
+		"isEvaluateTrigger:" : "Jro 6/16/2020 23:56",
+		"withAlgertype:" : "beb 6/30/2020 10:45" },
 	"instance" : {
-		"isRelevantGiven:" : "J.J. 7/30/2015 16:37" } }
+		"matchesAction:" : "Jro 6/17/2020 12:14",
+		"updateDefaultActionTo:" : "Jro 6/17/2020 12:16" } }

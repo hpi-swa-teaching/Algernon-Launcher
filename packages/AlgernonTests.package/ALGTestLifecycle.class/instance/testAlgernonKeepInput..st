@@ -1,6 +1,6 @@
 testing
 testAlgernonKeepInput: input 
 	self runQuery: input.
-	self algerInstance deactivate.
-	self algerInstance activate: nil.
-	self assert: self algerInstance textField contents equals: input
+	self algInstance deactivate.
+	self algInstance activate: nil.
+	self assert: self algInstance textField contents equals: input

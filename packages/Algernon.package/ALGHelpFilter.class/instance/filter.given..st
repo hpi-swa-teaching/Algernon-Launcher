@@ -3,7 +3,9 @@ filter: anItemCollection given: aStringCollection
 	| allHelpItems |
 	allHelpItems := anItemCollection
 				select: [:each | each algerType typeName = 'Help'].
+	
+	aStringCollection size = 1 ifTrue: [ ^ allHelpItems do: [:each | each fuzzyRank: 0 ] ]. 
+	
 	^ self
-		computeFuzzyItems: self minimumItemsToCompute
-		outOf: allHelpItems
-		given: aStringCollection
+		computeFuzzyItemsOutOf: allHelpItems
+		given: (aStringCollection allButFirst)
