@@ -1,4 +1,3 @@
 instance creation
 withAlgertype: aType
-
-	^ self withAlgertype: aType relevantForEmptyString: false
+	^ (ALGItem new) updateAlgertype: aType.

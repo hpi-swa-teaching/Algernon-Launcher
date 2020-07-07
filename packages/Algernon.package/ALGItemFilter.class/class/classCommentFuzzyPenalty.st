@@ -1,0 +1,3 @@
+filtering
+classCommentFuzzyPenalty
+	^ -5

@@ -7,7 +7,7 @@ algertemListWith: aWorkingCopyLabel
 	repos do: [ :each |
 		algertems add: (ALGItem withAlgertype: (self
 			withType: (each description)
-			withPackage: aWorkingCopyLabel) relevantForEmptyString: true)].
+			withPackage: aWorkingCopyLabel))].
 	^ algertems
 	
 

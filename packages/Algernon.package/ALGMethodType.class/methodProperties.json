@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"algertemList" : "jRo 6/4/2020 14:15",
-		"algertemListWith:" : "JS 5/30/2016 20:24",
+		"algertemListWith:" : "beb 6/18/2020 17:03",
 		"withType:withClass:" : "J.J. 7/30/2015 19:07" },
 	"instance" : {
 		"createActionBrowseExistingFor:" : "jRo 6/4/2020 15:35",
@@ -11,7 +11,6 @@
 		"createListOfAlgeractions" : "jRo 6/4/2020 15:30",
 		"createListOfClassAwareAlgeractions" : "jRo 6/4/2020 15:28",
 		"hasChildren" : "fw 7/30/2015 14:19",
-		"isRelevantGiven:" : "jRo 6/4/2020 15:53",
 		"methodClass" : "J.J. 7/30/2015 18:32",
 		"methodClass:" : "J.J. 7/30/2015 18:32",
 		"name" : "jRo 6/14/2020 18:04",

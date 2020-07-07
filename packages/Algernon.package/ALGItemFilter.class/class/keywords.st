@@ -1,0 +1,3 @@
+help
+keywords
+	self subclassResponsibility

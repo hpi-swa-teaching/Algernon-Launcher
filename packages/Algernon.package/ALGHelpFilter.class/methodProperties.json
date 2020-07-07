@@ -1,7 +1,7 @@
 {
 	"class" : {
-		"helpTexts" : "beb 6/1/2020 17:56" },
+		"helpTexts" : "beb 6/1/2020 17:56",
+		"keywords" : "beb 6/30/2020 12:00" },
 	"instance" : {
-		"accepts:" : "beb 5/20/2020 17:52",
-		"filter:given:" : "Jro 6/16/2020 23:06",
-		"selectors" : "beb 5/20/2020 17:40" } }
+		"accepts:" : "beb 6/30/2020 11:59",
+		"filter:given:" : "beb 7/1/2020 13:04" } }

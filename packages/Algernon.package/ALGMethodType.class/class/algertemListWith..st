@@ -5,6 +5,6 @@ algertemListWith: aClass
 	algertems := OrderedCollection new.
 	methods := aClass selectors asOrderedCollection.
 	methods do: [ :each | algertems add: (
-		ALGItem withAlgertype: (self withType:each withClass:aClass) relevantForEmptyString: false)].
+		ALGItem withAlgertype: (self withType:each withClass:aClass))].
 	^ algertems
 

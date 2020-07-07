@@ -2,7 +2,7 @@ testing
 testMovingAlgernonIsRemembered
 	| oldPosition |
 	self moveToMouse.
-	oldPosition := self algerInstance position.
-	self algerInstance deactivate.
-	self algerInstance activate.
-	self assert: (algerInstance  position = oldPosition).
+	oldPosition := self algInstance position.
+	self algInstance deactivate.
+	self algInstance activate.
+	self assert: (self algInstance  position = oldPosition).

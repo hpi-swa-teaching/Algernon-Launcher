@@ -5,9 +5,9 @@ testBreadcrumbsList
 	searchTerm := 'test'.
 	
 	self runQuery: searchTerm.
-	self algerInstance selectNext.
-	size := self algerInstance breadcrumbs submorphs size.
-	[self algerInstance currentItem hasChildren] whileFalse:  [self algerInstance selectNext].
-	self algerInstance showChildList.
-	self assert: self algerInstance breadcrumbs submorphs size equals: size + 1.
+	self algInstance selectNext.
+	size := self algInstance breadcrumbs submorphs size.
+	[self algInstance currentItem hasChildren] whileFalse:  [self algInstance selectNext].
+	self algInstance showChildList.
+	self assert: self algInstance breadcrumbs submorphs size equals: size + 1.
 	Algernon close.

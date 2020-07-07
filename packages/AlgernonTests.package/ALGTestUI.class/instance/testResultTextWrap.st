@@ -4,5 +4,5 @@ testResultTextWrap
 	| resultItem queryWithLongResult |
 	queryWithLongResult := 'help do'.
 	self runQuery: queryWithLongResult.
-	resultItem :=self algerInstance itemList items second.
+	resultItem :=self algInstance itemList items second.
 	self assert: (resultItem nameMorph) isWrapped
