@@ -1,4 +1,4 @@
 accessing
 initializeAlgernonInstance
-	self lastResetSeconds:Date today asSeconds.
-	^self algernonInstance: ALGCore new.
+	self lastResetSeconds: DateAndTime current asSeconds.
+	^ self algernonInstance: ALGCore new
