@@ -1,4 +1,4 @@
-algertem lists
+as yet unclassified
 algertemList
 	| algertems |
 	algertems := self additionalToolEntries.

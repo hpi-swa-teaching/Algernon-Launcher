@@ -1,3 +1,3 @@
-accessing
+accessors
 name
 	^ self typeObject first

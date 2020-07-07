@@ -1,3 +1,0 @@
-actions
-createMorph: aTypeObject
-	self SubclassResponsibility

@@ -1,4 +1,4 @@
-actions
+accessors
 createListOfAlgeractions
 	^ self createSortedListFrom: {ALGAction
 			withName: 'open'

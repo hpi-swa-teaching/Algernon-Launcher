@@ -1,1 +1,1 @@
-An ALGWorldMenuMorphType represents a Morph that appears in the world menu 'open' menu. The typeObject for this ALGType should be in the same format as that in TheWorldMenu registry.
+An ALGTestType represents a test in the system.

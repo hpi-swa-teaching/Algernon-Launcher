@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "J.J. 7/31/2015 19:49",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
 	"name" : "ALGWorldMenuMorphType",
 	"pools" : [
 		 ],
-	"super" : "ALGMorphType",
+	"super" : "ALGType",
 	"type" : "normal" }

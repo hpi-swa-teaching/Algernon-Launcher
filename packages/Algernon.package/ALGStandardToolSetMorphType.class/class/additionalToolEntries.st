@@ -1,4 +1,4 @@
-algertem lists
+as yet unclassified
 additionalToolEntries
 	^ OrderedCollection
 		with: (ALGItem

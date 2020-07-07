@@ -1,3 +1,3 @@
-actions
+accessors
 typeName
 	^ 'Morph'.
