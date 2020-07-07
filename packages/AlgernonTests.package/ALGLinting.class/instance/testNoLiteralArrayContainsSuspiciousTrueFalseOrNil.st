@@ -1,0 +1,3 @@
+code-style
+testNoLiteralArrayContainsSuspiciousTrueFalseOrNil
+	self ArbitraryCodeRule: #smallLintLiteralArrayContainsSuspiciousTrueFalseOrNil

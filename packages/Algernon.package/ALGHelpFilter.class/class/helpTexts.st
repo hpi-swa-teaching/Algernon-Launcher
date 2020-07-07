@@ -1,3 +1,5 @@
 help
 helpTexts
-	^ Dictionary new.
+	^ (Dictionary new)
+		add: 'help'->'Display information on keywords';
+		yourself

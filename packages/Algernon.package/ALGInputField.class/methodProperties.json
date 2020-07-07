@@ -1,17 +1,20 @@
 {
 	"class" : {
 		"backgroundColor" : "J.J. 7/28/2015 20:12",
-		"defaultFont" : "DS 5/11/2017 10:57",
-		"newIn:" : "J.J. 7/28/2015 20:13" },
+		"cursorColor" : "beb 5/29/2020 19:07",
+		"defaultFont" : "DS 5/11/2017 10:57" },
 	"instance" : {
 		"clear" : "J.J. 7/27/2015 20:02",
 		"controller" : "J.J. 7/28/2015 20:13",
 		"controller:" : "J.J. 7/28/2015 20:13",
+		"createParagraph" : "rk 6/17/2020 13:52",
 		"currentContent" : "J.J. 7/27/2015 21:43",
-		"initalize" : "J.J. 7/28/2015 20:15",
+		"cursorWrapped:" : "Jro 6/16/2020 18:18",
+		"handlesKeyboard:" : "beb 5/29/2020 18:45",
+		"initialize" : "beb 5/29/2020 19:06",
 		"isEmpty" : "td 6/29/2016 08:11",
-		"keyStroke:" : "td 6/1/2016 19:57",
-		"mouseDown:" : "J.J. 7/30/2015 20:19",
-		"mouseUp:" : "J.J. 7/30/2015 20:20",
-		"moveCursorToEnd" : "beb 5/23/2020 16:03",
+		"keyStroke:" : "beb 5/29/2020 18:45",
+		"keyboardFocusColor" : "rk 5/31/2020 14:53",
+		"moveCursorToEnd" : "rk 6/17/2020 14:00",
+		"normalKeyStroke:" : "rk 6/17/2020 14:00",
 		"size" : "beb 5/23/2020 16:04" } }

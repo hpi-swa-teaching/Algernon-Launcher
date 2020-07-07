@@ -1,0 +1,3 @@
+accessing
+typeName
+	^ 'Morph'.

@@ -1,0 +1,3 @@
+code-style
+testNoUnoptimizedAndOr
+	self ArbitraryCodeRule: #smallLintUnoptimizedAndOr

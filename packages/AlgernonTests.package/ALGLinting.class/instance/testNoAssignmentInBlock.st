@@ -1,0 +1,3 @@
+code-style
+testNoAssignmentInBlock
+	self ArbitraryCodeRule: #smallLintAssignmentInBlock

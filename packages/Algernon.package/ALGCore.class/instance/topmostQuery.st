@@ -1,7 +1,6 @@
 accessing
 topmostQuery
 	| topmostQuery |
-	topmostQuery := self query.
+	topmostQuery := self firstOnSearchStack.
 	^ topmostQuery
-		ifNil: [self firstOnSearchStack]
-		ifNotNil: [self query]
+		ifNil: [self query]
