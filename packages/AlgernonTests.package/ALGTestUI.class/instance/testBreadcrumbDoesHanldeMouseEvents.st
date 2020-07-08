@@ -1,5 +1,5 @@
 testing
 testBreadcrumbDoesHanldeMouseEvents
 	"for ticket 11"
-	self assert: (self algerInstance breadcrumb handlesMouseDown: nil).
+	self assert: (self algInstance breadcrumb handlesMouseDown: nil).
 	
