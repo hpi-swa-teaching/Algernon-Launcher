@@ -39,7 +39,6 @@
 		"testNoReturnIfTrueIfFaleBlocks" : "pw 6/26/2020 23:41",
 		"testNoReturnInEnsureBlock" : "pw 6/26/2020 23:16",
 		"testNoReturnsIfTrue" : "KEJ 5/28/2020 16:51",
-		"testNoSingleLiteralValue" : "pw 6/26/2020 23:06",
 		"testNoSizeCheck" : "KEJ 5/28/2020 16:53",
 		"testNoStringConcatenation" : "pw 6/26/2020 23:02",
 		"testNoSubclassResponsibilityNotDefined" : "KEJ 5/28/2020 16:51",
