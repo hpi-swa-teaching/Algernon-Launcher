@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 validVerbs
 	"Contains action verbs that are considered for multipart searches"
 

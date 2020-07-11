@@ -1,3 +1,3 @@
-code-style
+bugs
 testNoMethodModifierSuper
 	self ArbitraryCodeRule: #smallLintMethodModifierSuper

@@ -1,4 +1,4 @@
-initialize
+initialize-release
 initialize 
 	^self
 		setType: #keystroke

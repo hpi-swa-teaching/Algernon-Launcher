@@ -1,3 +1,3 @@
-thumbnail
+accessing
 icon
 	^ icon

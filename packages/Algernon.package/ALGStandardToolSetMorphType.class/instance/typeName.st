@@ -1,3 +1,3 @@
-actions
+accessing
 typeName
 	^ 'StandardToolSetMorph'.

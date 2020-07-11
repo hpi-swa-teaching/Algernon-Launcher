@@ -1,3 +1,3 @@
-actions
+accessing
 name
 	^ self typeObject first.

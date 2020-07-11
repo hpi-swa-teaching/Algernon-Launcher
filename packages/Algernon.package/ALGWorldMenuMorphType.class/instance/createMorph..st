@@ -1,4 +1,4 @@
-accessors
+actions
 createMorph: aTypeObject
 
 	| arr |
