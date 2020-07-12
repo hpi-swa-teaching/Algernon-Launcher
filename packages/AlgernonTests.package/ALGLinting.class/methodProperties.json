@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"ArbitraryCodeRule:" : "beb 5/28/2020 18:19",
+		"defaultTimeout" : "pw 7/12/2020 21:15",
 		"testAddAndRemoveDependentMessages" : "pw 6/26/2020 23:33",
 		"testNoAbstractClass" : "KEJ 5/28/2020 16:50",
 		"testNoAsOrderedCollectionNotNeeded" : "KEJ 5/28/2020 16:42",
