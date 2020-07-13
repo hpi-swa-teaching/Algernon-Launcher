@@ -4,6 +4,7 @@ cleanup
 	self lastCleanupDate: Date today.
 	isActive := Algernon activateAlgernon.
 	Algernon allInstancesDo: [ :algernon | algernon delete].
+	ALGCore  initializeGlobalKeyBindings.
 	ALGCore allInstancesDo: [ :algcore | algcore delete].
 	ALGCache allInstancesDo: [ :cache | cache clear]. 
 	ALGIconFactory allInstancesDo: [ :factory | factory clearCache]. 
