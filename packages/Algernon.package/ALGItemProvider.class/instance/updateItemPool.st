@@ -1,10 +1,10 @@
 updating
 updateItemPool
 
-	| items |
+	| resultItems |
 	self items: self defaultItems.
 	self searchLevel = 0 ifTrue: [ ^ self ].
-	items := OrderedCollection new.
-	items addAll: self parentItem children.
-	items addAll: (ALGActionItem createListFrom: self parentItem).
-	self items: items
+	resultItems := OrderedCollection new.
+	resultItems addAll: self parentItem children.
+	resultItems addAll: (ALGActionItem createListFrom: self parentItem).
+	self items: resultItems

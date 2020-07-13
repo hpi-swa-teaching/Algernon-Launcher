@@ -1,4 +1,4 @@
-event handling
+events-processing
 keyStroke: evt 
 
 	^ (self class keyBindings 

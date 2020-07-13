@@ -7,4 +7,3 @@ algertemList
 	testClasses := (runner findClassesForCategories: runner findCategories) asOrderedCollection.
 	testClasses do: [ :each | algertems add: (ALGItem withAlgertype: (self with: each))].
 	^ algertems
-

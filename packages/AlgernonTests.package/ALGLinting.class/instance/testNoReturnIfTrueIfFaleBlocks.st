@@ -1,0 +1,3 @@
+possible bugs
+testNoReturnIfTrueIfFaleBlocks
+	self ArbitraryCodeRule: #smallLintReturnsIfTrue

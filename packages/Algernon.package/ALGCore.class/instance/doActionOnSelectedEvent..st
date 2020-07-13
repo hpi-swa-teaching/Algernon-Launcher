@@ -1,4 +1,4 @@
-event handling
+events-processing
 doActionOnSelectedEvent: evt
 
 	self active ifTrue: [

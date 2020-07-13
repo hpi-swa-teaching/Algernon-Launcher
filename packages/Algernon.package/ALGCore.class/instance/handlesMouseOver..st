@@ -1,4 +1,5 @@
-event handling
+events-processing
 handlesMouseOver: anEvent
 
 	^ false
+	

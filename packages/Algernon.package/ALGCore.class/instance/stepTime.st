@@ -1,4 +1,4 @@
-stepping
+stepping and presenter
 stepTime
 
 	^ self filteringThreshold

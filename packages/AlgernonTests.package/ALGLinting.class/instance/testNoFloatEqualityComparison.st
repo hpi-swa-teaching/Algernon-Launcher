@@ -1,0 +1,3 @@
+possible bugs
+testNoFloatEqualityComparison
+	self ArbitraryCodeRule: #smallLintFloatEqualityComparison

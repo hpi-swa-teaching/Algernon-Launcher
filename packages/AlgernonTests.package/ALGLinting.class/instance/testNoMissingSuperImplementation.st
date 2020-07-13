@@ -1,0 +1,3 @@
+bugs
+testNoMissingSuperImplementation
+	self ArbitraryCodeRule: #smallLintMethodModifierOverride

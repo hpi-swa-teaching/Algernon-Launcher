@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
+		"core:" : "pw 7/11/2020 20:21",
 		"deactivateCore" : "beb 5/18/2020 17:31",
-		"setUp" : "jRo 6/14/2020 22:54",
-		"testActionTypeCreateListOfAlgeractions" : "td 7/4/2016 20:39",
+		"setUp" : "beb 5/18/2020 17:31",
 		"testCategoryTypeCreateListOfAlgeractions" : "td 7/4/2016 20:39",
 		"testClassTypeCreateListOfAlgeractions" : "td 7/4/2016 20:39",
 		"testExpressionTypeCreateListOfAlgeractions" : "td 7/4/2016 20:39",

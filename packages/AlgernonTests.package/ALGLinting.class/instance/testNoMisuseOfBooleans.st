@@ -1,0 +1,3 @@
+bugs
+testNoMisuseOfBooleans
+	self ArbitraryCodeRule: #smallLintUsesTrue

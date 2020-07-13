@@ -13,6 +13,7 @@
 		"background",
 		"oldFoci",
 		"active",
+		"wasChanged",
 		"lastInputTime",
 		"searchStack",
 		"parentStack",

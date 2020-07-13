@@ -1,3 +1,3 @@
-code-style
+bugs
 testNoBooleanPrecedence
 	self ArbitraryCodeRule: #smallLintBooleanPrecedence
