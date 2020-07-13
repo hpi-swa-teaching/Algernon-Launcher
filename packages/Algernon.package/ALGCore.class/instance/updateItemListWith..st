@@ -1,7 +1,7 @@
 updating
 updateItemListWith: aString
 	| results |
-	self itemProvider yieldTop: (self inChild and: [self textField isEmpty]) not.
+	self itemProvider yieldTop: (self notInChild and: [self textField isEmpty]) not.
 	results := self itemProvider resultsFor: aString.
 	"(results isEmpty) ifTrue: [ ^ self ]."
 	self hideItemList.

@@ -1,13 +1,10 @@
 testing
 testChildrenMovement
 	| tab shiftTab |
-	tab := (ALGFakeKeyboardEvent new)
-		keyString: '<tab>'.
-	shiftTab := (ALGFakeKeyboardEvent new)
-		keyString: '<shift-tab>'.
-		
+	tab := ALGFakeKeyboardEvent new keyString: '<tab>'.
+	shiftTab := ALGFakeKeyboardEvent new keyString: '<Shift-tab>'.
 	self runQuery: 'ALGCore'.
-	self algInstance textField keyStroke: tab.
-	self deny: self algInstance parentStack isEmpty.
+	self algInstance keyStroke: tab.
+	self assert: self algInstance inChild.
 	self algInstance textField keyStroke: shiftTab.
-	self deny: self algInstance inChild.
+	self assert: self algInstance notInChild
