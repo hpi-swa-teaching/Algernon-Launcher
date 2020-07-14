@@ -1,0 +1,14 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Algernon",
+	"pools" : [
+		 ],
+	"super" : "ALGCore",
+	"type" : "normal" }
