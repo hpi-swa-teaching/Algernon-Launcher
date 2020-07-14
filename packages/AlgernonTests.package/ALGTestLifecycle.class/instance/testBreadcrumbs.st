@@ -11,4 +11,4 @@ testBreadcrumbs
 	self assert: self currentQuery isEmpty.
 	self algInstance showParentList.
 	self assert: self currentQuery equals: searchTerm.	
-	Algernon close. 
+	ALGCore close. 

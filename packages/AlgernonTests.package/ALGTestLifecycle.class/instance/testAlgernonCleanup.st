@@ -1,5 +1,5 @@
 testing
 testAlgernonCleanup
 
-	Algernon cleanup.
-	self assert: Algernon currentInstance isNil
+	ALGCore cleanup.
+	self assert: ALGCore currentInstance isNil
