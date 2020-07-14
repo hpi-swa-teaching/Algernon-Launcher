@@ -1,5 +1,5 @@
 as yet unclassified
-createActionQuit
+createActionSave
 
 	^ ALGAction
 			withName: self name

@@ -2,6 +2,7 @@ mapping
 initializeFileMapping
 
 	FileMapping := Dictionary newFrom: {
+		#ALGQuitType -> (self quitIcon).
 		#ALGClassType -> (self classIcon).
 		#ALGActionType -> (self methodIcon).
 		#ALGMethodType -> (self methodIcon).

@@ -1,9 +1,17 @@
 {
 	"class" : {
-		 },
+		"algertemList" : "rk 7/14/2020 12:10",
+		"new:commandBlock:" : "rk 7/14/2020 12:09" },
 	"instance" : {
-		"createActionQuit" : "rk 7/14/2020 10:59",
-		"createListOfAlgeractions" : "rk 7/14/2020 10:49",
+		"commandBlock" : "rk 7/14/2020 12:03",
+		"commandBlock:" : "rk 7/14/2020 12:03",
+		"commandName" : "rk 7/14/2020 12:09",
+		"commandName:" : "rk 7/14/2020 12:09",
+		"createActionQuit" : "rk 7/14/2020 12:05",
+		"createActionSave" : "rk 7/14/2020 12:27",
+		"createListOfAlgeractions" : "rk 7/14/2020 12:27",
+		"doCommand" : "rk 7/14/2020 12:07",
+		"name" : "rk 7/14/2020 12:25",
 		"quitSqueak" : "rk 7/14/2020 10:59",
 		"rankBonus" : "rk 7/14/2020 11:03",
 		"typeName" : "rk 7/14/2020 10:26" } }

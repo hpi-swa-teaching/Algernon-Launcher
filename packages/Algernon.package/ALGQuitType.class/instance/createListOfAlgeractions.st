@@ -1,4 +1,4 @@
 as yet unclassified
 createListOfAlgeractions
 
-	^ self createSortedListFrom: { self createActionQuit }
+	^ self createSortedListFrom: { self createActionSave }
