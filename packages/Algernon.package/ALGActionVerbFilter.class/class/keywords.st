@@ -1,3 +1,3 @@
 filtering
 keywords
-	^ Set newFrom: {'run'. 'browse' . 'fileout'. 'open'. 'save'. 'do'. 'inspect'. 'explore'. '='}
+	^ Set newFrom: {'run'. 'browse' . 'fileout'. 'open'. 'save'. 'do'. 'inspect'. 'explore'. '='. 'w'. 'wq'. 'q!'}

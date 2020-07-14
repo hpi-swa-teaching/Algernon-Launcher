@@ -10,4 +10,7 @@ helpTexts
 		add: 'save'->'saves to Repository with a working copy';
 		add: 'inspect'->'open Inspector for an object';
 		add: 'explore'-> 'open Explorer for an object or all intances of a given class';
+		add: 'w'-> 'save the image without closing it';
+		add: 'wq'-> 'save the image then close it';
+		add: 'q!'-> 'quit the image without saving';
 		yourself
