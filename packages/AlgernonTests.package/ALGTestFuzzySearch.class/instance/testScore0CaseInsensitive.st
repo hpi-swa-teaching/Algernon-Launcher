@@ -1,5 +1,5 @@
 testing
 testScore0CaseInsensitive
 	"Make sure normal input works"
-	self runQuery: 'aLGERNON'.
-	self assert: (self resultsClassIncludeName: 'Algernon').
+	self runQuery: 'aLgTeStFuZzYsEaRcH'.
+	self assert: (self resultsClassIncludeName: 'ALGTestFuzzySearch').

@@ -1,5 +1,5 @@
 testing
 testScore1
 	"Make sure normal input works"
-	self runQuery: 'Algrnon'.
-	self assert: (self resultsClassIncludeName: 'Algernon').
+	self runQuery: 'AGTestFuzzySearch'.
+	self assert: (self resultsClassIncludeName: 'ALGTestFuzzySearch').
