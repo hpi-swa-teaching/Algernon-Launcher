@@ -1,15 +1,14 @@
 {
 	"class" : {
-		"algertemList" : "rk 7/14/2020 12:32",
+		"algertemList" : "rk 7/15/2020 10:01",
 		"new:commandBlock:" : "rk 7/14/2020 12:09" },
 	"instance" : {
 		"commandBlock" : "rk 7/14/2020 12:03",
 		"commandBlock:" : "rk 7/14/2020 12:03",
 		"commandName" : "rk 7/14/2020 12:09",
 		"commandName:" : "rk 7/14/2020 12:09",
-		"createActionQuit" : "rk 7/14/2020 12:05",
-		"createActionSave" : "rk 7/14/2020 12:27",
-		"createListOfAlgeractions" : "rk 7/14/2020 12:27",
+		"createActionQuit" : "rk 7/15/2020 10:00",
+		"createListOfAlgeractions" : "rk 7/15/2020 10:00",
 		"doCommand" : "rk 7/14/2020 12:07",
 		"name" : "rk 7/14/2020 12:25",
 		"quitSqueak" : "rk 7/14/2020 10:59",

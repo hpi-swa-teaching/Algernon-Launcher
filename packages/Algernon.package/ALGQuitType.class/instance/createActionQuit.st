@@ -2,7 +2,7 @@ as yet unclassified
 createActionQuit
 
 	^ ALGAction
-			withName: self name
+			withName: 'run'
 			rank: 1
 			target: self
 			selector: #doCommand

@@ -11,6 +11,6 @@ helpTexts
 		add: 'inspect'->'open Inspector for an object';
 		add: 'explore'-> 'open Explorer for an object or all intances of a given class';
 		add: 'save'-> 'save the image without closing it';
-		add: 'wq'-> 'save the image then close it';
-		add: 'q!'-> 'quit the image without saving';
+		add: 'saveandquit'-> 'save the image then close it';
+		add: 'quit'-> 'quit the image without saving';
 		yourself
