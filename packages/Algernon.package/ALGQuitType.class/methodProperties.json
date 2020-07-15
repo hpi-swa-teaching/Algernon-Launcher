@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"algertemList" : "rk 7/15/2020 10:01",
+		"algertemList" : "rk 7/15/2020 10:10",
 		"new:commandBlock:" : "rk 7/14/2020 12:09" },
 	"instance" : {
 		"commandBlock" : "rk 7/14/2020 12:03",
@@ -11,6 +11,5 @@
 		"createListOfAlgeractions" : "rk 7/15/2020 10:00",
 		"doCommand" : "rk 7/14/2020 12:07",
 		"name" : "rk 7/14/2020 12:25",
-		"quitSqueak" : "rk 7/14/2020 10:59",
 		"rankBonus" : "rk 7/14/2020 11:03",
 		"typeName" : "rk 7/14/2020 10:26" } }
