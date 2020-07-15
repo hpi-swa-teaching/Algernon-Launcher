@@ -1,4 +1,4 @@
 filtering
-cleanup
+cleanUp
 	self initialize.
 	self controller: nil.
