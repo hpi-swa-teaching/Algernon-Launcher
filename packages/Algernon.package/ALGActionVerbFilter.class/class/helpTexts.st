@@ -7,7 +7,7 @@ helpTexts
 		add: 'browse'->'Open a given class in the Browser.';
 		add: 'fileout'->'generates a .st file in Resources of squeak image Folder';
 		add: 'open'->'open an app, tool or morph';
-		add: 'save'->'saves to Repository with a working copy';
+		add: 'saverepo'->'saves to Repository with a working copy';
 		add: 'inspect'->'open Inspector for an object';
 		add: 'explore'-> 'open Explorer for an object or all intances of a given class';
 		add: 'save'-> 'save the image without closing it';
