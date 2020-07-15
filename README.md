@@ -30,6 +30,7 @@ Algernon allows for keyboard only interaction - no need to use your mouse!
 - Search and open categories, classes and methods
 - Explore and inspect classes and methods
 - Run tests
+- Run System functions such as saving or quitting the image
 - Open and save repositories
 - Search preferences
 - Search morphs
