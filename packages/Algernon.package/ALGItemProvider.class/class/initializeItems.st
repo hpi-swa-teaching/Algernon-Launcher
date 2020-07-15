@@ -3,7 +3,7 @@ initializeItems
 	"Note that items added in the beginning, are more likely to be shown as an example
 	for the empty query"
 	DefaultItems := OrderedCollection new
-		addAll: ALGQuitType algertemList;
+		addAll: ALGSystemCommandType algertemList;
 		addAll: ALGHelpType algertemList;
 		addAll: ALGTestType algertemList;
 		addAll: ALGCategoryType algertemList;

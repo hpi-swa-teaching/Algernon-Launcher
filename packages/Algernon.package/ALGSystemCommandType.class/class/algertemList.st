@@ -1,4 +1,4 @@
-as yet unclassified
+algertem lists
 algertemList
 	
 	^ {ALGItem withAlgertype: (self new: 'save' commandBlock: [Smalltalk saveSession.]).

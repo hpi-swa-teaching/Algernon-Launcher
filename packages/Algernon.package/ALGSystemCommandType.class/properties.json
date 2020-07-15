@@ -8,7 +8,7 @@
 	"instvars" : [
 		"commandBlock",
 		"commandName" ],
-	"name" : "ALGQuitType",
+	"name" : "ALGSystemCommandType",
 	"pools" : [
 		 ],
 	"super" : "ALGType",
