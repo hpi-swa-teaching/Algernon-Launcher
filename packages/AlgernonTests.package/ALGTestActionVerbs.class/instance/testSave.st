@@ -1,5 +1,5 @@
 testing
 testSave
 	self runQuery: 'save'.
-	self assert: (self items first algerType typeName = 'Quit').
-	self assert: (self items first name = 'save')
+	self assert: (self typeNameOfFirstResult = 'Quit').
+	self assert: (self nameOfFirstResult= 'save')
