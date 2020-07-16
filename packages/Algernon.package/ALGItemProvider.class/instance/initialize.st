@@ -2,7 +2,7 @@ initialize-release
 initialize
 
 	super initialize.
-	self cache: ALGCache new;
+	self initializeCache;
 		sorter: ALGSmartSorter new;
 		topCategorizer: ALGTopCategorizer new;
 		typeCategorizer: ALGTypeCategorizer new;
