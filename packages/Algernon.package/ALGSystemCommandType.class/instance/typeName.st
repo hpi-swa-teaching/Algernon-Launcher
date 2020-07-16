@@ -1,4 +1,4 @@
 accessing
 typeName
 	
-	^ 'Quit'
+	^ 'SystemCommand'

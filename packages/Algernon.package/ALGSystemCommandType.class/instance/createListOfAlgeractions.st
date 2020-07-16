@@ -1,4 +1,4 @@
 actions
 createListOfAlgeractions
 
-	^ self createSortedListFrom: { self createActionQuit}
+	^ self createSortedListFrom: { self createActionSystemCommand }

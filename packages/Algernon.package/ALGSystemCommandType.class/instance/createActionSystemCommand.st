@@ -1,5 +1,5 @@
 actions
-createActionQuit
+createActionSystemCommand
 
 	^ ALGAction
 			withName: 'run'
