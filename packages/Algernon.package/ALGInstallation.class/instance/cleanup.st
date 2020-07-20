@@ -1,6 +1,7 @@
 cleanup
 cleanup 
 	| isActive |
+	Transcript show: 'cleanup'.
 	self lastCleanupDate: Date today.
 	isActive := ALGCore activateAlgernon.
 	ALGCore  initializeGlobalKeyBindings.
