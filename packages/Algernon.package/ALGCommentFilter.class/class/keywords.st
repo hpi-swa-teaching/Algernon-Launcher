@@ -1,4 +1,4 @@
 filtering
 keywords
 
-	^ Set newFrom: {'apropos'.'which'.'?'}
+	^ Set newFrom: {'which'}

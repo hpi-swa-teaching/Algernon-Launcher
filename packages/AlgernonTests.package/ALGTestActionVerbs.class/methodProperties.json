@@ -2,10 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"assertOnlyHelpItemsShown" : "jRo 7/20/2020 16:33",
 		"testActionFilter" : "pw 7/7/2020 20:06",
 		"testClassCommentSearch" : "beb 7/3/2020 17:32",
-		"testHelpItems" : "beb 7/3/2020 13:45",
+		"testHelpItems" : "jRo 7/20/2020 16:34",
 		"testHelpItemsForKeyword" : "beb 7/3/2020 13:45",
+		"testHelpItemsQuestionMark" : "jRo 7/20/2020 16:33",
 		"testOpenBrowser" : "beb 7/3/2020 13:45",
 		"testQuit" : "rk 7/16/2020 10:28",
 		"testSave" : "rk 7/16/2020 10:28",
