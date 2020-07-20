@@ -1,3 +1,3 @@
-initialization
+events-processing
 handlesMouseDown: evt
 	^true

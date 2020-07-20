@@ -1,3 +1,3 @@
-initialization
+events-processing
 handlesMouseMove: evt
 	^true

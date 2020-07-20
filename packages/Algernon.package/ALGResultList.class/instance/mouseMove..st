@@ -1,5 +1,4 @@
 event handling
-mouseMove: evt
-	| newSelection |
-	newSelection:= (self listItemAtPosition: evt position).
-	newSelection ifNotNil: [self selectedItem: newSelection].
+mouseMove: evt 
+	(self listItemAtPosition: evt position)
+		ifNotNil: [:sel | self selectedItem: sel]
