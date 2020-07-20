@@ -1,12 +1,15 @@
 helpers
 dispatchMouseEvent: aType atPosition: aPosition 
-	| hand |
+	| hand event |
 	hand := self algInstance world activeHand.
-	self algInstance
-		mouseMove: (MouseButtonEvent new
+	event := MouseButtonEvent new
 				setType: aType
 				position: aPosition
 				which: 4
 				buttons: 4
 				hand: hand
-				stamp: nil)
+				stamp: nil.
+	aType = #mouseDown
+		ifTrue: [self algInstance mouseDown: event].
+	aType = #mouseMove
+		ifTrue: [self algInstance mouseMove: event]
