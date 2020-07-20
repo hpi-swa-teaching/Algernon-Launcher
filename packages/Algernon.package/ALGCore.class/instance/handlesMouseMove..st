@@ -1,0 +1,3 @@
+initialization
+handlesMouseMove: evt
+	^true
