@@ -11,4 +11,3 @@ cleanup
 	Smalltalk garbageCollect.
 	ALGCore activateAlgernon: isActive.
 	ALGItemProvider initializeItems.
-	ALGItem clearCommentCache.

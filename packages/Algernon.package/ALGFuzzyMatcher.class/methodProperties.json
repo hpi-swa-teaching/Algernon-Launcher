@@ -1,5 +1,7 @@
 {
 	"class" : {
+		"classCommentFuzzyPenalty" : "beb 7/31/2020 18:24",
+		"computeClassCommentScore:given:" : "beb 7/31/2020 18:28",
 		"computeScore:given:" : "beb 6/25/2020 11:15",
 		"defaultScore" : "beb 6/25/2020 10:11",
 		"scoreBetween:and:" : "beb 6/25/2020 10:58" },

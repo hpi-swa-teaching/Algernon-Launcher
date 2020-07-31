@@ -5,6 +5,8 @@
 		"classesForCategory:" : "J.J. 7/30/2015 19:05" },
 	"instance" : {
 		"algertemChildrenList" : "J.J. 7/30/2015 17:09",
+		"comment" : "beb 7/31/2020 18:04",
+		"comment:" : "beb 7/31/2020 18:04",
 		"createActionBrowseExistingFor:" : "JS 6/20/2016 20:41",
 		"createActionBrowseNewFor:" : "JS 6/20/2016 20:41",
 		"createActionExploreFor:" : "J.J. 7/30/2015 17:52",
@@ -12,6 +14,8 @@
 		"createActionInspectFor:" : "J.J. 7/30/2015 17:52",
 		"createListOfAlgeractions" : "JS 6/21/2016 23:00",
 		"hasChildren" : "J.J. 7/30/2015 17:09",
-		"hasComment" : "J.J. 12/14/2015 00:49",
+		"hasComment" : "beb 7/31/2020 18:37",
+		"matchesComment:" : "beb 7/31/2020 18:37",
 		"open:inBrowser:" : "J.J. 7/30/2015 17:09",
-		"typeName" : "J.J. 7/30/2015 17:44" } }
+		"typeName" : "J.J. 7/30/2015 17:44",
+		"typeObject:" : "beb 7/31/2020 18:03" } }

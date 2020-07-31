@@ -1,3 +1,0 @@
-caching
-clearMethodCache
-	methodCache := nil
