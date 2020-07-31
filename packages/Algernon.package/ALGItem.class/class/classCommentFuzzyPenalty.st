@@ -1,0 +1,3 @@
+caching
+classCommentFuzzyPenalty
+	^ -5
