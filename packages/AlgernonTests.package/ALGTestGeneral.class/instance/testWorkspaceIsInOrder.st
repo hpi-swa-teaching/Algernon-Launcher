@@ -2,11 +2,7 @@ testing
 testWorkspaceIsInOrder
 	"Make sure workspace appears twice."
 	| toolName findingsRanks |
-
 	toolName := 'Workspace'.
-
-	findingsRanks := (self algInstance itemProvider searchForItems: 'Workspace') select:
-		[ :elem | elem name = toolName ifTrue: [^ elem rank] ifFalse: [^ false] ].
-	self deny: findingsRanks isEmpty.	
-	"Test that ranks do not follow after another"
-	self assert: ((findingsRanks first ) ~= (findingsRanks second ))
+	findingsRanks := (self algInstance itemProvider searchForItems: toolName)
+				select: [:elem | elem name = toolName ifTrue: elem rank ifFalse: false].
+	self assert: findingsRanks first ~= findingsRanks second
