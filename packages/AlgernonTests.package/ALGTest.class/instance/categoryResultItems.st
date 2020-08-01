@@ -1,3 +1,3 @@
 helpers
 categoryResultItems
-	^ (self items select: [:each | each item isNil ])
+	^ (self itemMorphs select: [:each | each item isNil ])

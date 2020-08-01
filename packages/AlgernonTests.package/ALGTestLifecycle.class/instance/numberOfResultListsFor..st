@@ -1,4 +1,4 @@
 testing
 numberOfResultListsFor: anAlgernon
 	
-	^ (anAlgernon submorphs select: [ :aMorph | (aMorph isKindOf: ALGResultList) and: [aMorph owner notNil ]]) size
+	^ (anAlgernon submorphsSatisfying: [ :aMorph | aMorph isKindOf: ALGResultList]) size
