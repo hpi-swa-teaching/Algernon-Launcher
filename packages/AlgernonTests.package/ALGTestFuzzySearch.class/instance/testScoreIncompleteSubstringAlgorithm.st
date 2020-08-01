@@ -1,3 +1,3 @@
-testing
-testScore2Algorithm
+testing scores
+testScoreIncompleteSubstringAlgorithm
 	self assert: 2.6 equals: (ALGFuzzyMatcher scoreBetween: '13' and: '123456789')

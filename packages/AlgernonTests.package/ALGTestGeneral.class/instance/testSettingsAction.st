@@ -1,4 +1,4 @@
-testing
+testing interaction with tools
 testSettingsAction
 	| oldSettings oldSettingsNumber |
 	self runQuery: 'Algernon'.

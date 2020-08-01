@@ -1,5 +1,5 @@
-testing
-testScore0CaseInsensitive
-	"Make sure normal input works"
+testing queries
+testScoreCaseInsensitive
+	
 	self runQuery: 'aLGERNON'.
 	self assert: (self resultsClassIncludeName: 'Algernon').

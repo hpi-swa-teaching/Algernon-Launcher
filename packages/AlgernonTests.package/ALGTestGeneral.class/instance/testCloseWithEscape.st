@@ -1,4 +1,4 @@
-testing
+testing keybindings
 testCloseWithEscape
 	| closeAlgernonEvent |
 	closeAlgernonEvent := ALGFakeKeyboardEvent new keyString: '<escape>';

@@ -1,4 +1,4 @@
-testing
+testing repository type
 testRepositoryTypeOpen
 	| browserWindowCount repo |
 	repo:=(ALGRepositoryType algertemListWith: 'Monticello') first.

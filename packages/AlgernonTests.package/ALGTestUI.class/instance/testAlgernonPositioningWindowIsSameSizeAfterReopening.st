@@ -1,4 +1,4 @@
-testing
+testing positioning
 testAlgernonPositioningWindowIsSameSizeAfterReopening
 	| oldPosition|
 	oldPosition := self algInstance position.

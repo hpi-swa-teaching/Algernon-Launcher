@@ -1,4 +1,4 @@
-testing
+testing appereance
 testVisibility
 	
 	self algInstance deactivate.

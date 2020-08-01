@@ -1,4 +1,4 @@
-testing
+testing categories properties
 testCategoryForAlgertype
 
 	self assert: (categories size > 0).

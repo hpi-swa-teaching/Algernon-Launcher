@@ -1,4 +1,4 @@
-testing
+helpers
 assertOnlyHelpItemsShown
 	self
 		assert: (self items

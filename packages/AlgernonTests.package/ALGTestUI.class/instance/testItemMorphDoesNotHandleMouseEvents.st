@@ -1,4 +1,4 @@
-testing
+testing mouse handling
 testItemMorphDoesNotHandleMouseEvents
 	|item|
 	self runQuery: 'Algernon'.

@@ -1,4 +1,4 @@
-testing
+testing category type
 testCategoryNotEmpty
 
 	| categories |

@@ -1,4 +1,4 @@
-testing
+testing keybindings
 testKeyBindingsValid
 	self algInstance class initializeGlobalKeyBindings.
 	self assert: (self algInstance class keyBindings associations

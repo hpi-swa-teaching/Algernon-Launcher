@@ -1,4 +1,4 @@
-testing
+testing class type
 testClassFoundOnlyOnce
 	"Make sure normal input works"
 	| names classSeperator classItems |

@@ -1,4 +1,4 @@
-testing
+testing top results
 testTopCategoryUniqueness
 	self runQuery: 'ALG'.
 	self

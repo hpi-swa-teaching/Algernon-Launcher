@@ -1,3 +1,3 @@
 testing
-testFake
+testFakeWasRun
 	self class wasRun: true.

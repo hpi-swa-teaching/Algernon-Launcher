@@ -1,4 +1,4 @@
-testing
+testing interaction with tools
 testClassAction
 	| oldBrowsers newBrowser |
 	self runQuery: 'ALGCore'.

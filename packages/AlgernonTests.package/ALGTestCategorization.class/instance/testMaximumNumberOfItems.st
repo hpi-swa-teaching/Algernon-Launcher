@@ -1,5 +1,5 @@
-testing
-testNumberOfItems
+testing categories size
+testMaximumNumberOfItems
 	| totalNum |
 	totalNum := 0.
 	categories do: [ :anAlgercat |

@@ -1,4 +1,4 @@
-testing
+testing stepping interaction
 testResultListMovement
 	| item |
 	self runQuery: 'Algernon'.

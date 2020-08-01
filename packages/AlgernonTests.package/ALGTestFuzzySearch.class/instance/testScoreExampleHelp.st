@@ -1,4 +1,4 @@
-testing
+testing search edge cases
 testScoreExampleHelp
-	"Make sure help input works"
+	
 	self assert: ((ALGFuzzyMatcher scoreBetween: 'browse' and: 'help browse') = 5)

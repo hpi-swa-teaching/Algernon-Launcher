@@ -1,4 +1,4 @@
-testing
+testing categories properties
 testCategoriesVisible
 	self runQuery: 'Algernon'.
 	"Categories show up as disabled list items."

@@ -1,4 +1,4 @@
-testing
+testing expressions
 testExpressionDoIt
 
 	| expressionItem oldSystemWindows |

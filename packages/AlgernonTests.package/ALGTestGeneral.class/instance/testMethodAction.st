@@ -1,4 +1,4 @@
-testing
+testing interaction with tools
 testMethodAction
 	| oldWindows |
 	self runQuery: 'testMethodAction'.
