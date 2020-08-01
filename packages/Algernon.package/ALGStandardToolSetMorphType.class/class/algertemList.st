@@ -5,5 +5,4 @@ algertemList
 						reject: [:item | item = #-])
 						collect: [:item | ALGItem
 								withAlgertype: (self with: item)]).
-	self halt.
 	^ algertems

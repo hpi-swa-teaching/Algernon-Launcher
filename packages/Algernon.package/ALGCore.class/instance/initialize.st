@@ -1,9 +1,7 @@
 initialization
 initialize
-
 	super initialize.
-	self
-		initializeStacks;
+	self initializeStacks;
 		initializeProvider;
 		initializeProperties;
 		initializeMorphs;
