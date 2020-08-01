@@ -1,4 +1,4 @@
 singleton
 defaultKeyStrokeHandler
-	^ [:event :morph | morph active
-		ifTrue: [morph handleTextEntered: event]]
+	^ [[:event :morph | morph active
+		ifTrue: [morph handleTextEntered: event]]]
