@@ -1,8 +1,7 @@
 visibility
 activate: hand
 	self active ifTrue: [^ self].
-	self 
-		active: true; 
+	self active: true; 
 		reset;
 		backupFocus: self activeHand;
 		grabFocus: self activeHand;	
