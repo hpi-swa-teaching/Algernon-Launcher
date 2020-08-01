@@ -1,3 +1,3 @@
-computation
+constants
 classCommentFuzzyPenalty
 	^ -5

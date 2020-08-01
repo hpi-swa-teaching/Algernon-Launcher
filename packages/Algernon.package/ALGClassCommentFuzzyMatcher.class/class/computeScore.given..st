@@ -1,5 +1,5 @@
 computation
-computeClassCommentScore: anItem given: aQueryString
+computeScore: anItem given: aQueryString
  	"A bigger Rank is better" 
 	| score |
 	anItem algerType hasComment ifFalse: [ ^ nil ].

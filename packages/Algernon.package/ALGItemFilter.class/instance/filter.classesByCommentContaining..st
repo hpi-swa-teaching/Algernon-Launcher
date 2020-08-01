@@ -5,7 +5,7 @@ filter: anItemCollection classesByCommentContaining: aKeyword
 	lowercaseKeyword := aKeyword asLowercase.
 	result :=  anItemCollection
 		select: [:each | | score |
-			score := ALGFuzzyMatcher computeClassCommentScore: each given: aKeyword.
-			each fuzzyRank ifNil: [ each fuzzyRank: score. ].
+			score := ALGClassCommentFuzzyMatcher computeScore: each given: aKeyword.
+			each classCommentFuzzyRank: score.
 			score isNil not ].
 	^ self sortByFuzzyRank: result.

@@ -1,5 +1,3 @@
 filtering
 cachedItemsForFilter: aFilter string: aString
-	^ aFilter supportsSubstringCaching
-		ifTrue: [ self cache getLargestSubstringMatch: (self cacheKeyFor: aString) ifMiss: self items ]
-		ifFalse: [ self items ] 
+	^ self removeCacheArtifacts: (self cachedItemsForFilterUnprepared: aFilter string: aString).  
