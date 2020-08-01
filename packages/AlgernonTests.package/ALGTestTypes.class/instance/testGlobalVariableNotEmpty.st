@@ -1,4 +1,4 @@
-testing
+testing general behavior
 testGlobalVariableNotEmpty
 
 	| variables |

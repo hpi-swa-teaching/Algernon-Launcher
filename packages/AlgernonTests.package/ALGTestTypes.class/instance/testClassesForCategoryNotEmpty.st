@@ -1,4 +1,4 @@
-testing
+testing class type
 testClassesForCategoryNotEmpty
 
 	| classes |

@@ -1,4 +1,4 @@
-testing
+testing positioning
 testAlgernonPositioningWindowIsBiggerAfterReopening
 	| oldPosition oldExtent |
 	oldExtent := World extent.

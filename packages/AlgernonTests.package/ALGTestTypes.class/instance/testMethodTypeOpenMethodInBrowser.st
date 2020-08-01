@@ -1,4 +1,4 @@
-testing
+testing method type
 testMethodTypeOpenMethodInBrowser
 	| browser |
 	browser := Browser new.

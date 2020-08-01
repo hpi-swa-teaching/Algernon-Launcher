@@ -1,6 +1,5 @@
 testing
-testMethodCalls
-	"Make sure method calls are searched"
+testMethodCallsAreSearched
 		
 	self runQuery:'ALGMethodType'.
 	self algInstance showChildList.

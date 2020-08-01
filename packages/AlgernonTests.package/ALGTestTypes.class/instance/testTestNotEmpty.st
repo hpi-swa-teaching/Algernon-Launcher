@@ -1,4 +1,4 @@
-testing
+testing test type
 testTestNotEmpty
 
 	| tests |

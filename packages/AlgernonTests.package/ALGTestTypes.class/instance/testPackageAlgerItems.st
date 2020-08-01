@@ -1,4 +1,4 @@
-testing
+testing package type
 testPackageAlgerItems
 	| algerItems |
 	algerItems :=  ALGPackageType algertemList. 

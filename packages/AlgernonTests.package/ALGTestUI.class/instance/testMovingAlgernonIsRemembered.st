@@ -1,4 +1,4 @@
-testing
+testing positioning
 testMovingAlgernonIsRemembered
 	| oldPosition |
 	self moveToMouse.

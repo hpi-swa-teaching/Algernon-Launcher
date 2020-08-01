@@ -1,4 +1,4 @@
-testing
+testing settings type
 testSettingsNotEmpty
 
 	| settings |

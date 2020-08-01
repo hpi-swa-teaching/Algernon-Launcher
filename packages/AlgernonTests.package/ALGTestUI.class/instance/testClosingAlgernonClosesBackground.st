@@ -1,4 +1,4 @@
-testing
+testing appereance
 testClosingAlgernonClosesBackground
 	self algInstance activate.
 	self algInstance deactivate.

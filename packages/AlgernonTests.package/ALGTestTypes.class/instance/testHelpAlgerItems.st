@@ -1,4 +1,4 @@
-testing
+testing help type
 testHelpAlgerItems
 	| algerItems |
 	algerItems :=  ALGHelpType algertemList. 

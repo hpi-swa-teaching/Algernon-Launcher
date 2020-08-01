@@ -1,4 +1,4 @@
-testing
+testing opening
 testOpenTool: tool 
 	| browserResults newBrowser oldBrowsers |
 	self runQuery: 'open ' , tool.

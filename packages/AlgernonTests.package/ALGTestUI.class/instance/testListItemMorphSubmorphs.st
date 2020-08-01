@@ -1,4 +1,4 @@
-testing
+testing appereance
 testListItemMorphSubmorphs
 	self runQuery: 'Algernon'.
 	self

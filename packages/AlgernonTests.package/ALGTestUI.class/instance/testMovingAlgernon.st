@@ -1,4 +1,4 @@
-testing
+testing positioning
 testMovingAlgernon
 	| oldPosition |
 	oldPosition := self algInstance position.

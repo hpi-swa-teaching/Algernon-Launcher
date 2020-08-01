@@ -1,4 +1,4 @@
-testing
+testing general behavior
 testClassFoundByCommentWithoutActionVerbs
 	"Make sure normal input works"
 	self runQuery: 'Quicksilver'.

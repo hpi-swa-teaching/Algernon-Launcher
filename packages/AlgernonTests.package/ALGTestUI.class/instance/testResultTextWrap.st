@@ -1,4 +1,4 @@
-testing
+testing appereance
 testResultTextWrap
 	"Try running the garbage collector if test fails"
 	| resultItem queryWithLongResult |

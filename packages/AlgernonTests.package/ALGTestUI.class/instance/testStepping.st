@@ -1,4 +1,4 @@
-testing
+testing stepping interaction
 testStepping
 	self algInstance stopStepping.
 	self algInstance textField contents: 'ALGTestUI'.

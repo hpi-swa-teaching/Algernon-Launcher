@@ -1,4 +1,4 @@
-testing
+testing mouse handling
 testClickOnResultItem
 	| position newBrowser oldBrowsers |
 	self runQuery: 'ALGCore'.

@@ -1,4 +1,4 @@
-testing
+testing mouse handling
 testMouseItemSelection
 	| position moveEvent |
 	self runQuery: 'ALGCore'.
