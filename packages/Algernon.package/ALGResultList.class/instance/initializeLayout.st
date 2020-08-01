@@ -1,11 +1,10 @@
 initialization
 initializeLayout
-
 	self color: self class backgroundColor;
 		width: ALGCore defaultWidth;
+		height: 0;
 		borderColor: self class borderColor;
 		borderWidth: self class borderWidth;
-		height: 0;
 		cornerStyle: #square;
 		hResizing: #rigid;
 		vResizing: #shrinkWrap;

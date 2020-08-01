@@ -1,17 +1,13 @@
 testing
 testCreateSar
-
-	| installation directory |
-	directory := FileDirectory default.
-	
-	(directory fileExists: 'Algernon.sar')
-		ifTrue: [directory rename: 'Algernon.sar' toBe: 'Algernon.sar.test.bak' ].
-	
-	installation := ALGInstallation new.
-	installation sarFromPackage: 'Algernon'.
-	self assert: (directory fileExists: 'Algernon.sar').
-	directory deleteFileNamed: 'Algernon.sar'.
-	
-	(directory fileExists: 'Algernon.sar.test.bak')
-		ifTrue: [directory rename: 'Algernon.sar.test.bak' toBe: 'Algernon.sar' ].
-	
+	| sarFileName shouldBackup dir |
+	dir := FileDirectory default.
+	sarFileName := 'Algernon.sar'.
+	shouldBackup := dir fileExists: sarFileName.
+	shouldBackup
+		ifTrue: [dir rename: sarFileName toBe: sarFileName + '.bak'].
+	ALGInstallation new sarFromPackage: 'Algernon'.
+	self assert: (dir fileExists: sarFileName).
+	dir deleteFileNamed: sarFileName.
+	shouldBackup
+		ifTrue: [dir rename: sarFileName + '.bak' toBe: sarFileName]
