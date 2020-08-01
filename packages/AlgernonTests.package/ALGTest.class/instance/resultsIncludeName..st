@@ -1,4 +1,4 @@
 helpers
 resultsIncludeName: aNameString 
-	^ self algInstance itemList items
+	^ self items
 		anySatisfy: [:entries | entries item name = aNameString]

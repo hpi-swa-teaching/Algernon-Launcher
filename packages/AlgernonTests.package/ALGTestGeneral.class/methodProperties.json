@@ -4,16 +4,16 @@
 	"instance" : {
 		"testAdvancedChildNavigation" : "jRo 7/5/2020 22:15",
 		"testAlgernonClass" : "jRo 7/5/2020 22:15",
-		"testBreadcrumbsList" : "jRo 7/5/2020 22:15",
+		"testBreadcrumbsList" : "jRo 8/1/2020 11:19",
 		"testClassAction" : "jRo 5/27/2020 16:47",
 		"testCloseWithEscape" : "jRo 7/5/2020 22:15",
 		"testCursorColorAfterReturningFromChildList" : "jRo 7/5/2020 22:15",
 		"testEmptyItemListYieldsResults" : "beb 6/19/2020 10:17",
 		"testItemListNotEmptyForCategorySearches" : "beb 6/30/2020 10:25",
-		"testKeyBindingsValid" : "jRo 7/5/2020 22:15",
+		"testKeyBindingsValid" : "jRo 8/1/2020 11:19",
 		"testKeyboardInput" : "pw 7/7/2020 20:24",
 		"testKeyboardInputOnlyOpensOnce" : "jRo 7/5/2020 22:15",
-		"testListContents" : "jRo 7/5/2020 22:15",
+		"testListContents" : "jRo 8/1/2020 11:24",
 		"testMethodAction" : "jRo 6/4/2020 15:22",
 		"testMethodItems" : "jRo 6/4/2020 13:56",
 		"testNormalKeyStrokesSetsCursorColor" : "jRo 7/5/2020 22:15",
@@ -25,4 +25,4 @@
 		"testStandardToolSetMorphAction" : "jRo 5/27/2020 16:47",
 		"testTestAction" : "jRo 5/27/2020 16:47",
 		"testVisibility" : "jRo 7/5/2020 22:15",
-		"testWorkspaceIsInOrder" : "pw 7/6/2020 16:49" } }
+		"testWorkspaceIsInOrder" : "jRo 8/1/2020 11:23" } }

@@ -5,7 +5,7 @@ testWorkspaceIsInOrder
 
 	toolName := 'Workspace'.
 
-	findingsRanks := (self algInstance itemProvider searchForItems: 'Workspace') select:
+	findingsRanks := (self itemProviderSearch: toolName ) select:
 		[ :elem | elem name = toolName ifTrue: [^ elem rank] ifFalse: [^ false] ].
 	self deny: findingsRanks isEmpty.	
 	"Test that ranks do not follow after another"

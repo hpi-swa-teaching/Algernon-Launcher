@@ -1,5 +1,4 @@
 testing
 testListContents
-
 	self ensureMorphic.
-	self deny: (self algInstance itemProvider searchForItems: 'Algernon') isEmpty
+	self deny: (self itemProviderSearch: 'Algernon') isEmpty

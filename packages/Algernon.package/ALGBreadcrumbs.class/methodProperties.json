@@ -8,12 +8,14 @@
 		"highlightedTextColor" : "J.J. 7/28/2015 19:27",
 		"newIn:" : "J.J. 7/28/2015 19:26" },
 	"instance" : {
+		"calculatePosition" : "jRo 8/1/2020 11:26",
 		"clear" : "fw 7/30/2015 16:07",
 		"controller" : "J.J. 7/16/2015 22:48",
 		"controller:" : "J.J. 7/28/2015 19:25",
 		"createCrumb:" : "KEJ 6/11/2020 12:20",
-		"initialize" : "beb 6/16/2020 12:20",
+		"highlightLastCrumb" : "jRo 8/1/2020 11:28",
+		"initialize" : "jRo 8/1/2020 11:26",
 		"initializeDefaultCrumb" : "pw 7/6/2020 17:34",
-		"pop" : "J.J. 7/28/2015 19:30",
+		"pop" : "jRo 8/1/2020 11:28",
 		"push:" : "J.J. 7/28/2015 19:32",
 		"updateWidth" : "J.J. 7/28/2015 19:31" } }
