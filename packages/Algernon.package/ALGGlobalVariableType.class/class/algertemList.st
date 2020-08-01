@@ -1,5 +1,5 @@
 algertem lists
 algertemList
-	^ (Smalltalk globals associations
+	^ (Smalltalk globals declarations
 		reject: [ :each | each value class isMeta ])
 	 	collect: [:each | self createItemFor: each].
