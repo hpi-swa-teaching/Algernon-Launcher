@@ -1,6 +1,6 @@
-testing
-testCategoriesInOrder
-	"Ensure categories are sorted in descending order."
+testing categories properties
+testCategoriesInDescendingOrder
+
 	| previousRank |
 	previousRank := categories first rank.
 	categories do: [ :anAlgercat |

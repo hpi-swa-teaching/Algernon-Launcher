@@ -1,4 +1,4 @@
-testing
+testing top results
 testCategoryForTopResults
 
 	self assert: categories isEmpty not.
