@@ -11,5 +11,3 @@ testClassAction
 	newBrowser := (self findNewSystemWindowsByLabel: 'System Browser' old: oldBrowsers) first.
 	
 	self assert: (newBrowser label includesSubstring: 'ALGCore').
-
-	self deleteNewSystemWindowsByLabel: 'System Browser' old: oldBrowsers.
