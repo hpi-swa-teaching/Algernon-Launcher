@@ -1,6 +1,5 @@
 updating
 showParentList
-
 	self searchStack isEmpty ifTrue: [ ^ self ].
 	self breadcrumbs pop.
 	self textField clear.

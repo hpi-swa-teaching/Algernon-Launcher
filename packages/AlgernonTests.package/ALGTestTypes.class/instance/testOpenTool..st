@@ -1,9 +1,8 @@
-testing opening
+testing
 testOpenTool: tool 
 	| browserResults newBrowser oldBrowsers |
 	self runQuery: 'open ' , tool.
-	browserResults := self items
-				select: [:each | each name = tool
+	browserResults := self items select: [:each | each name = tool
 						and: [each algerType typeName = 'StandardToolSetMorph']].
 	self assert: browserResults notEmpty.
 	oldBrowsers := self findSystemWindowsByLabel: tool.

@@ -1,5 +1,5 @@
 testing
-testBreadcrumbs
+testBreadcrumbsTextField
 	|searchTerm|
 	searchTerm := 'test'.
 	self runQuery: searchTerm.
@@ -8,4 +8,4 @@ testBreadcrumbs
 	self algInstance showChildList.
 	self assert: self currentQuery isEmpty.
 	self algInstance showParentList.
-	self assert: self currentQuery equals: searchTerm.	
+	self assert: self currentQuery equals: searchTerm. 

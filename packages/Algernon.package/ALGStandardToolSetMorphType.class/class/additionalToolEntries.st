@@ -2,10 +2,6 @@ algertem lists
 additionalToolEntries
 	^ OrderedCollection
 		with: (ALGItem
-				withAlgertype: (self with: #('Browser' #openClassBrowser)))
+				withAlgertype: (self with: {'Browser' . #openClassBrowser} asOrderedCollection))
 		with: (ALGItem
-				withAlgertype: (self
-						with: (OrderedCollection
-								with: 'Transcript'
-								with: #open
-								with: Transcript)))
+				withAlgertype: (self with: {'Transcript'. #open. Transcript} asOrderedCollection))
