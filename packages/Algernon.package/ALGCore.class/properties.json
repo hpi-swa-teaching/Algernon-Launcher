@@ -6,7 +6,7 @@
 		"ActivationString",
 		"CurrentInstance",
 		"KeyBindings" ],
-	"commentStamp" : "LK 7/4/2016 18:38",
+	"commentStamp" : "beb 8/1/2020 12:02",
 	"instvars" : [
 		"itemList",
 		"breadcrumbs",
