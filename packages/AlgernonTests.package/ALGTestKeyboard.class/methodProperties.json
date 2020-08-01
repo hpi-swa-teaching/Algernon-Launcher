@@ -4,4 +4,8 @@
 	"instance" : {
 		"tearDown" : "fw 7/31/2015 03:13",
 		"testChildrenMovement" : "jRo 7/13/2020 16:58",
+		"testCursorColorAfterReturningFromChildList" : "jRo 7/5/2020 22:15",
+		"testKeyboardInput" : "pw 7/7/2020 20:24",
+		"testKeyboardInputOnlyOpensOnce" : "jRo 7/5/2020 22:15",
+		"testNormalKeyStrokesSetsCursorColor" : "jRo 7/5/2020 22:15",
 		"testSelfFocus" : "jRo 7/5/2020 22:15" } }

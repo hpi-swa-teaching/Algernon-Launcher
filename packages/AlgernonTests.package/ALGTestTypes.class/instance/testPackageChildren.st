@@ -1,4 +1,4 @@
-testing
+testing package type
 testPackageChildren
 	self runQuery: 'Monticello'.
 	self moveCursorTo: 'Package'.

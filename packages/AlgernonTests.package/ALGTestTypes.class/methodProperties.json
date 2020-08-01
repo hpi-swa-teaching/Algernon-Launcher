@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testAlgernonClass" : "jRo 7/5/2020 22:15",
 		"testCategoryNotEmpty" : "fw 7/31/2015 19:06",
 		"testClassFoundByCommentWithoutActionVerbs" : "jRo 7/5/2020 22:15",
 		"testClassFoundOnlyOnce" : "jRo 7/5/2020 22:15",
@@ -23,7 +24,10 @@
 		"testOpenInExistingBrowser" : "jRo 5/28/2020 20:32",
 		"testOpenTool:" : "jRo 6/4/2020 15:08",
 		"testOpenTools" : "Jro 5/25/2020 19:16",
+		"testPackageAction" : "jRo 5/27/2020 16:47",
 		"testPackageAlgerItems" : "beb 5/23/2020 21:18",
+		"testPackageChildren" : "jRo 7/5/2020 22:15",
+		"testPackageItems" : "jRo 6/4/2020 13:56",
 		"testPackageNotEmpty" : "fw 7/31/2015 19:18",
 		"testRepositoryTypeOpen" : "jRo 5/27/2020 15:22",
 		"testRepositoryTypeSave" : "jRo 5/27/2020 15:36",

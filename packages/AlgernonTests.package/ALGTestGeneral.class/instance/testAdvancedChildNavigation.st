@@ -1,4 +1,4 @@
-testing
+testing navigation
 testAdvancedChildNavigation
 	| oldQuery |
 	self runQuery: 'AlgernonTests'.

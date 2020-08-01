@@ -1,4 +1,4 @@
-testing
+testing interaction with tools
 testTestAction
 	| oldTestRunners |
 	self runQuery: 'ALGFakeTest'.

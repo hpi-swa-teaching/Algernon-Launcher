@@ -1,10 +1,9 @@
-testing
-testBreadcrumbsList
+testing algernon instance
+testBreadcrumbsListSize
 
-	|searchTerm size|
-	searchTerm := 'test'.
+	| size |
 	
-	self runQuery: searchTerm.
+	self runQuery: 'test'.
 	self algInstance selectNext.
 	size := self algInstance breadcrumbs submorphs size.
 	[self algInstance currentItem hasChildren] whileFalse:  [self algInstance selectNext].

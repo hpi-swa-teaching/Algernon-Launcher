@@ -1,4 +1,4 @@
-testing
+testing interaction with tools
 testWorkspaceIsInOrder
 	"Make sure workspace appears twice."
 	| toolName findingsRanks |

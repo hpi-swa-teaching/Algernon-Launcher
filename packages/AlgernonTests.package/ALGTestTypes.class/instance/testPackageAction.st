@@ -1,4 +1,4 @@
-testing
+testing package type
 testPackageAction
 	| browsersBefore |
 	self runQuery: 'Algernon'.

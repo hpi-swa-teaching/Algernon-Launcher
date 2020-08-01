@@ -1,4 +1,4 @@
-testing
+testing algernon instance
 testListContents
 
 	self ensureMorphic.

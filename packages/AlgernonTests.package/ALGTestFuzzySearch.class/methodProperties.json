@@ -4,8 +4,11 @@
 	"instance" : {
 		"editDistanceAlgorithm" : "beb 5/21/2020 10:53",
 		"editDistanceAlgorithm:" : "beb 5/21/2020 10:53",
+		"testEmptyItemListYieldsResults" : "beb 6/19/2020 10:17",
 		"testExactMatch" : "pw 8/1/2020 13:03",
 		"testExampleClass" : "pw 8/1/2020 12:53",
+		"testItemListNotEmptyForCategorySearches" : "beb 6/30/2020 10:25",
+		"testMethodItems" : "jRo 6/4/2020 13:56",
 		"testRegularFilterHasNoKeywords" : "beb 6/30/2020 11:50",
 		"testScoreCaseInsensitive" : "pw 8/1/2020 13:08",
 		"testScoreEmptyPatternAlgorithm" : "beb 6/25/2020 11:01",
