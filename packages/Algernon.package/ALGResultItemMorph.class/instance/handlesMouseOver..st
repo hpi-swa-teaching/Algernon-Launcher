@@ -1,4 +1,5 @@
 event handling
-handlesMouseOver: evt
+handlesMouseOver: anEvent
 
-	^ false
+	^ true
+	

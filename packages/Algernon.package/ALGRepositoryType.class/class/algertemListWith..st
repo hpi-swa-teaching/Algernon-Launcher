@@ -1,5 +1,4 @@
 algertem lists
-
 algertemListWith: aWorkingCopyLabel 
 	^ (self getReposFor: aWorkingCopyLabel)
 		collect: [:each | ALGItem withAlgertype: (self 
