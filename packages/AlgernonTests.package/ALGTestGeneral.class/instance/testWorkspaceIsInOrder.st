@@ -4,5 +4,5 @@ testWorkspaceIsInOrder
 	| toolName findingsRanks |
 	toolName := 'Workspace'.
 	findingsRanks := (self algInstance itemProvider searchForItems: toolName)
-				select: [:elem | elem name = toolName ifTrue: elem rank ifFalse: false].
+				collect: [:elem | (elem name = toolName) ifTrue: [elem rank]].
 	self assert: findingsRanks first ~= findingsRanks second
