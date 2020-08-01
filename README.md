@@ -36,7 +36,8 @@ Algernon allows for keyboard only interaction - no need to use your mouse!
 - Search global variables
 - Print and evaluate Smalltalk expressions 
 - Action verbs for filtering and quick access (e.g. `run SomeTest` will only search for tests and set a default action)
-- full text search in classes
+- Full text search in classes
+- Save and/or quit the image
 
 For explanations regarding the usage of the features check out the [wiki](https://github.com/hpi-swa-teaching/Algernon-Launcher/wiki).
 

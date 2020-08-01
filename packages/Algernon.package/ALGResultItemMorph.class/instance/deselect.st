@@ -1,6 +1,7 @@
 event handling
 deselect
 	self color: self class normalFillStyle.
-
-	self childrenIndicatorMorph hide.
-	self actionMorph hide.
+	self childrenIndicatorMorph
+		ifNotNil: [self childrenIndicatorMorph hide].
+	self actionMorph
+		ifNotNil: [self actionMorph hide]

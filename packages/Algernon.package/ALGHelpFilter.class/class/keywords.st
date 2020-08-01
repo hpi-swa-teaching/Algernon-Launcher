@@ -1,3 +1,3 @@
 filtering
 keywords
-	^ Set newFrom: { 'help' }
+	^ Set newFrom: { 'help' . '?' }

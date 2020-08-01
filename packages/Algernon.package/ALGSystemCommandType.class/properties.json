@@ -1,0 +1,15 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"commandBlock",
+		"commandName" ],
+	"name" : "ALGSystemCommandType",
+	"pools" : [
+		 ],
+	"super" : "ALGType",
+	"type" : "normal" }

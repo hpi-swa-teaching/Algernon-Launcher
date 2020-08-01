@@ -2,7 +2,7 @@ actions
 createActionSaveFor: aRepository with: aWorkingCopy
 
 	^ ALGAction
-			withName: 'save' 
+			withName: 'saverepo' 
 			rank: 9
 			target: self
 			selector:#save:withPackage:
