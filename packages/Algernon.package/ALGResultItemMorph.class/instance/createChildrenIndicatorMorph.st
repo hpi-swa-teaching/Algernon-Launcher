@@ -1,4 +1,4 @@
 initialization
 createChildrenIndicatorMorph
-	^ (ALGIconFactory getInstance loadIconFor: #HasChildren) asMorph height: self class itemHeight;
+	^ (ALGIconFactory getInstance loadIconFor: #HasChildren) asMorph height: self height;
 		 hide
