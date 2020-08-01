@@ -1,4 +1,4 @@
-testing
+testing interaction with tools
 testStandardToolSetMorphAction
 	| oldProcessBrowsers oldProcessBrowserNumber |
 	self runQuery: 'Process Browser'.

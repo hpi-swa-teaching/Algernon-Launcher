@@ -1,8 +1,7 @@
-testing
+testing algernon instance
 testShowParentList
-	| searchTerm list |
-	searchTerm := 'test'.
-	self runQuery: searchTerm.
+	| list |
+	self runQuery: 'test'.
 	self algInstance selectNext.
 	list := self algInstance itemList.
 	[self algInstance currentItem hasChildren]
