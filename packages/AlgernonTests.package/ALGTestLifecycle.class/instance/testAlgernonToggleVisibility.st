@@ -1,6 +1,5 @@
 testing
 testAlgernonToggleVisibility
-
 	|openAlgernonEvent|
 	openAlgernonEvent := ALGFakeKeyboardEvent new 
 										keyString: ALGCore activationString;

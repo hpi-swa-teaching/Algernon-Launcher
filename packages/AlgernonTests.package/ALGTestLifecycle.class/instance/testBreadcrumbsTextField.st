@@ -1,6 +1,5 @@
 testing
 testBreadcrumbsTextField
-
 	|searchTerm|
 	searchTerm := 'test'.
 	self runQuery: searchTerm.

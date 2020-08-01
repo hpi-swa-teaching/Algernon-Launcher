@@ -7,8 +7,7 @@ testCreateSar
 	shouldBackup
 		ifTrue: [dir rename: sarFileName toBe: sarFileName + '.bak'].
 	ALGInstallation new sarFromPackage: 'Algernon'.
-	self
-		assert: (dir fileExists: sarFileName).
+	self assert: (dir fileExists: sarFileName).
 	dir deleteFileNamed: sarFileName.
 	shouldBackup
 		ifTrue: [dir rename: sarFileName + '.bak' toBe: sarFileName]

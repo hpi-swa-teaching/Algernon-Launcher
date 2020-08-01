@@ -1,8 +1,7 @@
 helpers
 dispatchMouseEvent: aType atPosition: aPosition 
 	| event |
-	event := MouseButtonEvent new
-				setType: aType
+	event := MouseButtonEvent new setType: aType
 				position: aPosition
 				which: 4
 				buttons: 4
