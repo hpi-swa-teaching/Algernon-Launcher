@@ -2,5 +2,5 @@ categorizing
 extractFrom: aDictionary to: aCollection 
 	aDictionary
 		keysAndValuesDo: [:key :items | aCollection add: ((ALGCategory newWithTitle: key)
-					addAll: (items take: self class maxItemsPerCategory);
+					addAll: (items any: (self class maxItemsPerCategory min: items size));
 					 yourself)]
