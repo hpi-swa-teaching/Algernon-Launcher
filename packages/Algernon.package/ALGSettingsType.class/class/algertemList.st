@@ -1,10 +1,7 @@
 algertem lists
 algertemList
 
-	| settings algertems |
-	algertems := OrderedCollection new.
+	| settings  |
 	settings := PreferenceBrowser new categoryList.
 	settings removeFirst. "is --all--"
-	settings do: [ :each | algertems add: (ALGItem withAlgertype: (self with: each))].
-	^ algertems
-
+	^ settings collect: [ :each | ALGItem withAlgertype: (self with: each) ].

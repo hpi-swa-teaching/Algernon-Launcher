@@ -2,10 +2,8 @@ algertem lists
 algertemList
 	| algertems |
 	algertems := self additionalToolEntries.
-	(StandardToolSet menuItems
+	algertems addAll: ((StandardToolSet menuItems
 		reject: [:item | item = #-])
-		do: [:item | algertems
-				add: (ALGItem
-						withAlgertype: (self with: item))].
+		collect: [:item | ALGItem withAlgertype: (self with: item)]).
 	^ algertems
 	
