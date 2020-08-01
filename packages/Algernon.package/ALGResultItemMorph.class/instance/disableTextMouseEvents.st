@@ -1,5 +1,7 @@
 event handling
 disableTextMouseEvents
-	self titleMorph ifNotNil: self disableMouseEventsForBlock.
-	self nameMorph ifNotNil: self disableMouseEventsForBlock.
-	self actionMorph ifNotNil: self disableMouseEventsForBlock.
+	{self titleMorph. self nameMorph. self actionMorph}
+		do: [:morph | 
+			morph extension isPartsDonor: true.
+			morph releaseEditor]
+		without: nil
