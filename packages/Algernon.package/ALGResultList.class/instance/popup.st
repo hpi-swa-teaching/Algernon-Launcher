@@ -9,7 +9,5 @@ popup
 		inWorld: self controller.
 	self controller addMorphFront: self.
 	"Acquire focus for valid pop up behavior"
-	self controller activeHand newMouseFocus: self;
-		 showTemporaryCursor: nil.
 	self initializePosition.
 	self moveSelection: 1

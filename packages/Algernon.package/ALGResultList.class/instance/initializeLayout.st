@@ -9,5 +9,4 @@ initializeLayout
 		hResizing: #rigid;
 		vResizing: #shrinkWrap;
 		shadowOffset: 0@0;
-		lock: true;
 		layoutPolicy: TableLayout new.

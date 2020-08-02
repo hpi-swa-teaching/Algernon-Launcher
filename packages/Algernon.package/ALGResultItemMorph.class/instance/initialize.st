@@ -7,4 +7,5 @@ initialize
 			self initializeTitleLayout]
 		ifFalse: [self initializeItemBounds.
 			self initializeIcons.
-			self initializeItemLayout]
+			self initializeItemLayout].
+	self disableTextMouseEvents.
