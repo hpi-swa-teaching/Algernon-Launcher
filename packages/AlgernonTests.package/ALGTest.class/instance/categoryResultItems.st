@@ -1,3 +1,3 @@
 helpers
 categoryResultItems
-	^ (self algInstance itemList items select: [:each | each item isNil ])
+	^ (self itemMorphs select: [:each | each item isNil ])

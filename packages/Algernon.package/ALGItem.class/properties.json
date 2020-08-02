@@ -1,8 +1,7 @@
 {
 	"category" : "Algernon",
 	"classinstvars" : [
-		"commentCache",
-		"methodCache" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "J.J. 7/31/2015 19:18",

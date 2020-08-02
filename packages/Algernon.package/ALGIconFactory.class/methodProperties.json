@@ -8,7 +8,8 @@
 		"getInstance" : "J.J. 7/30/2015 15:07",
 		"globalVariableIcon" : "fw 7/21/2015 22:02",
 		"helpIcon" : "beb 5/20/2020 17:42",
-		"iconFor:" : "rk 7/14/2020 12:22",
+		"iconFor:" : "jRo 5/31/2020 15:35",
+		"iconNames" : "jRo 8/1/2020 11:04",
 		"iconSize" : "J.J. 7/30/2015 15:07",
 		"iconSizeItemType" : "jRo 5/31/2020 15:16",
 		"initializeFileMapping" : "rk 7/15/2020 16:02",
@@ -25,9 +26,10 @@
 	"instance" : {
 		"clearCache" : "jRo 7/2/2020 00:15",
 		"hasCachedIconFor:" : "J.J. 7/30/2015 15:06",
-		"hasIconFor:" : "J.J. 7/30/2015 15:06",
+		"hasIconFor:" : "jRo 8/1/2020 11:04",
 		"imagesMap" : "J.J. 7/30/2015 15:05",
 		"imagesMap:" : "fw 7/21/2015 22:02",
 		"loadFromCacheFor:" : "J.J. 7/30/2015 15:07",
 		"loadFromStreamFor:" : "J.J. 7/30/2015 15:07",
-		"loadIconFor:" : "J.J. 7/30/2015 15:07" } }
+		"loadIconFor:" : "jRo 8/1/2020 11:55",
+		"scaleIcon:" : "jRo 8/1/2020 11:01" } }

@@ -1,8 +1,6 @@
 updating
-updateWith: aCollection 
+updateWith: aCollection
 	self removeAllSubmorphs.
-	aCollection
-		do: [:aCategory | 
-			self addCategory: aCategory.
-			aCategory items
-				do: [:anAlgertem | self add: anAlgertem]]
+	aCollection do: [ :aCategory |
+		self addCategory: aCategory.
+		self addAll: aCategory items ]
