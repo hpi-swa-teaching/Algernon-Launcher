@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertAlgIsOpen:after:" : "jRo 8/1/2020 01:05",
+		"tearDown" : "fw 7/31/2015 03:13",
+		"testChildrenMovement" : "jRo 7/13/2020 16:58",
+		"testCursorColorAfterReturningFromChildList" : "pw 8/1/2020 16:59",
+		"testKeyboardInput" : "pw 7/7/2020 20:24",
+		"testKeyboardInputOnlyOpensOnce" : "pw 8/1/2020 16:59",
+		"testNormalKeyStrokesSetsCursorColor" : "jRo 7/5/2020 22:15",
+		"testSelfFocus" : "jRo 7/5/2020 22:15" } }

@@ -1,12 +1,13 @@
 cleanup
 cleanup 
 	| isActive |
+	Transcript show: '=== Algernon Clean Up ==='; cr.
 	self lastCleanupDate: Date today.
-	isActive := Algernon activateAlgernon.
-	Algernon allInstancesDo: [ :algernon | algernon delete].
-	ALGCore allInstancesDo: [ :algcore | algcore delete].
-	ALGCache allInstancesDo: [ :cache | cache clear]. 
+	isActive := ALGCore activateAlgernon.
+	ALGCore  initializeGlobalKeyBindings.
+	ALGCore allSubInstancesDo: [ :algcore | algcore delete].
+	ALGIconFactory allInstancesDo: [ :factory | factory clearCache].
+	ALGIconFactory initializeFileMapping.
 	Smalltalk garbageCollect.
-	Algernon activateAlgernon: isActive.
+	ALGCore activateAlgernon: isActive.
 	ALGItemProvider initializeItems.
-	ALGItem clearCommentCache

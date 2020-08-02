@@ -1,3 +1,3 @@
-code-style
+bugs
 testNoVariableNotDefined
 	self ArbitraryCodeRule: #smallLintVariableNotDefined

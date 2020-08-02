@@ -1,5 +1,9 @@
 An ALGFuzzyMatcher implements the strategy pattern. It encapsulates a fuzzy search algorithm to match items based on a given search term.
 
+It is given an item and a search term and outputs a numeric value that indicates how good the match is or nil if there is no match at all.
+
+Take a look at scoreBetween:and: to see how the score is calcutated. This is the main method of this class.
+
 Instance Variables
 	foundChars:		Integer 			the number of characters that match
 	isMatch:			Boolean 			whether the given item is considered to be a match

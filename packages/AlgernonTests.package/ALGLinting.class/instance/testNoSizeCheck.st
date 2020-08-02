@@ -1,3 +1,3 @@
-code-style
+intention revealing
 testNoSizeCheck
 	self ArbitraryCodeRule: #smallLintSizeCheck

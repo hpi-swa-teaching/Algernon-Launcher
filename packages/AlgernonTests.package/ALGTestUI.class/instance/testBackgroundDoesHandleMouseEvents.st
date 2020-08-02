@@ -1,3 +1,3 @@
-testing
+testing mouse handling
 testBackgroundDoesHandleMouseEvents
-	self assert: (self algerInstance background handlesMouseDown: nil).
+	self assert: (self algInstance background handlesMouseDown: nil).

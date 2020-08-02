@@ -1,0 +1,3 @@
+constants
+innerPenalty
+	^ 1

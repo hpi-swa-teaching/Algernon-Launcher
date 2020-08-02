@@ -1,4 +1,4 @@
-testing
+testing method type
 testMethodNotEmpty
 
 	| methods class |

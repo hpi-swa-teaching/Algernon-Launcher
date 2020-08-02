@@ -1,1 +1,1 @@
-A help item displays a description of a hotwort
+A help item displays a description of a keyword

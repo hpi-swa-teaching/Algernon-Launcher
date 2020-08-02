@@ -1,8 +1,8 @@
-testing
+testing stepping interaction
 testResultListMovement
 	| item |
 	self runQuery: 'Algernon'.
-	item := self algerInstance currentItem.
-	self algerInstance selectNext.
-	self algerInstance selectPrevious.
-	self assert: (self algerInstance currentItem = item).
+	item := self algInstance currentItem.
+	self algInstance selectNext.
+	self algInstance selectPrevious.
+	self assert: (self algInstance currentItem = item).

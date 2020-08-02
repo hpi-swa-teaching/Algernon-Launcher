@@ -1,4 +1,4 @@
-code-style
+helpers
 defaultTimeout
 
-	^ 20 "seconds"
+	^ 60 "seconds" 

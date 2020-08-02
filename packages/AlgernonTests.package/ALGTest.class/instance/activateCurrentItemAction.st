@@ -1,3 +1,3 @@
 helpers
 activateCurrentItemAction
-	^ self algerInstance doActionOnSelectedEvent: nil.
+	^ self algInstance doActionOnSelectedEvent: nil.

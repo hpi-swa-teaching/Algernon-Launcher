@@ -1,14 +1,11 @@
-testing
+testing algernon instance
 testShowParentList
-
-	|searchTerm list|
-	searchTerm := 'test'.
-	self runQuery: searchTerm.
-	
-	self algerInstance selectNext.
-	list := self algerInstance itemList.
-	[self algerInstance currentItem hasChildren] whileFalse:  [self algerInstance selectNext].
-	self algerInstance showChildList.
-	self assert: self algerInstance itemList hasItems.
-	self assert: list ~= self algerInstance itemList.
-	Algernon close.
+	| list |
+	self runQuery: 'test'.
+	self algInstance selectNext.
+	list := self algInstance itemList.
+	[self algInstance currentItem hasChildren]
+		whileFalse: [self algInstance selectNext].
+	self algInstance showChildList.
+	self assert: self algInstance itemList hasItems.
+	self assert: list ~= self algInstance itemList

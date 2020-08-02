@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"algertemListWith:" : "fw 7/30/2015 23:10",
+		"algertemListWith:" : "jRo 8/1/2020 01:13",
 		"getReposFor:" : "fw 7/30/2015 23:34",
 		"getWorkingCopyFor:" : "td 6/23/2016 09:59",
 		"withType:withPackage:" : "J.J. 7/30/2015 19:09" },
 	"instance" : {
 		"createActionOpenFor:" : "J.J. 7/30/2015 18:55",
-		"createActionSaveFor:with:" : "J.J. 7/30/2015 18:56",
+		"createActionSaveFor:with:" : "rk 7/15/2020 10:50",
 		"createListOfAlgeractions" : "J.J. 7/30/2015 20:03",
 		"getRepositoryFrom:with:" : "JS 6/20/2016 22:08",
 		"getWorkingCopy" : "JS 6/20/2016 22:08",

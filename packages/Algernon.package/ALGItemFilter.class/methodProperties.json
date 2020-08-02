@@ -1,9 +1,13 @@
 {
 	"class" : {
-		"helpTexts" : "beb 5/20/2020 15:39" },
+		"classCommentFuzzyPenalty" : "beb 7/3/2020 13:42",
+		"helpTexts" : "beb 5/20/2020 15:39",
+		"keywords" : "beb 6/30/2020 11:59" },
 	"instance" : {
-		"accepts:" : "J.J. 12/13/2015 23:40",
-		"computeFuzzyItems:outOf:given:" : "DS 5/12/2017 22:53",
-		"filter:given:" : "beb 5/20/2020 16:30",
-		"minimumItemsToCompute" : "td 6/1/2016 21:43",
-		"selectors" : "J.J. 12/13/2015 23:38" } }
+		"accepts:" : "beb 6/30/2020 11:59",
+		"computeFuzzyItemsOutOf:given:" : "beb 7/1/2020 13:58",
+		"filter:classesByCommentContaining:" : "beb 8/1/2020 10:37",
+		"filter:given:" : "beb 6/30/2020 19:48",
+		"helpTextsCollect:" : "beb 7/31/2020 17:39",
+		"sortByFuzzyRank:" : "beb 7/1/2020 13:25",
+		"supportsSubstringCaching" : "beb 6/30/2020 11:23" } }

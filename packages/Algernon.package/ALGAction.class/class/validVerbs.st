@@ -1,4 +1,4 @@
-constants
+instance creation
 validVerbs
 	"Contains action verbs that are considered for multipart searches"
 

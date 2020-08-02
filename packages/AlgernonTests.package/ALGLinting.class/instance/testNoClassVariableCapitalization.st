@@ -1,3 +1,3 @@
-code-style
+intention revealing
 testNoClassVariableCapitalization
 	self ArbitraryCodeRule: #smallLintClassVariableCapitalization

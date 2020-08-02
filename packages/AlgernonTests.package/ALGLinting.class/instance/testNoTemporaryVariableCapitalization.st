@@ -1,3 +1,3 @@
-code-style
+intention revealing
 testNoTemporaryVariableCapitalization
 	self ArbitraryCodeRule: #smallLintTemporaryVariableCapitalization

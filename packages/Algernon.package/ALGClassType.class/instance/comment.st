@@ -1,4 +1,3 @@
 accessing
 comment
-
-	^ self typeObject comment
+	^ comment

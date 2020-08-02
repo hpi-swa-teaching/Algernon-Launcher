@@ -1,10 +1,7 @@
 algertem lists
 algertemList
 
-	|runner testClasses algertems|
+	| runner testClasses |
 	runner := TestRunner new.
-	algertems := OrderedCollection new.
 	testClasses := (runner findClassesForCategories: runner findCategories) asOrderedCollection.
-	testClasses do: [ :each | algertems add: (ALGItem withAlgertype: (self with: each))].
-	^ algertems
-
+	^ testClasses collect: [ :each | ALGItem withAlgertype: (self with: each) ].

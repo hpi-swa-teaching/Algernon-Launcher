@@ -1,4 +1,4 @@
-event handling
+events-processing
 dropFocus: hand
 	hand
 		newKeyboardFocus: self oldKeyboardFocus;

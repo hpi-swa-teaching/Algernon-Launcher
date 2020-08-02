@@ -1,5 +1,5 @@
-testing
+testing appereance
 testClosingAlgernonClosesBackground
-	self algerInstance activate.
-	self algerInstance deactivate.
-	self deny: (self algerInstance background visible).
+	self algInstance activate.
+	self algInstance deactivate.
+	self deny: (self algInstance background visible).

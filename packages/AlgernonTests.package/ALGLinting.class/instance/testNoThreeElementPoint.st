@@ -1,0 +1,3 @@
+possible bugs
+testNoThreeElementPoint
+	self ArbitraryCodeRule: #smallLintThreeElementPoint

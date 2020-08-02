@@ -1,6 +1,3 @@
 testing
 testAlgernonEnabledShortcut
-
-	self assert: [Algernon activateAlgernon not or:
-					[Algernon currentInstance activeHand keyboardListeners includes:
-						Algernon currentInstance]]
+	self assert: (self algInstance activeHand keyboardListeners includes: self algInstance)

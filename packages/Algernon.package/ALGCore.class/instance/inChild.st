@@ -1,4 +1,4 @@
 accessing
 inChild
 
-	^ self searchStack isEmpty
+	^ self searchStack isEmpty not

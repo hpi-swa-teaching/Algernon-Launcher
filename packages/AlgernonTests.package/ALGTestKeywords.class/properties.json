@@ -1,0 +1,14 @@
+{
+	"category" : "AlgernonTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "beb 7/3/2020 13:46",
+	"instvars" : [
+		 ],
+	"name" : "ALGTestKeywords",
+	"pools" : [
+		 ],
+	"super" : "ALGTest",
+	"type" : "normal" }

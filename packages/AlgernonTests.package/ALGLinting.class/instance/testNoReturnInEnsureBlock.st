@@ -1,0 +1,3 @@
+possible bugs
+testNoReturnInEnsureBlock
+	self ArbitraryCodeRule: #smallLintReturnInEnsure

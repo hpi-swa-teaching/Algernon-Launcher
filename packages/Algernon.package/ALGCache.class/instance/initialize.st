@@ -1,4 +1,5 @@
-initializing
+caching
 initialize
-
-	self itemsCache: Dictionary new
+	super initialize.
+	self allMatchedItems: Dictionary new.
+	self finalResults: Dictionary new.

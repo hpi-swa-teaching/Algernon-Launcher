@@ -1,9 +1,9 @@
-testing
+testing positioning
 testNotOverlapping
 	"Try running the garbage collector if test fails"
 	
 	| textField resultList |
-	textField := algerInstance textField.
+	textField := self algInstance textField.
 	textField contents: '= mor'.
-	resultList := algerInstance itemList fullBounds.
+	resultList := self algInstance itemList fullBounds.
 	self deny: (resultList containsPoint: textField fullBounds bottomRight)

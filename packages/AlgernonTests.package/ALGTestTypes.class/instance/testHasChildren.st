@@ -1,4 +1,4 @@
-testing
+testing general behavior
 testHasChildren
 	self assert: (ALGExpressionType algertemList: '=1+1') first hasChildren.
 	self assert: (ALGRepositoryType algertemListWith: 'Monticello') first hasChildren.

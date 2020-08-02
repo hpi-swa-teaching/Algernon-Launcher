@@ -1,6 +1,6 @@
-testing
+testing positioning
 testMovingAlgernon
 	| oldPosition |
-	oldPosition := self algerInstance position.
+	oldPosition := self algInstance position.
 	self moveToMouse.
-	self deny: (algerInstance  position = oldPosition).
+	self deny: (self algInstance  position = oldPosition).

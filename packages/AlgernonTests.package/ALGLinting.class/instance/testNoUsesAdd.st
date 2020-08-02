@@ -1,3 +1,3 @@
-code-style
+possible bugs
 testNoUsesAdd
 	self ArbitraryCodeRule: #smallLintUsesAdd

@@ -3,6 +3,5 @@ withAlgertype: aType relevantForEmptyString: aBool
 
 	| item |
 	item := ALGItem new.
-	item initializeWithAlgertype: aType.
-	item isRelevantForEmptyString: aBool.
+	item updateAlgertype: aType.
 	^ item

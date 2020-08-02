@@ -1,14 +1,11 @@
 testing
 testBreadcrumbs
-
 	|searchTerm|
 	searchTerm := 'test'.
-	
 	self runQuery: searchTerm.
-	self algerInstance selectNext.
-	[self algerInstance currentItem hasChildren] whileFalse:  [self algerInstance selectNext].
-	self algerInstance showChildList.
+	self algInstance selectNext.
+	[self algInstance currentItem hasChildren] whileFalse:  [self algInstance selectNext].
+	self algInstance showChildList.
 	self assert: self currentQuery isEmpty.
-	self algerInstance showParentList.
+	self algInstance showParentList.
 	self assert: self currentQuery equals: searchTerm.	
-	Algernon close. 

@@ -1,0 +1,3 @@
+intention revealing
+testNoUnusedCollectSelect
+	self ArbitraryCodeRule: #smallLintCollectSelectNotUsed
