@@ -1,0 +1,3 @@
+spelling
+testNoClassCategoryMisspelling
+	self ArbitraryCodeRule: #smallLintClassCategoriesSpelling

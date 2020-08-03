@@ -1,0 +1,3 @@
+unnecessary code
+testNoUnnecessaryEquals
+	self ArbitraryCodeRule: #smallLintEqualsTrue
