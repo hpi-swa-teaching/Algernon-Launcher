@@ -1,6 +1,9 @@
 actions
 getCommand
-	| textFieldContents |
+	| textFieldContents startIndex |
 	textFieldContents := self typeObject topmostQuery.
-
-	^ textFieldContents copyFrom: 3 to: textFieldContents size"first 2 characters are do or '= '"
+	(textFieldContents at: 1) == $=
+		ifTrue: [startIndex := 2]
+		ifFalse: [startIndex := 3].
+		
+	^ textFieldContents copyFrom: startIndex to: textFieldContents size
