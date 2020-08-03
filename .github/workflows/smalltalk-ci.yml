@@ -22,3 +22,5 @@ jobs:
     - run: smalltalkci -s ${{ steps.smalltalkci.outputs.smalltalk-version }}
       shell: bash
       timeout-minutes: 15
+      env:
+        COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
