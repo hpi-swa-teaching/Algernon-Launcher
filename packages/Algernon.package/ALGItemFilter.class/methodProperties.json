@@ -5,9 +5,9 @@
 		"keywords" : "beb 6/30/2020 11:59" },
 	"instance" : {
 		"accepts:" : "beb 6/30/2020 11:59",
-		"computeFuzzyItemsOutOf:given:" : "beb 7/1/2020 13:58",
-		"filter:classesByCommentContaining:" : "beb 8/1/2020 10:37",
+		"computeFuzzyItemsOutOf:given:" : "rk 8/3/2020 16:46",
+		"filter:classesByCommentContaining:" : "rk 8/3/2020 16:46",
 		"filter:given:" : "beb 6/30/2020 19:48",
-		"helpTextsCollect:" : "beb 7/31/2020 17:39",
-		"sortByFuzzyRank:" : "beb 7/1/2020 13:25",
+		"helpTextsCollect:" : "rk 8/3/2020 16:46",
+		"sortByFuzzyRank:" : "rk 8/3/2020 16:46",
 		"supportsSubstringCaching" : "beb 6/30/2020 11:23" } }

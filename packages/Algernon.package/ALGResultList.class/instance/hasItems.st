@@ -1,3 +1,3 @@
 initialization
 hasItems
-^ self items notEmpty
+	^ self items notEmpty

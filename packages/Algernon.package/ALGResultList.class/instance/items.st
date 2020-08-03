@@ -1,3 +1,3 @@
 event handling
 items
-^self submorphs
+	^ self submorphs
