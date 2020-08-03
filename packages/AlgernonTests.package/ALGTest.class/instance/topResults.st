@@ -1,3 +1,3 @@
 helpers
 topResults
-	^ self items first: (ALGTopCategorizer maxNumTopResults).
+	^ self items first: (ALGTopCategorizer maxNumTopResults)

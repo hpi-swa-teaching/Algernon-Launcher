@@ -1,4 +1,3 @@
 categorizing
 categorize: anItemList
-
-	  ^ self categorize: anItemList withExistingCategories: #().
+	  ^ self categorize: anItemList withExistingCategories: #()

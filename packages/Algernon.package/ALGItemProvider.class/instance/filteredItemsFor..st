@@ -5,4 +5,4 @@ filteredItemsFor: aString
 	filterStrategy := self itemFilterFor: tokens.
 	^ filterStrategy
 		filter: (self cachedItemsForFilter: filterStrategy string: aString)
-		given: tokens.
+		given: tokens

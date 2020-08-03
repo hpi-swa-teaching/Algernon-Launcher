@@ -1,4 +1,3 @@
 constants
 verticalOffset
-
 	 ^ 8

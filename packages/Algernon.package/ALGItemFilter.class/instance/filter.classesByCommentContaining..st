@@ -8,4 +8,4 @@ filter: anItemCollection classesByCommentContaining: aKeyword
 			score := ALGClassCommentFuzzyMatcher computeScore: each given: aKeyword.
 			each classCommentFuzzyRank: score.
 			score isNil not ].
-	^ self sortByFuzzyRank: result.
+	^ self sortByFuzzyRank: result

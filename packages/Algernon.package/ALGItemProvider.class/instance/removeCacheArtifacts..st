@@ -1,3 +1,3 @@
 filtering
 removeCacheArtifacts: anItemCollection
-	^ anItemCollection do: [ :each | each fuzzyRank: nil ].
+	^ anItemCollection do: [ :each | each fuzzyRank: nil ]
