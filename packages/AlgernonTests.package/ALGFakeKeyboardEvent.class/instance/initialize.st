@@ -7,4 +7,4 @@ initialize
 		keyValue: 32
 		hand: ActiveHand
 		stamp: 0;
-		isKeyUp: false.
+		isKeyUp: false
