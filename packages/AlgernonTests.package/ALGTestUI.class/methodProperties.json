@@ -4,7 +4,7 @@
 	"instance" : {
 		"moveToMouse" : "jRo 7/5/2020 22:15",
 		"testAlgernonPositioningWindowIsBiggerAfterReopening" : "jRo 7/5/2020 22:15",
-		"testAlgernonPositioningWindowIsSameSizeAfterReopening" : "jRo 7/5/2020 22:15",
+		"testAlgernonPositioningWindowIsSameSizeAfterReopening" : "rk 8/3/2020 21:30",
 		"testAlgernonPositioningWindowIsSmallerAfterReopening" : "jRo 7/5/2020 22:15",
 		"testBackgroundDoesHandleMouseEvents" : "jRo 7/5/2020 22:15",
 		"testBreadcrumbDoesNotHandleMouseEvents" : "pw 7/7/2020 20:32",
@@ -14,7 +14,7 @@
 		"testCoreStepTime" : "jRo 7/5/2020 22:15",
 		"testItemMorphDoesHandleMouseEvents" : "jRo 8/1/2020 22:38",
 		"testListItemMorphSubmorphs" : "jRo 7/5/2020 22:15",
-		"testMouseItemSelection" : "jRo 8/1/2020 22:42",
+		"testMouseItemSelection" : "rk 8/3/2020 21:31",
 		"testMovingAlgernon" : "jRo 7/5/2020 22:15",
 		"testMovingAlgernonIsRemembered" : "jRo 7/5/2020 22:15",
 		"testNotOverlapping" : "jRo 7/5/2020 22:15",
