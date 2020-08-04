@@ -1,7 +1,7 @@
 # Algernon Launcher [![GitHub release](https://img.shields.io/github/release/hpi-swa-teaching/Algernon-Launcher.svg?label=small%20release&maxAge=0)](https://github.com/hpi-swa-teaching/Algernon-Launcher/releases/latest) [![Github All Releases](https://img.shields.io/github/downloads/hpi-swa-teaching/Algernon-Launcher/total.svg?maxAge=0)](https://github.com/hpi-swa-teaching/Algernon-Launcher/releases) ![smalltalkCI](https://github.com/hpi-swa-teaching/Algernon-Launcher/workflows/smalltalkCI/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/Algernon-Launcher/badge.svg?branch=master)](https://coveralls.io/github/hpi-swa-teaching/Algernon-Launcher?branch=master)
 
 <p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/6453623/16036676/47e23582-321d-11e6-9032-bcb96873d348.png" width="465" alt="Algernon"/>
+  <img src="https://user-images.githubusercontent.com/44369294/89326002-e93a5800-d689-11ea-89f0-d685e7a4f1e9.png" width="465" alt="Algernon"/>
 </p>
 
 Algernon is a productivity tool for Squeak programmers; your personal assistant for Squeak. Algernon aims to make programming in Squeak faster and more keyboard centric. It provides lightning quick access to the core functionalities (classes, methods, morphs, tests, repositories ...) and even gives you a quick way to evaluate Smalltalk expressions.
