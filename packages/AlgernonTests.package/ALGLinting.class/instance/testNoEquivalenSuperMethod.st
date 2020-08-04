@@ -1,3 +1,0 @@
-unnecessary code
-testNoEquivalenSuperMethod
-	self ArbitraryCodeRule: #smallLintEquivalentSuperclassMethods

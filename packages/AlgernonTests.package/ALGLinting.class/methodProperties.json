@@ -22,7 +22,6 @@
 		"testNoEqualNotUsed" : "KEJ 5/28/2020 16:44",
 		"testNoEqualWithoutHash" : "pw 6/26/2020 23:17",
 		"testNoEqualsTrue" : "KEJ 5/28/2020 16:53",
-		"testNoEquivalenSuperMethod" : "pw 8/4/2020 00:24",
 		"testNoExcessiveInheritance" : "pw 6/26/2020 19:43",
 		"testNoExtraBlock" : "KEJ 5/28/2020 16:42",
 		"testNoFloatEqualityComparison" : "pw 6/26/2020 23:20",
