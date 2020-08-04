@@ -1,4 +1,3 @@
 accessing
 algerType
-
 	^ algerType

@@ -1,5 +1,4 @@
 accessing
 numTimesSelected: anInt
-
 	numTimesSelected := anInt.
-	lastUsage := DateAndTime now
+	self lastUsage: DateAndTime now

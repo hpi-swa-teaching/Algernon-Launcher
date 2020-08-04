@@ -2,7 +2,7 @@ event handling
 moveSelection: direction 
 	"Move the current selection up or down by one. direction = +/-1"
 	| index m |
-	index := (submorphs indexOf: selectedItem
+	index := (submorphs indexOf: self selectedItem
 				ifAbsent: [1 - direction]) + direction.
 	submorphs do: [:unused | 
 			m := submorphs atWrap: index.
