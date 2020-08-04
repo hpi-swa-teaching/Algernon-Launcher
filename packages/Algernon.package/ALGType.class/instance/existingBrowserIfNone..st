@@ -1,9 +1,9 @@
 browsing
 existingBrowserIfNone: aBlock
 
-	| windows collapsedWindows browserWindow |
+	| windows browserWindow |
 	windows := SystemWindow windowsIn: self currentWorld satisfying: [:w | w isCollapsed not].
 	browserWindow := windows
-		detect: [ :w | w model isKindOf: SystemBrowser default ]
+		detect: [:each | each knownName asLowercase includesSubstring: 'system browser']
 		ifNone: [ ^ aBlock value ].
 	^ browserWindow model
