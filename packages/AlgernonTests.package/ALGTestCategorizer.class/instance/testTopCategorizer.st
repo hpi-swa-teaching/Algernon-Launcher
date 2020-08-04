@@ -1,4 +1,4 @@
-test-TopCategorizer
+testing
 testTopCategorizer
 
 	| items typeA typeB categorizer categorized expectedItems categoryItems |
