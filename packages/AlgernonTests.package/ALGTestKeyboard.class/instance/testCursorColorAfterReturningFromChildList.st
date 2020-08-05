@@ -6,4 +6,4 @@ testCursorColorAfterReturningFromChildList
 	self algInstance showChildList.
 	self algInstance showParentList.
 	field := self algInstance textField.
-	self assert: field paragraph caretColor = field class cursorColor
+	self assert: field paragraph caretColor equals: field class cursorColor
