@@ -1,3 +1,3 @@
 testing scores
 testScoreExactMatchAlgorithmWithNumeric
-	self assert: 0 equals: (ALGFuzzyMatcher scoreBetween: '123456789' and: '123456789')
+	self assertScore: 0 between: '123456789' and: '123456789'

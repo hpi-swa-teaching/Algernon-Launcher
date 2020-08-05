@@ -1,5 +1,3 @@
 testing queries
 testSingleKeyMissing
-
-	self runQuery: 'lgernon'.
-	self assert: (self resultsClassIncludeName: 'Algernon').
+	self assertQuery: 'lgernon' resultsClassIncludeName: 'Algernon'
