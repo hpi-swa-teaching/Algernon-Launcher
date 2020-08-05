@@ -1,6 +1,3 @@
 testing general behavior
 testGlobalVariableNotEmpty
-
-	| variables |
-	variables := ALGGlobalVariableType algertemList.
-	self deny: variables isEmpty
+	self denyTypeIsEmpty: ALGGlobalVariableType

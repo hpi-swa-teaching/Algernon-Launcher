@@ -1,6 +1,5 @@
 testing
 testAlgernonClose
-
 	| wasNil |
 	wasNil := Algernon currentInstance isNil.
 	Algernon close.

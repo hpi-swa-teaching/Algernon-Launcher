@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"runQuery:withCursorAt:" : "rk 8/5/2020 17:23",
 		"testAdvancedChildNavigation" : "rk 8/5/2020 17:25",
 		"testBreadcrumbsListSize" : "rk 8/5/2020 16:44",
 		"testClassAction" : "rk 8/5/2020 17:24",

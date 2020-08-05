@@ -1,6 +1,5 @@
 testing expressions
 testExpressionPrintByDefault
-
 	| expressionItem |
 	self runQuery: '= 1+1'.
 	expressionItem := self items first.

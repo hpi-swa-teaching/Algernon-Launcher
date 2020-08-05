@@ -5,7 +5,7 @@
 		"assertAlgIsOpen:after:" : "jRo 8/1/2020 01:05",
 		"tearDown" : "rk 8/5/2020 17:35",
 		"testChildrenMovement" : "jRo 7/13/2020 16:58",
-		"testCursorColorAfterReturningFromChildList" : "rk 8/5/2020 17:36",
+		"testCursorColorAfterReturningFromChildList" : "rk 8/5/2020 19:29",
 		"testKeyboardInput" : "rk 8/5/2020 17:37",
 		"testKeyboardInputOnlyOpensOnce" : "pw 8/1/2020 16:59",
 		"testNormalKeyStrokesSetsCursorColor" : "rk 8/5/2020 17:39",
