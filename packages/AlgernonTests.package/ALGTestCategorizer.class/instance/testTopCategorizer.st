@@ -1,6 +1,5 @@
 testing
 testTopCategorizer
-
 	| items typeA typeB categorizer categorized expectedItems categoryItems |
 	typeA := ALGClassType with: ALGCore.
 	typeB := ALGCategoryType with: #AlgernonTests.

@@ -1,6 +1,5 @@
 testing
 testTopCategory
-	
 	| category topCategory |
 	category := ALGCategory new rank: 5.
 	topCategory := ALGCategory newForTopResults.

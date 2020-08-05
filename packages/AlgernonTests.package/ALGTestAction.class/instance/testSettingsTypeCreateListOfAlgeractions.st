@@ -1,4 +1,3 @@
 testing
 testSettingsTypeCreateListOfAlgeractions
-	
 	self assertTypeCreateListOfAlgeractions: ALGSettingsType
