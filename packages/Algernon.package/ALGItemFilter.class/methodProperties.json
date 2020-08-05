@@ -4,10 +4,10 @@
 		"helpTexts" : "beb 5/20/2020 15:39",
 		"keywords" : "beb 6/30/2020 11:59" },
 	"instance" : {
-		"accepts:" : "beb 6/30/2020 11:59",
+		"accepts:" : "pw 8/4/2020 10:41",
 		"computeFuzzyItemsOutOf:given:" : "rk 8/3/2020 16:46",
-		"filter:classesByCommentContaining:" : "rk 8/3/2020 21:17",
-		"filter:given:" : "rk 8/3/2020 21:17",
+		"filter:classesByCommentContaining:" : "pw 8/4/2020 00:30",
+		"filter:given:" : "pw 8/4/2020 00:30",
 		"helpTextsCollect:" : "rk 8/3/2020 16:46",
 		"sortByFuzzyRank:" : "rk 8/3/2020 16:46",
 		"supportsSubstringCaching" : "beb 6/30/2020 11:23" } }
