@@ -40,7 +40,6 @@
 		"deactivate:" : "jRo 8/1/2020 19:06",
 		"delete" : "beb 7/16/2020 10:12",
 		"doActionOnSelectedEvent:" : "jRo 8/1/2020 19:32",
-		"dropFocus:" : "DS 5/14/2017 19:41",
 		"filteringThreshold" : "DS 5/21/2017 16:54",
 		"firstOnSearchStack" : "jRo 6/14/2020 18:21",
 		"firstStep:" : "DS 5/21/2017 16:43",
@@ -99,7 +98,6 @@
 		"showParentList" : "jRo 8/1/2020 13:28",
 		"step" : "DS 6/2/2017 15:01",
 		"stepTime" : "DS 5/21/2017 16:53",
-		"systemChanged:" : "beb 7/15/2020 16:15",
 		"textField" : "J.J. 7/27/2015 21:10",
 		"textField:" : "J.J. 7/27/2015 21:10",
 		"toggleVisibility:" : "JF 5/7/2015 14:35",
@@ -107,5 +105,4 @@
 		"unregisterFromSystem" : "J.J. 7/27/2015 19:38",
 		"unsubscribeFromNotifiers" : "beb 7/15/2020 16:15",
 		"updateItemList" : "J.J. 7/27/2015 21:43",
-		"updateItemListWith:" : "jRo 7/13/2020 16:58",
-		"wasChanged:" : "beb 7/15/2020 16:15" } }
+		"updateItemListWith:" : "jRo 7/13/2020 16:58" } }
