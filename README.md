@@ -1,6 +1,4 @@
-# Algernon Launcher 
-[![GitHub release](https://img.shields.io/github/release/hpi-swa-teaching/Algernon-Launcher.svg?label=small%20release&maxAge=0)](https://github.com/hpi-swa-teaching/Algernon-Launcher/releases/latest) [![Github All Releases](https://img.shields.io/github/downloads/hpi-swa-teaching/Algernon-Launcher/total.svg?maxAge=0)](https://github.com/hpi-swa-teaching/Algernon-Launcher/releases) ![smalltalkCI](https://github.com/hpi-swa-teaching/Algernon-Launcher/workflows/smalltalkCI/badge.svg) 
-Master: [![Coverage Master](https://coveralls.io/repos/github/hpi-swa-teaching/Algernon-Launcher/badge.svg?branch=master)](https://coveralls.io/github/hpi-swa-teaching/Algernon-Launcher?branch=master) Development: [![Coverage Development](https://coveralls.io/repos/github/hpi-swa-teaching/Algernon-Launcher/badge.svg?branch=development)](https://coveralls.io/github/hpi-swa-teaching/Algernon-Launcher?branch=master) 
+# Algernon Launcher [![GitHub release](https://img.shields.io/github/release/hpi-swa-teaching/Algernon-Launcher.svg?label=small%20release&maxAge=0)](https://github.com/hpi-swa-teaching/Algernon-Launcher/releases/latest) [![Github All Releases](https://img.shields.io/github/downloads/hpi-swa-teaching/Algernon-Launcher/total.svg?maxAge=0)](https://github.com/hpi-swa-teaching/Algernon-Launcher/releases) ![smalltalkCI](https://github.com/hpi-swa-teaching/Algernon-Launcher/workflows/smalltalkCI/badge.svg)
 
 <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/6453623/16036676/47e23582-321d-11e6-9032-bcb96873d348.png" width="465" alt="Algernon"/>
@@ -24,8 +22,6 @@ Algernon allows for keyboard only interaction - no need to use your mouse!
 | Arrow right | Navigate in       |
 | Arrow left  | Navigate out      |
 | Enter       | Run selected item |
-
-*Important Notice:* Please be aware that using Algernon for the first time might be slow. The first query triggers the indexing that is used for searching objects. After a few seconds delay in the first query, Algernon should run fast as expected.
 
 
 ## Features
