@@ -1,0 +1,3 @@
+unnecessary code
+testNoSameStatementAtEndOfBlock
+	self ArbitraryCodeRule: #smallLintEndTrueFalse
