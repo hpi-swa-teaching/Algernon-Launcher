@@ -1,3 +1,3 @@
 loading
 scaleIcon: anIcon
-	^ anIcon scaledToSize: ALGIconFactory iconSize
+	^ anIcon scaledToSize: self class iconSize
