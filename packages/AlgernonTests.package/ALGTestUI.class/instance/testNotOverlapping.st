@@ -1,7 +1,6 @@
 testing positioning
 testNotOverlapping
 	"Try running the garbage collector if test fails"
-	
 	| textField resultList |
 	textField := self algInstance textField.
 	textField contents: '= mor'.
