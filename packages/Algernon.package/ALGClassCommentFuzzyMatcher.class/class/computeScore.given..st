@@ -5,4 +5,5 @@ computeScore: anItem given: aQueryString
 	anItem algerType hasComment ifFalse: [ ^ nil ].
 	score := self scoreBetween: aQueryString and: anItem algerType comment.
 	score ifNil: [ ^ nil ].
+
 	^ score negated + self classCommentFuzzyPenalty

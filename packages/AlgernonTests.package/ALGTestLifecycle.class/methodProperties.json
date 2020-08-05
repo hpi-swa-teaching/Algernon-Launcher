@@ -21,6 +21,7 @@
 		"testAlgernonToggleVisibility" : "jRo 8/1/2020 13:02",
 		"testBreadcrumbs" : "jRo 8/1/2020 13:02",
 		"testBreadcrumbsTextField" : "jRo 8/1/2020 13:02",
+		"testEventUnsubscribeDoesntThrow" : "jRo 8/5/2020 16:51",
 		"testInitializeAlgernon" : "td 7/3/2016 15:36",
 		"testRanking" : "jRo 8/1/2020 13:02",
 		"testSingleResultList" : "jRo 7/5/2020 22:15" } }

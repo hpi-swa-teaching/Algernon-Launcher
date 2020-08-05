@@ -1,3 +1,3 @@
 accessing
 wouldAcceptKeyboardFocusUponTab
-	^false
+	^ false
