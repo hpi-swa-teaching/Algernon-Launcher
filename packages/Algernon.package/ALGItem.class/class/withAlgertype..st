@@ -1,3 +1,3 @@
 instance creation
 withAlgertype: aType
-	^ (ALGItem new) updateAlgertype: aType
+	^ (self new) updateAlgertype: aType
