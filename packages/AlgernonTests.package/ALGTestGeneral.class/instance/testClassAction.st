@@ -1,8 +1,7 @@
 testing interaction with tools
 testClassAction
 	| oldBrowsers newBrowser |
-	self runQuery: 'ALGCore'.
-	self moveCursorTo: 'Class'.
+	self runQuery: 'ALGCore' withCursorAt: 'Class'.
 	oldBrowsers := self findSystemWindowsByLabel: 'System Browser'.
 	self activateCurrentItemAction.
 	newBrowser := (self findNewSystemWindowsByLabel: 'System Browser' old: oldBrowsers) first.

@@ -1,8 +1,7 @@
 testing interaction with tools
 testTestAction
 	| oldTestRunners |
-	self runQuery: 'ALGFakeTest'.
-	self moveCursorTo: 'Test'.
+	self runQuery: 'ALGFakeTest' withCursorAt: 'Test'.
 	oldTestRunners := self findSystemWindowsByLabel: 'Test Runner'.
 	ALGFakeTest wasRun: false.
 	self activateCurrentItemAction.

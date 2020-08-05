@@ -2,15 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAdvancedChildNavigation" : "jRo 7/5/2020 22:15",
-		"testBreadcrumbsListSize" : "pw 8/1/2020 14:47",
-		"testClassAction" : "jRo 8/1/2020 01:01",
+		"runQuery:withCursorAt:" : "rk 8/5/2020 17:23",
+		"testAdvancedChildNavigation" : "rk 8/5/2020 17:25",
+		"testBreadcrumbsListSize" : "rk 8/5/2020 16:44",
+		"testClassAction" : "rk 8/5/2020 17:24",
 		"testCloseWithEscape" : "jRo 7/5/2020 22:15",
 		"testKeyBindingsValid" : "jRo 8/1/2020 11:19",
 		"testListContents" : "jRo 7/5/2020 22:15",
-		"testMethodAction" : "jRo 6/4/2020 15:22",
-		"testSettingsAction" : "jRo 8/1/2020 01:08",
+		"testMethodAction" : "rk 8/5/2020 17:26",
+		"testSettingsAction" : "rk 8/5/2020 17:24",
 		"testShowParentList" : "pw 8/1/2020 17:05",
-		"testStandardToolSetMorphAction" : "jRo 8/1/2020 01:09",
-		"testTestAction" : "jRo 8/1/2020 01:09",
+		"testStandardToolSetMorphAction" : "rk 8/5/2020 17:26",
+		"testTestAction" : "rk 8/5/2020 17:25",
 		"testWorkspaceIsInOrder" : "jRo 8/1/2020 12:50" } }
