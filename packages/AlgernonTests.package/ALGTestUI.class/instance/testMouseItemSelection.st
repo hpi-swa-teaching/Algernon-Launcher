@@ -1,5 +1,6 @@
 testing mouse handling
 testMouseItemSelection
+
 	| position moveEvent |
 	self runQuery: 'ALGCore'.
 	position:= self itemMorphs third bounds center.

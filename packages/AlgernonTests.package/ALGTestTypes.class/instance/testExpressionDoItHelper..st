@@ -1,8 +1,8 @@
 testing expressions
-testExpressionDoIt
+testExpressionDoItHelper: anExpression
 
 	| expressionItem oldSystemWindows |
-	self runQuery: '= SystemBrowser default open'.
+	self runQuery: anExpression.
 	expressionItem := self items detect: [:each| each algerType typeName = 'Expression'].
 	self assert: expressionItem notNil.
 	oldSystemWindows := self currentSystemWindows.
