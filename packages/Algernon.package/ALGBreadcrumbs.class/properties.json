@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "J.J. 7/31/2015 18:39",
 	"instvars" : [
-		"controller",
-		"eventHandler" ],
+		"controller" ],
 	"name" : "ALGBreadcrumbs",
 	"pools" : [
 		 ],

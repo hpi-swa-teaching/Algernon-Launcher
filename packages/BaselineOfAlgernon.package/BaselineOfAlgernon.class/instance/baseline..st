@@ -33,8 +33,7 @@ baseline: spec
 
             spec
                 group: 'default' with: #('Algernon');
-                group: 'Tests' with: #('AlgernonTests');
-				group: 'default' with: #('PlugIns');
+                group: 'Tests' with: #('AlgernonTests' 'PlugIns');
 				group: 'portability' with: #('PlugIns');
 				group: 'Core' with: #('SwaLint-Core');
 				group: 'PlugIns' with: #('SwaLint-PlugIns'). ]

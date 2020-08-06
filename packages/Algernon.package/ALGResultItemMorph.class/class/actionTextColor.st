@@ -1,4 +1,3 @@
 constants
 actionTextColor
-
 	^ Color gray

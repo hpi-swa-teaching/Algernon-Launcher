@@ -1,4 +1,3 @@
 constants
 normalFillStyle
-
 	^ Color white
