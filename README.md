@@ -3,7 +3,7 @@
 Master: [![Coverage Master](https://coveralls.io/repos/github/hpi-swa-teaching/Algernon-Launcher/badge.svg?branch=master)](https://coveralls.io/github/hpi-swa-teaching/Algernon-Launcher?branch=master) Development: [![Coverage Development](https://coveralls.io/repos/github/hpi-swa-teaching/Algernon-Launcher/badge.svg?branch=development)](https://coveralls.io/github/hpi-swa-teaching/Algernon-Launcher?branch=master) 
 
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/44369294/89326002-e93a5800-d689-11ea-89f0-d685e7a4f1e9.png" width="465" alt="Algernon"/>
+  <img src="https://user-images.githubusercontent.com/44369294/89326002-e93a5800-d689-11ea-89f0-d685e7a4f1e9.png" width="465" alt="Algernon"/>
 </p>
 
 Algernon is a productivity tool for Squeak programmers; your personal assistant for Squeak. Algernon aims to make programming in Squeak faster and more keyboard centric. It provides lightning quick access to the core functionalities (classes, methods, morphs, tests, repositories ...) and even gives you a quick way to evaluate Smalltalk expressions.
