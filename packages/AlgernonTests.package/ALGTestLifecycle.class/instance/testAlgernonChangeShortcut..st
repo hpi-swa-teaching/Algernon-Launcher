@@ -1,6 +1,6 @@
 testing
 testAlgernonChangeShortcut: shortcut 
-	ALGCore setKeyboardBinding: shortcut shallowCopy.
+	ALGCore setKeyboardBinding: shortcut copy.
 	self algInstance deactivate: nil.
 	self deny: self algInstance active.
 	self algInstance handleListenEvent: (ALGFakeKeyboardEvent new keyString: shortcut shallowCopy;
