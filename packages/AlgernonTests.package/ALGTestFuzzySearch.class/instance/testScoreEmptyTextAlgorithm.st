@@ -1,3 +1,3 @@
 testing scores
 testScoreEmptyTextAlgorithm
-	self assert: nil equals: (ALGFuzzyMatcher scoreBetween: '123' and: '')
+	self assertScore: nil between: '123' and: ''

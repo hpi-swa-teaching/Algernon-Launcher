@@ -1,6 +1,5 @@
 testing
 testSelectionIncrement
-	
 	| action prevIncrement |
 	action := actions first.
 	prevIncrement := action numTimesSelected.

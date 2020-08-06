@@ -1,6 +1,5 @@
 testing
 testDailyCacheCleanup
-
 	| installation |
 	installation := ALGInstallation new.
 	installation lastCleanupDate: Date yesterday.

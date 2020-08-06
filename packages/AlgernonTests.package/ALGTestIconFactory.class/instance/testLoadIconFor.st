@@ -1,6 +1,5 @@
 testing
 testLoadIconFor
-
 	| iconFactory |
 	ALGIconFactory resetInstance.
 	iconFactory := ALGIconFactory new.

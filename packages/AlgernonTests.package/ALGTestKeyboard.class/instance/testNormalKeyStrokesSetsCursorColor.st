@@ -7,5 +7,5 @@ testNormalKeyStrokesSetsCursorColor
 	self algInstance activate.
 	field :=self algInstance textField
 	normalKeyStroke: input.
-	self assert: (field paragraph caretColor = field class cursorColor).
+	self assert: field paragraph caretColor equals: field class cursorColor.
 	 

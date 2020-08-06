@@ -5,5 +5,5 @@ testAlgernonPositioningWindowIsBiggerAfterReopening
 	oldPosition := self algInstance position.
 	World extent: (World extent + (100@100)).
 	self algInstance activate.
-	self assert: (self algInstance position = oldPosition).
-	World extent: oldExtent.
+	self assert: self algInstance position equals: oldPosition.
+	World extent: oldExtent

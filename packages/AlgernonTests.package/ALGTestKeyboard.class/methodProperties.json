@@ -4,8 +4,8 @@
 	"instance" : {
 		"assertAlgIsOpen:after:" : "jRo 8/1/2020 01:05",
 		"testChildrenMovement" : "jRo 7/13/2020 16:58",
-		"testCursorColorAfterReturningFromChildList" : "pw 8/1/2020 16:59",
-		"testKeyboardInput" : "pw 7/7/2020 20:24",
+		"testCursorColorAfterReturningFromChildList" : "rk 8/5/2020 19:29",
+		"testKeyboardInput" : "rk 8/5/2020 17:37",
 		"testKeyboardInputOnlyOpensOnce" : "pw 8/1/2020 16:59",
-		"testNormalKeyStrokesSetsCursorColor" : "jRo 7/5/2020 22:15",
-		"testSelfFocus" : "jRo 7/5/2020 22:15" } }
+		"testNormalKeyStrokesSetsCursorColor" : "rk 8/5/2020 17:39",
+		"testSelfFocus" : "rk 8/5/2020 17:40" } }

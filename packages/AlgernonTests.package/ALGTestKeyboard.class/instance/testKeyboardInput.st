@@ -8,4 +8,4 @@ testKeyboardInput
 	self algInstance activate.
 	self algInstance keyStroke: keyboardEvent.
 	self algInstance keyStroke: keyboardEvent.
-	self assert: self algInstance query = 'AA'
+	self assert: self algInstance query equals: 'AA'

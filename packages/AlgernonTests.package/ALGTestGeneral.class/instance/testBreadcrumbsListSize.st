@@ -1,8 +1,6 @@
 testing algernon instance
 testBreadcrumbsListSize
-
 	| size |
-	
 	self runQuery: 'test'.
 	self algInstance selectNext.
 	size := self algInstance breadcrumbCount.

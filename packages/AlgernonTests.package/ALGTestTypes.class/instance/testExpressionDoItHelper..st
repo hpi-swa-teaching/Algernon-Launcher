@@ -1,6 +1,5 @@
 testing expressions
 testExpressionDoItHelper: anExpression
-
 	| expressionItem oldSystemWindows |
 	self runQuery: anExpression.
 	expressionItem := self items detect: [:each| each algerType typeName = 'Expression'].

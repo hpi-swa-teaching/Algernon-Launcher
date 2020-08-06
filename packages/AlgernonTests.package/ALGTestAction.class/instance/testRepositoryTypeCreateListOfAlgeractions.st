@@ -1,6 +1,5 @@
 testing
 testRepositoryTypeCreateListOfAlgeractions
-	
 	| repos |
 	repos := ALGRepositoryType getReposFor: 'Algernon'.
 	repos do: [ :each |

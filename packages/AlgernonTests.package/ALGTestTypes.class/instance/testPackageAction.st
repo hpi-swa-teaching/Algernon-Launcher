@@ -1,9 +1,8 @@
 testing package type
 testPackageAction
 	| browsersBefore |
-	self runQuery: 'Algernon'.
-	self moveCursorTo: 'Package'.
+	self runQuery: 'Algernon' withCursorAt: 'Package'.
 	browsersBefore := self findSystemWindowsByLabel: 'Monticello Browser'.
 	self activateCurrentItemAction.
-	self assert: (self findSystemWindowsByLabel: 'Monticello Browser') size = (browsersBefore size + 1).
+	self assert: (self findSystemWindowsByLabel: 'Monticello Browser') size equals: (browsersBefore size + 1).
 	self deleteNewSystemWindowsByLabel: 'Monticello Browser' old: browsersBefore
