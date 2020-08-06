@@ -1,6 +1,5 @@
 updating
 add: anAlgertem
-
 	self add: anAlgertem
 		target: (anAlgertem defaultAlgeraction target)
 		selector: (anAlgertem defaultAlgeraction selector)

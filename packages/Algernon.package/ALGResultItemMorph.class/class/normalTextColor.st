@@ -1,4 +1,3 @@
 constants
 normalTextColor
-
 	^ Color black
