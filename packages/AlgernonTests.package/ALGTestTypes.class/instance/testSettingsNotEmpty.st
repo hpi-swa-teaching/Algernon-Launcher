@@ -1,4 +1,4 @@
 testing settings type
 testSettingsNotEmpty
-	self denyTypeIsEmpty: ALGSettingsType
+	self denyEmptyAlgertemListForType: ALGSettingsType
 	

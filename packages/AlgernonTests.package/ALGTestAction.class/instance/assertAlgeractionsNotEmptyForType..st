@@ -1,3 +1,3 @@
 helpers
-assertTypeCreateListOfAlgeractions: aType
+assertAlgeractionsNotEmptyForType: aType
 	self assert: aType new createListOfAlgeractions notEmpty

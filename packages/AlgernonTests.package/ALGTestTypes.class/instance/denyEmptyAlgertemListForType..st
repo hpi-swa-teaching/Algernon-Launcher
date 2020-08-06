@@ -1,3 +1,3 @@
 helpers
-denyTypeIsEmpty: aType
+denyEmptyAlgertemListForType: aType
 	self deny: aType algertemList isEmpty.

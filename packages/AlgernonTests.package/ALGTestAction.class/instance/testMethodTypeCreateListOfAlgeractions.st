@@ -1,3 +1,3 @@
 testing
 testMethodTypeCreateListOfAlgeractions
-	self assertTypeCreateListOfAlgeractions: ALGMethodType
+	self assertAlgeractionsNotEmptyForType: ALGMethodType

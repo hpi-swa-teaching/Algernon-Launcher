@@ -1,3 +1,3 @@
 testing category type
 testCategoryNotEmpty
-	self denyTypeIsEmpty: ALGCategoryType
+	self denyEmptyAlgertemListForType: ALGCategoryType

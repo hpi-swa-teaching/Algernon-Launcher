@@ -1,3 +1,3 @@
 testing
 testExpressionTypeCreateListOfAlgeractions
-	self assertTypeCreateListOfAlgeractions: ALGExpressionType
+	self assertAlgeractionsNotEmptyForType: ALGExpressionType

@@ -1,4 +1,4 @@
 testing package type
 testPackageNotEmpty
-	self denyTypeIsEmpty: ALGPackageType.
+	self denyEmptyAlgertemListForType: ALGPackageType.
 	

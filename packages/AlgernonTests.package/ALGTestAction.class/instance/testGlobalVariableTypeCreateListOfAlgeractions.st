@@ -1,3 +1,3 @@
 testing
 testGlobalVariableTypeCreateListOfAlgeractions
-	self assertTypeCreateListOfAlgeractions: ALGGlobalVariableType
+	self assertAlgeractionsNotEmptyForType: ALGGlobalVariableType

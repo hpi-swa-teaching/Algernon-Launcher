@@ -1,3 +1,3 @@
 testing class type
 testClassNotEmpty
-	self denyTypeIsEmpty: ALGClassType
+	self denyEmptyAlgertemListForType: ALGClassType

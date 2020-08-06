@@ -1,3 +1,3 @@
 testing
 testStandardToolSetMorphTypeCreateListOfAlgeractions
-	self assertTypeCreateListOfAlgeractions: ALGStandardToolSetMorphType
+	self assertAlgeractionsNotEmptyForType: ALGStandardToolSetMorphType

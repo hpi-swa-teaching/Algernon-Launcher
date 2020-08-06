@@ -1,3 +1,3 @@
 testing
 testWorldMenuMorphTypeCreateListOfAlgeractions
-	self assertTypeCreateListOfAlgeractions: ALGWorldMenuMorphType
+	self assertAlgeractionsNotEmptyForType: ALGWorldMenuMorphType

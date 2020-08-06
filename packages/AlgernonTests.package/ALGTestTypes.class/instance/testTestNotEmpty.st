@@ -1,4 +1,4 @@
 testing test type
 testTestNotEmpty
-	self denyTypeIsEmpty: ALGTestType
+	self denyEmptyAlgertemListForType: ALGTestType
 	

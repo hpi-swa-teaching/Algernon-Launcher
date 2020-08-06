@@ -1,3 +1,3 @@
 testing general behavior
 testGlobalVariableNotEmpty
-	self denyTypeIsEmpty: ALGGlobalVariableType
+	self denyEmptyAlgertemListForType: ALGGlobalVariableType
