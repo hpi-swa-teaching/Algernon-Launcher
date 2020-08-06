@@ -1,4 +1,3 @@
 accessing
 incrementNumTimesSelected
-	
-	self numTimesSelected: (numTimesSelected + 1)
+	self numTimesSelected: (self numTimesSelected + 1)

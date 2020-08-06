@@ -7,7 +7,6 @@
 		"LastResetSeconds" ],
 	"commentStamp" : "JS 7/12/2016 10:56",
 	"instvars" : [
-		"algerInstance",
 		"previouslyOpenedWindows" ],
 	"name" : "ALGTest",
 	"pools" : [

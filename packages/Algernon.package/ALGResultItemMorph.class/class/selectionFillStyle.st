@@ -1,4 +1,3 @@
 constants
 selectionFillStyle
-
 	^ Color veryVeryLightGray

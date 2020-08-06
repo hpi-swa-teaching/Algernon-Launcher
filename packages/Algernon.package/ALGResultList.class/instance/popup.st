@@ -5,7 +5,7 @@ popup
 	y := self controller bottom + self class verticalOffset.
 	"precompute width"
 	self positionAt: x @ y
-		relativeTo: selectedItem
+		relativeTo: self selectedItem
 		inWorld: self controller.
 	self controller addMorphFront: self.
 	"Acquire focus for valid pop up behavior"
