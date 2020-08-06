@@ -1,6 +1,5 @@
 testing
 testCacheKeyGeneration
-
 	| parent |
 	parent := ALGItem new.
 	self cache finalResultsAt: (self cache keyFor: '1' level: 1 parent: parent) put: self items.

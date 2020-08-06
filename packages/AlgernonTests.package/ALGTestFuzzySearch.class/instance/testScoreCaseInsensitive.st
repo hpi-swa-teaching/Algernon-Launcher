@@ -1,5 +1,3 @@
 testing queries
 testScoreCaseInsensitive
-	
-	self runQuery: 'aLGERNON'.
-	self assert: (self resultsClassIncludeName: 'Algernon').
+	self assertQuery: 'aLGERNON' resultsClassIncludeName: 'Algernon'

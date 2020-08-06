@@ -5,4 +5,4 @@ testResultListMovement
 	item := self algInstance currentItem.
 	self algInstance selectNext.
 	self algInstance selectPrevious.
-	self assert: (self algInstance currentItem = item).
+	self assert: self algInstance currentItem equals: item

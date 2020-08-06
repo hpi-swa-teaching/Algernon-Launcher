@@ -1,6 +1,5 @@
 testing expressions
 testExpressionDoNoTranscript
-
 	| expressionItem oldSytemWindows |
 	self runQuery: 'do 1+1'.
 	expressionItem := self items first.

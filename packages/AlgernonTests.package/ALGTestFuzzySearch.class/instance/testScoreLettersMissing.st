@@ -1,5 +1,3 @@
 testing queries
 testScoreLettersMissing
-	
-	self runQuery: 'ACore'.	
-	self assert: (self resultsClassIncludeName: 'ALGCore').
+	self assertQuery: 'ACore' resultsClassIncludeName: 'ALGCore'

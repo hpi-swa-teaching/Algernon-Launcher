@@ -21,8 +21,8 @@ Algernon allows for keyboard only interaction - no need to use your mouse!
 | Esc         | Hide Algernon     |
 | Arrow up    | Navigate up       |
 | Arrow down  | Navigate down     |
-| Arrow right | Navigate in       |
-| Arrow left  | Navigate out      |
+| Tab         | Navigate in       |
+| Shift + Tab | Navigate out      |
 | Enter       | Run selected item |
 
 *Important Notice:* Please be aware that using Algernon for the first time might be slow. The first query triggers the indexing that is used for searching objects. After a few seconds delay in the first query, Algernon should run fast as expected.

@@ -1,3 +1,3 @@
 testing scores
 testScoreSubstringMatchAlgorithm
-	self assert: 2.3 equals: (ALGFuzzyMatcher scoreBetween: 'ger' and: 'Algernon')
+	self assertScore: 2.3 between: 'ger' and: 'Algernon'

@@ -1,5 +1,3 @@
 testing queries
 testScoreLetterMissing
-	
-	self runQuery: 'Algrnon'.
-	self assert: (self resultsClassIncludeName: 'Algernon').
+	self assertQuery: 'Algrnon' resultsClassIncludeName: 'Algernon'

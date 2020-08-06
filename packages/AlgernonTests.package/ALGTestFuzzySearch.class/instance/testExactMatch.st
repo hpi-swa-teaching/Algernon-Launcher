@@ -1,5 +1,3 @@
 testing queries
 testExactMatch
-	
-	self runQuery: 'Algernon'.
-	self assert: (self resultsClassIncludeName: 'Algernon').
+	self assertQuery: 'Algernon' resultsClassIncludeName: 'Algernon'

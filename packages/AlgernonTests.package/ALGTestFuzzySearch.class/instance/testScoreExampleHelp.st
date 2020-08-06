@@ -1,4 +1,3 @@
-testing search edge cases
+testing scores
 testScoreExampleHelp
-	
-	self assert: ((ALGFuzzyMatcher scoreBetween: 'browse' and: 'help browse') = 5)
+	self assertScore: 5 between: 'browse' and: 'help browse'

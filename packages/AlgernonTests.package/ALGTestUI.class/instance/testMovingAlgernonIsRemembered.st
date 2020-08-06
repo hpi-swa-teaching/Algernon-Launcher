@@ -5,4 +5,4 @@ testMovingAlgernonIsRemembered
 	oldPosition := self algInstance position.
 	self algInstance deactivate.
 	self algInstance activate.
-	self assert: (self algInstance  position = oldPosition).
+	self assert: self algInstance  position equals: oldPosition

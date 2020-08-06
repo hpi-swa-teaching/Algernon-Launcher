@@ -1,6 +1,5 @@
 testing expressions
 testExpressionInspect
-
 	| expressionItem oldSystemWindows |
 	self runQuery: '= 1+1 '.
 	expressionItem := self items detect: [:each| each algerType typeName = 'Expression'].

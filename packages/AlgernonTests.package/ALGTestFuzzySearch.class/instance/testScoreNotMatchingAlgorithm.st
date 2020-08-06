@@ -1,3 +1,3 @@
 testing scores
 testScoreNotMatchingAlgorithm
-	self assert: nil equals: (ALGFuzzyMatcher scoreBetween: '123' and: '12476')
+	self assertScore: nil between: '123' and: '12476'
