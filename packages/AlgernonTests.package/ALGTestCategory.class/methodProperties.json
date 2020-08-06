@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"defaultTimeout" : "jRo 8/6/2020 11:42",
 		"testAddItem" : "rk 8/5/2020 19:56",
 		"testIsLessThan" : "rk 8/5/2020 19:56",
 		"testTopCategory" : "rk 8/5/2020 19:55" } }

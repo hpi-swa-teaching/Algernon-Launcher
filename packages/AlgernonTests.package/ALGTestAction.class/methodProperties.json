@@ -4,6 +4,7 @@
 	"instance" : {
 		"assertAlgeractionsNotEmptyForType:" : "rk 8/6/2020 10:51",
 		"deactivateCore" : "beb 5/18/2020 17:31",
+		"defaultTimeout" : "jRo 8/6/2020 11:42",
 		"setUp" : "rk 8/5/2020 19:44",
 		"testCategoryTypeCreateListOfAlgeractions" : "rk 8/6/2020 10:51",
 		"testClassTypeCreateListOfAlgeractions" : "rk 8/5/2020 19:48",
