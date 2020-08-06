@@ -1,5 +1,4 @@
 preferences
-setKeyboardBinding: aString
+setKeyboardBinding: aString 
 	self activationString: aString.
-	^true
-	
+	^ true

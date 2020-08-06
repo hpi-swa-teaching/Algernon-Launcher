@@ -1,5 +1,6 @@
 running
 tearDown
-	self algInstance deactivate: nil.
+	self algInstance deactivate.
 	(self currentSystemWindows difference: self previouslyOpenedWindows)
-		do: [:each | each delete]
+		do: [:each | each delete].
+	Algernon currentInstance: self previousAlgernonSingleton.

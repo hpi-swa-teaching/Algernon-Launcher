@@ -1,3 +1,3 @@
 updating
 systemChanged: evt
-	self unsubscribeFromNotifiers.
+	self wasChanged: evt
