@@ -1,4 +1,3 @@
 categorizing
 categorize: anItemList
-
-	  ^ self subclassResponsibility
+	  ^ self categorize: anItemList withExistingCategories: #()

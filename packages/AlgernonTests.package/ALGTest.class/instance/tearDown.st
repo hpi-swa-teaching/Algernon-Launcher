@@ -1,7 +1,6 @@
 running
 tearDown
-
-	algerstance delete.	
-	allBrowsersAfterwards := self currentBrowsers.
-	previouslyOpenedBrowsers do: [ :each | allBrowsersAfterwards remove:each ifAbsent: []].
-	allBrowsersAfterwards do: [ :each | each delete]
+	self algInstance deactivate.
+	(self currentSystemWindows difference: self previouslyOpenedWindows)
+		do: [:each | each delete].
+	Algernon currentInstance: self previousAlgernonSingleton.

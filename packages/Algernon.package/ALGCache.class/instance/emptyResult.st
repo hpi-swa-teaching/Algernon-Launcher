@@ -1,4 +1,3 @@
 accessing
 emptyResult
-
 	^ OrderedCollection new

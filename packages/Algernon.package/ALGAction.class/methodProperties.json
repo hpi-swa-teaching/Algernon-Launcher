@@ -1,15 +1,17 @@
 {
 	"class" : {
 		"createListOfAlgeractionsGiven:" : "J.J. 7/28/2015 19:16",
-		"validVerbs" : "J.J. 7/28/2015 19:18",
 		"withName:rank:target:selector:args:" : "J.J. 7/28/2015 19:15" },
 	"instance" : {
-		"actionVerb" : "J.J. 7/28/2015 19:10",
+		"actionVerb" : "beb 6/25/2020 10:17",
+		"actionVerb:" : "beb 6/25/2020 10:22",
 		"args" : "J.J. 7/28/2015 19:11",
+		"computeActionVerb" : "jRo 8/1/2020 11:34",
+		"do" : "Jro 5/26/2020 12:11",
 		"incrementNumTimesSelected" : "J.J. 7/28/2015 19:11",
-		"isLessThan:" : "LK 7/13/2016 09:54",
+		"isLessThan:" : "rk 8/2/2020 22:50",
 		"name" : "J.J. 7/28/2015 19:12",
-		"name:" : "J.J. 7/28/2015 19:12",
+		"name:" : "beb 6/25/2020 10:20",
 		"numTimesSelected" : "J.J. 7/28/2015 19:12",
 		"numTimesSelected:" : "LK 7/13/2016 09:55",
 		"rank" : "J.J. 7/28/2015 19:14",
@@ -22,4 +24,4 @@
 		"theSelector:" : "J.J. 7/28/2015 19:11",
 		"theTarget" : "J.J. 7/28/2015 19:11",
 		"theTarget:" : "J.J. 7/28/2015 19:11",
-		"withName:rank:target:selector:args:" : "J.J. 7/28/2015 19:15" } }
+		"withName:rank:target:selector:args:" : "jRo 8/1/2020 01:13" } }

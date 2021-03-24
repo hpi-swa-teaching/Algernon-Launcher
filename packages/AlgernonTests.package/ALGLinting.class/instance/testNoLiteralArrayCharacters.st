@@ -1,0 +1,3 @@
+intention revealing
+testNoLiteralArrayCharacters
+	self ArbitraryCodeRule: #smallLintLiteralArrayCharacters

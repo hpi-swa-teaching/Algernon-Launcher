@@ -1,0 +1,4 @@
+accessing
+childrenIndicatorMorph
+	^ childrenIndicatorMorph
+	

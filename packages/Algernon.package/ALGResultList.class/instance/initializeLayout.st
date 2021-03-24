@@ -1,12 +1,12 @@
 initialization
 initializeLayout
-
-	self color: Color white;
+	self color: self class backgroundColor;
 		width: ALGCore defaultWidth;
-		borderColor: Color veryLightGray;
-		borderWidth: 5;
+		height: 0;
+		borderColor: self class borderColor;
+		borderWidth: self class borderWidth;
 		cornerStyle: #square;
 		hResizing: #rigid;
+		vResizing: #shrinkWrap;
 		shadowOffset: 0@0;
-		stayUp: true;
-		lock: true
+		layoutPolicy: TableLayout new.

@@ -1,6 +1,4 @@
 accessing
 fuzzyRank
-
-	fuzzyRank 
-		ifNil: [^0]
-		ifNotNil: [^fuzzyRank]
+	fuzzyRank ifNil: [ ^ nil ].
+	^ fuzzyRank + self rankBonus

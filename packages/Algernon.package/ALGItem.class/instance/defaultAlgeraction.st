@@ -1,4 +1,3 @@
 accessing
 defaultAlgeraction
-
-	^ algerActions at: self defaultIndex
+	^ self algerActions at: self defaultIndex

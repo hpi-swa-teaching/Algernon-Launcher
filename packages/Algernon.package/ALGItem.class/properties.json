@@ -1,18 +1,14 @@
 {
 	"category" : "Algernon",
 	"classinstvars" : [
-		"commentCache",
-		"methodCache" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "J.J. 7/31/2015 19:18",
 	"instvars" : [
 		"initials",
 		"numTimesSelected",
-		"lowerCaseName",
-		"isRelevantForEmptyString",
 		"lastUsage",
-		"matchingPositions",
 		"defaultIndex",
 		"fuzzyRank",
 		"algerType",

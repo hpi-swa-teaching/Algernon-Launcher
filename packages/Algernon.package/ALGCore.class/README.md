@@ -15,3 +15,22 @@ Instance Variables
 
 Class Variables
 	KeyBindings:  		Dictionary 			maintains list of global keybindings (e.g., key binding to activate Algernon)
+						
+# Places to start with the project
+Here are some important things to look at:
+- ALGItem
+- ALGItemProvider
+- ALGType
+- ALGItemFilter
+- ALGResultItemList
+
+Try to understand how these classes play together to see how data flows through Algernon. Here is a basic outline
+1. ALGCore is initialized and creates an item provider.
+2. The item provider asks all ALGTypes to create items.
+---
+3. A user enters a search.
+4. ALGCore asks the item provider for the relevant items
+5. The item provider looks into its cache and provides the cached items for filtering to the ALGItemFilter
+6. The filter uses the ALGFuzzyMatcher and the interface of ALGItem to determine how well an item matches the search string.
+7. The ALGSmartSorter sorts the matching items based on their fuzzyRank and when they were last used.
+8. This data is retured to the ALGCore which creates an ALGResultItemList which is the morph displaying the result. 

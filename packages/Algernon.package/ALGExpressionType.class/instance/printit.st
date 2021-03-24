@@ -1,11 +1,10 @@
 actions
 printit
+	
+	| command |
 
-	| command textFieldContents |
-	textFieldContents := self typeObject textField contents.
-	textFieldContents ifEmpty: [ ^ false ].
-	command := textFieldContents allButFirst. "first character is '=' "
+	command := self getCommand.
 	World findATranscript: nil.
 	Transcript show: command; show: ' -> ';
-		show: (Compiler evaluate: command for: self logged: false); cr.
+		show: self doit.
 	^ true

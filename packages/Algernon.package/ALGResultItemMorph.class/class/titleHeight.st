@@ -1,4 +1,3 @@
 constants
 titleHeight
-
-	^ 37
+	^ 20

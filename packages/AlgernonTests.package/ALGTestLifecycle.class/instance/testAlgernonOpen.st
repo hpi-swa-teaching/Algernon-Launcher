@@ -1,7 +1,6 @@
 testing
 testAlgernonOpen
-
-	Algernon open.
-	self deny: Algernon currentInstance isNil.
-	self assert: Algernon currentInstance active.
-	Algernon close
+	self algInstance activate.
+	self deny: self algInstance isNil.
+	self assert: self algInstance active.
+	self algInstance deactivate

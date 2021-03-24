@@ -1,4 +1,4 @@
-accessing
+initialize-release
 initialize 
 	^self
 		setType: #keystroke
@@ -7,4 +7,4 @@ initialize
 		keyValue: 32
 		hand: ActiveHand
 		stamp: 0;
-		isKeyUp: false.
+		isKeyUp: false

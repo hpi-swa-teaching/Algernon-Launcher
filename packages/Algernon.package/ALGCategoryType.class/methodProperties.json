@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"algertemList" : "J.J. 7/30/2015 19:04" },
+		"algertemList" : "beb 8/2/2020 13:50" },
 	"instance" : {
 		"algertemChildrenList" : "J.J. 7/30/2015 17:15",
 		"createActionBrowseExistingFor:" : "JS 6/20/2016 20:40",
@@ -8,5 +8,5 @@
 		"createActionFileoutFor:" : "J.J. 7/30/2015 17:38",
 		"createListOfAlgeractions" : "JS 6/21/2016 23:14",
 		"hasChildren" : "fw 7/30/2015 14:18",
-		"open:inBrowser:" : "J.J. 7/30/2015 17:15",
+		"open:inBrowser:" : "jRo 8/5/2020 15:43",
 		"typeName" : "J.J. 7/30/2015 17:15" } }

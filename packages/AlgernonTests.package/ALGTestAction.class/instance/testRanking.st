@@ -1,6 +1,5 @@
 testing
 testRanking
-	
 	| action prevAction |
 	action := actions first.
 	prevAction := action deepCopy.

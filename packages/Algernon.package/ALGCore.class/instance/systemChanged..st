@@ -1,4 +1,3 @@
-system
+updating
 systemChanged: evt
-
-	self wasChanged: true
+	self wasChanged: evt

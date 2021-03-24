@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"algertemList" : "rk 8/3/2020 16:45",
+		"createItemFor:" : "beb 7/31/2020 17:37",
+		"withKeyword:text:" : "rk 8/3/2020 16:45" },
+	"instance" : {
+		"canBeTopResult" : "beb 5/21/2020 11:45",
+		"createListOfAlgeractions" : "jRo 5/28/2020 17:15",
+		"fuzzyMatchName" : "beb 6/30/2020 11:53",
+		"helptext" : "beb 5/20/2020 16:13",
+		"helptext:" : "beb 5/20/2020 16:13",
+		"keyword" : "beb 5/20/2020 16:13",
+		"keyword:" : "beb 5/20/2020 16:13",
+		"name" : "beb 5/20/2020 16:14",
+		"rankBonus" : "beb 5/21/2020 11:40",
+		"setQueryToKeyword" : "beb 5/24/2020 18:37",
+		"typeName" : "rk 7/14/2020 10:16" } }

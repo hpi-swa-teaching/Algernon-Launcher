@@ -1,4 +1,3 @@
 constants
 titleTopResults
-
 	 ^ 'Top results'

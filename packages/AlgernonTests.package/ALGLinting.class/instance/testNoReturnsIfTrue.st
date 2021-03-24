@@ -1,0 +1,3 @@
+code-style
+testNoReturnsIfTrue
+	self ArbitraryCodeRule: #smallLintReturnsIfTrue

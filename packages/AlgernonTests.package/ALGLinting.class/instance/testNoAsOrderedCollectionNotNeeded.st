@@ -1,0 +1,3 @@
+miscellaneous
+testNoAsOrderedCollectionNotNeeded
+	self ArbitraryCodeRule: #smallLintAsOrderedCollectionNotNeeded

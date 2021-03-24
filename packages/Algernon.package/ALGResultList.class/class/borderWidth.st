@@ -1,0 +1,3 @@
+constants
+borderWidth
+	^ 5

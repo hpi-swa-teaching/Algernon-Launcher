@@ -1,4 +1,3 @@
 testing
 testRepositoryTypeAlgertemListWith
-	
-	self assert: (ALGRepositoryType algertemListWith: 'Algernon') notEmpty
+	self assert: (ALGRepositoryType algertemListWith: 'Monticello') notEmpty

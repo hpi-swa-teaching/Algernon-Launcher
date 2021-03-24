@@ -1,11 +1,10 @@
 visibility
-deactivate: hand
-
+deactivate: hand 
 	self active ifFalse: [^ self].
-	self class lastInputString: self textField contents.
-	self
-		active: false;
-		reset;
-		stopStepping;
-		hideMorphs;
-		dropFocus: hand
+	self lastInputString: self topmostQuery.
+	self active: false;
+		 reset;
+		 stopStepping;
+		 hideMorphs.
+	hand ifNotNil: [self dropFocus: hand].
+	ALGInstallation instance cleanupIfNewDay.

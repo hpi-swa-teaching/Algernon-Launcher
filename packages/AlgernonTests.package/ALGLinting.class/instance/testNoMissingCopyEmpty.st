@@ -1,0 +1,3 @@
+possible bugs
+testNoMissingCopyEmpty
+	self ArbitraryCodeRule: #smallLintCollectionCopyEmpty

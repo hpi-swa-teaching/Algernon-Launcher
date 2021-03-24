@@ -7,9 +7,15 @@
 	"commentStamp" : "J.J. 7/31/2015 19:24",
 	"instvars" : [
 		"item",
-		"menuMorph" ],
+		"menuMorph",
+		"titleMorph",
+		"nameMorph",
+		"actionMorph",
+		"contents",
+		"icon",
+		"childrenIndicatorMorph" ],
 	"name" : "ALGResultItemMorph",
 	"pools" : [
 		 ],
-	"super" : "MenuItemMorph",
+	"super" : "Morph",
 	"type" : "normal" }

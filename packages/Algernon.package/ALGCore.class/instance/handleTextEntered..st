@@ -1,8 +1,7 @@
-event handling
+events-processing
 handleTextEntered: event
 
-	self textField keyStroke: event.
-	self lastInputTime: TimeStamp now.
+	self textField normalKeyStroke: event.
 	self resetFilteringThreshold.
 	self isStepping ifFalse: [self startStepping].
 	self grabFocus: self activeHand

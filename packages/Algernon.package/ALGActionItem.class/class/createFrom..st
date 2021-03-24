@@ -3,10 +3,6 @@ createFrom: anAction
 
 	| item type |
 	type := ALGActionType newFor: anAction.
-	item := self new.
-	item algerType: type;
-		algerActions: (OrderedCollection newFrom: {anAction});
-		lowerCaseName: anAction name;
-		numTimesSelected: anAction numTimesSelected;
-		isRelevantForEmptyString: true.
+	item := self withAlgertype: type.
+	item numTimesSelected: anAction numTimesSelected.
 	^ item

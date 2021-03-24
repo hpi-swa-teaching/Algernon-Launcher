@@ -1,0 +1,14 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "beb 5/31/2020 18:20",
+	"instvars" : [
+		 ],
+	"name" : "ALGHelpFilter",
+	"pools" : [
+		 ],
+	"super" : "ALGItemFilter",
+	"type" : "normal" }

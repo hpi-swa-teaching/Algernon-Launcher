@@ -1,6 +1,5 @@
 testing
 testLoadIconFor: aSymbol withFactory: anIconFactory
-
 	| icon |
 	icon := anIconFactory loadIconFor: aSymbol.
 	self assert: icon notNil.

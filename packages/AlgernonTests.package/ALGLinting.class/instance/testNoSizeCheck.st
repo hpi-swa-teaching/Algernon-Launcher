@@ -1,0 +1,3 @@
+intention revealing
+testNoSizeCheck
+	self ArbitraryCodeRule: #smallLintSizeCheck

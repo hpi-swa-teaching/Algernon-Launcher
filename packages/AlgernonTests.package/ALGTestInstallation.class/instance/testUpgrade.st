@@ -1,6 +1,5 @@
 testing
 testUpgrade
-
 	| installation |
 	installation := ALGInstallation new.
 	installation versionNumber: installation latestVersion - 1.

@@ -1,6 +1,5 @@
 testing
 testAddItem
-	
 	| category itemA itemB |
 	category := ALGCategory newWithTitle: 'testTitle'.
 	itemA := ALGFakeItem new rank: 5; yourself.

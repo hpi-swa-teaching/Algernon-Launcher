@@ -4,15 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "J.J. 7/31/2015 19:26",
+	"commentStamp" : "beb 8/1/2020 12:03",
 	"instvars" : [
-		"lastPosition",
-		"positionBackup",
-		"isMatch",
-		"foundChars",
-		"matchingPositions",
-		"matchingStart",
-		"scoreAlgorithm" ],
+		 ],
 	"name" : "ALGFuzzyMatcher",
 	"pools" : [
 		 ],

@@ -1,0 +1,3 @@
+constants
+actionTextColor
+	^ Color gray

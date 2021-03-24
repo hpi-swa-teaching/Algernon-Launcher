@@ -1,4 +1,3 @@
 constants
 titleColor
-
 	^ Color darkGray

@@ -2,15 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setup" : "td 6/21/2016 12:18",
-		"testAlgernonClass" : "fw 7/31/2015 03:12",
-		"testBreadcrumbsList" : "PL 6/9/2016 12:20",
-		"testCloseWithEscape" : "JS 7/12/2016 10:36",
-		"testEmptyItemListYieldsALGNullItem" : "LK 7/14/2016 23:00",
-		"testItemListEmptyForEmptyInput" : "td 7/3/2016 08:15",
-		"testItemListNotEmptyForCategorySearches" : "td 7/3/2016 15:33",
-		"testKeyboardInputOnlyOpensOnce" : "JS 7/12/2016 10:36",
-		"testListContents" : "td 7/3/2016 15:33",
-		"testShowParentList" : "AKK 6/9/2016 12:07",
-		"testVisibility" : "J.J. 7/31/2015 20:38",
-		"testWorkspaceIsInOrder" : "td 7/3/2016 15:35" } }
+		"testAdvancedChildNavigation" : "rk 8/5/2020 17:25",
+		"testBreadcrumbsListSize" : "rk 8/5/2020 16:44",
+		"testClassAction" : "rk 8/5/2020 17:24",
+		"testCloseWithEscape" : "jRo 7/5/2020 22:15",
+		"testKeyBindingsValid" : "jRo 8/1/2020 11:19",
+		"testListContents" : "jRo 7/5/2020 22:15",
+		"testMethodAction" : "rk 8/5/2020 17:26",
+		"testSettingsAction" : "rk 8/5/2020 17:24",
+		"testShowParentList" : "pw 8/1/2020 17:05",
+		"testStandardToolSetMorphAction" : "rk 8/5/2020 17:26",
+		"testTestAction" : "rk 8/5/2020 17:25",
+		"testWorkspaceIsInOrder" : "jRo 8/1/2020 12:50" } }

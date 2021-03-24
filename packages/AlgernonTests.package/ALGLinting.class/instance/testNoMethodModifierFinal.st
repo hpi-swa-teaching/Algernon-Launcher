@@ -1,0 +1,3 @@
+bugs
+testNoMethodModifierFinal
+	self ArbitraryCodeRule: #smallLintMethodModifierFinal

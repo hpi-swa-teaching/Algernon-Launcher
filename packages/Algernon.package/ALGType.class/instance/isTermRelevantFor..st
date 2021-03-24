@@ -1,4 +1,0 @@
-relevance
-isTermRelevantFor: aString
-
-	^ false

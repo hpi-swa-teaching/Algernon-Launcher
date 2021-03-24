@@ -1,4 +1,3 @@
-accessing
-wasChanged: aBoolean
-
-	wasChanged := aBoolean
+updating
+wasChanged: aBool
+	self unsubscribeFromNotifiers.

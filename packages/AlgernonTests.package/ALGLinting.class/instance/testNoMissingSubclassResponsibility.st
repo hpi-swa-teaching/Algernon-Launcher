@@ -1,0 +1,3 @@
+intention revealing
+testNoMissingSubclassResponsibility
+	self ArbitraryCodeRule: #smallLintMissingSubclassResponsibility

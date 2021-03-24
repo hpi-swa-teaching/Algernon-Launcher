@@ -12,5 +12,5 @@
 	"name" : "ALGCategory",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Collection",
 	"type" : "normal" }

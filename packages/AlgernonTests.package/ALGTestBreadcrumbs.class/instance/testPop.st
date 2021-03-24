@@ -1,6 +1,5 @@
 testing
 testPop
-	
 	| item breadcrumbCount |
 	item := ALGClassType algertemList first.
 	breadcrumbCount := breadcrumbs submorphs size.

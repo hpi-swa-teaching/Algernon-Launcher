@@ -1,14 +1,16 @@
 {
 	"class" : {
-		"algertemList:" : "J.J. 7/30/2015 19:06" },
+		"algertemList:" : "rk 8/3/2020 16:45" },
 	"instance" : {
 		"createActionDo" : "J.J. 7/30/2015 17:58",
 		"createActionInspect" : "J.J. 7/30/2015 17:58",
 		"createActionPrint" : "J.J. 7/30/2015 17:58",
 		"createListOfAlgeractions" : "J.J. 7/30/2015 22:04",
-		"doit" : "LK 7/13/2016 10:13",
+		"doit" : "Jro 6/17/2020 13:19",
+		"getCommand" : "kej 8/5/2020 14:02",
 		"hasChildren" : "fw 7/30/2015 14:15",
 		"inspectit" : "J.J. 7/30/2015 17:55",
+		"isRelevantForAllStrings" : "beb 6/25/2020 10:11",
 		"name" : "J.J. 7/30/2015 17:54",
-		"printit" : "td 6/29/2016 08:15",
+		"printit" : "jRo 5/27/2020 16:29",
 		"typeName" : "J.J. 7/30/2015 17:54" } }

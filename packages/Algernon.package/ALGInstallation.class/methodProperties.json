@@ -1,15 +1,17 @@
 {
 	"class" : {
+		"cleanUp" : "Jro 6/17/2020 11:26",
+		"cleanUp:" : "KEJ 6/11/2020 15:10",
 		"instance" : "JS 6/16/2016 18:53" },
 	"instance" : {
-		"cleanup" : "LK 7/12/2016 10:42",
+		"cleanup" : "beb 7/31/2020 18:38",
 		"cleanupIfNewDay" : "LK 7/7/2016 11:31",
 		"exportAsSarArchive" : "JS 6/29/2016 23:31",
 		"initialize" : "LK 7/7/2016 11:39",
 		"lastCleanupDate" : "LK 7/7/2016 11:41",
 		"lastCleanupDate:" : "LK 7/7/2016 11:20",
-		"latestVersion" : "LK 7/14/2016 15:13",
-		"sarFromPackage:" : "LK 7/13/2016 09:52",
+		"latestVersion" : "beb 8/6/2020 11:52",
+		"sarFromPackage:" : "beb 5/24/2020 11:58",
 		"upgrade" : "JS 6/16/2016 19:16",
 		"versionNumber" : "JS 6/16/2016 18:17",
 		"versionNumber:" : "JS 6/16/2016 18:17" } }

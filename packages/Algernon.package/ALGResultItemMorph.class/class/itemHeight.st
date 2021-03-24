@@ -1,4 +1,0 @@
-constants
-itemHeight
-
-	^ 30

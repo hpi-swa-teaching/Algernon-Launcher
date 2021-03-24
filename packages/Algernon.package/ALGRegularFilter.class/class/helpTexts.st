@@ -1,0 +1,3 @@
+help
+helpTexts
+	^ Dictionary new
