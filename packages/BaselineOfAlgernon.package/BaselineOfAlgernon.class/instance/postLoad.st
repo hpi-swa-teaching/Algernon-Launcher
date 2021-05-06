@@ -6,3 +6,6 @@ postLoad
 	ALGItemProvider allInstances do: [:each | each cache: ALGCache new].
 	ALGInstallation instance cleanup.
 	ALGCore activateAlgernon: true.
+	UserDialogBoxMorph
+		inform: 'Algernon ist jetzt verfügbar'
+		title: 'Algernon installiert'.
