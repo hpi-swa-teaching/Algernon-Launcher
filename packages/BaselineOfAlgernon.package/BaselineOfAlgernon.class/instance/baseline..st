@@ -18,16 +18,16 @@ baseline: spec
 							spec
 								file: 'SwaLint-Preferences-cypress.1';
 								repository: 
-										'github://hpi-swa-teaching/SwaLint:master/packages' ];
+										'github://hpi-swa-teaching/SwaLint:develop/packages' ];
 			package: 'SwaLint-Core' with: [spec
 								file: 'SwaLint-Core-cypress.1';
 								repository: 
-										'github://hpi-swa-teaching/SwaLint:master/packages';
+										'github://hpi-swa-teaching/SwaLint:develop/packages';
 								requires: #('RefactoringBrowser' 'SwaLint-Preferences')];
 				postLoadDoIt: #postLoad;
 			package: 'SwaLint-PlugIns' with: [ spec file: 'SwaLint-PlugIns-cypress.1';
 								repository: 
-										'github://hpi-swa-teaching/SwaLint:master/packages'; requires: 'SwaLint-Core' ];
+										'github://hpi-swa-teaching/SwaLint:develop/packages'; requires: 'SwaLint-Core' ];
 				package: 'Algernon';
                 package: 'AlgernonTests' with: [ spec requires: #('default') ].
 
