@@ -1,0 +1,3 @@
+constants
+maximumItemsToCompute
+	^ 100

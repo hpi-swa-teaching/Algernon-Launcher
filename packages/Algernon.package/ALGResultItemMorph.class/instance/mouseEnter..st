@@ -1,4 +1,4 @@
 event handling
 mouseEnter: evt
-	self owner selectedItem: self.
+	self menuMorph selectedItem: self.
 	evt hand showTemporaryCursor:nil.

@@ -1,5 +1,5 @@
 OrderedDictionary {
-	'packages\/Algernon.package' : #SquotCypressCodeSerializer,
-	'packages\/AlgernonTests.package' : #SquotCypressCodeSerializer,
-	'packages\/BaselineOfAlgernon.package' : #SquotCypressCodeSerializer
+	'packages/Algernon.package' : #SquotCypressCodeSerializer,
+	'packages/AlgernonTests.package' : #SquotCypressCodeSerializer,
+	'packages/BaselineOfAlgernon.package' : #SquotCypressCodeSerializer
 }
