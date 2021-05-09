@@ -15,6 +15,7 @@ SmalltalkCISpec {
     #coverage : {
       #categories : ['BaselineOfAlgernonTests', 'Algernon' ],
       #classes : [ #BOALGTest ],
+      }
   }
 }
 
