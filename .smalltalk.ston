@@ -13,9 +13,8 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-      #categories : ['tests' ],
+      #categories : ['BaselineOfAlgernonTests', 'Algernon' ],
       #classes : [ #BOALGTest ],
-      #packages : [ 'BaselineOfAlgernonTests.*' ],
   }
 }
 
