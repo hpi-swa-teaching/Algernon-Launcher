@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfAlgernonTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"metacelloInstance" ],
+	"name" : "BOALGTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

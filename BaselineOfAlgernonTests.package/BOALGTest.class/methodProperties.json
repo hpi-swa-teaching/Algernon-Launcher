@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"metacelloInstance" : "lm 5/9/2021 19:13",
+		"metacelloInstance:" : "lm 5/9/2021 19:13",
+		"setUp" : "lm 5/9/2021 19:50",
+		"tearDown" : "lm 5/9/2021 19:45",
+		"testEnableAfterInstall" : "lm 5/9/2021 19:25" } }
