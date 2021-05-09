@@ -13,7 +13,7 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-      #categories : [ 'Algernon' ]
+      #categories : [ 'BaselineOfAlgernon', 'Algernon' ]
     }
   }
 }
