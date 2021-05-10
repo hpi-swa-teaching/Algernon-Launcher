@@ -1,4 +1,4 @@
 constants
 maxItemsPerCategory
 
-	 ^ 5
+	 ^ ALGCore maximumPerCategory
