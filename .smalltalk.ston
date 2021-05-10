@@ -14,7 +14,7 @@ SmalltalkCISpec {
   #testing : {
     #coverage : {
       #categories : [ 'Algernon' ]
-    }
+    },
     #include : {
       #categories : [ 'BaselineOfAlgernonTests' ]
     }
