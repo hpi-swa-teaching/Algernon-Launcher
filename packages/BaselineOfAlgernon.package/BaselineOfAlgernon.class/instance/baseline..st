@@ -29,11 +29,12 @@ baseline: spec
 								repository: 
 										'github://hpi-swa-teaching/SwaLint:develop/packages'; requires: 'SwaLint-Core' ];
 				package: 'Algernon';
-                package: 'AlgernonTests' with: [ spec requires: #('default') ].
+                package: 'AlgernonTests' with: [ spec requires: #('default') ];
+                package: 'BaselineOfAlgernonTests' with: [ ].
 
             spec
                 group: 'default' with: #('Algernon');
-                group: 'Tests' with: #('AlgernonTests' 'PlugIns');
+                group: 'Tests' with: #('AlgernonTests' 'PlugIns' 'BaselineOfAlgernonTests');
 				group: 'portability' with: #('PlugIns');
 				group: 'Core' with: #('SwaLint-Core');
 				group: 'PlugIns' with: #('SwaLint-PlugIns'). ]
