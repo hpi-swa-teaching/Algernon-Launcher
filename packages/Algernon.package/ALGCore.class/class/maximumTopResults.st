@@ -1,6 +1,6 @@
 preferences
 maximumTopResults
-	<preference: 'Maximum Top Results'
+	<preference: 'Maximum number of top results'
 		category: #Algernon
 		description: 'Maximum number of top results that are shown'
 		type: #Number>

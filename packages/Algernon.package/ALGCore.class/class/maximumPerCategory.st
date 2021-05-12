@@ -1,6 +1,6 @@
 preferences
 maximumPerCategory
-	<preference: 'Maximum Results per Category'
+	<preference: 'Maximum number of results per category'
 		category: #Algernon
 		description: 'Maximum number of results that are shown per category'
 		type: #Number>
