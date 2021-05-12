@@ -1,3 +1,3 @@
 event handling
 handlesMouseOver: evt
-	^ self menuMorph shouldItemsHandleMouseOver.
+	^ self menuMorph shouldItemsHandleMouseOver

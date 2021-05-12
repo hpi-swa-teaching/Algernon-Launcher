@@ -4,7 +4,7 @@ moveSelection: direction
 	| index m |
 	index := (self items indexOf: self selectedItem
 				ifAbsent: [1 - direction]) + direction.
-	self items do: [:unused | 
+	self scroller submorphs do: [:unused | 
 			m := self items atWrap: index.
 			m isEnabled
 				ifTrue: [^ self selectedItem: m].
