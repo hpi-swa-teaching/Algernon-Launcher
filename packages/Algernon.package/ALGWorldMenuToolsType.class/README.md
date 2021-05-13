@@ -1,0 +1,1 @@
+CAVE!!! The implementation of ALGStandardToolSetMorphType just needs to be moved into this class.
