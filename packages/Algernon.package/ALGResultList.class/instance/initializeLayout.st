@@ -6,7 +6,7 @@ initializeLayout
 		borderWidth: self class borderWidth;
 		cornerStyle: #square;
 		hResizing: #rigid;
-		height: (World height / 3);
+		height: self maximumHeight;
 		shadowOffset: 0@0.
 		
 	self  scroller 
