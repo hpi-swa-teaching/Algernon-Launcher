@@ -13,7 +13,7 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-      #packages : [ 'Algernon.*', 'BaselineOfAlgernon.*' ]
+      #categories : [ 'Algernon', 'BaselineOfAlgernon' ]
     },
     #exclude : {
       #categories : [ 'BaselineOfAlgernonTests' ]
