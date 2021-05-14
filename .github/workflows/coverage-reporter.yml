@@ -1,0 +1,23 @@
+name: Coverage Reporter
+# Only trigger, when the tests succeeded
+on:
+  workflow_run:
+    workflows: ["smalltalkCI"]
+    types:
+      - completed
+
+jobs:
+  coverage:
+    name: Coverage Report
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: hpi-swa/setup-smalltalkCI@v1
+        id: smalltalkci
+        with:
+          smalltalk-image: "Squeak64-trunk"
+      - run: smalltalkci -s ${{ steps.smalltalkci.outputs.smalltalk-version }} ./.coverage.ston
+        shell: bash
+        timeout-minutes: 15
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
