@@ -1,10 +1,5 @@
 name: Coverage Reporter
-# Only trigger, when the tests succeeded
-on:
-  workflow_run:
-    workflows: ["smalltalkCI"]
-    types:
-      - completed
+on: [push]
 
 jobs:
   coverage:
