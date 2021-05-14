@@ -5,13 +5,15 @@ jobs:
   coverage:
     name: Coverage Report
     runs-on: ubuntu-latest
+    env:
+      ST_IMAGE: Squeak64-trunk
     steps:
       - uses: actions/checkout@v2
       - uses: hpi-swa/setup-smalltalkCI@v1
         id: smalltalkci
         with:
-          smalltalk-image: "Squeak64-trunk"
-      - run: smalltalkci -s ${{ steps.smalltalkci.outputs.smalltalk-version }} ./.coverage.ston
+          smalltalk-image: ${{ ST_IMAGE }}
+      - run: smalltalkci -s ${{ ST_IMAGE }} ./.coverage.ston
         shell: bash
         timeout-minutes: 15
         env:
