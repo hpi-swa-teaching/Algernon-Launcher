@@ -12,8 +12,8 @@ jobs:
       - uses: hpi-swa/setup-smalltalkCI@v1
         id: smalltalkci
         with:
-          smalltalk-image: ${{ ST_IMAGE }}
-      - run: smalltalkci -s ${{ ST_IMAGE }} ./.coverage.ston
+          smalltalk-image: ${{ env.ST_IMAGE }}
+      - run: smalltalkci -s ${{ env.ST_IMAGE }} ./.coverage.ston
         shell: bash
         timeout-minutes: 15
         env:
