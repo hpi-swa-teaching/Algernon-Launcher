@@ -1,8 +1,13 @@
 {
 	"class" : {
-		"algertemList" : "b 5/16/2021 20:25",
+		"algertemList" : "NM 5/16/2021 21:01",
 		"dockingBar" : "b 5/16/2021 19:30",
 		"menuEntries" : "b 5/16/2021 20:23",
 		"menus" : "b 5/16/2021 19:32" },
 	"instance" : {
-		 } }
+		"createActionRun" : "NM 5/16/2021 20:48",
+		"createListOfAlgeractions" : "NM 5/16/2021 20:40",
+		"name" : "NM 5/16/2021 21:12",
+		"rankBonus" : "NM 5/16/2021 21:14",
+		"runMenuItem" : "NM 5/16/2021 21:20",
+		"typeName" : "NM 5/16/2021 20:48" } }

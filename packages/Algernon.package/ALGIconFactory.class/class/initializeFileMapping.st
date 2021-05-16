@@ -17,6 +17,7 @@ initializeFileMapping
 		#ALGRepositoryType -> (self repositoryIcon).
 		#ALGSettingsType -> (self settingsIcon).
 		#ALGTestType -> (self testIcon).
+		#ALGWorldMenuType -> (self worldMenuIcon).
 		#HasChildren -> (self arrowRightIcon).
 		#TopResult -> (self starIcon).
 	}

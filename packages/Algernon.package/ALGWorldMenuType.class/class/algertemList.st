@@ -1,5 +1,5 @@
 as yet unclassified
 algertemList
 	^ self menuEntries
-		collect: [:each | ALGItemFilter withAlgertype: (self with: each) ]
+		collect: [:each | ALGItem withAlgertype: (self with: each) ]
 	
