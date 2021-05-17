@@ -1,5 +1,6 @@
 as yet unclassified
 menuEntries
+
 	|entries|
 	
 	entries := OrderedCollection new.	
@@ -8,12 +9,8 @@ menuEntries
 		collect: [ :each | each subMenu ])
 		reject: [ :each | each isNil ])
 		collect: [ :each |
-			(each isKindOf: DockingBarUpdatingMenuMorph) 
-				ifTrue: [
-						each updateMenu. 
-						entries addAll: each submorphs.
-						each removeAllMorphs				]
-				ifFalse: [ entries addAll: each submorphs ]
+			entries addAll: (
+				self filterMenuItems: each )
 		].
 	
 	^ entries select: [:each | each isKindOf: MenuItemMorph]
