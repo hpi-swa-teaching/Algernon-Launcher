@@ -1,9 +1,11 @@
 {
 	"class" : {
 		"algertemList" : "J.J. 7/30/2015 16:54",
+		"algertemsAreCached" : "NL 5/17/2021 19:26",
 		"with:" : "J.J. 7/30/2015 16:54" },
 	"instance" : {
 		"algertemChildrenList" : "J.J. 7/30/2015 22:24",
+		"algertemsAreCached" : "NL 5/17/2021 19:32",
 		"canBeTopResult" : "beb 5/21/2020 11:45",
 		"createListOfAlgeractions" : "J.J. 7/30/2015 17:00",
 		"createSortedListFrom:" : "J.J. 7/30/2015 19:57",

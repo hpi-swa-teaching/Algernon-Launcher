@@ -1,3 +1,3 @@
-as yet unclassified
+helpers
 menus
 	^ self dockingBar items

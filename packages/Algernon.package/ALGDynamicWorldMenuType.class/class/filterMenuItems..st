@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 filterMenuItems: aMorph
 	| entries |
 	entries := OrderedCollection new.
