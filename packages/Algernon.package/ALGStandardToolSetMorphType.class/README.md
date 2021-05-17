@@ -1,1 +1,0 @@
-Open tools from the standard tool set, examples: Browser or Workspace

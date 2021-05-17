@@ -22,7 +22,7 @@
 		"testExpressionPrintByDefault" : "rk 8/5/2020 19:22",
 		"testExpressionWithChildren" : "jRo 8/1/2020 13:03",
 		"testGlobalVariableNotEmpty" : "rk 8/6/2020 10:51",
-		"testHasChildren" : "jRo 5/27/2020 15:57",
+		"testHasChildren" : "b 5/17/2021 14:12",
 		"testHelpAction" : "8/6/2020 11:41:26",
 		"testHelpAlgerItems" : "rk 8/6/2020 10:51",
 		"testMethodNotEmpty" : "rk 8/5/2020 19:25",
@@ -42,9 +42,4 @@
 		"testSystemCommandDo" : "8/6/2020 11:41:26",
 		"testSystemCommandNotEmpty" : "lm 5/13/2021 17:32",
 		"testTestNotEmpty" : "rk 8/6/2020 10:51",
-		"testWorldMenuAppsAction" : "lm 5/13/2021 17:36",
-		"testWorldMenuAppsNotEmpty" : "lm 5/13/2021 17:19",
-		"testWorldMenuExtrasNotEmpty" : "lm 5/13/2021 17:27",
-		"testWorldMenuHelpNotEmpty" : "lm 5/13/2021 17:28",
-		"testWorldMenuProjectsNotEmpty" : "lm 5/13/2021 17:12",
-		"testWorldMenuToolsNotEmpty" : "lm 5/13/2021 17:23" } }
+		"testWorldMenuAppsAction" : "lm 5/13/2021 17:36" } }

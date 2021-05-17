@@ -8,8 +8,6 @@ initializeItems
 		addAll: ALGTestType algertemList;
 		addAll: ALGCategoryType algertemList;
 		addAll: ALGGlobalVariableType algertemList;
-		addAll: ALGWorldMenuMorphType algertemList;
-		addAll: ALGStandardToolSetMorphType algertemList;
 		addAll: ALGPackageType algertemList;
 		addAll: ALGSettingsType algertemList;
 		addAll: ALGClassType algertemList;

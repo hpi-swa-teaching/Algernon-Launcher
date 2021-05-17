@@ -6,10 +6,9 @@ testHasChildren
 	self assert: (ALGMethodType algertemListWith: ALGCore) first hasChildren.
 	self assert: ALGGlobalVariableType algertemList first hasChildren.
 	self deny: ALGHelpType algertemList first hasChildren.
-	self deny: ALGStandardToolSetMorphType algertemList first hasChildren.
-	self deny: ALGWorldMenuMorphType algertemList first hasChildren.
 	self deny: ALGSettingsType algertemList first hasChildren.
 	self deny: ALGTestType algertemList first hasChildren.
 	self assert: ALGPackageType algertemList first hasChildren.
 	self assert: (ALGClassType new typeObject: ALGCore) hasChildren.
-	self deny: ALGNullItem new hasChildren
+	self deny: ALGNullItem new hasChildren.
+	self deny: ALGWorldMenuType algertemList first hasChildren.
