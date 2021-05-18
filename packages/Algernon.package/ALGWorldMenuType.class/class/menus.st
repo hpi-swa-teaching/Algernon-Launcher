@@ -1,3 +1,3 @@
-helpers
+as yet unclassified
 menus
-	^ self dockingBar items
+	^ self dockingBar submorphs select: [:each | each isKindOf: MenuItemMorph]
