@@ -1,7 +1,7 @@
 testing interaction with tools
-testStandardToolSetMorphAction
+testStaticWorldMenuTypeAction
 	| oldProcessBrowsers oldProcessBrowserNumber |
-	self runQuery: 'Process Browser' withCursorAt: 'StandardToolSetMorph'.
+	self runQuery: 'Process Browser' withCursorAt: 'World Menu Item'.
 	oldProcessBrowsers := self findSystemWindowsByLabel: 'Process Browser'.
 	oldProcessBrowserNumber := ProcessBrowser allInstances size.
 	self activateCurrentItemAction.

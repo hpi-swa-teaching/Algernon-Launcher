@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "ALGFixedWorldMenuType",
+	"name" : "ALGStaticWorldMenuType",
 	"pools" : [
 		 ],
 	"super" : "ALGWorldMenuType",

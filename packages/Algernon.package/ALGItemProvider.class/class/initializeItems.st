@@ -12,5 +12,5 @@ initializeItems
 		addAll: ALGSettingsType algertemList;
 		addAll: ALGClassType algertemList;
 		addAll: ALGMethodType algertemList;
-		addAll: ALGFixedWorldMenuType algertemList;
+		addAll: ALGStaticWorldMenuType algertemList;
 		yourself
