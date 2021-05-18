@@ -1,3 +1,3 @@
 constants
 minimumItemsToCompute
-	^ 10
+	^ 1000
