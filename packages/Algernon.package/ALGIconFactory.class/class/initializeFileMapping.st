@@ -2,7 +2,6 @@ mapping
 initializeFileMapping
 
 	FileMapping := Dictionary newFrom: {
-		#ALGSystemCommandType -> (self powerIcon).
 		#ALGClassType -> (self classIcon).
 		#ALGActionType -> (self methodIcon).
 		#ALGMethodType -> (self methodIcon).
