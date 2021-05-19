@@ -7,6 +7,6 @@ testMouseItemSelection
 	self dispatchMouseMoveEvent: #mouseEnter atPosition: position.
 	Transcript showln: 'x-x-x-x-x-x-x'.
 	Transcript showln: position.
-	Transcript showln: self algInstance itemList selectedItem item contents.
-	Transcript showln: self itemMorphs third item contents.
+	Transcript showln: self algInstance itemList selectedItem item name.
+	Transcript showln: self itemMorphs third item name.
 	self assert: self algInstance itemList selectedItem item equals: self itemMorphs third item
