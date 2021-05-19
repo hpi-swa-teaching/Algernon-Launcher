@@ -1,4 +1,4 @@
 drawing
 maximumHeight
 
-	^ World height / 3 clampLow: 200
+	^ World height / 3 clampLow: 300
