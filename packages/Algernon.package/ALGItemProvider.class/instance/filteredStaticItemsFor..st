@@ -1,5 +1,5 @@
 filtering
-filteredItemsFor: aString
+filteredStaticItemsFor: aString
 	| filterStrategy tokens |
 	tokens := self tokenize: aString.
 	filterStrategy := self itemFilterFor: tokens.
