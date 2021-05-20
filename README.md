@@ -11,6 +11,8 @@ Algernon is a productivity tool for Squeak programmers; your personal assistant 
 ## Installation
 Follow our [setup guide](https://github.com/hpi-swa-teaching/Algernon-Launcher/wiki/Setup-Guide) to install Algernon.
 
+The latest versions (above 3.0.0) only support squeak versions 5.3+.
+
 ## Usage
 
 Algernon allows for keyboard only interaction - no need to use your mouse!
