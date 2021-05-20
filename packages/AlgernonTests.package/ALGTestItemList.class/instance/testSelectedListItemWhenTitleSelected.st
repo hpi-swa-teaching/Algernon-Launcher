@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testSelectedListItemWhenTitleSelected
 	| item selectedItem |
 	self algInstance activate.
