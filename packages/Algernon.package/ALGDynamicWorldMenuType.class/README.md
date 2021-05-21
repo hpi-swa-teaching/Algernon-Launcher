@@ -1,1 +1,1 @@
-An ALGDynamicWorldMenuType is a updating World Menu Entry, e.g. stuff from the windows menu.
+An ALGDynamicWorldMenuType represents an updating World Menu Entry, e.g. stuff from the windows menu.

@@ -1,3 +1,3 @@
 accessing
-isDefaultSearchLevel
+isOnDefaultSearchLevel
 	^ self class defaultSearchLevel = self searchLevel

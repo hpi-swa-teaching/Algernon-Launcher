@@ -1,4 +1,4 @@
-testing
+testing expressions
 testExpressionWithChildren
 	| expressionItem oldSystemWindows |
 	self runQuery: '= 1+1'.
