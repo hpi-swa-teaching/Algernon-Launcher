@@ -1,5 +1,6 @@
 {
 	"class" : {
-		"extractMenuEntriesFrom:" : "b 5/27/2021 18:31" },
+		"extractMenuEntriesFrom:" : "b 5/27/2021 18:31",
+		"filterMenuItems:withName:" : "lm 5/22/2021 20:05" },
 	"instance" : {
 		 } }

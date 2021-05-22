@@ -1,5 +1,8 @@
 {
 	"class" : {
-		"extractMenuEntriesFrom:" : "b 5/28/2021 15:32" },
+		"exclude:withName:" : "lm 5/22/2021 20:24",
+		"excludeDynamicWindows:" : "lm 5/22/2021 20:35",
+		"extractMenuEntriesFrom:" : "b 5/28/2021 15:32",
+		"filterMenuItems:withName:" : "lm 5/22/2021 20:29" },
 	"instance" : {
 		 } }
