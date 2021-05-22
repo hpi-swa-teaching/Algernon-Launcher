@@ -5,8 +5,7 @@ filterMenuItems: aMorph withName: menuName
 	(aMorph isKindOf: DockingBarUpdatingMenuMorph) 
 		ifTrue: [
 			aMorph updateMenu.
-			self exclude: aMorph withName: menuName.
-			entries addAll: aMorph submorphs.
+			entries addAll: (self menuEntries: aMorph forName: menuName).
 			aMorph removeAllMorphs			].
 						
 	^ entries
