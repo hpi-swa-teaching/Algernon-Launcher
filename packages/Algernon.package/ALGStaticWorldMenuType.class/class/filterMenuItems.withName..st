@@ -1,5 +1,5 @@
 helpers
-filterMenuItems: aMorph
+filterMenuItems: aMorph withName: menuName
 	| entries |
 	entries := OrderedCollection new.
 	(aMorph isKindOf: DockingBarUpdatingMenuMorph) 
