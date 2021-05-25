@@ -32,7 +32,7 @@
 		"testOpenApps" : "lm 5/22/2021 18:29",
 		"testOpenInExistingBrowser" : "jRo 5/28/2020 20:32",
 		"testOpenTools" : "lm 5/22/2021 18:30",
-		"testOpenWindowEntry:withAction:" : "lm 5/22/2021 18:40",
+		"testOpenWindowEntry:withAction:" : "lm 5/25/2021 22:03",
 		"testPackageAction" : "rk 8/5/2020 22:20",
 		"testPackageAlgerItems" : "rk 8/6/2020 10:51",
 		"testPackageChildren" : "rk 8/5/2020 19:28",
@@ -53,4 +53,5 @@
 		"testWindowCollapse" : "lm 5/22/2021 19:19",
 		"testWindowContract" : "lm 5/22/2021 19:13",
 		"testWindowExpand" : "lm 5/22/2021 19:14",
+		"testWindowTypeNotEmpty" : "lm 5/25/2021 21:52",
 		"testWorldMenuItem:" : "lm 5/22/2021 18:28" } }
