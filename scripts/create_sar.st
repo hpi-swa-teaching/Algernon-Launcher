@@ -1,0 +1,1 @@
+ALGInstallation instance sarFromPackage: 'Algernon'.
