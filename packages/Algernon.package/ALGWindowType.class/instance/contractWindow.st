@@ -1,0 +1,4 @@
+action handlers
+contractWindow
+
+	self typeObject contractToOriginalSize

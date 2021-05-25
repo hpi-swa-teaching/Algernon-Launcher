@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"algertemList" : "lm 5/25/2021 21:19",
+		"visibleWindows" : "lm 5/25/2021 21:14" },
+	"instance" : {
+		"bringWindowToFront" : "lm 5/25/2021 20:46",
+		"closeAllWindowsButThis" : "lm 5/25/2021 21:01",
+		"closeAllWindowsLikeThis" : "lm 5/25/2021 21:03",
+		"closeWindow" : "lm 5/25/2021 20:56",
+		"collapseWindow" : "lm 5/25/2021 20:47",
+		"contractWindow" : "lm 5/25/2021 20:53",
+		"createActionBringToFront" : "lm 5/25/2021 21:34",
+		"createActionClose" : "lm 5/25/2021 21:34",
+		"createActionCloseAllButThis" : "lm 5/25/2021 21:33",
+		"createActionCloseAllLikeThis" : "lm 5/25/2021 21:33",
+		"createActionCollapse" : "lm 5/25/2021 22:08",
+		"createActionContract" : "lm 5/25/2021 21:35",
+		"createActionExpand" : "lm 5/25/2021 21:35",
+		"createListOfAlgeractions" : "lm 5/25/2021 21:11",
+		"expandWindow" : "lm 5/25/2021 20:52",
+		"hasChildren" : "lm 5/25/2021 21:37",
+		"name" : "lm 5/25/2021 21:16",
+		"rankBonus" : "lm 5/25/2021 21:35",
+		"typeName" : "lm 5/25/2021 20:36" } }

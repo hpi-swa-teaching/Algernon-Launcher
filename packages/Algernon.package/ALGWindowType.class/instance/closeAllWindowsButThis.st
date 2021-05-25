@@ -1,0 +1,3 @@
+action handlers
+closeAllWindowsButThis
+	TheWorldMainDockingBar instance closeAllWindowsBut: self typeObject

@@ -1,0 +1,14 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ALGWindowType",
+	"pools" : [
+		 ],
+	"super" : "ALGType",
+	"type" : "normal" }
