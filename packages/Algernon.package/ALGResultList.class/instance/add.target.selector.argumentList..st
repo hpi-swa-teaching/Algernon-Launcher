@@ -7,4 +7,4 @@ add: anItem target: target selector: aSymbol argumentList: argList
 				selector: aSymbol
 				argumentList: argList
 				in: self.
-	self addMorphBack: itemMorph
+	self scroller addMorphBack: itemMorph

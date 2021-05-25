@@ -5,7 +5,9 @@
 	"classvars" : [
 		"ActivationString",
 		"CurrentInstance",
-		"KeyBindings" ],
+		"KeyBindings",
+		"MaxResultsPerCategory",
+		"MaxTopResults" ],
 	"commentStamp" : "beb 8/1/2020 12:02",
 	"instvars" : [
 		"itemList",
