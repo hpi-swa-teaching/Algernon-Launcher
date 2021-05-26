@@ -2,7 +2,7 @@ actions
 createActionBringToFront
 
 	^ ALGAction
-			withName: 'bring to front' 
+			withName: 'front' 
 			rank: 11
 			target: self
 			selector:#bringWindowToFront

@@ -1,5 +1,5 @@
 testing window type
 testWindowTypeNotEmpty
 	
-	Transcript new.
+	self openTranscript.
 	self denyEmptyAlgertemListForType: ALGWindowType

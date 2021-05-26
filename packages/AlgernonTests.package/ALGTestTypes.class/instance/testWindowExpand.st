@@ -3,8 +3,8 @@ testWindowExpand
 
 	|browser initialWidth|
 	
-	browser := SystemBrowser default open.
+	browser := self openBrowser.
 	initialWidth := browser width.
-	self testOpenWindowEntry: 'SystemBrowser' withAction: 'expand'.
+	self testOpenWindowEntry: 'System Browser' withAction: 'expand'.
 	self assert: browser width > initialWidth.
 	browser abandon.

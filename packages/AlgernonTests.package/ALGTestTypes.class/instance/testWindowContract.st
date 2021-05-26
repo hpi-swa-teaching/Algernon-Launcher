@@ -3,9 +3,9 @@ testWindowContract
 
 	|browser expendedWidth|
 	
-	browser := SystemBrowser default open.
-	browser expand.
+	browser := self openBrowser.
+	browser expandToFullScreen.
 	expendedWidth := browser width.
-	self testOpenWindowEntry: 'SystemBrowser' withAction: 'contract'.
+	self testOpenWindowEntry: 'System Browser' withAction: 'contract'.
 	self assert: browser width < expendedWidth.
 	browser abandon.
