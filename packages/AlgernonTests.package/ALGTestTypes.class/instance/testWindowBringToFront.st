@@ -3,9 +3,9 @@ testWindowBringToFront
 
 	|browser transcript|
 	
-	browser := SystemBrowser default open.
-	transcript := Transcript open.
-	self testOpenWindowEntry: 'SystemBrowser' withAction: 'bring to front'.
+	browser := self openBrowser.
+	transcript := self openTranscript.
+	self testOpenWindowEntry: 'System Browser' withAction: 'front'.
 	self assert: browser isActive.
 	browser abandon.
 	transcript abandon.

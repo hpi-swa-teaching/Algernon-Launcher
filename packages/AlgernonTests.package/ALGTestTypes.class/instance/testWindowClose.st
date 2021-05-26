@@ -3,6 +3,6 @@ testWindowClose
 
 	|browser|
 	
-	browser := SystemBrowser default open.
-	self testOpenWindowEntry: 'SystemBrowser' withAction: 'close'.
+	browser := self openBrowser.
+	self testOpenWindowEntry: 'System Browser' withAction: 'close'.
 	self assert: browser owner isNil.

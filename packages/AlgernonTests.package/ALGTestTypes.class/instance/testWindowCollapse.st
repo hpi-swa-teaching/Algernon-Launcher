@@ -3,8 +3,8 @@ testWindowCollapse
 
 	|browser|
 	
-	browser := SystemBrowser default open.
-	browser collapse.
-	self testOpenWindowEntry: 'SystemBrowser' withAction: 'collapse'.
+	browser := self openBrowser.
+	self testOpenWindowEntry: 'System Browser' withAction: 'collapse'.
+	Transcript show: browser isCollapsed.
 	self assert: browser isCollapsed.
 	browser abandon.
