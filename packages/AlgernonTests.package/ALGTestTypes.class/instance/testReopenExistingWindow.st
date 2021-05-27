@@ -8,6 +8,6 @@ testReopenExistingWindow
 	newBrowser := self findNewSystemWindowsByLabel: query old: oldBrowsers.
 		
 	self runQuery: query.
-	dynamicResults := self items select: [:each | each algerType isKindOf: ALGDynamicWorldMenuType].
+	dynamicResults := self items select: [:each | each algerType isKindOf: ALGWindowType].
 	self doActionForItem: dynamicResults first.
 	self assert: (self findNewSystemWindowsByLabel: query old: (oldBrowsers, newBrowser)) isEmpty
