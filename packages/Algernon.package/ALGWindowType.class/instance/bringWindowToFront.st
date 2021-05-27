@@ -1,3 +1,3 @@
 action handlers
 bringWindowToFront
-	self typeObject comeToFront
+	self typeObject beKeyWindow
