@@ -1,4 +1,4 @@
-helpers
+algertem lists
 menuEntries: aMorph forName: menuName
 
 	(menuName = 'Windows')

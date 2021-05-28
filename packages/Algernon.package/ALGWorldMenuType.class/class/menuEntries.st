@@ -1,6 +1,5 @@
-helpers
+algertem lists
 menuEntries
-
 	|entries|
 	
 	entries := OrderedCollection new.	
@@ -10,7 +9,7 @@ menuEntries
 		reject: [ :each | each first isNil ])
 		collect: [ :each |
 			entries addAll: (
-				self filterMenuItems: each first withName: each second )
+				self extractMenuEntriesFrom: each first withName: each second )
 		].
 	
 	^ entries select: [:each | each isKindOf: MenuItemMorph]
