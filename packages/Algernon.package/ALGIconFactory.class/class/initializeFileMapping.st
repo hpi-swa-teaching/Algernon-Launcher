@@ -2,7 +2,6 @@ mapping
 initializeFileMapping
 
 	FileMapping := Dictionary newFrom: {
-		#ALGSystemCommandType -> (self powerIcon).
 		#ALGClassType -> (self classIcon).
 		#ALGActionType -> (self methodIcon).
 		#ALGMethodType -> (self methodIcon).
@@ -11,12 +10,12 @@ initializeFileMapping
 		#ALGHelpType -> (self helpIcon).
 		#ALGGlobalVariableType -> (self globalVariableIcon).
 		#ALGMorphType -> (self morphIcon).
-		#ALGWorldMenuMorphType -> (self worldMenuIcon).
-		#ALGStandardToolSetMorphType -> (self worldMenuIcon).
 		#ALGPackageType -> (self packageIcon).
 		#ALGRepositoryType -> (self repositoryIcon).
 		#ALGSettingsType -> (self settingsIcon).
 		#ALGTestType -> (self testIcon).
+		#ALGStaticWorldMenuType -> (self worldMenuIcon).
+		#ALGDynamicWorldMenuType -> (self worldMenuIcon).
 		#HasChildren -> (self arrowRightIcon).
 		#TopResult -> (self starIcon).
 	}

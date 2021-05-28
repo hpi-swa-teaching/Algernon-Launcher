@@ -1,3 +1,3 @@
 helpers
 itemProviderSearch: aSearchTerm
-	^ self algInstance itemProvider searchForItems: aSearchTerm
+	^ self algInstance itemProvider searchAllItemsFor: aSearchTerm

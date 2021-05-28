@@ -1,3 +1,3 @@
 constants
 maximumItemsToCompute
-	^ 100
+	^ 1000

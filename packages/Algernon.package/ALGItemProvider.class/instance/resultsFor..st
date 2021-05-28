@@ -3,7 +3,7 @@ resultsFor: aString
 
 	| items |
 	self updateItemPool.
-	items := self searchForItems: aString.
+	items := self searchAllItemsFor: aString.
 	(items isEmpty) ifFalse: [ ^ self createCategoriesFor: items ].
 	^ items
 	

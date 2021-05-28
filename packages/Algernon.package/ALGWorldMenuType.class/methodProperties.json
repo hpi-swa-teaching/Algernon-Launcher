@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"algertemList" : "b 5/27/2021 18:28",
+		"dockingBar" : "b 5/16/2021 19:30",
+		"extractMenuEntriesFrom:" : "b 5/27/2021 18:29",
+		"menuEntries" : "b 5/27/2021 18:29",
+		"menus" : "OH 5/18/2021 11:28" },
+	"instance" : {
+		"createActionOpen" : "lm 5/19/2021 11:17",
+		"createListOfAlgeractions" : "lm 5/19/2021 11:16",
+		"name" : "NM 5/16/2021 21:12",
+		"openMenuItem" : "lm 5/19/2021 11:17",
+		"rankBonus" : "NM 5/16/2021 21:14",
+		"typeName" : "NM 5/16/2021 20:48" } }

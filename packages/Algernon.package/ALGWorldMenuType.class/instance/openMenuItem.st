@@ -1,0 +1,3 @@
+actions
+openMenuItem
+	self typeObject doButtonAction

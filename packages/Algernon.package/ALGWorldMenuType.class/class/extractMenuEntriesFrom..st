@@ -1,0 +1,3 @@
+algertem lists
+extractMenuEntriesFrom: aMorph
+	self subclassResponsibility

@@ -1,0 +1,14 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "OH 5/20/2021 17:29",
+	"instvars" : [
+		 ],
+	"name" : "ALGDynamicWorldMenuType",
+	"pools" : [
+		 ],
+	"super" : "ALGWorldMenuType",
+	"type" : "normal" }
