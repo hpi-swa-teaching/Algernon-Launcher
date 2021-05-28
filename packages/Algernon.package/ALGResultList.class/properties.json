@@ -7,9 +7,10 @@
 	"commentStamp" : "J.J. 7/31/2015 19:19",
 	"instvars" : [
 		"controller",
-		"selectedItem" ],
+		"selectedItem",
+		"shouldItemsHandleMouseOver" ],
 	"name" : "ALGResultList",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "ScrollPane",
 	"type" : "normal" }
