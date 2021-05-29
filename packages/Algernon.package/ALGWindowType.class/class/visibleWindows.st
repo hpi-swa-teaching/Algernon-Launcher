@@ -1,4 +1,4 @@
-as yet unclassified
+algertem lists
 visibleWindows
 
 	^ TheWorldMainDockingBar instance allVisibleWindows

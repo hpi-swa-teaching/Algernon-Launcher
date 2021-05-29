@@ -7,7 +7,7 @@ menuEntries
 	((self menus
 		collect: [ :each | {each subMenu. each contents} ])
 		reject: [ :each | each first isNil ])
-		collect: [ :each |
+		do: [ :each |
 			entries addAll: (
 				self extractMenuEntriesFrom: each first withName: each second )
 		].
