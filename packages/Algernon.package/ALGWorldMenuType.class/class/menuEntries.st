@@ -5,11 +5,11 @@ menuEntries
 	entries := OrderedCollection new.	
 
 	((self menus
-		collect: [ :each | each subMenu ])
-		reject: [ :each | each isNil ])
-		collect: [ :each |
+		collect: [ :each | {each subMenu. each contents} ])
+		reject: [ :each | each first isNil ])
+		do: [ :each |
 			entries addAll: (
-				self extractMenuEntriesFrom: each )
+				self extractMenuEntriesFrom: each first withName: each second )
 		].
 	
 	^ entries select: [:each | each isKindOf: MenuItemMorph]

@@ -16,6 +16,7 @@ initializeFileMapping
 		#ALGTestType -> (self testIcon).
 		#ALGStaticWorldMenuType -> (self worldMenuIcon).
 		#ALGDynamicWorldMenuType -> (self worldMenuIcon).
+		#ALGWindowType -> (self windowIcon).
 		#HasChildren -> (self arrowRightIcon).
 		#TopResult -> (self starIcon).
 	}
