@@ -1,8 +1,8 @@
 initialization
 initializeDefaultCrumb
 
-	| crumb |
-	crumb := self createCrumb: ALGCore title.
-	crumb center: self center.
-	crumb position: (self position x + self class crumbSpacing) @ crumb position y.
-	self addMorphBack: crumb; updateWidth
+	self defaultCrumb: (self createCrumb: ALGCore title).
+	self defaultCrumb center: self center.
+	self defaultCrumb 
+		position: (self position x + self class crumbSpacing) @ self defaultCrumb position y.
+	self addMorphBack: self defaultCrumb; updateWidth

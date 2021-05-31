@@ -19,4 +19,5 @@ initializeFileMapping
 		#ALGWindowType -> (self windowIcon).
 		#HasChildren -> (self tabIcon).
 		#TopResult -> (self starIcon).
+		#NavigateBack -> (self shiftIcon).
 	}
