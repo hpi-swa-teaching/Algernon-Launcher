@@ -6,7 +6,7 @@ SmalltalkCISpec {
       #load : 'Tests',
       #platforms : [ #squeak ],
       #useLatestMetacello : true
-    },
+    }
   ],
   #preLoading : [
     'scripts/preLoading.st'
