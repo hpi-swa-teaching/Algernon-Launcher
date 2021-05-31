@@ -1,0 +1,1 @@
+An ALGInputWrapper is wrapping an ALGInputField in a ScrollPane.

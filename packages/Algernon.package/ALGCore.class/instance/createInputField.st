@@ -1,5 +1,6 @@
 initialization
 createInputField
 
-	^ ALGInputField new
-		controller: self
+	^ ALGInputWrapper new
+		controller: self;
+		yourself.
