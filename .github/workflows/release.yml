@@ -1,0 +1,33 @@
+name: Release
+
+env:
+  smalltalk: 'Squeak64-5.3'
+  PATH_TO_SAR: '/home/runner/.smalltalkCI/_builds/Algernon.sar'
+
+on:
+  push:
+    tags:
+      - "v*"
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    name: Build SAR
+    steps:
+      - uses: actions/checkout@v2
+      - uses: hpi-swa/setup-smalltalkCI@v1
+        id: smalltalkci
+        with:
+          smalltalk-image: ${{ ENV.smalltalk }}
+      - run: smalltalkci -s ${{ ENV.smalltalk }} ./.release.smalltalk.ston
+        shell: bash
+        timeout-minutes: 15
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with: |
+          ${{ PATH_TO_SAR }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
