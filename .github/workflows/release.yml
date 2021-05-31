@@ -1,8 +1,8 @@
 name: Release
 
 env:
-  - smalltalk: 'Squeak64-5.3'
-  - PATH_TO_SAR: '/home/runner/.smalltalkCI/_builds/Algernon.sar'
+  smalltalk: 'Squeak64-5.3'
+  PATH_TO_SAR: '/home/runner/.smalltalkCI/_builds/Algernon.sar'
 
 on:
   push:
@@ -27,7 +27,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with: |
-          ${{ PATH_TO_SAR }}
+          ${{ ENV.PATH_TO_SAR }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
