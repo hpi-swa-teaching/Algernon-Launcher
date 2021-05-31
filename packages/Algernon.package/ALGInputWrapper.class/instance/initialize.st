@@ -2,7 +2,6 @@ accessing
 initialize
 
 	super initialize.
-	self scroller layoutPolicy: TableLayout new.
-	"self scroller addMorph: self inputfield."
-	self hScrollBarPolicy: #always.
-	self color: (Color red).
+	self hScrollBarPolicy: #never.
+	self vScrollBarPolicy: #never.
+	self color: Color red

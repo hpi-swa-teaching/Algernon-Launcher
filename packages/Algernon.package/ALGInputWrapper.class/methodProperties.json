@@ -4,9 +4,8 @@
 	"instance" : {
 		"addInner" : "NM 5/31/2021 21:12",
 		"doesNotUnderstand:" : "NM 5/31/2021 19:22",
-		"handleTextEntered:" : "NM 5/31/2021 19:29",
-		"initialize" : "NM 5/31/2021 20:43",
+		"initialize" : "NM 5/31/2021 21:36",
 		"inputfield" : "NM 5/31/2021 19:20",
 		"inputfield:" : "NM 5/31/2021 19:20",
 		"keyStroke:" : "NM 5/31/2021 20:32",
-		"update:" : "NM 5/31/2021 20:35" } }
+		"update:" : "NM 5/31/2021 21:31" } }
