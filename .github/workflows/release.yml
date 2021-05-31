@@ -1,8 +1,8 @@
 name: Release
 
 env:
-  smalltalk: 'Squeak64-5.3'
-  PATH_TO_SAR: '/home/runner/.smalltalkCI/_builds/Algernon.sar'
+  - smalltalk: 'Squeak64-5.3'
+  - PATH_TO_SAR: '/home/runner/.smalltalkCI/_builds/Algernon.sar'
 
 on:
   push:
