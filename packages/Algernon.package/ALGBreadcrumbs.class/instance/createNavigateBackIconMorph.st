@@ -10,4 +10,4 @@ createNavigateBackIconMorph
 		position: (shiftIconMorph position x +
 						shiftIconMorph width +
 						self class iconInsideSpacing) @ tabIconMorph position y.
-	^ self packIconsIntoMorph: { shiftIconMorph . tabIconMorph }.
+	^ self packIconsIntoMorph: { shiftIconMorph . tabIconMorph }
