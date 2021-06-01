@@ -4,4 +4,4 @@ testShiftTabIcon
 	breadcrumbs showNavigateBackIcon.
 	self assert: breadcrumbs navigateBackIconMorph visible.
 	breadcrumbs hideNavigateBackIcon.
-	self deny: breadcrumbs navigateBackIconMorph visible.
+	self deny: breadcrumbs navigateBackIconMorph visible
