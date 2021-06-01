@@ -2,10 +2,10 @@
 	"class" : {
 		"newForController:extent:center:" : "NM 5/31/2021 20:53" },
 	"instance" : {
-		"addInner" : "NM 5/31/2021 21:12",
+		"addInner" : "b 6/1/2021 01:59",
 		"doesNotUnderstand:" : "NM 5/31/2021 19:22",
 		"handleKeystroke:" : "b 6/1/2021 01:47",
-		"initialize" : "NM 5/31/2021 21:36",
+		"initialize" : "b 6/1/2021 01:56",
 		"inputfield" : "NM 5/31/2021 19:20",
 		"inputfield:" : "NM 5/31/2021 19:20",
 		"keyStroke:" : "NM 5/31/2021 20:32",

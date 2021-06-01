@@ -4,4 +4,4 @@ initialize
 	super initialize.
 	self hScrollBarPolicy: #never.
 	self vScrollBarPolicy: #never.
-	self color: Color red
+	self color: Color white 
