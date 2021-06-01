@@ -1,4 +1,4 @@
 event handling
 grabFocus: hand
 	hand 
-		newKeyboardFocus: self textField inputfield.
+		newKeyboardFocus: self textField.
