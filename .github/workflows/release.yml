@@ -26,8 +26,8 @@ jobs:
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
-        with: |
-          ${{ ENV.PATH_TO_SAR }}
+        with:
+          files: ${{ ENV.PATH_TO_SAR }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
