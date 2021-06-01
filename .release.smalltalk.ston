@@ -15,7 +15,8 @@ SmalltalkCISpec {
     'scripts/create_sar.st'
   ],
   #testing : { 
-    #categories : []
+    #categories : [],
+    #failOnZeroTests : false
   }
 }
 
