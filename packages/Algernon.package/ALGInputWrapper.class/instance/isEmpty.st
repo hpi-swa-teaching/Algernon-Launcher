@@ -1,4 +1,4 @@
 forwarding
 isEmpty
 
-	^ self inputfield isEmpty.
+	^ self inputfield isEmpty

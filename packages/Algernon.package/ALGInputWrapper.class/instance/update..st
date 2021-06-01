@@ -1,8 +1,7 @@
-accessing
+updating
 update: aSymbol
 
 	aSymbol = #normalKeystroke
-		ifTrue: [
-			self inputfield paragraph caretRect ifNotNil: [ :rect | self scrollToShow: rect ].
-			"self inputfield focus "].
+		ifTrue: [ self inputfield paragraph caretRect
+						ifNotNil: [ :rect | self scrollToShow: rect ] ].
 	super update: aSymbol

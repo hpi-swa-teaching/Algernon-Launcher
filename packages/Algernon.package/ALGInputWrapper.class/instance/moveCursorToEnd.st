@@ -1,4 +1,4 @@
 forwarding
 moveCursorToEnd
 
-	self inputfield moveCursorToEnd.
+	self inputfield moveCursorToEnd

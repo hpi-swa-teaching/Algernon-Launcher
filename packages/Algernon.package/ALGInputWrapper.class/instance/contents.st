@@ -1,4 +1,4 @@
 forwarding
 contents
 
-	^ self inputfield contents.
+	^ self inputfield contents

@@ -1,4 +1,4 @@
 system
 cleanup
 
-	self inputfield removeDependent: self.
+	self inputfield removeDependent: self

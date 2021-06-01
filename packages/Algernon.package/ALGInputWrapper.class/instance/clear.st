@@ -1,4 +1,4 @@
 forwarding
 clear
 
-	self inputfield clear.
+	self inputfield clear

@@ -1,4 +1,4 @@
 forwarding
 selectAll
 
-	self inputfield selectAll.
+	self inputfield selectAll

@@ -1,4 +1,4 @@
 forwarding
 paragraph
 
-	^ self inputfield paragraph.
+	^ self inputfield paragraph

@@ -1,4 +1,4 @@
 forwarding
 currentContent
 
-	^ self inputfield currentContent.
+	^ self inputfield currentContent

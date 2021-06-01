@@ -1,3 +1,4 @@
 accessing
-inputfield: anObject
-	inputfield := anObject
+inputfield: anInputField
+
+	inputfield := anInputField
