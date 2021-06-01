@@ -5,4 +5,6 @@ initialize
 		 width: self controller width;
 		 color: self class defaultColor;
 		 position: self calculatePosition.
-	self initializeDefaultCrumb
+	self
+		initializeNavigateBackIcon;
+		initializeDefaultCrumb
