@@ -9,5 +9,5 @@ initializeLayout
 		height: self maximumHeight;
 		shadowOffset: 0@0.
 		
-	self  scroller 
+	self scroller 
 		layoutPolicy: TableLayout new.
