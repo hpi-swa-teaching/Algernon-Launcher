@@ -69,7 +69,7 @@ Use the Test Runner Tool in your Squeak Image and select all *AlgernonTests*. No
 *  [Louis Kirsch](https://github.com/timediv)
 *  [Niklas Mohrin](https://github.com/niklasmohrin)
 *  [Nils Lißner](https://github.com/TheGrayStone)
-*  [Olli Wehr](https://github.com/Olliwehr)
+*  [Olliver Hess](https://github.com/Olliwehr)
 *  [Philip Weidenfeller](https://github.com/phlprcks)
 *  [Pius Ladenburger](https://github.com/GittiHab)
 *  [Tobias Dürschmid](https://github.com/tobiduer)
