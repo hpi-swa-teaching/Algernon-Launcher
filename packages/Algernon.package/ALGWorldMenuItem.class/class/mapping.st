@@ -1,7 +1,7 @@
 mapping
 mapping
 
-	^ {
+	^ Dictionary newFrom: {
 			'' -> #Squeak.
 			'Projects' -> #Project.
 			'Tools' -> #Tool.
@@ -9,4 +9,4 @@ mapping
 			'Do' -> #Do.
 			'Extras' -> #MagicWand.
 			'Help' -> #WorldHelp.
-		} asDictionary
+		}
