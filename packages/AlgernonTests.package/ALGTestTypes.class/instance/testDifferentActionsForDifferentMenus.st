@@ -13,3 +13,5 @@ testDifferentActionsForDifferentMenus
 	self assert: self items first algerActions first name = 'run'.
 	self runQuery: 'RecoverChanges'.
 	self assert: self items first algerActions first name = 'open'.
+	self runQuery: 'CreateMVCProject'.
+	self assert: self items first algerActions first name = 'do'.

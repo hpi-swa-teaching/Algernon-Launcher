@@ -1,15 +1,17 @@
 {
 	"class" : {
-		"algertemList" : "NL 6/4/2021 14:47",
+		"algertemList" : "NL 6/4/2021 16:39",
 		"dockingBar" : "b 5/16/2021 19:30",
-		"extractMenuEntriesFrom:withName:" : "b 5/28/2021 19:06",
+		"extractMenuEntriesFrom:" : "NL 6/4/2021 16:23",
 		"icon" : "NL 6/4/2021 14:21",
-		"menuEntries" : "NL 6/4/2021 14:47",
+		"menuActionMapping" : "NL 6/4/2021 16:34",
+		"menuEntries" : "NL 6/4/2021 16:27",
 		"menus" : "OH 5/18/2021 11:28" },
 	"instance" : {
-		"createActionOpen" : "lm 5/19/2021 11:17",
-		"createListOfAlgeractions" : "lm 5/19/2021 11:16",
-		"name" : "NM 5/16/2021 21:12",
-		"openMenuItem" : "lm 5/19/2021 11:17",
+		"createAction" : "NL 6/4/2021 16:37",
+		"createActionNamed:" : "NL 6/4/2021 16:30",
+		"createListOfAlgeractions" : "NL 6/4/2021 16:37",
+		"name" : "NL 6/4/2021 16:28",
+		"openMenuItem" : "NL 6/4/2021 16:28",
 		"rankBonus" : "NM 5/16/2021 21:14",
 		"typeName" : "NM 5/16/2021 20:48" } }

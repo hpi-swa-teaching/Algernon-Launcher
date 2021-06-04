@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "ALGWorldMenuItem",
+		"name",
+		"morph" ],
+	"name" : "ALGNamedWorldMenuEntry",
 	"pools" : [
 		 ],
-	"super" : "ALGItem",
+	"super" : "Object",
 	"type" : "normal" }

@@ -5,14 +5,12 @@ menuEntries
 	entries := OrderedCollection new.	
 
 	((self menus
-		collect: [ :each | {each subMenu. each contents} ])
-		reject: [ :each | each first isNil ])
+		collect: [ :each | ALGNamedWorldMenuEntry newFrom: each subMenu name: each contents ])
+		reject: [ :each | each morph isNil ])
 		do: [ :each |
 			entries addAll: (
-				(self extractMenuEntriesFrom: each first withName: each second)
-					collect: [ :each2 | {each2. each second} ]
-				 )
-		].
+				(self extractMenuEntriesFrom: each)
+					collect: [ :entry | ALGNamedWorldMenuEntry newFrom: entry name: each name]) ].
 	
-	^ entries select: [:each | each first isKindOf: MenuItemMorph]
+	^ entries select: [:each | each morph isKindOf: MenuItemMorph]
 	

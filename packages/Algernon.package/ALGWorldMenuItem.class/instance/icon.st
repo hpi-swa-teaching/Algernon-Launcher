@@ -2,5 +2,5 @@ icon
 icon
 
 	^ self class mapping 
-			at: self menuName
+			at: self algerType typeObject name
 			ifAbsent: [ #WorldMenu ]

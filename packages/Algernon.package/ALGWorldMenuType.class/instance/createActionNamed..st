@@ -1,8 +1,8 @@
 actions
-createActionOpen
+createActionNamed: aString
 
 	^ ALGAction
-			withName: 'open' 
+			withName: aString
 			rank: 10
 			target: self
 			selector:#openMenuItem

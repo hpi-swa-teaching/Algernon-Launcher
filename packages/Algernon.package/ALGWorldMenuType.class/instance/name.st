@@ -1,3 +1,3 @@
 accessing
 name
-	  ^ self typeObject contents
+	  ^ self typeObject morph contents
