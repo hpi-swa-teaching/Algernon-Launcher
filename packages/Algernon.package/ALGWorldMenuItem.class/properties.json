@@ -1,0 +1,14 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"menuName" ],
+	"name" : "ALGWorldMenuItem",
+	"pools" : [
+		 ],
+	"super" : "ALGItem",
+	"type" : "normal" }

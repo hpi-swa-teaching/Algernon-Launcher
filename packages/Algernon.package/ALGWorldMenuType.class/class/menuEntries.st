@@ -9,8 +9,10 @@ menuEntries
 		reject: [ :each | each first isNil ])
 		do: [ :each |
 			entries addAll: (
-				self extractMenuEntriesFrom: each first withName: each second )
+				(self extractMenuEntriesFrom: each first withName: each second)
+					collect: [ :each2 | {each2. each second} ]
+				 )
 		].
 	
-	^ entries select: [:each | each isKindOf: MenuItemMorph]
+	^ entries select: [:each | each first isKindOf: MenuItemMorph]
 	

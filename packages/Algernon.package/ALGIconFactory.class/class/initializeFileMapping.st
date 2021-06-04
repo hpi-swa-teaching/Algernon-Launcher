@@ -18,4 +18,11 @@ initializeFileMapping
 		#HasChildren -> self tabIcon.
 		#TopResult -> self starIcon.
 		#NavigateBack -> self shiftIcon.
+		#Tool -> self wrenchIcon.
+		#WorldHelp -> self worldHelpIcon.
+		#App -> self appsIcon.
+		#MagicWand -> self wandIcon.
+		#Project -> self projectIcon.
+		#Do -> self doIcon.
+		#Squeak -> self squeakIcon.
 	}
