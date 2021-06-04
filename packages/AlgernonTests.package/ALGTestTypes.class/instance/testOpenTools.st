@@ -5,4 +5,4 @@ testOpenTools
 	self testWorldMenuItem: 'Message Names'.
 	self testWorldMenuItem: 'Browser'.
 	self testWorldMenuItem: 'Test Runner'.
-	self testWorldMenuItem: 'Workspace'.
+	self testWorldMenuItem: 'Workspace'
