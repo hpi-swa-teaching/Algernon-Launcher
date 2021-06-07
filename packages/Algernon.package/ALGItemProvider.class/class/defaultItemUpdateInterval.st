@@ -1,0 +1,3 @@
+constants
+defaultItemUpdateInterval
+	^ 30

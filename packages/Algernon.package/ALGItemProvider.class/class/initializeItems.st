@@ -12,4 +12,5 @@ initializeItems
 		addAll: ALGClassType algertemList;
 		addAll: ALGMethodType algertemList;
 		addAll: ALGStaticWorldMenuType algertemList;
-		yourself
+		yourself.
+	self lastDefaultItemUpdateTimeStamp: TimeStamp current.

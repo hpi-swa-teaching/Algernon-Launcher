@@ -3,7 +3,8 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"DefaultItems" ],
+		"DefaultItems",
+		"LastDefaultItemUpdateTimeStamp" ],
 	"commentStamp" : "beb 8/1/2020 12:06",
 	"instvars" : [
 		"controller",
