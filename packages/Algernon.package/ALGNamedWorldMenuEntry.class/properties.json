@@ -1,0 +1,15 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"morph" ],
+	"name" : "ALGNamedWorldMenuEntry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

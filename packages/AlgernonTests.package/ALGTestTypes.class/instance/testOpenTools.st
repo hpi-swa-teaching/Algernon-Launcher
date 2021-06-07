@@ -1,8 +1,8 @@
 testing world menu types
 testOpenTools
 	"Test the open hotword by running different example queries for tools"
-	self testWorldMenuItem: 'Transcript'.
-	self testWorldMenuItem: 'Message Names'.
-	self testWorldMenuItem: 'Browser'.
-	self testWorldMenuItem: 'Test Runner'.
-	self testWorldMenuItem: 'Workspace'.
+	self testWindowOpeningWorldMenuItem: 'Transcript'.
+	self testWindowOpeningWorldMenuItem: 'Message Names'.
+	self testWindowOpeningWorldMenuItem: 'Browser'.
+	self testWindowOpeningWorldMenuItem: 'Test Runner'.
+	self testWindowOpeningWorldMenuItem: 'Workspace'

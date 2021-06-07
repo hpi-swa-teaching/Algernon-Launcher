@@ -1,5 +1,5 @@
 testing world menu types
-testWorldMenuItem: menuEntry 
+testWindowOpeningWorldMenuItem: menuEntry 
 	| results newBrowser oldBrowsers |
 	self runQuery: 'open ' , menuEntry.
 	results := self items select: [:each | each name = menuEntry
