@@ -1,4 +1,4 @@
 events-processing
 handleAsQuickAccess: anEvent
-
-	Transcript show: 'YES!'
+    self itemList selectItemAt: anEvent keyCharacter digitValue.
+    self doActionOnSelectedEvent: anEvent
