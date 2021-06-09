@@ -2,7 +2,7 @@ helpers
 existsInResults: aClassName
 	
 	| names classItems |
-	self runQuery: 'browse ' , aClassName asString.
+	self runQuery: aClassName asString.
 
 	classItems := self itemMorphs copy.
 	names := classItems collect: [ :entries | entries item name ].

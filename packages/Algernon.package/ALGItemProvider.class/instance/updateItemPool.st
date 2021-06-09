@@ -2,7 +2,6 @@ updating
 updateItemPool
 
 	| resultItems |
-	self class updateDefaultItemsIfNecessary.
 	self items: self defaultItems.
 	self isOnDefaultSearchLevel ifTrue: [ ^ self ].
 	resultItems := OrderedCollection new.

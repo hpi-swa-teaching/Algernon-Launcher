@@ -1,3 +1,0 @@
-constants
-defaultItemUpdateInterval
-	^ 30
