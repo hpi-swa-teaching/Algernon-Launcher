@@ -1,0 +1,14 @@
+{
+	"category" : "AlgernonTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lm 6/6/2021 16:04",
+	"instvars" : [
+		"className" ],
+	"name" : "ALGTestClassReload",
+	"pools" : [
+		 ],
+	"super" : "ALGTest",
+	"type" : "normal" }
