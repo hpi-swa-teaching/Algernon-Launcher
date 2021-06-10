@@ -3,4 +3,4 @@ setUp
 
 	super setUp.
 	className := #ALGDummyClass.
-	self deleteClass.
+	self deleteClass
