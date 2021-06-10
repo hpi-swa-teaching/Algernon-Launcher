@@ -2,6 +2,6 @@ running
 tearDown
 	
 	ALGCore cleanup.
-	SystemChangeNotifier doSilently:
+	SystemChangeNotifier uniqueInstance doSilently:
 		[{'Algernon' . 'AlgernonTests'} do: 
 			[:each | (MCPackage named: each) unload]]
