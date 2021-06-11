@@ -8,6 +8,7 @@
 		"testAlgernonPositioningWindowIsSmallerAfterReopening" : "rk 8/5/2020 19:37",
 		"testBackgroundDoesHandleMouseEvents" : "rk 8/5/2020 19:37",
 		"testBreadcrumbDoesNotHandleMouseEvents" : "rk 8/5/2020 19:37",
+		"testBreadcrumbsShowShiftTabHint" : "NL 5/31/2021 18:43",
 		"testClickOnResultItem" : "b 5/12/2021 16:46",
 		"testClosingAlgernonClosesBackground" : "rk 8/5/2020 19:37",
 		"testCoreDoesNotHandleMouseEvents" : "rk 8/5/2020 19:37",
@@ -27,6 +28,7 @@
 		"testResultListMouseMoveIsDelegatedToItems" : "OH 5/25/2021 12:57",
 		"testResultListMovement" : "rk 8/5/2020 19:39",
 		"testResultTextWrap" : "jRo 8/1/2020 11:39",
+		"testSelectAllOnActivate" : "b 6/2/2021 13:29",
 		"testStepping" : "jRo 7/5/2020 22:15",
 		"testTextInputTabFocus" : "jRo 8/5/2020 16:21",
 		"testVisibility" : "jRo 7/5/2020 22:15" } }

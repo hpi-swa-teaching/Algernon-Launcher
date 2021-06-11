@@ -1,7 +1,7 @@
 running
 setUp
 	
-	self timeout: 25.
+	self timeout: 60.
 	self metacelloInstance: 
 	(Metacello new
    	 	baseline: 'Algernon';

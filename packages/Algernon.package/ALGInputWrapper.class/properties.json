@@ -1,0 +1,14 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NM 6/1/2021 19:10",
+	"instvars" : [
+		"inputfield" ],
+	"name" : "ALGInputWrapper",
+	"pools" : [
+		 ],
+	"super" : "ScrollPane",
+	"type" : "normal" }

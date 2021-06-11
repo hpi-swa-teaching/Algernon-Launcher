@@ -1,6 +1,7 @@
 updating
 showParentList
 	self searchStack isEmpty ifTrue: [ ^ self ].
+	self searchStack size = 1 ifTrue: [ self breadcrumbs hideNavigateBackIcon ].
 	self breadcrumbs pop.
 	self textField clear.
 	self textField contents: self searchStack pop.

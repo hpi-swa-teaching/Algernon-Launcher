@@ -1,0 +1,14 @@
+{
+	"category" : "AlgernonTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ALGFakeDockingBarItemMorph",
+	"pools" : [
+		 ],
+	"super" : "DockingBarItemMorph",
+	"type" : "normal" }
