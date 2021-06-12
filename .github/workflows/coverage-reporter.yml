@@ -13,7 +13,7 @@ jobs:
         id: smalltalkci
         with:
           smalltalk-image: ${{ env.ST_IMAGE }}
-      - run: smalltalkci -s ${{ env.ST_IMAGE }} ./.coverage.ston
+      - run: smalltalkci -s ${{ env.ST_IMAGE }} ./.coverage.smalltalk.ston
         shell: bash
         timeout-minutes: 15
         env:
