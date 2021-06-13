@@ -1,6 +1,7 @@
 preferences
 setQuickAccessModifier: aString
-    ({'cmd'. 'ctrl'} includes: aString asLowercase)
-        ifTrue: [self quickAccessModifier: aString.
-            ^ true].
-    ^ false
+setQuickAccessModifier: aString
+    | valid |
+    valid := ({'cmd' . 'ctrl'} includes: aString asLowercase).
+    valid ifTrue: [ self quickAccessModifier: aString].
+    ^ valid
