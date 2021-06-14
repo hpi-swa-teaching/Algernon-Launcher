@@ -1,5 +1,5 @@
 updating
-add: anItem target: target selector: aSymbol argumentList: argList 
+add: anItem target: target selector: aSymbol argumentList: argList index: index
 	| itemMorph |
 	itemMorph := ALGResultItemMorph
 				newFrom: anItem
@@ -7,6 +7,5 @@ add: anItem target: target selector: aSymbol argumentList: argList
 				selector: aSymbol
 				argumentList: argList
 				in: self
-				index: self currentItemIndex.
-	self currentItemIndex: self currentItemIndex + 1.
+				index: index.
 	self scroller addMorphBack: itemMorph

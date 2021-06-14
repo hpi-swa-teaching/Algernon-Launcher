@@ -8,8 +8,7 @@
 	"instvars" : [
 		"controller",
 		"selectedItem",
-		"shouldItemsHandleMouseOver",
-		"currentItemIndex" ],
+		"shouldItemsHandleMouseOver" ],
 	"name" : "ALGResultList",
 	"pools" : [
 		 ],
