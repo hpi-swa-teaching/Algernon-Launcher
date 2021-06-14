@@ -1,7 +1,9 @@
 updating
 updateWith: aCollection
+	| index |
+	
 	self removeAllSubmorphs.
-	self currentItemIndex: 1.
+	index := 1.
 	aCollection do: [ :aCategory |
 		self addCategory: aCategory.
-		self addAll: aCategory items ]
+		index := index + (self addAll: aCategory items startingAt: index) ]
