@@ -6,7 +6,7 @@ handleListenEvent: anEvent
 	isActivationString := (anEvent keyString = self class activationString).
 	shouldToggle := (isActivationString and: [self receivedActivation not]).
 	shouldToggle ifTrue: [
-		(0 <= difference and: [difference <= self class maxHalfClickDeviation]) ifTrue: [
+		(self class activationStringDoubleclick not or: [0 <= difference and: [difference <= self class maxHalfClickDeviation]]) ifTrue: [
 			self toggleVisibility: anEvent.
 			self receivedActivation: true].
 		lastHalfActivationTimestamp := timestamp].

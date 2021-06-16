@@ -4,6 +4,7 @@
 		 ],
 	"classvars" : [
 		"ActivationString",
+		"ActivationStringDoubleclick",
 		"CurrentInstance",
 		"KeyBindings",
 		"MaxResultsPerCategory",
