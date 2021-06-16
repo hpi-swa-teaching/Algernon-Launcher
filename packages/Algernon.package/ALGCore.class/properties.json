@@ -21,10 +21,9 @@
 		"parentStack",
 		"itemProvider",
 		"textField",
-		"receivedActivation",
 		"firstStep",
 		"lastInputString",
-		"lastHalfActivationTimestamp" ],
+		"lastActivationKeyTimestamp" ],
 	"name" : "ALGCore",
 	"pools" : [
 		 ],

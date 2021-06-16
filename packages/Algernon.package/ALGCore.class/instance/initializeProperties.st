@@ -3,5 +3,4 @@ initializeProperties
 
 	self
 		firstStep: true;
-		active: false;
-		receivedActivation: false
+		active: false
