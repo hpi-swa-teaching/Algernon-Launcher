@@ -1,4 +1,4 @@
 accessing
 activationStringDoubleclick: aBoolean
 
-	ActivationStringDoubleclick := aBoolean
+	ActivationStringDoubleClick := aBoolean
