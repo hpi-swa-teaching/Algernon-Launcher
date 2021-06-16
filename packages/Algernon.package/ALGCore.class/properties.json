@@ -22,7 +22,8 @@
 		"textField",
 		"receivedActivation",
 		"firstStep",
-		"lastInputString" ],
+		"lastInputString",
+		"lastHalfActivationTimestamp" ],
 	"name" : "ALGCore",
 	"pools" : [
 		 ],
