@@ -1,3 +1,5 @@
 accessing
 activationStringDoubleclick
-	^ActivationStringDoubleclick
+
+	ActivationStringDoubleclick ifNil: [ALGCore activationStringDoubleclick: true].
+	^ ActivationStringDoubleclick
