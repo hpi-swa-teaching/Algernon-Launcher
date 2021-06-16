@@ -5,7 +5,7 @@ handleActivationKeyEvent: anEvent
 	timestamp := TimeStamp current time asNanoSeconds.
 	difference := timestamp - (lastActivationKeyTimestamp ifNil: [0]).
 	isSecond := difference <= self class maxHalfClickDeviation.
-	isTrigger := self class activateOnSingleClick or: isSecond.
+	isTrigger := self class activateOnSingleClick or: [isSecond].
 
 	isTrigger 
 		ifTrue: [
