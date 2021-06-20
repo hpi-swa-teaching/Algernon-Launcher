@@ -9,8 +9,8 @@ testKeyboardInputOnlyOpensOnce
 	
 	self algInstance deactivate.
 	ALGCore activationStringDoubleclick: false.
-	self assertAlgIsOpen: true after: openAlgEvtDown.
 	self assertAlgIsOpen: true after: openAlgEvtUp.
-	self assertAlgIsOpen: false after: openAlgEvtDown.
+	self assertAlgIsOpen: true after: openAlgEvtDown.
 	self assertAlgIsOpen: false after: openAlgEvtUp.
+	self assertAlgIsOpen: false after: openAlgEvtDown.
 	ALGCore activationStringDoubleclick: doubleclickState
