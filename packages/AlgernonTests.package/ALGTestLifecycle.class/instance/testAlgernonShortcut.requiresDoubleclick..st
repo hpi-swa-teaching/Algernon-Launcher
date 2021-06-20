@@ -1,7 +1,5 @@
 testing
-testAlgernonChangeShortcut: shortcut requiresDoubleclick: doubleclick
-	ALGCore setKeyboardBinding: shortcut copy.
-	ALGCore setKeyboardBindingDoubleclick: doubleclick.
+testAlgernonShortcut: shortcut requiresDoubleclick: doubleclick
 	self algInstance deactivate: nil.
 	self deny: self algInstance active.
 	doubleclick ifTrue: [0.5 seconds wait].

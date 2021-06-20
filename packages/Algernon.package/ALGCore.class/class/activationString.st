@@ -1,6 +1,6 @@
 accessing
 activationString
 
-	ActivationString ifNil:  [ALGCore activationString: '<Ctrl->' ].
-	 ActivationString ifEmpty: [ALGCore activationString: '<Ctrl->'].
+	ActivationString ifNil:  [ ALGCore initializeActivationString ].
+	 ActivationString ifEmpty: [ ALGCore initializeActivationString ].
 	^ActivationString

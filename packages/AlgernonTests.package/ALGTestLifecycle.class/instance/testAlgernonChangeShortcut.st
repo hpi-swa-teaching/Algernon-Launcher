@@ -4,6 +4,10 @@ testAlgernonChangeShortcut
 	currentActivationString := ALGCore activationString.
 	currentActivationStringDoubleclick := ALGCore activationStringDoubleclick.
 	self shortcuts
-		do: [:shortcut | self testAlgernonChangeShortcut: shortcut requiresDoubleclick: true. 
-						self testAlgernonChangeShortcut: shortcut requiresDoubleclick: false].
-	self testAlgernonChangeShortcut: currentActivationString requiresDoubleclick: currentActivationStringDoubleclick
+		do: [:shortcut | 
+				self changeAlgernonShortcut: shortcut requiresDoubleClick: true.
+				self testAlgernonShortcut: shortcut requiresDoubleclick: true.
+				self changeAlgernonShortcut: shortcut requiresDoubleClick: false.
+				self testAlgernonShortcut: shortcut requiresDoubleclick: false ].
+	self changeAlgernonShortcut: currentActivationString requiresDoubleClick: currentActivationStringDoubleclick.
+	self testAlgernonShortcut: currentActivationString requiresDoubleclick: currentActivationStringDoubleclick
