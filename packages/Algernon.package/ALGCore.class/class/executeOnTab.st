@@ -5,4 +5,4 @@ executeOnTab
 		description: 'Execute results on tab whenever they have no sub-results'
 		type: #Boolean>
 		
-	^ ExecuteOnTab ifNil: [false]
+	^ ExecuteOnTab ifNil: [true]
