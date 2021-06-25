@@ -1,3 +1,3 @@
 helpers
 currentSystemWindows
-	^ SystemWindow windowsIn: (Object currentWorld)
+	^ SystemWindow windowsIn: Object currentWorld

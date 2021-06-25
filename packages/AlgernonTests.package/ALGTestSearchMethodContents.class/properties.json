@@ -10,5 +10,5 @@
 	"name" : "ALGTestSearchMethodContents",
 	"pools" : [
 		 ],
-	"super" : "ALGTest",
+	"super" : "ALGIntegrationTest",
 	"type" : "normal" }

@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "td 7/13/2016 09:36",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "ALGTestIconFactory",
+	"name" : "ALGTypeUnitTest",
 	"pools" : [
 		 ],
-	"super" : "ALGIntegrationTest",
+	"super" : "ALGUnitTest",
 	"type" : "normal" }

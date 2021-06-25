@@ -13,5 +13,5 @@
 	"name" : "ALGTestCategorization",
 	"pools" : [
 		 ],
-	"super" : "ALGTest",
+	"super" : "ALGIntegrationTest",
 	"type" : "normal" }

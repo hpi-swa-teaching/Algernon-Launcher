@@ -10,5 +10,5 @@
 	"name" : "ALGTestLifecycle",
 	"pools" : [
 		 ],
-	"super" : "ALGTest",
+	"super" : "ALGIntegrationTest",
 	"type" : "normal" }

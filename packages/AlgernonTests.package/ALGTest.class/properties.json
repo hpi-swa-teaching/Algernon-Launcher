@@ -3,13 +3,10 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"AlgernonInstance",
-		"LastResetSeconds" ],
-	"commentStamp" : "JS 7/12/2016 10:56",
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"algerInstance",
-		"previouslyOpenedWindows",
-		"previousAlgernonSingleton" ],
+		 ],
 	"name" : "ALGTest",
 	"pools" : [
 		 ],

@@ -10,5 +10,5 @@
 	"name" : "ALGTestKeyboard",
 	"pools" : [
 		 ],
-	"super" : "ALGTest",
+	"super" : "ALGIntegrationTest",
 	"type" : "normal" }
