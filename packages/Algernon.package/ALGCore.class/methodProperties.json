@@ -21,7 +21,7 @@
 		"enablePostInstall" : "NL 5/12/2021 10:53",
 		"enabledMessage" : "lm 5/12/2021 13:29",
 		"initializeActivationString" : "fsa 6/20/2021 14:10",
-		"initializeActivationStringForPlatform:" : "fsa 6/26/2021 13:07",
+		"initializeActivationStringForPlatform:" : "fsa 6/26/2021 14:17",
 		"initializeAlgernon" : "mt 10/20/2015 14:32:03",
 		"initializeGlobalKeyBindings" : "jRo 7/13/2020 15:29",
 		"keyBindings" : "J.J. 7/31/2015 20:31",
@@ -39,7 +39,8 @@
 		"setKeyboardBindingDoubleclick:" : "b 6/16/2021 10:21",
 		"setQuickAccessModifier" : "NM 6/7/2021 21:21",
 		"setQuickAccessModifier:" : "NM 6/7/2021 21:22",
-		"showUnknownPlatformDialog" : "fsa 6/20/2021 14:55",
+		"showUnknownPlatformDialog" : "fsa 6/26/2021 14:17",
+		"showUnknownPlatformDialogSync" : "fsa 6/26/2021 14:17",
 		"title" : "J.J. 7/28/2015 19:29",
 		"unknownPlatformMessage" : "fsa 6/20/2021 13:48" },
 	"instance" : {

@@ -6,13 +6,15 @@ testAlgernonUnknownActivationString
 	browserCount := (self findSystemWindowsByLabel: 'Preference Browser') size.
 	
 	"Test that a dialog is opened if shortcut hasnt been tested for platform"
-	[ World doOneCycle.
-	DialogWindow allInstances last buttons first performAction ] fork.
 
 	ALGCore initializeActivationStringForPlatform: 'Redox'.
+	10 milliSeconds wait.
+	World doOneCycle.
 	
 	self assert: DialogWindow allInstances size > dialogCount.
 	
+	DialogWindow allInstances last buttons first performAction.
+	10 milliSeconds wait.
 	World doOneCycle.
 	
 	"Test that PreferenceBrowser is open"
