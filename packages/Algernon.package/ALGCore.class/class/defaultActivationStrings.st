@@ -2,7 +2,7 @@ constants
 defaultActivationStrings
 
 	^ Dictionary newFrom: {
-		'Mac OS2' -> '<Ctrl-;>'.
+		'Mac OS' -> '<Ctrl-;>'.
 		'Win32' -> '<Ctrl->'.
 		'unix' -> '<Ctrl-;>'.
 		'unknown' -> '<>'
