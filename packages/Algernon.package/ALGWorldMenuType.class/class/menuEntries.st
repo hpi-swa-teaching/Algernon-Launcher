@@ -6,7 +6,7 @@ menuEntries
 
 	((self menus
 		collect: [ :each | ALGNamedWorldMenuEntry newFrom: each subMenu name: each contents ])
-		reject: [ :each | each morph isNil ])
+		select: [ :each | each isMenu ])
 		do: [ :each |
 			entries addAll: (
 				(self extractMenuEntriesFrom: each)
