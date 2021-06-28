@@ -11,4 +11,4 @@ assertQuery: query opensNewWindow: windowName
 	World doOneCycle.
 
  	newBrowsers := self findNewSystemWindowsByLabel: windowName old: browsers.
- 	self assert: newBrowsers size = 1
+ 	self assert: 1 equals: newBrowsers size
