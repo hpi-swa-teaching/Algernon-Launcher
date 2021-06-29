@@ -1,9 +1,9 @@
 testing
-testTabExecutesSingleActionResult
+testTabExecutesSingleActionResultCanBeDisabled
 
 	| browserCount browsers |
 	
-	ALGCore executeOnTab: true.
+	ALGCore executeOnTab: false.
 	
 	browserCount := (self findSystemWindowsByLabel: 'Preference Browser') size.
 
@@ -12,4 +12,4 @@ testTabExecutesSingleActionResult
 		keyTab.
 			
 	browsers := self findSystemWindowsByLabel: 'Preference Browser'.
-	self assert: browsers size > browserCount
+	self assert: browsers size = browserCount

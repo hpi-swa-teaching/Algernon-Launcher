@@ -3,12 +3,13 @@ testTabDoesNotExecuteMultiActionResult
 
 	| browserCount browsers |
 	
+	ALGCore executeOnTab: true.
+	
 	browserCount := (self findSystemWindowsByLabel: 'System Browser') size.
 
-	self runQuery: 'ALGIconFactory'.
-	
-	self algInstance keyStroke: (ALGFakeKeyboardEvent new keyString: '<tab>' shallowCopy;
-			 isKeyUp: true).
+	self 
+		runQuery: 'ALGIconFactory';
+		keyTab.
 			
 	browsers := self findSystemWindowsByLabel: 'System Browser'.
 	self assert: browsers size = browserCount
