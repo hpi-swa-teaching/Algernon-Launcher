@@ -5,7 +5,8 @@ filterOutDuplicates: anOrderedCollection
 		entry isMenuItemMorph
 			ifTrue: [
 				ALGStaticWorldMenuType algertemList anySatisfy: 
-				[ :entry2 |
-					entry2 name = entry contents                                      ]
+					[ :staticEntry |
+						staticEntry name = entry contents ]
 																			]
+			ifFalse: [ false ]
 	 ]
