@@ -1,0 +1,14 @@
+{
+	"category" : "AlgernonTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ALGTestDeduplication",
+	"pools" : [
+		 ],
+	"super" : "ALGTest",
+	"type" : "normal" }
