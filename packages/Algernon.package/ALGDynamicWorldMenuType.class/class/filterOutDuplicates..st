@@ -1,12 +1,8 @@
 algertem lists
-filterOutDuplicates: anOrderedCollection
+filterOutDuplicates: aCollection
 
-	^ anOrderedCollection reject: [ :entry | 
-		entry isMenuItemMorph
-			ifTrue: [
+	^ aCollection reject: [ :entry | 
+		entry isMenuItemMorph and: [
 				ALGStaticWorldMenuType algertemList anySatisfy: 
-					[ :staticEntry |
-						staticEntry name = entry contents ]
-																			]
-			ifFalse: [ false ]
+					[ :staticEntry | staticEntry name = entry contents ] ]
 	 ]
