@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"executeOnTab" ],
-	"name" : "ALGTestItemList",
+		 ],
+	"name" : "ALGTestDeduplication",
 	"pools" : [
 		 ],
 	"super" : "ALGTest",

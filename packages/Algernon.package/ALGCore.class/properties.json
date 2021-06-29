@@ -6,6 +6,7 @@
 		"ActivationString",
 		"ActivationStringDoubleClick",
 		"CurrentInstance",
+		"ExecuteOnTab",
 		"KeyBindings",
 		"MaxResultsPerCategory",
 		"MaxTopResults",
