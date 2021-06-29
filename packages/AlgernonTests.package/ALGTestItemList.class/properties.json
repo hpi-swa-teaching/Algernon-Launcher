@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"executeOnTab" ],
 	"name" : "ALGTestItemList",
 	"pools" : [
 		 ],

@@ -5,6 +5,7 @@
 	"classvars" : [
 		"ActivationString",
 		"CurrentInstance",
+		"ExecuteOnTab",
 		"KeyBindings",
 		"MaxResultsPerCategory",
 		"MaxTopResults",
