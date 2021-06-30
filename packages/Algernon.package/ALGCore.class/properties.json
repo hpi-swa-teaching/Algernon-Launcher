@@ -4,6 +4,7 @@
 		 ],
 	"classvars" : [
 		"ActivationString",
+		"ActivationStringDoubleClick",
 		"CurrentInstance",
 		"ExecuteOnTab",
 		"KeyBindings",
@@ -21,9 +22,9 @@
 		"parentStack",
 		"itemProvider",
 		"textField",
-		"receivedActivation",
 		"firstStep",
-		"lastInputString" ],
+		"lastInputString",
+		"lastActivationKeyTimestamp" ],
 	"name" : "ALGCore",
 	"pools" : [
 		 ],

@@ -17,15 +17,15 @@ The latest versions (above 3.0.0) only support squeak versions 5.3+.
 
 Algernon allows for keyboard only interaction - no need to use your mouse!
 
-| Control     | Action            |
-|-------------|-------------------|
-| Alt + Space | Show Algernon     |
-| Esc         | Hide Algernon     |
-| Arrow up    | Navigate up       |
-| Arrow down  | Navigate down     |
-| Tab         | Navigate in       |
-| Shift + Tab | Navigate out      |
-| Enter       | Run selected item |
+| Control          | Action            |
+|------------------|-------------------|
+| Doubleclick ctrl | Show Algernon     |
+| Esc              | Hide Algernon     |
+| Arrow up         | Navigate up       |
+| Arrow down       | Navigate down     |
+| Tab              | Navigate in       |
+| Shift + Tab      | Navigate out      |
+| Enter            | Run selected item |
 
 *Important Notice:* Please be aware that using Algernon for the first time might be slow. The first query triggers the indexing that is used for searching objects. After a few seconds delay in the first query, Algernon should run fast as expected.
 
