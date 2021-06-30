@@ -1,10 +1,10 @@
 algertem lists
 extractMenuEntriesFrom: aNamedWorldMenuEntry
-	^ (aNamedWorldMenuEntry morph isKindOf: DockingBarUpdatingMenuMorph) 
+	^ aNamedWorldMenuEntry isDynamic
 		ifTrue: [ | entries |
 				aNamedWorldMenuEntry morph updateMenu.
-				entries := OrderedCollection newFrom: (self menuEntries: aNamedWorldMenuEntry).
+				entries := OrderedCollection newFrom: aNamedWorldMenuEntry menuEntries.
 				entries := self filterOutDuplicates: entries.
 				aNamedWorldMenuEntry morph removeAllMorphs.
-				entries 																	                                                         ]
+				entries 																	                       ]
 		ifFalse: [ OrderedCollection new ]
