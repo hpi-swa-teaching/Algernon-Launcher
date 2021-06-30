@@ -6,4 +6,4 @@ testWorldMenuDisabledAreExcluded
 	menu subMenu updateMenu.
 	self runQuery: 'Disabled dummy menu entry'.
 	self deny: (self resultsIncludeName: 'Disabled dummy menu entry').
-	menu abandon.
+	menu abandon
