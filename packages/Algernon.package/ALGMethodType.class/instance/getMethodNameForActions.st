@@ -4,6 +4,6 @@ getMethodNameForActions
 	self typeObject
 		ifNotNil: [
 			(self typeObject includesSubstring: self class prefixForClassMethods)
-				ifTrue: [ ^ (self typeObject withoutLeading: self class prefixForClassMethods) asSymbol ] ].
+				ifTrue: [ ^ (self typeObject allButFirst: self class prefixForClassMethods size) asSymbol ] ].
 	
 	^ self typeObject
