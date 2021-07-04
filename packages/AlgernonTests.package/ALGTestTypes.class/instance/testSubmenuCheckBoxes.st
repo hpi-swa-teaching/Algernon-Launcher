@@ -3,7 +3,7 @@ testSubmenuCheckBoxes
 
 	| colorfulWindowsName colorfulWindowsInitialValue|
 	
-	colorfulWindowsName := 'Colorful windows'.
+	colorfulWindowsName := 'Colorful Windows'.
 	colorfulWindowsInitialValue :=  Model useColorfulWindows.
 	self runQuery: colorfulWindowsName.
 	self assert: (self resultsIncludeName: colorfulWindowsName).

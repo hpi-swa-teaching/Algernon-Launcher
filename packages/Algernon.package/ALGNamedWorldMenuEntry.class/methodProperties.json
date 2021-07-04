@@ -2,7 +2,7 @@
 	"class" : {
 		"newFrom:name:" : "NL 6/4/2021 16:16" },
 	"instance" : {
-		"enabledMenuSubmorphs" : "fsa 6/27/2021 11:29",
+		"enabledMenuSubmorphs" : "lm 7/4/2021 22:36",
 		"excludeDynamicWindows" : "fsa 6/27/2021 10:55",
 		"isDynamic" : "fsa 6/27/2021 10:40",
 		"isMenu" : "fsa 6/27/2021 10:40",
@@ -11,4 +11,5 @@
 		"morph" : "NL 6/4/2021 16:15",
 		"morph:" : "NL 6/4/2021 16:15",
 		"name" : "NL 6/4/2021 16:15",
-		"name:" : "NL 6/4/2021 16:15" } }
+		"name:" : "NL 6/4/2021 16:15",
+		"subMenuSubmorphs" : "lm 7/4/2021 22:49" } }
