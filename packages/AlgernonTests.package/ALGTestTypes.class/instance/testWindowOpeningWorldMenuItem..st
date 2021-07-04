@@ -1,11 +1,11 @@
 testing world menu types
 testWindowOpeningWorldMenuItem: menuEntry 
-	| results newBrowser oldBrowsers |
+	| results newWindows oldWindows |
 	self runQuery: 'open ' , menuEntry.
 	results := self items select: [:each | each name = menuEntry
 					and: [each algerType typeName = 'World Menu Item']].
 	self assert: results notEmpty.
-	oldBrowsers := self findSystemWindowsByLabel: menuEntry.
+	oldWindows := self findSystemWindowsByLabel: menuEntry.
 	self doActionForItem: results first.
-	newBrowser := self findNewSystemWindowsByLabel: menuEntry old: oldBrowsers.
-	self assert: newBrowser notEmpty
+	newWindows := self findNewSystemWindowsByLabel: menuEntry old: oldWindows.
+	self assert: newWindows notEmpty
