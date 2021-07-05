@@ -1,7 +1,14 @@
 accessing
 menuSubmorphs
 
-	^ (self subMenuIfAbsent: [ ^ OrderedCollection new ]) submorphs
-		collect: [ :submorph |
-			ALGNamedWorldMenuEntry newFrom: submorph
-		]
+	| subMenu morphs |
+	
+	subMenu := self subMenuIfAbsent: [ ^ OrderedCollection new ].
+	morphs := OrderedCollection new.
+	
+	self ifDynamic: [subMenu updateMenu.
+					morphs addAll: subMenu submorphs.
+					subMenu removeAllMorphs			 ]
+		ifStatic: [morphs addAll: subMenu submorphs].
+		
+	^ morphs

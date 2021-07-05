@@ -2,14 +2,16 @@
 	"class" : {
 		"newFrom:" : "NL 7/5/2021 17:53" },
 	"instance" : {
+		"allEntries" : "b 7/5/2021 19:03",
 		"enabledMenuSubmorphs" : "lm 7/4/2021 22:36",
+		"ifDynamic:ifStatic:" : "b 7/5/2021 18:32",
 		"isDynamic" : "NL 7/5/2021 17:47",
 		"isEnabled" : "NL 7/5/2021 17:48",
 		"isMenu" : "NL 7/5/2021 17:54",
-		"menuEntries" : "NL 7/5/2021 17:55",
-		"menuSubmorphs" : "NL 7/5/2021 17:56",
+		"isValid" : "b 7/5/2021 18:43",
+		"menuEntries" : "b 7/5/2021 18:54",
+		"menuSubmorphs" : "b 7/5/2021 18:53",
 		"morph" : "NL 6/4/2021 16:15",
 		"morph:" : "NL 6/4/2021 16:15",
-		"selectEnabled:" : "NL 7/5/2021 17:43",
-		"subMenuIfAbsent:" : "NL 7/5/2021 17:57",
-		"subMenus" : "NL 7/5/2021 17:36" } }
+		"name" : "b 7/5/2021 18:50",
+		"subMenuIfAbsent:" : "b 7/5/2021 18:18" } }

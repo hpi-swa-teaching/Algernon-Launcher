@@ -1,12 +1,14 @@
 {
 	"class" : {
-		"algertemList" : "NL 6/4/2021 16:39",
+		"algertemList" : "b 7/5/2021 18:13",
+		"allEntries" : "b 7/5/2021 19:03",
 		"dockingBar" : "b 5/16/2021 19:30",
+		"entries" : "b 7/5/2021 18:34",
 		"extractMenuEntriesFrom:" : "NL 6/4/2021 16:23",
 		"icon" : "NL 6/4/2021 14:21",
 		"menuActionMapping" : "NL 6/4/2021 16:34",
-		"menuEntries" : "NL 7/5/2021 17:28",
-		"menuEntriesNew" : "NL 7/5/2021 17:53",
+		"menuEntries" : "b 7/5/2021 19:01",
+		"menuEntriesNew" : "b 7/5/2021 19:00",
 		"menus" : "NL 7/5/2021 17:09" },
 	"instance" : {
 		"createAction" : "NL 6/4/2021 16:37",

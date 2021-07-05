@@ -1,7 +1,6 @@
 accessing
 subMenuIfAbsent: aBlock
 	
-	Transcript showln: (self morph).
 	^ (self morph class canUnderstand: #subMenu)
-		ifTrue: [ self morph subMenu ]
+		ifTrue: [ self morph subMenu ifNil: [^ aBlock value] ]
 		ifFalse: [ aBlock value ]
