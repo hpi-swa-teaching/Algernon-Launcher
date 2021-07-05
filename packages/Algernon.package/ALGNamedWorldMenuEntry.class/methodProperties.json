@@ -1,15 +1,15 @@
 {
 	"class" : {
-		"newFrom:name:" : "NL 6/4/2021 16:16" },
+		"newFrom:" : "NL 7/5/2021 17:53" },
 	"instance" : {
 		"enabledMenuSubmorphs" : "lm 7/4/2021 22:36",
-		"excludeDynamicWindows" : "fsa 6/27/2021 10:55",
-		"isDynamic" : "fsa 6/27/2021 10:40",
-		"isMenu" : "fsa 6/27/2021 10:40",
-		"menuEntries" : "fsa 6/27/2021 10:56",
-		"menuSubmorphs" : "fsa 6/27/2021 11:09",
+		"isDynamic" : "NL 7/5/2021 17:47",
+		"isEnabled" : "NL 7/5/2021 17:48",
+		"isMenu" : "NL 7/5/2021 17:54",
+		"menuEntries" : "NL 7/5/2021 17:55",
+		"menuSubmorphs" : "NL 7/5/2021 17:56",
 		"morph" : "NL 6/4/2021 16:15",
 		"morph:" : "NL 6/4/2021 16:15",
-		"name" : "NL 6/4/2021 16:15",
-		"name:" : "NL 6/4/2021 16:15",
-		"subMenuSubmorphs" : "lm 7/4/2021 22:49" } }
+		"selectEnabled:" : "NL 7/5/2021 17:43",
+		"subMenuIfAbsent:" : "NL 7/5/2021 17:57",
+		"subMenus" : "NL 7/5/2021 17:36" } }

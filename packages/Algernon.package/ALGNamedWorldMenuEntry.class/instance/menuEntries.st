@@ -2,6 +2,6 @@ accessing
 menuEntries
 
 	(self isDynamic and: [self name = 'Windows'])
-		ifTrue: [^ self excludeDynamicWindows].
-
-	^ self enabledMenuSubmorphs
+		ifTrue: [^ OrderedCollection new ].
+		
+	^ self selectEnabled: self menuSubmorphs

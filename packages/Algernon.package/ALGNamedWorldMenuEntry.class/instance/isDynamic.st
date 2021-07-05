@@ -1,4 +1,5 @@
 accessing
 isDynamic
 
-	^ self morph isKindOf: DockingBarUpdatingMenuMorph
+	^ (self subMenuIfAbsent: [ ^ false ])
+		isKindOf: DockingBarUpdatingMenuMorph

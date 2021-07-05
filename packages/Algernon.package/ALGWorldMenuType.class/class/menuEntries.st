@@ -4,9 +4,8 @@ menuEntries
 	
 	entries := OrderedCollection new.	
 
-	((self menus
+	(self menus
 		collect: [ :each | ALGNamedWorldMenuEntry newFrom: each subMenu name: each contents ])
-		select: [ :each | each isMenu ])
 		do: [ :each |
 			entries addAll: (
 				(self extractMenuEntriesFrom: each)
