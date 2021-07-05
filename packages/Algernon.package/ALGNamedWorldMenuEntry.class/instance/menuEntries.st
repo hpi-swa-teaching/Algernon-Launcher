@@ -1,9 +1,7 @@
 accessing
 menuEntries
 
-	self name = 'Windows' ifTrue: [^ OrderedCollection new ].
-
 	^ ((self menuSubmorphs
-		collect: [:morph | ALGNamedWorldMenuEntry newFrom: morph])
+		collect: [:morph | ALGNamedWorldMenuEntry newFrom: morph inCategory: self category])
 		select: [ :entry | entry isValid])
 		select: [:entry | entry isEnabled]

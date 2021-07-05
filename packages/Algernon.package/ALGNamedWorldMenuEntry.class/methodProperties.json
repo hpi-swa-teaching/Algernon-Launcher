@@ -1,15 +1,19 @@
 {
 	"class" : {
-		"newFrom:" : "NL 7/5/2021 17:53" },
+		"newFrom:" : "NL 7/5/2021 17:53",
+		"newFrom:inCategory:" : "NL 7/5/2021 19:21" },
 	"instance" : {
 		"allEntries" : "b 7/5/2021 19:03",
+		"category" : "NL 7/5/2021 19:20",
+		"category:" : "NL 7/5/2021 19:21",
 		"enabledMenuSubmorphs" : "lm 7/4/2021 22:36",
+		"hasEntries" : "NL 7/5/2021 19:42",
 		"ifDynamic:ifStatic:" : "b 7/5/2021 18:32",
 		"isDynamic" : "NL 7/5/2021 17:47",
 		"isEnabled" : "NL 7/5/2021 17:48",
 		"isMenu" : "NL 7/5/2021 17:54",
 		"isValid" : "b 7/5/2021 18:43",
-		"menuEntries" : "b 7/5/2021 18:54",
+		"menuEntries" : "NL 7/5/2021 19:45",
 		"menuSubmorphs" : "b 7/5/2021 18:53",
 		"morph" : "NL 6/4/2021 16:15",
 		"morph:" : "NL 6/4/2021 16:15",

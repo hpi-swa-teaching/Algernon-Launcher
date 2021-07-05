@@ -1,5 +1,5 @@
 algertem lists
 algertemList
-	^ self entries
+	^ self allEntries
 		collect: [ :each | ALGWorldMenuItem withAlgertype: (self with: each) ]
 	
