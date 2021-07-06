@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"actionNameSelectors" : "lm 7/6/2021 23:05",
 		"algertemList" : "NL 7/5/2021 19:16",
 		"algertemListWith:" : "NL 7/5/2021 20:08",
 		"allEntries" : "NM 7/6/2021 22:45",
@@ -10,9 +11,10 @@
 		"menuEntries" : "NL 7/6/2021 12:20" },
 	"instance" : {
 		"algertemChildrenList" : "NL 7/5/2021 19:34",
-		"createAction" : "NL 7/5/2021 19:52",
+		"createAction" : "lm 7/6/2021 23:28",
 		"createActionNamed:" : "NL 6/4/2021 16:30",
 		"createListOfAlgeractions" : "NL 6/4/2021 16:37",
+		"determineActionName" : "lm 7/6/2021 23:27",
 		"hasChildren" : "NL 7/5/2021 19:42",
 		"name" : "NL 7/6/2021 12:17",
 		"openMenuItem" : "NL 7/6/2021 12:15",

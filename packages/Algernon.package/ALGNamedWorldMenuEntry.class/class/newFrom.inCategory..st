@@ -1,7 +1,6 @@
-as yet unclassified
+instance creation
 newFrom: aMorph inCategory: aString
 
-	^ self new
-			morph: aMorph;
-			category: aString;
-			yourself
+	^ (self newFrom: aMorph)
+		category: aString;
+		yourself
