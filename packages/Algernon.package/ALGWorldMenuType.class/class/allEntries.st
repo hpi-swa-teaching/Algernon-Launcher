@@ -1,14 +1,12 @@
 algertem lists
 allEntries
 
-	|entries|
-	
+	| entries |
+
 	entries := OrderedCollection new.
-	
-	entries addAll: self menuEntries.
-	entries addAll: (self menuEntries
-		inject: OrderedCollection new into: [:accumulator :entry | accumulator addAll: entry allEntries; yourself]).
-		
+	self menuEntries do: [ :entry |
+		entries add: entry.
+		entries addAll: entry allEntries ].
 	entries := self filterOutDuplicates: entries.
 	
 	^ entries

@@ -1,5 +1,7 @@
 as yet unclassified
 filterOutDuplicates: anOrderedCollection
 	
-	^ (((anOrderedCollection collect: [ :entry | entry name]) asSet) collect: 
-		[ :name | anOrderedCollection detect: [ :entry | entry name = name]]) asOrderedCollection
+	| usedNames |
+	usedNames := Set new.
+	" note that ifAbsendAdd: returns whether or not the item was newly inserted "
+	^ anOrderedCollection select: [ :each | usedNames ifAbsentAdd: each name ].
