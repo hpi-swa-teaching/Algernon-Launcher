@@ -1,5 +1,8 @@
 accessing
 isDynamic
 
-	^ (self subMenuIfAbsent: [ ^ false ])
-		isKindOf: DockingBarUpdatingMenuMorph
+	| subMenu |
+	subMenu := self subMenuIfAbsent: [ ^ false ].
+
+	^ (subMenu isKindOf: DockingBarUpdatingMenuMorph) 
+		or: [subMenu isKindOf: UpdatingMenuMorph]
