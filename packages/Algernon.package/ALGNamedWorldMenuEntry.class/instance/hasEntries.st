@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 hasEntries
 
 	^ self menuEntries isEmpty not

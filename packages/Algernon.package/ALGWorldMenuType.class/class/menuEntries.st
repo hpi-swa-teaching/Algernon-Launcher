@@ -1,8 +1,9 @@
 algertem lists
 menuEntries
 
-	^ (((self dockingBar submorphs
+	^ ((((self dockingBar submorphs
 		collect: [:morph | ALGNamedWorldMenuEntry newFrom: morph])
 		select: [:entry | entry isValid])
+		select: [:entry | entry hasEntries])
 		select: [:entry | entry name ~= 'Windows' ])
 		collect: [:entry | entry category: entry name]
