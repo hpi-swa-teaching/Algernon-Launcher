@@ -24,7 +24,8 @@
 		"textField",
 		"firstStep",
 		"lastInputString",
-		"lastActivationKeyTimestamp" ],
+		"lastActivationKeyTimestamp",
+		"lastFocus" ],
 	"name" : "ALGCore",
 	"pools" : [
 		 ],
