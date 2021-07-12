@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newFrom:" : "lm 7/6/2021 22:53",
+		"newFrom:" : "NL 7/12/2021 23:09",
 		"newFrom:inCategory:" : "lm 7/6/2021 22:54" },
 	"instance" : {
 		"allEntries" : "b 7/12/2021 15:15",
@@ -8,7 +8,6 @@
 		"category:" : "NL 7/5/2021 19:21",
 		"enabledMenuSubmorphs" : "lm 7/4/2021 22:36",
 		"execute" : "NL 7/6/2021 12:16",
-		"firstWordOfSelector" : "lm 7/6/2021 23:35",
 		"hasEntries" : "NL 7/5/2021 19:42",
 		"ifDynamicItem:" : "b 7/12/2021 20:27",
 		"ifDynamicMenu:" : "b 7/12/2021 20:26",
@@ -22,6 +21,5 @@
 		"morph" : "NL 6/4/2021 16:15",
 		"morph:" : "NL 6/4/2021 16:15",
 		"name" : "b 7/12/2021 20:28",
-		"selector" : "lm 7/6/2021 22:58",
-		"selector:" : "lm 7/6/2021 22:59",
+		"selector" : "NL 7/12/2021 23:12",
 		"subMenuIfAbsent:" : "b 7/5/2021 18:18" } }

@@ -1,11 +1,11 @@
 actions
 determineActionName
 	
-	| firstWordOfSelector |
 	self typeObject hasEntries ifTrue: [ ^ 'entries' ].
-	firstWordOfSelector := self typeObject firstWordOfSelector.
-	(self class actionNameSelectors includes: firstWordOfSelector)
-		ifTrue: [ ^ firstWordOfSelector ].
+	self class actionNameSelectors do: [ :selectorString | 
+		(self typeObject selector startsWith: selectorString)
+			ifTrue: [ ^ selectorString ]
+	].
 	self class menuActionMapping 
 		at: self typeObject category
 		ifPresent: [ :name | ^ name ].
