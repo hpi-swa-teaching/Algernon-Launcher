@@ -4,9 +4,8 @@ allEntries
 	| entries |
 
 	entries := OrderedCollection new.
-	self menuEntries do: [ :entry |
-		entries add: entry.
-		entries addAll: entry allEntries ].
+	entries addAll: (self menuEntries inject: OrderedCollection new into:
+		[ :accumulator :entry | accumulator addAll: {entry}, entry allEntries; yourself]).
 	entries := self filterOutDuplicates: entries.
 	
 	^ entries
