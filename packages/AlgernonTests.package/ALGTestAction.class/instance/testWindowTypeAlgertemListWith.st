@@ -1,3 +1,0 @@
-testing
-testWindowTypeAlgertemListWith
-	self assert: ALGWindowType algertemList notEmpty

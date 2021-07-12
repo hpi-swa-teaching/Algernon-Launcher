@@ -7,6 +7,6 @@ testOpenSubmenuEntries
 	self runQuery: flatWidgetLookName.
 	self assert: (self resultsIncludeName: flatWidgetLookName).
 	
-	englishLanguageName := 'English (UNITED STATES)'.
+	"englishLanguageName := 'English (UNITED STATES)'.
 	self runQuery: englishLanguageName.
-	self assert: (self resultsIncludeName: englishLanguageName).
+	self assert: (self resultsIncludeName: englishLanguageName)."
