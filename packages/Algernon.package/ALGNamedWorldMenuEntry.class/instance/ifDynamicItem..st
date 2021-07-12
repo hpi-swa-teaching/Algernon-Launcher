@@ -1,4 +1,4 @@
 accessing
 ifDynamicItem: aBlock
 
-	^ self isDynamicItem ifTrue: [aBlock value]
+	self isDynamicItem ifTrue: [aBlock value]

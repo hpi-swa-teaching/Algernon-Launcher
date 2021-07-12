@@ -2,7 +2,7 @@ actions
 determineActionName
 	
 	self typeObject hasEntries ifTrue: [ ^ 'entries' ].
-	self class actionNameSelectors do: [ :selectorString | 
+	self class actionNameSelectors collect: [ :selectorString | 
 		(self typeObject selector startsWith: selectorString)
 			ifTrue: [ ^ selectorString ]
 	].
