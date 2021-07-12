@@ -1,4 +1,4 @@
-as yet unclassified
+children
 algertemChildrenList
 
 	^ ALGWorldMenuType algertemListWith: self typeObject
