@@ -1,5 +1,5 @@
 accessing
-isDynamicMenu
+hasDynamicMenu
 
 	| subMenu |
 	subMenu := self subMenuIfAbsent: [ ^ false ].

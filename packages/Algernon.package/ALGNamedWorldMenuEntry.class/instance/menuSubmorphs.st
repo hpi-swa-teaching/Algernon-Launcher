@@ -5,5 +5,5 @@ menuSubmorphs
 	
 	subMenu := self subMenuIfAbsent: [ ^ OrderedCollection new ].
 	
-	self ifDynamicMenu: [subMenu updateMenu].
+	self ifHasDynamicMenu: [subMenu updateMenu].
 	^ OrderedCollection newFrom: subMenu submorphs
