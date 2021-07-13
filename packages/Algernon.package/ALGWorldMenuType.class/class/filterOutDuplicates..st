@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 filterOutDuplicates: anOrderedCollection
 	
 	| usedNames |

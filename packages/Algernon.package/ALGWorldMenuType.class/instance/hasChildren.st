@@ -1,4 +1,4 @@
-as yet unclassified
+children
 hasChildren
 
 	^ self typeObject hasEntries

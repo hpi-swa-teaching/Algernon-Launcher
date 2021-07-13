@@ -7,8 +7,7 @@
 	"commentStamp" : "fsa 6/27/2021 10:38",
 	"instvars" : [
 		"morph",
-		"category",
-		"selector" ],
+		"category" ],
 	"name" : "ALGNamedWorldMenuEntry",
 	"pools" : [
 		 ],

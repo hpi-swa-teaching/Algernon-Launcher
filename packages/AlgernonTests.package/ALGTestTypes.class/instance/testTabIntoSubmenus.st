@@ -9,5 +9,7 @@ testTabIntoSubmenus
 	randomEntryName := 'Set High-DPI Mode'.
       self runQuery: themesAndColorName.
       self algInstance keyStroke: tab.
+      self runQuery: randomCheckBoxName.
 	self assert: (self resultsIncludeName: randomCheckBoxName).
+      self runQuery: randomEntryName.
 	self assert: (self resultsIncludeName: randomEntryName).
