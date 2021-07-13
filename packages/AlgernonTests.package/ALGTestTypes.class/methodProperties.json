@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"assertClassMethodAction:opensNewWindow:" : "OH 7/8/2021 15:36",
 		"assertWorldMenuEntry:" : "b 6/4/2021 17:14",
 		"denyEmptyAlgertemListForType:" : "rk 8/6/2020 10:51",
 		"itemIcon:" : "b 6/4/2021 17:20",
@@ -15,6 +16,10 @@
 		"testClassFoundByCommentWithoutActionVerbs" : "rk 8/5/2020 19:16",
 		"testClassFoundOnlyOnce" : "b 5/12/2021 11:58",
 		"testClassInspect" : "b 6/25/2021 17:36",
+		"testClassMethodsAreFoundInClassSearch" : "OH 7/1/2021 12:51",
+		"testClassMethodsCanBeOpenedInBrowser" : "OH 7/8/2021 15:40",
+		"testClassMethodsCanBeSearchedForImplementors" : "OH 7/8/2021 15:37",
+		"testClassMethodsCanBeSearchedForSenders" : "OH 7/8/2021 15:38",
 		"testClassNotEmpty" : "rk 8/6/2020 10:51",
 		"testClassType" : "rk 8/6/2020 10:51",
 		"testClassesForCategoryNotEmpty" : "rk 8/5/2020 19:17",
