@@ -9,6 +9,7 @@ handleActivationKeyEvent: anEvent
 
 	isTrigger 
 		ifTrue: [
+			self saveLastFocus.
 			lastActivationKeyTimestamp := nil.
 			self toggleVisibility: anEvent ]
 		ifFalse: [
