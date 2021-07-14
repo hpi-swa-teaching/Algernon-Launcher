@@ -1,6 +1,6 @@
 instance creation
-newFrom: aMorph
+newFrom: aMenuItemMorph
 
 	^ self new
-			morph: aMorph;
+			morph: aMenuItemMorph;
 			yourself

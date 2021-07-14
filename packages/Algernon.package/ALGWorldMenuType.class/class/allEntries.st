@@ -1,6 +1,6 @@
 algertem lists
 allEntries
-
+	"all Entries of the main docking bar"
 	| entries |
 
 	entries := self menuEntries inject: OrderedCollection new into:

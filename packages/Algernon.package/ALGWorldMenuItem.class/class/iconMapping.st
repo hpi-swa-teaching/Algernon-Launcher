@@ -1,5 +1,5 @@
 mapping
-mapping
+iconMapping
 
 	^ Dictionary newFrom: {
 			'' -> #Squeak.
