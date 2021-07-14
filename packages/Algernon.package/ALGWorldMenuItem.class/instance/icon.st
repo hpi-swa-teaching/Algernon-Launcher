@@ -1,6 +1,6 @@
 icon
 icon
 
-	^ self class mapping 
-			at: self algerType typeObject name
+	^ self class iconMapping 
+			at: self algerType typeObject category
 			ifAbsent: [ #WorldMenu ]

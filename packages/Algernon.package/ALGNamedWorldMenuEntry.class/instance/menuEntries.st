@@ -1,7 +1,6 @@
 accessing
 menuEntries
 
-	(self isDynamic and: [self name = 'Windows'])
-		ifTrue: [^ self excludeDynamicWindows].
-
-	^ self enabledMenuSubmorphs
+	^ self menuSubmorphs
+		collect: [ :morph | ALGNamedWorldMenuEntry newFrom: morph inCategory: self category ]
+		thenSelect: [ :entry | entry isValid and: [entry isEnabled] ]

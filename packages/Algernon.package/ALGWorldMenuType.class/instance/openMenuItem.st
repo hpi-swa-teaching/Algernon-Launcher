@@ -1,3 +1,3 @@
 actions
 openMenuItem
-	self typeObject morph doButtonAction
+	self typeObject execute

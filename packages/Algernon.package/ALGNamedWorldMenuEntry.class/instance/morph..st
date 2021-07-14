@@ -1,3 +1,3 @@
 accessing
-morph: aMorph
-	morph := aMorph
+morph: aMenuItemMorph
+	morph := aMenuItemMorph

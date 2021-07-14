@@ -1,3 +1,4 @@
 accessing
 name
-	^ name
+	self ifDynamicItem: [self morph updateContents].
+	^ self morph contents

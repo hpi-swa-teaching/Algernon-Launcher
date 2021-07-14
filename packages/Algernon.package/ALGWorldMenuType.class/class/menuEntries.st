@@ -1,16 +1,14 @@
 algertem lists
 menuEntries
-	|entries|
-	
-	entries := OrderedCollection new.	
 
-	((self menus
-		collect: [ :each | ALGNamedWorldMenuEntry newFrom: each subMenu name: each contents ])
-		select: [ :each | each isMenu ])
-		do: [ :each |
-			entries addAll: (
-				(self extractMenuEntriesFrom: each)
-					collect: [ :entry | ALGNamedWorldMenuEntry newFrom: entry name: each name]) ].
+	| entries |
 	
-	^ entries select: [:each | each morph isKindOf: MenuItemMorph]
+	entries := self dockingBar submorphs
+		collect: [:morph | ALGNamedWorldMenuEntry newFrom: morph]
+		thenSelect: 
+			[:entry | entry isValid 
+				and: [entry hasEntries] 
+				and: [entry name ~= 'Windows']].
+	entries do: [:entry | entry category: entry name].
 	
+	^ entries

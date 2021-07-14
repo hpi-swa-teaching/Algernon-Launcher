@@ -7,7 +7,6 @@ helpTexts
 		add: 'browse'->'Open a given class in the Browser.';
 		add: 'fileout'->'Generates a .st file in Resources of squeak image Folder';
 		add: 'open'->'Open an app, tool or morph';
-		add: 'saverepo'->'Saves to Repository with a working copy';
 		add: 'inspect'->'Open Inspector for an object';
 		add: 'explore'-> 'Open Explorer for an object or all intances of a given class';
 		add: 'front'-> 'Bring a given window to the front';
