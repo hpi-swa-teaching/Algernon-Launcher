@@ -1,3 +1,3 @@
 testing expressions
-testExpressionDoIt3
+testExpressionDoItWithDoPrefix1
 	self testExpressionDoItHelper: 'do SystemBrowser default open'.
