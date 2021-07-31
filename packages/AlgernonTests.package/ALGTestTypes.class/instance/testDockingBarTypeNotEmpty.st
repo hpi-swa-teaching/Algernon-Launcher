@@ -1,0 +1,3 @@
+testing world menu types
+testDockingBarTypeNotEmpty
+	self denyEmptyAlgertemListForType: ALGDockingBarType
