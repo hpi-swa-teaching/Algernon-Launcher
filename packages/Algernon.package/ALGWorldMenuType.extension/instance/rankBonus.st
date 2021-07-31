@@ -1,4 +1,0 @@
-relevance
-rankBonus
-
-	 ^ 5
