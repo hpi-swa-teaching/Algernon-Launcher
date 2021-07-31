@@ -1,4 +1,4 @@
-testing world menu types
+testing docking bar types
 testOpenTools
 	"Test the open hotword by running different example queries for tools"
 	self testWindowOpeningDockingBarItem: 'Transcript'.

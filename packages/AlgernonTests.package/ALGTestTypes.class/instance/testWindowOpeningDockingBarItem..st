@@ -1,4 +1,4 @@
-testing world menu types
+testing docking bar types
 testWindowOpeningDockingBarItem: menuEntry 
 	| results newWindows oldWindows |
 	self runQuery: 'open ' , menuEntry.

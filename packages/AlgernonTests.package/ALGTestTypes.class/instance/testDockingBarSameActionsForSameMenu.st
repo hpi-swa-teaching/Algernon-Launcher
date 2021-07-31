@@ -1,4 +1,4 @@
-testing world menu types
+testing docking bar types
 testDockingBarSameActionsForSameMenu
 
 	self testItemActionName: 'Transcript clear' equals: 'do'.
