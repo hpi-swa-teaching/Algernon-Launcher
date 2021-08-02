@@ -1,4 +1,4 @@
-testing world menu types
+testing docking bar types
 testReopenExistingWindow
 	| query oldBrowsers newBrowser dynamicResults |
 	query := 'ALGCore'.

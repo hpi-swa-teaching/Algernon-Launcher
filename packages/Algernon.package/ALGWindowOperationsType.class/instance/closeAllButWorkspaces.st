@@ -1,0 +1,4 @@
+action handlers
+closeAllButWorkspaces
+
+	TheWorldMainDockingBar instance closeAllWindowsButWorkspaces

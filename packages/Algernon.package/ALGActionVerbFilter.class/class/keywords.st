@@ -1,7 +1,7 @@
 filtering
 keywords
 	^ Set newFrom: {'run'. 'browse'. 'fileout'. 
-		'open'. 'saverepo'. 'do'. 
+		'open'. 'do'. 
 		'inspect'. 'explore'. '='.
 		'front'. 'expand'. 'collapse'. 
 		'contract'. 'close' }

@@ -1,3 +1,0 @@
-testing
-testWorldMenuTypeCreateListOfAlgeractions
-	self assertAlgeractionsNotEmptyForType: ALGWorldMenuType

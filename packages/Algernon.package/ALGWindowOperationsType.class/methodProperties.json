@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"algertemList" : "NL 7/6/2021 11:54",
+		"allWindowActions" : "NL 7/6/2021 12:04",
+		"icon" : "NL 7/6/2021 11:55" },
+	"instance" : {
+		"closeAllButWorkspaces" : "NL 7/6/2021 12:03",
+		"closeAllWindows" : "NL 7/6/2021 12:03",
+		"closeWithoutChanges" : "NL 7/6/2021 12:03",
+		"collapseAllWindows" : "NL 7/6/2021 12:01",
+		"createAction" : "NL 7/6/2021 11:59",
+		"createListOfAlgeractions" : "NL 7/6/2021 11:56",
+		"name" : "NL 7/6/2021 11:59",
+		"rankBonus" : "NL 7/6/2021 11:58",
+		"typeName" : "NL 7/6/2021 11:58" } }
