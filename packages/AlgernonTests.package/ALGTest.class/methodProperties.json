@@ -2,7 +2,7 @@
 	"class" : {
 		"algernonInstance" : "beb 7/15/2020 16:59",
 		"algernonInstance:" : "jRo 7/2/2020 10:06",
-		"initializeAlgernonInstance" : "jRo 7/6/2020 17:56",
+		"initializeAlgernonInstance" : "NL 8/2/2021 17:37",
 		"lastResetSeconds" : "jRo 7/2/2020 10:50",
 		"lastResetSeconds:" : "jRo 7/2/2020 10:49" },
 	"instance" : {
@@ -38,6 +38,6 @@
 		"runQuery:" : "jRo 7/5/2020 22:15",
 		"runQuery:withCursorAt:" : "rk 8/5/2020 19:27",
 		"setUp" : "rk 8/5/2020 17:44",
-		"tearDown" : "jRo 7/5/2020 22:15",
+		"tearDown" : "NL 8/2/2021 17:45",
 		"topResults" : "rk 8/3/2020 16:52",
 		"typeNameOfFirstResult" : "rk 7/16/2020 10:14" } }
