@@ -11,4 +11,4 @@ testHasChildren
 	self assert: ALGPackageType algertemList first hasChildren.
 	self assert: (ALGClassType new typeObject: ALGCore) hasChildren.
 	self deny: ALGNullItem new hasChildren.
-	self assert: ALGWorldMenuType algertemList first hasChildren.
+	self assert: ALGDockingBarType algertemList first hasChildren.

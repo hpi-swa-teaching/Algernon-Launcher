@@ -1,4 +1,4 @@
-testing world menu types
+testing docking bar types
 testSubmenuCheckBoxes
 
 	| colorfulWindowsName colorfulWindowsInitialValue|

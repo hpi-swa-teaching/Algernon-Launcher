@@ -1,5 +1,5 @@
 accessing
 dynamicItems
 	^ (ALGExpressionType algertemList: self controller), 
-		ALGWorldMenuType algertemList,
+		ALGDockingBarType algertemList,
 		ALGWindowType algertemList

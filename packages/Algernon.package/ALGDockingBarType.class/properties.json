@@ -1,0 +1,14 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "b 7/31/2021 12:45",
+	"instvars" : [
+		 ],
+	"name" : "ALGDockingBarType",
+	"pools" : [
+		 ],
+	"super" : "ALGType",
+	"type" : "normal" }
