@@ -1,3 +1,0 @@
-testing world menu types
-testWorldMenuTypeNotEmpty
-	self denyEmptyAlgertemListForType: ALGWorldMenuType

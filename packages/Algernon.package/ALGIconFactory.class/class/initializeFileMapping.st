@@ -13,7 +13,7 @@ initializeFileMapping
 		#Repository -> self repositoryIcon.
 		#Settings -> self settingsIcon.
 		#Test -> self testIcon.
-		#WorldMenu -> self worldMenuIcon.
+		#DockingBar -> self worldMenuIcon.
 		#Window -> self windowIcon.
 		#HasChildren -> self tabIcon.
 		#TopResult -> self starIcon.

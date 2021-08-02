@@ -1,3 +1,3 @@
-testing world menu types
+testing docking bar types
 testQuit
-	self assertWorldMenuEntry: 'Quit'
+	self assertDockingBarEntry: 'Quit'

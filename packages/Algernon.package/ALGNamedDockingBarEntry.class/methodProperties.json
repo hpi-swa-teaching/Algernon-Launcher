@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"newFrom:" : "NL 7/14/2021 12:21",
+		"newFrom:inCategory:" : "lm 7/6/2021 22:54" },
+	"instance" : {
+		"allEntries" : "NL 7/14/2021 12:24",
+		"category" : "NL 7/5/2021 19:20",
+		"category:" : "NL 7/5/2021 19:21",
+		"enabledMenuSubmorphs" : "lm 7/4/2021 22:36",
+		"execute" : "NL 7/6/2021 12:16",
+		"hasDynamicMenu" : "b 7/13/2021 12:31",
+		"hasEntries" : "NL 7/5/2021 19:42",
+		"ifDynamicItem:" : "NL 7/12/2021 23:24",
+		"ifHasDynamicMenu:" : "b 7/13/2021 12:31",
+		"isDynamicItem" : "b 7/12/2021 18:54",
+		"isEnabled" : "NL 7/5/2021 17:48",
+		"isValid" : "b 7/31/2021 12:51",
+		"menuEntries" : "b 7/31/2021 12:34",
+		"menuSubmorphs" : "b 7/13/2021 12:31",
+		"morph" : "NL 6/4/2021 16:15",
+		"morph:" : "NL 7/14/2021 12:21",
+		"name" : "b 7/12/2021 20:28",
+		"selector" : "b 7/13/2021 12:32",
+		"subMenuIfAbsent:" : "NL 7/14/2021 12:17" } }

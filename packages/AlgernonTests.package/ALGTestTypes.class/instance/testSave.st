@@ -1,3 +1,3 @@
-testing world menu types
+testing docking bar types
 testSave
-	self assertWorldMenuEntry: 'Save'
+	self assertDockingBarEntry: 'Save'
