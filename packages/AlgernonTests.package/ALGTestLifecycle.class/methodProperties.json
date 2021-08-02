@@ -19,11 +19,11 @@
 		"testAlgernonOpen" : "jRo 8/5/2020 15:22",
 		"testAlgernonShortcut:requiresDoubleclick:" : "NL 6/29/2021 17:01",
 		"testAlgernonSingletoneClose" : "jRo 8/5/2020 15:24",
-		"testAlgernonSingletoneOpen" : "jRo 8/5/2020 15:25",
+		"testAlgernonSingletoneOpen" : "NL 8/2/2021 17:51",
 		"testAlgernonToggleVisibility" : "jRo 8/1/2020 13:02",
 		"testAlgernonUnknownActivationString" : "fsa 6/26/2021 14:19",
 		"testBreadcrumbs" : "jRo 8/1/2020 13:02",
 		"testEventUnsubscribeDoesntThrow" : "jRo 8/5/2020 16:51",
-		"testInitializeAlgernon" : "td 7/3/2016 15:36",
+		"testInitializeAlgernon" : "NL 8/2/2021 17:51",
 		"testRanking" : "jRo 8/1/2020 13:02",
 		"testSingleResultList" : "jRo 7/5/2020 22:15" } }
