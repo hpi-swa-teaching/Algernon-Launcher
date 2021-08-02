@@ -1,3 +1,3 @@
 testing expressions
-testExpressionDoIt2
+testExpressionDoItWithEqualsPrefix2
 	self testExpressionDoItHelper: '=SystemBrowser default open'.
