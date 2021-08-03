@@ -1,7 +1,8 @@
 tests
 testEnableAfterInstall
 
+	self ensureInternetConnection.
 	self metacelloInstance 
 		get;
 		load.
-	self assert: ALGCore activateAlgernon = true.
+	self assert: true equals: ALGCore activateAlgernon
