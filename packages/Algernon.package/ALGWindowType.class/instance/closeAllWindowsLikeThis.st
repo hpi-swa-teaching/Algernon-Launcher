@@ -1,3 +1,3 @@
 action handlers
 closeAllWindowsLikeThis
-	TheWorldMainDockingBar instance closeAllWindowsLike: self typeObject
+	self dockingBar closeAllWindowsLike: self typeObject

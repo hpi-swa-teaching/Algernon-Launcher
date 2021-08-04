@@ -5,8 +5,8 @@
 		"visibleWindows" : "lm 5/25/2021 21:14" },
 	"instance" : {
 		"bringWindowToFront" : "b 5/27/2021 12:51",
-		"closeAllWindowsButThis" : "lm 5/25/2021 21:01",
-		"closeAllWindowsLikeThis" : "lm 5/25/2021 21:03",
+		"closeAllWindowsButThis" : "NM 8/4/2021 18:37",
+		"closeAllWindowsLikeThis" : "NM 8/4/2021 18:37",
 		"closeWindow" : "lm 5/25/2021 20:56",
 		"collapseWindow" : "lm 5/25/2021 20:47",
 		"contractWindow" : "lm 5/25/2021 20:53",
@@ -18,6 +18,7 @@
 		"createActionContract" : "lm 5/25/2021 21:35",
 		"createActionExpand" : "lm 5/25/2021 21:35",
 		"createListOfAlgeractions" : "lm 5/25/2021 21:11",
+		"dockingBar" : "NM 8/4/2021 18:37",
 		"expandWindow" : "lm 5/25/2021 20:52",
 		"hasChildren" : "lm 5/25/2021 21:37",
 		"name" : "lm 5/25/2021 21:16",
