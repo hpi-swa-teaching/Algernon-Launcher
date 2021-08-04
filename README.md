@@ -1,5 +1,7 @@
 # Algernon Launcher 
-[![GitHub release](https://img.shields.io/github/release/hpi-swa-teaching/Algernon-Launcher.svg?label=small%20release&maxAge=0)](https://github.com/hpi-swa-teaching/Algernon-Launcher/releases/latest) [![Github All Releases](https://img.shields.io/github/downloads/hpi-swa-teaching/Algernon-Launcher/total.svg?maxAge=0)](https://github.com/hpi-swa-teaching/Algernon-Launcher/releases) ![smalltalkCI](https://github.com/hpi-swa-teaching/Algernon-Launcher/workflows/smalltalkCI/badge.svg) 
+[![GitHub release](https://img.shields.io/github/release/hpi-swa-teaching/Algernon-Launcher.svg?label=small%20release&maxAge=0)](https://github.com/hpi-swa-teaching/Algernon-Launcher/releases/latest)
+[![Github All Releases](https://img.shields.io/github/downloads/hpi-swa-teaching/Algernon-Launcher/total.svg?maxAge=0)](https://github.com/hpi-swa-teaching/Algernon-Launcher/releases)
+![smalltalkCI](https://github.com/hpi-swa-teaching/Algernon-Launcher/workflows/smalltalkCI/badge.svg) 
 Master: [![Coverage Master](https://coveralls.io/repos/github/hpi-swa-teaching/Algernon-Launcher/badge.svg?branch=master)](https://coveralls.io/github/hpi-swa-teaching/Algernon-Launcher?branch=master)
 Development: [![Coverage Development](https://coveralls.io/repos/github/hpi-swa-teaching/Algernon-Launcher/badge.svg?branch=development)](https://coveralls.io/github/hpi-swa-teaching/Algernon-Launcher?branch=development)
 
