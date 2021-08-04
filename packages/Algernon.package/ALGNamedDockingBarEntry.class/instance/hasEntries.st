@@ -1,4 +1,4 @@
 accessing
 hasEntries
 
-	^ self menuEntries isEmpty not
+	^ self menuEntries notEmpty
