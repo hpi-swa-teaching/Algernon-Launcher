@@ -1,4 +1,4 @@
 action handlers
 closeWithoutChanges
 
-	TheWorldMainDockingBar instance closeAllWindows
+	self dockingBar closeAllWindows
