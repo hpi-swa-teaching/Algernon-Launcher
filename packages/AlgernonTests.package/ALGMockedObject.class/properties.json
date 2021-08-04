@@ -1,0 +1,15 @@
+{
+	"category" : "AlgernonTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mockedMethods",
+		"calls" ],
+	"name" : "ALGMockedObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
