@@ -1,4 +1,4 @@
-testing
+testing window type
 testWindowOperations
 
 	| instance |
