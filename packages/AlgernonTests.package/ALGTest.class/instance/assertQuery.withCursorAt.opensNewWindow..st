@@ -1,8 +1,8 @@
 testing
-assertQuery: query opensNewWindow: windowName
+assertQuery: query withCursorAt: aCategory opensNewWindow: windowName
 
 	^ self assert:
-		[ self runQuery: query.
+		[ self runQuery: query withCursorAt: aCategory.
 		  self activateCurrentItemAction.
 		  World doOneCycle                      ] 
 		opensNewWindow: windowName

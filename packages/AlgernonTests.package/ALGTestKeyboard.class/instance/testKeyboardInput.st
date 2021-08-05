@@ -5,7 +5,6 @@ testKeyboardInput
 				 keyValue: 65;
 				 buttons: 0;
 				 isKeyUp: true.
-	self algInstance activate.
 	self algInstance keyStroke: keyboardEvent.
 	self algInstance keyStroke: keyboardEvent.
 	self assert: self algInstance query equals: 'AA'

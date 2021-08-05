@@ -1,5 +1,5 @@
 helpers
 deleteClass
 	| cl |
-	cl := Smalltalk at: className ifAbsent: [^self].
+	cl := Smalltalk at: self className ifAbsent: [^self].
 	cl removeFromChanges; removeFromSystemUnlogged 

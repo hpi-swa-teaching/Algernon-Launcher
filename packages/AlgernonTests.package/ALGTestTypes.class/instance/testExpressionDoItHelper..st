@@ -1,9 +1,9 @@
 testing expressions
 testExpressionDoItHelper: anExpression
-	| expressionItem oldSystemWindows |
+	| expressionItem |
+
 	self runQuery: anExpression.
-	expressionItem := self items detect: [:each| each algerType typeName = 'Expression'].
+ 	expressionItem := self items detect: [:each| each algerType typeName = 'Expression'].
 	self assert: expressionItem notNil.
-	oldSystemWindows := self currentSystemWindows.
-	self doActionForItem: expressionItem withName: 'do'.
-	self assert: (self findNewSystemWindowsByLabel: 'System Browser' old:  oldSystemWindows) notEmpty.
+	self assert: [self doActionForItem: expressionItem withName: 'do']
+		 opensNewWindow: 'System Browser'

@@ -5,5 +5,4 @@ testTestAction
 	oldTestRunners := self findSystemWindowsByLabel: 'Test Runner'.
 	ALGFakeTest wasRun: false.
 	self activateCurrentItemAction.
-	self assert: ALGFakeTest wasRun.
-	self deleteNewSystemWindowsByLabel: 'Test Runner' old: oldTestRunners
+	self assert: ALGFakeTest wasRun

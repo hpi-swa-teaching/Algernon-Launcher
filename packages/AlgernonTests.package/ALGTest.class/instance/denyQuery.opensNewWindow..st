@@ -1,7 +1,7 @@
 testing
-assertQuery: query opensNewWindow: windowName
+denyQuery: query opensNewWindow: windowName
 
-	^ self assert:
+	self deny:
 		[ self runQuery: query.
 		  self activateCurrentItemAction.
 		  World doOneCycle                      ] 
