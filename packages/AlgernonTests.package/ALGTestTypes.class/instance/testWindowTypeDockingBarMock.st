@@ -2,7 +2,7 @@ testing window type
 testWindowTypeDockingBarMock
 
 	| instance |
-	instance := ALGMockedWindowType new.
+	instance := ALGFakeWindowType new.
 	instance
 		closeAllWindowsLikeThis;
 		closeAllWindowsButThis.

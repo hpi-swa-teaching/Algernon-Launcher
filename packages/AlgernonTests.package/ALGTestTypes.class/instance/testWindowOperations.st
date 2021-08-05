@@ -2,7 +2,7 @@ testing window type
 testWindowOperations
 
 	| instance |
-	instance := ALGMockedWindowOperationsType new.
+	instance := ALGFakeWindowOperationsType new.
 	instance
 		closeAllButWorkspaces;
 		closeAllWindows;

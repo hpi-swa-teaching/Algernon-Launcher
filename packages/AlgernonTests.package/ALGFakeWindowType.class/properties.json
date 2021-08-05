@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"mockedWorld",
 		"mockedDockingBar" ],
-	"name" : "ALGMockedWindowOperationsType",
+	"name" : "ALGFakeWindowType",
 	"pools" : [
 		 ],
-	"super" : "ALGWindowOperationsType",
+	"super" : "ALGWindowType",
 	"type" : "normal" }
