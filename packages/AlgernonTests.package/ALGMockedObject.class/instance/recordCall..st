@@ -1,7 +1,8 @@
 mocking
 recordCall: aMessage
 
-	(self calls
+	| callCollection |
+	callCollection := self calls
 		at: aMessage selector
-		ifAbsentPut: [ OrderedCollection new ])
-			add: aMessage
+		ifAbsentPut: [ OrderedCollection new ].
+	callCollection add: aMessage

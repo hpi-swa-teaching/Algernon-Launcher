@@ -8,7 +8,9 @@ testWindowOperations
 		closeAllWindows;
 		closeWithoutChanges;
 		collapseAllWindows.
-	self assert: 3 equals: instance mockedDockingBar calls keys size.
-	self assert: 1 equals: instance mockedWorld calls keys size.
-	instance mockedDockingBar calls values do: [ :coll | self assert: 1 equals: coll size ].
-	instance mockedWorld calls values do: [ :coll | self assert: 1 equals: coll size ]
+	self assert: 3 equals: instance mockedDockingBar calls size.
+	self assert: 1 equals: instance mockedWorld calls size.
+	instance mockedDockingBar calls values do:
+		[ :messageCollection | self assert: 1 equals: messageCollection size ].
+	instance mockedWorld calls values do:
+		[ :messageCollection | self assert: 1 equals: messageCollection size ]
