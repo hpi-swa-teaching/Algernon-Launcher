@@ -1,4 +1,4 @@
 action handlers
 collapseAllWindows
 
-	Project current world collapseAllWindows
+	self world collapseAllWindows

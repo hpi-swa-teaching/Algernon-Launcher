@@ -1,4 +1,4 @@
 action handlers
 closeAllButWorkspaces
 
-	TheWorldMainDockingBar instance closeAllWindowsButWorkspaces
+	self dockingBar closeAllWindowsButWorkspaces

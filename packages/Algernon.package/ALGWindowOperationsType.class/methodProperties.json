@@ -4,12 +4,14 @@
 		"allWindowActions" : "NL 7/6/2021 12:04",
 		"icon" : "NL 7/6/2021 11:55" },
 	"instance" : {
-		"closeAllButWorkspaces" : "NL 7/6/2021 12:03",
-		"closeAllWindows" : "NL 7/6/2021 12:03",
-		"closeWithoutChanges" : "NL 7/6/2021 12:03",
-		"collapseAllWindows" : "NL 7/6/2021 12:01",
+		"closeAllButWorkspaces" : "NM 8/4/2021 17:20",
+		"closeAllWindows" : "NM 8/4/2021 17:20",
+		"closeWithoutChanges" : "NM 8/4/2021 17:20",
+		"collapseAllWindows" : "NM 8/4/2021 17:21",
 		"createAction" : "NL 7/6/2021 11:59",
 		"createListOfAlgeractions" : "NL 7/6/2021 11:56",
+		"dockingBar" : "NM 8/4/2021 17:21",
 		"name" : "NL 7/6/2021 11:59",
 		"rankBonus" : "NL 7/6/2021 11:58",
-		"typeName" : "NL 7/6/2021 11:58" } }
+		"typeName" : "NL 7/6/2021 11:58",
+		"world" : "NM 8/4/2021 17:21" } }

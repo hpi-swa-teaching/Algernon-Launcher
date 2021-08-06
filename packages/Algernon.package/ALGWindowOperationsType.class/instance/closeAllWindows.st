@@ -1,4 +1,4 @@
 action handlers
 closeAllWindows
 
-	TheWorldMainDockingBar instance closeAllWindowsUnsafe
+	self dockingBar closeAllWindowsUnsafe

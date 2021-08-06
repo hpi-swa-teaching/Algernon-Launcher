@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
+		"currentGitBranch" : "NM 8/6/2021 12:10",
 		"metacelloInstance" : "lm 5/9/2021 19:13",
 		"metacelloInstance:" : "lm 5/9/2021 19:13",
-		"setUp" : "b 6/10/2021 15:34",
-		"tearDown" : "b 6/10/2021 15:09",
-		"testEnableAfterInstall" : "NL 8/3/2021 11:48" } }
+		"setUp" : "NM 8/6/2021 12:13",
+		"tearDown" : "NM 8/6/2021 12:13",
+		"testEnableAfterInstall" : "NM 8/6/2021 12:12" } }

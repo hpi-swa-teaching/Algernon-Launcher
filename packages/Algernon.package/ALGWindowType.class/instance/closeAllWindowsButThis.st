@@ -1,3 +1,3 @@
 action handlers
 closeAllWindowsButThis
-	TheWorldMainDockingBar instance closeAllWindowsBut: self typeObject
+	self dockingBar closeAllWindowsBut: self typeObject
