@@ -1,4 +1,4 @@
 helpers
 deleteCategory
-	(Smalltalk organization listAtCategoryNamed: self categoryNameForTemporaryClasses) isEmpty
-		ifTrue: [Smalltalk organization removeCategory: self categoryNameForTemporaryClasses]
+	(Smalltalk organization listAtCategoryNamed: self categoryNameForTemporaryClasses)
+		ifEmpty: [Smalltalk organization removeCategory: self categoryNameForTemporaryClasses]

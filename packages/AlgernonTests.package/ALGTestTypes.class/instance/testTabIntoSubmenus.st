@@ -12,4 +12,4 @@ testTabIntoSubmenus
       self runQuery: randomCheckBoxName.
 	self assert: (self resultsIncludeName: randomCheckBoxName).
       self runQuery: randomEntryName.
-	self assert: (self resultsIncludeName: randomEntryName).
+	self assert: (self resultsIncludeName: randomEntryName)

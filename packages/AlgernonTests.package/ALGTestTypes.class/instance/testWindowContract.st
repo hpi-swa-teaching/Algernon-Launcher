@@ -8,4 +8,4 @@ testWindowContract
 	expendedWidth := browser width.
 	self testOpenWindowEntry: 'System Browser' withAction: 'contract'.
 	self assert: browser width < expendedWidth.
-	browser abandon.
+	browser abandon

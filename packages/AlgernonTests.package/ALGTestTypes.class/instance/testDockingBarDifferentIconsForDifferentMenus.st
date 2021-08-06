@@ -13,4 +13,4 @@ testDockingBarDifferentIconsForDifferentMenus
 	
 	self assert: (allItemIcons allSatisfy: 
 		[ :icon | 
-		(allItemIcons  count: [ :otherIcon | otherIcon = icon ]) = 1])
+		  (allItemIcons count: [ :otherIcon | otherIcon = icon ]) = 1 ])

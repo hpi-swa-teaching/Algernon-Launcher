@@ -1,3 +1,3 @@
 testing expressions
 testExpressionDoItWithoutPrefix
-	self testExpressionDoItHelper: 'SystemBrowser default open'.
+	self testExpressionDoItHelper: 'SystemBrowser default open'

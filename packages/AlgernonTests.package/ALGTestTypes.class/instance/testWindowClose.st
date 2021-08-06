@@ -5,4 +5,4 @@ testWindowClose
 	
 	browser := self openBrowser.
 	self testOpenWindowEntry: 'System Browser' withAction: 'close'.
-	self assert: browser owner isNil.
+	self assert: browser owner isNil

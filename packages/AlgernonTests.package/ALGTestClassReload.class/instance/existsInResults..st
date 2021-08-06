@@ -6,4 +6,4 @@ existsInResults: aClassName
 
 	classItems := self itemMorphs copy.
 	names := classItems collect: [ :entries | entries item name ].
-	^(names anySatisfy: [ :each | each = aClassName asString])
+	^ names anySatisfy: [ :each | each = aClassName asString ]

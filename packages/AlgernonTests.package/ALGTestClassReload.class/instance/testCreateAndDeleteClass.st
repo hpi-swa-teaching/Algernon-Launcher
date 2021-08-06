@@ -1,8 +1,8 @@
 testing
 testCreateAndDeleteClass
 	
-	self deny: (self existsInResults: className).
+	self deny: (self existsInResults: self className).
 	self createClass.
-	self assert: (self existsInResults: className).
+	self assert: (self existsInResults: self className).
 	self deleteClass.
-	self deny: (self existsInResults: className)
+	self deny: (self existsInResults: self className)
