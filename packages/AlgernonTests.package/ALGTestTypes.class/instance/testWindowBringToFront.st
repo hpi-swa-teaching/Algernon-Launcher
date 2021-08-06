@@ -8,4 +8,4 @@ testWindowBringToFront
 	self testOpenWindowEntry: 'System Browser' withAction: 'front'.
 	self assert: browser isActive.
 	browser abandon.
-	transcript abandon.
+	transcript abandon

@@ -1,5 +1,5 @@
 testing docking bar types
-testFindsNewDynamicDockingBarEntries
+testFindsNewDockingBarEntries
 
 	| menu |
 	menu := ALGFakeDockingBarItemMorph addToDockingBar.

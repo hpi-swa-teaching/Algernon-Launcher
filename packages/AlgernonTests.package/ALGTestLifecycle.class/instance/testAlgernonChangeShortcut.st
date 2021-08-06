@@ -1,7 +1,7 @@
 testing
 testAlgernonChangeShortcut
 	self shortcuts
-		do: [:shortcut | 
+		do: [ :shortcut | 
 				self changeAlgernonShortcut: shortcut requiresDoubleClick: true.
 				self testAlgernonShortcut: shortcut requiresDoubleclick: true.
 				self changeAlgernonShortcut: shortcut requiresDoubleClick: false.
