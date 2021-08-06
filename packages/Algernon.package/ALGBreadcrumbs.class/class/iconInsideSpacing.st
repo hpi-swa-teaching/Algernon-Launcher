@@ -1,0 +1,4 @@
+constants
+iconInsideSpacing
+
+	^ 2

@@ -1,0 +1,4 @@
+forwarding
+wouldAcceptKeyboardFocusUponTab
+
+	^ self inputfield wouldAcceptKeyboardFocusUponTab

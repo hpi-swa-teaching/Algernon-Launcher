@@ -2,5 +2,5 @@ constants
 iconFor: anItem
 
 	| typeName |
-	typeName := anItem algerType class name.
+	typeName := anItem icon.
 	^ self getInstance loadIconFor: typeName

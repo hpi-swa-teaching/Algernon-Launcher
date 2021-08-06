@@ -1,0 +1,3 @@
+helpers
+currentDialogWindows
+	^ DialogWindow allInstances

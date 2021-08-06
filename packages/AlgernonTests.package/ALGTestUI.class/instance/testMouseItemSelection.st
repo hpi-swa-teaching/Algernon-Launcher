@@ -2,6 +2,7 @@ testing mouse handling
 testMouseItemSelection
 	| position |
 	self runQuery: 'ALGCore'.
-	position:= self itemMorphs third bounds center.
+	position:= ((self algInstance itemList items third) bounds center) + self algInstance itemList bounds origin.
+	self algInstance itemList shouldItemsHandleMouseOver: true.
 	self dispatchMouseMoveEvent: #mouseEnter atPosition: position.
 	self assert: self algInstance itemList selectedItem item equals: self itemMorphs third item

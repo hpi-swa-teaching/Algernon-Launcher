@@ -1,0 +1,1 @@
+An ALGDockingBarType represents a World Docking Bar Entry.

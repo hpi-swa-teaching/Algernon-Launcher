@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"newForController:extent:center:" : "NM 6/1/2021 19:01" },
+	"instance" : {
+		"addInnerForController:" : "NM 6/1/2021 19:07",
+		"cleanup" : "NM 6/1/2021 19:08",
+		"clear" : "NM 6/1/2021 19:07",
+		"contents" : "NM 6/1/2021 19:07",
+		"contents:" : "NM 6/1/2021 19:07",
+		"currentContent" : "NM 6/1/2021 19:07",
+		"handleKeystroke:" : "b 6/2/2021 13:36",
+		"initialize" : "NM 6/1/2021 18:45",
+		"inputfield" : "NM 6/1/2021 19:07",
+		"inputfield:" : "NM 6/1/2021 19:08",
+		"isEmpty" : "NM 6/1/2021 19:07",
+		"keyStroke:" : "NM 6/1/2021 19:07",
+		"keyboardFocusDelegate" : "b 6/2/2021 01:01",
+		"moveCursorToEnd" : "NM 6/1/2021 19:07",
+		"normalKeyStroke:" : "NM 6/1/2021 19:07",
+		"paragraph" : "NM 6/1/2021 19:07",
+		"selectAll" : "NM 6/1/2021 19:07",
+		"update:" : "NM 6/1/2021 19:02",
+		"wouldAcceptKeyboardFocusUponTab" : "OH 8/5/2021 12:37" } }

@@ -1,4 +1,6 @@
 filtering
 cleanUp
-	self initialize.
-	self controller: nil.
+	self 
+		initialize;
+		controller: nil;
+		unsubscribeFromSystemChangeNotifier

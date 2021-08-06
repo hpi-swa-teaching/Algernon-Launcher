@@ -1,8 +1,9 @@
 initialization
 initializeInputField
 
-	| helper |
-	self textField: self createInputField.
-	helper := self createInputHelper.
-	helper addMorph: self textField.
-	self addMorph: helper
+	self
+		textField: (ALGInputWrapper
+			newForController: self
+			extent:  (self class defaultWidth - 10) @ 40
+			center: self center);
+		addMorph: self textField

@@ -12,9 +12,7 @@ SmalltalkCISpec {
     'scripts/preLoading.st'
   ],
   #testing : {
-    #coverage : {
-      #categories : [ 'Algernon' ]
-    }
+    #categories : [ 'AlgernonTests' ]
   }
 }
 

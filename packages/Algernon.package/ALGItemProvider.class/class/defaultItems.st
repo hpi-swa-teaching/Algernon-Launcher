@@ -1,4 +1,4 @@
-constants
+accessing
 defaultItems
 
 	DefaultItems ifNil: [self initializeItems].

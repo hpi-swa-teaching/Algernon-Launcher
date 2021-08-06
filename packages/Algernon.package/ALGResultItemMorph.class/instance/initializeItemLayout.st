@@ -1,5 +1,6 @@
 initialization
 initializeItemLayout
+	self initializeItemLayoutNumber.
 	self initializeItemLayoutIcon.
 	self initializeItemLayoutName.
 	self initializeItemLayoutAction

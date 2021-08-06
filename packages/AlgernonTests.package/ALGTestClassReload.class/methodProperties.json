@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"categoryNameForTemporaryClasses" : "lm 6/6/2021 16:06",
+		"className" : "b 8/5/2021 15:10",
+		"createClass" : "b 8/5/2021 15:10",
+		"deleteCategory" : "b 8/5/2021 15:05",
+		"deleteClass" : "b 8/5/2021 15:10",
+		"existsInResults:" : "b 8/5/2021 15:06",
+		"setUp" : "b 8/5/2021 15:09",
+		"tearDown" : "OH 6/9/2021 10:22",
+		"testCreateAndDeleteClass" : "b 8/5/2021 15:10" } }

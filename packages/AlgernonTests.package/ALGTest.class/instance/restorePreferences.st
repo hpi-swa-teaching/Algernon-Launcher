@@ -1,0 +1,10 @@
+helpers
+restorePreferences
+
+	ALGCore activateAlgernon: previousActivateAlgernon.
+	ALGCore executeOnTab: previousExecuteOnTab.
+	ALGCore maximumPerCategory: previousMaximumPerCategory.
+	ALGCore maximumTopResults: previousMaximumTopResults.
+	ALGCore setKeyboardBinding: previousSetKeyboardBinding.
+	ALGCore setKeyboardBindingDoubleclick: previousSetKeyboardBindingDoubleclick.
+	ALGCore setQuickAccessModifier: previousSetQuickAccessModifier

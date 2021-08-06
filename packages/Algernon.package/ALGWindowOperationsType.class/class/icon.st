@@ -1,0 +1,4 @@
+algertem lists
+icon
+
+	^ #Window

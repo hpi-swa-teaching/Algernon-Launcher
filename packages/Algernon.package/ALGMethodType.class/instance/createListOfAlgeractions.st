@@ -1,7 +1,7 @@
 actions
 createListOfAlgeractions
 	| aMethod algerActions |
-	aMethod := self typeObject.
+	aMethod := self getMethodNameForActions.
 	algerActions := {self createActionSendersFor: aMethod. self createActionImplementorsFor: aMethod} asOrderedCollection.
-	algerActions addAll: self createListOfClassAwareAlgeractions.
+	algerActions addAll: (self createListOfClassAwareAlgeractions: aMethod).
 	^ self createSortedListFrom: algerActions

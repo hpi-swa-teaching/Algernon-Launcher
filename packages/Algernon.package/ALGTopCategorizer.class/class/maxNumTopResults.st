@@ -1,4 +1,4 @@
 constants
 maxNumTopResults
 
-	 ^ 3
+	 ^ ALGCore maximumTopResults

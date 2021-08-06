@@ -1,0 +1,22 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'Algernon',
+      #directory : 'packages',
+      #load : 'Tests',
+      #platforms : [ #squeak ],
+      #useLatestMetacello : true
+    }
+  ],
+  #preLoading : [
+    'scripts/preLoading.st'
+  ],
+  #postLoading : [
+    'scripts/create_sar.st'
+  ],
+  #testing : { 
+    #categories : [],
+    #failOnZeroTests : false
+  }
+}
+

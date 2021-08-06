@@ -1,4 +1,4 @@
-testing opening
+testing class type
 testOpenInExistingBrowser
 	| browser classType |
 	browser := SystemBrowser default open.

@@ -1,0 +1,3 @@
+action handlers
+closeAllWindowsButThis
+	self dockingBar closeAllWindowsBut: self typeObject

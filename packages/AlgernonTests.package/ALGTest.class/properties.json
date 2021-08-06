@@ -9,7 +9,14 @@
 	"instvars" : [
 		"algerInstance",
 		"previouslyOpenedWindows",
-		"previousAlgernonSingleton" ],
+		"previousAlgernonSingleton",
+		"previousActivateAlgernon",
+		"previousExecuteOnTab",
+		"previousMaximumPerCategory",
+		"previousMaximumTopResults",
+		"previousSetKeyboardBinding",
+		"previousSetKeyboardBindingDoubleclick",
+		"previousSetQuickAccessModifier" ],
 	"name" : "ALGTest",
 	"pools" : [
 		 ],

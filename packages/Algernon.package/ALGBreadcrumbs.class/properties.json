@@ -4,9 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "J.J. 7/31/2015 18:39",
+	"commentStamp" : "NL 5/31/2021 12:28",
 	"instvars" : [
-		"controller" ],
+		"controller",
+		"navigateBackIconMorph",
+		"defaultCrumb" ],
 	"name" : "ALGBreadcrumbs",
 	"pools" : [
 		 ],

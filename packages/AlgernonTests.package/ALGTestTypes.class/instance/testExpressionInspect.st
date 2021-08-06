@@ -1,9 +1,7 @@
 testing expressions
 testExpressionInspect
-	| expressionItem oldSystemWindows |
+	| expressionItem |
 	self runQuery: '= 1+1 '.
 	expressionItem := self items detect: [:each| each algerType typeName = 'Expression'].
 	self assert: expressionItem notNil.
-	oldSystemWindows := self currentSystemWindows.
-	self doActionForItem: expressionItem withName: 'inspect'.
-	self assert: (self findNewSystemWindowsByLabel: 'SmallInteger' old:  oldSystemWindows) notEmpty.
+	self assert: [self doActionForItem: expressionItem withName: 'inspect'] opensNewWindow: 'SmallInteger'

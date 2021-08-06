@@ -1,4 +1,4 @@
-testing
+helpers
 testAlgernonKeepInput: input 
 	self runQuery: input.
 	self algInstance deactivate.

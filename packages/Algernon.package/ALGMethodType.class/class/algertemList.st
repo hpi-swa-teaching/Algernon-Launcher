@@ -1,4 +1,4 @@
-instance creation
+algertem lists
 algertemList
 	^ SystemNavigation allImplementedMessages
 		collect: [:each | ALGItem

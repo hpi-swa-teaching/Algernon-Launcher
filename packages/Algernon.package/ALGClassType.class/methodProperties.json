@@ -2,14 +2,16 @@
 	"class" : {
 		"algertemList" : "beb 8/1/2020 13:41",
 		"algertemListWith:" : "rk 8/3/2020 16:45",
-		"classesForCategory:" : "J.J. 7/30/2015 19:05" },
+		"classesForCategory:" : "J.J. 7/30/2015 19:05",
+		"exploreAllInstancesFor:" : "b 6/25/2021 17:30",
+		"icon" : "NL 6/4/2021 14:23" },
 	"instance" : {
 		"algertemChildrenList" : "J.J. 7/30/2015 17:09",
 		"comment" : "beb 7/31/2020 18:04",
 		"comment:" : "beb 7/31/2020 18:04",
 		"createActionBrowseExistingFor:" : "JS 6/20/2016 20:41",
 		"createActionBrowseNewFor:" : "JS 6/20/2016 20:41",
-		"createActionExploreFor:" : "J.J. 7/30/2015 17:52",
+		"createActionExploreFor:" : "b 6/25/2021 17:31",
 		"createActionFileoutFor:" : "J.J. 7/30/2015 17:53",
 		"createActionInspectFor:" : "J.J. 7/30/2015 17:52",
 		"createListOfAlgeractions" : "jRo 8/1/2020 01:14",

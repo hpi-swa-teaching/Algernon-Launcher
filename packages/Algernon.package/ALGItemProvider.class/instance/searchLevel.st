@@ -1,5 +1,5 @@
 accessing
 searchLevel
 
-	searchLevel ifNil: [ searchLevel := 0 ].
+	searchLevel ifNil: [ searchLevel := self class defaultSearchLevel ].
 	^ searchLevel

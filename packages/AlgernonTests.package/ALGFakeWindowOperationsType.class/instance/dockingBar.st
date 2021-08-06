@@ -1,0 +1,4 @@
+accessing
+dockingBar
+
+	^ self mockedDockingBar

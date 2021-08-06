@@ -1,0 +1,3 @@
+constants
+defaultSearchLevel
+	^ 0

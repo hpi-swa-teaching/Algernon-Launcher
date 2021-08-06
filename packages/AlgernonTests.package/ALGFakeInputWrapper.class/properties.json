@@ -1,0 +1,14 @@
+{
+	"category" : "AlgernonTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"scrollCalls" ],
+	"name" : "ALGFakeInputWrapper",
+	"pools" : [
+		 ],
+	"super" : "ALGInputWrapper",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+constants
+lightTextColor
+	^ Color gray

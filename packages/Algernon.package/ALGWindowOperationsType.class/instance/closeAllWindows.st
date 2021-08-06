@@ -1,0 +1,4 @@
+action handlers
+closeAllWindows
+
+	self dockingBar closeAllWindowsUnsafe
