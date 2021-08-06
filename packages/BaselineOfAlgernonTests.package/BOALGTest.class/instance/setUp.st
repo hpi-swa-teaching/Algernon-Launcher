@@ -5,6 +5,6 @@ setUp
 	self metacelloInstance: 
 	(Metacello new
    	 	baseline: 'Algernon';
-  		repository: 'github://HPI-SWA-Teaching/Algernon-Launcher:development/packages';
+  		repository: 'github://HPI-SWA-Teaching/Algernon-Launcher:coverage/packages';
    	 	onConflict: [:ex | ex allow];
 		onWarning: [:w | w resume])
