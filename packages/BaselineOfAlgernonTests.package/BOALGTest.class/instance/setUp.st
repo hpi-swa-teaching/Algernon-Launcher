@@ -6,4 +6,5 @@ setUp
 	(Metacello new
    	 	baseline: 'Algernon';
   		repository: 'github://HPI-SWA-Teaching/Algernon-Launcher:development/packages';
-   	 	onConflict: [:ex | ex allow])
+   	 	onConflict: [:ex | ex allow];
+		onWarning: [:w | w resume])
