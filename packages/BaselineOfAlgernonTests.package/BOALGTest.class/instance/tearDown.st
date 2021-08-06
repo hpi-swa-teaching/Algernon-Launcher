@@ -1,6 +1,6 @@
 running
 tearDown
 	
-	ALGCore cleanup.
+	"ALGCore cleanup.
 	{'Algernon' . 'AlgernonTests'} do: 
-		[:each | (MCPackage named: each) unload]
+		[:each | (MCPackage named: each) unload]"
