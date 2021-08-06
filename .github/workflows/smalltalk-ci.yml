@@ -41,7 +41,9 @@ jobs:
       - run: |
           ALGERNON_GIT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
           echo "Detected git branch: $ALGERNON_GIT_BRANCH"
-          sed -i "s/String empty/$ALGERNON_GIT_BRANCH/g" 'packages/BaselineOfAlgernonTests.package/BOALGTest.class/instance/currentGitBranch.st'
+          FILE='packages/BaselineOfAlgernonTests.package/BOALGTest.class/instance/currentGitBranch.st'
+          sed "s/String empty/'$ALGERNON_GIT_BRANCH'/g" "$FILE" > tmpfile
+          mv tmpfile "$FILE"
       - run: smalltalkci -s ${{ matrix.smalltalk }} ./.baselinetests.smalltalk.ston
         shell: bash
         timeout-minutes: 15
