@@ -12,7 +12,7 @@ SmalltalkCISpec {
     'scripts/preLoading.st'
   ],
   #testing : {
-    #categories : [ 'AlgernonTests' ]
+    #categories : [ 'BaselineOfAlgernonTests' ]
   }
 }
 
