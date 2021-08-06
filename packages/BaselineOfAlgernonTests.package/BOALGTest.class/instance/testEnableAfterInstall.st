@@ -1,6 +1,6 @@
 tests
 testEnableAfterInstall
-	"self ensureInternetConnection."
+	self ensureInternetConnection.
 	self metacelloInstance 
 		get;
 		load.
