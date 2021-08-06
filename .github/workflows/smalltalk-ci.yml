@@ -31,7 +31,7 @@ jobs:
         smalltalk:
           - Squeak64-5.3
     runs-on: ${{ matrix.os }}
-    name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
+    name: Baseline tests: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
       - uses: hpi-swa/setup-smalltalkCI@v1
