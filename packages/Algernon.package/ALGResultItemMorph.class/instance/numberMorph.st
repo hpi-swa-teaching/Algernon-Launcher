@@ -1,0 +1,3 @@
+accessing
+numberMorph
+	^ numberMorph

@@ -1,0 +1,4 @@
+action handlers
+closeAllButWorkspaces
+
+	self dockingBar closeAllWindowsButWorkspaces

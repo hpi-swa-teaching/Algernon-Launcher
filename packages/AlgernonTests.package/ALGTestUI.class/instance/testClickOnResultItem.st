@@ -1,9 +1,8 @@
 testing mouse handling
 testClickOnResultItem
-	| position newBrowser oldBrowsers |
+	| position |
 	self runQuery: 'ALGCore'.
-	position := self itemMorphs second bounds center.
-	oldBrowsers := self findSystemWindowsByLabel: 'System Browser'.
-	self dispatchMouseEvent: #mouseDown atPosition: position.
-	newBrowser := (self findNewSystemWindowsByLabel: 'System Browser' old: oldBrowsers) first.
-	self assert: (newBrowser label includesSubstring: 'ALGCore')
+	position := self itemMorphs second bounds center + self algInstance itemList bounds origin.
+	self 
+		assert: [self dispatchMouseEvent: #mouseDown atPosition: position]
+		opensNewWindow: 'System Browser: ALGCore'

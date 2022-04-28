@@ -4,8 +4,13 @@
 		 ],
 	"classvars" : [
 		"ActivationString",
+		"ActivationStringDoubleClick",
 		"CurrentInstance",
-		"KeyBindings" ],
+		"ExecuteOnTab",
+		"KeyBindings",
+		"MaxResultsPerCategory",
+		"MaxTopResults",
+		"QuickAccessModifier" ],
 	"commentStamp" : "beb 8/1/2020 12:02",
 	"instvars" : [
 		"itemList",
@@ -17,9 +22,9 @@
 		"parentStack",
 		"itemProvider",
 		"textField",
-		"receivedActivation",
 		"firstStep",
-		"lastInputString" ],
+		"lastInputString",
+		"lastActivationKeyTimestamp" ],
 	"name" : "ALGCore",
 	"pools" : [
 		 ],

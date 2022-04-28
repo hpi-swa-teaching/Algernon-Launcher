@@ -1,0 +1,15 @@
+{
+	"category" : "AlgernonTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mockedWorld",
+		"mockedDockingBar" ],
+	"name" : "ALGFakeWindowOperationsType",
+	"pools" : [
+		 ],
+	"super" : "ALGWindowOperationsType",
+	"type" : "normal" }

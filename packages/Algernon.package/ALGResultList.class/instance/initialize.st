@@ -1,5 +1,7 @@
 initialization
 initialize
 	super initialize.
-	self initializeLayout;
-		initializePosition
+	
+	self shouldItemsHandleMouseOver: true;
+		initializeLayout;
+		initializePosition.

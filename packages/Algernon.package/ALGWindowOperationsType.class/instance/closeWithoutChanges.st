@@ -1,0 +1,4 @@
+action handlers
+closeWithoutChanges
+
+	self dockingBar closeAllWindows

@@ -1,6 +1,6 @@
 accessing
 activationString
 
-	ActivationString ifNil:  [ALGCore activationString: '<Cmd-space>' ].
-	 ActivationString ifEmpty: [ALGCore activationString: '<Cmd-space>'].
-	^ActivationString 
+	ActivationString ifNil:  [ ALGCore initializeActivationString ].
+	 ActivationString ifEmpty: [ ALGCore initializeActivationString ].
+	^ActivationString

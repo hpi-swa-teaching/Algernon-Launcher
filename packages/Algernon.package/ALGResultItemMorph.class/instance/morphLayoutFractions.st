@@ -7,11 +7,13 @@ morphLayoutFractions
 	| actionEnd |
 	actionEnd := (self isTitle not
 					and: [self item algerType hasChildren])
-				ifTrue: [0.94]
+				ifTrue: [0.93]
 				ifFalse: [0.97].
-	^ Dictionary new add: #IconMorphStart -> (0.01 @ 0.3);
-		 add: #IconMorphEnd -> (0.04 @ 1);
-		 add: #NameMorphStart -> (0.055 @ 0);
+	^ Dictionary new add: #IconMorphStart -> (0.055 @ 0.3);
+		 add: #IconMorphEnd -> (0.095 @ 1);
+		 add: #NumberMorphStart -> (0.02 @ 0);
+		 add: #NumberMorphEnd -> (0.05 @ 1);
+		 add: #NameMorphStart -> (0.1 @ 0);
 		 add: #NameMorphEnd -> (0.75 @ 1);
 		 add: #ActionMorphStart -> (0.75 @ 0);
 		 add: #ActionMorphEnd -> (actionEnd @ 1);

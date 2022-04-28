@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"addToDockingBar" : "b 6/4/2021 18:08",
+		"addToDockingBar:" : "b 6/4/2021 18:08" },
+	"instance" : {
+		"doNothing" : "b 6/4/2021 18:13",
+		"initialize" : "b 6/4/2021 18:15",
+		"listDummyEntriesOn:" : "NL 6/29/2021 18:10" } }

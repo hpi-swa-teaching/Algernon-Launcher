@@ -4,5 +4,5 @@ testCloseWithEscape
 	closeAlgernonEvent := ALGFakeKeyboardEvent new keyString: '<escape>';
 				isKeyUp: true.
 	self algInstance activate.
-	self algInstance textField handleEvent: closeAlgernonEvent.
+	self algInstance textField inputfield handleEvent: closeAlgernonEvent.
 	self deny: self algInstance active

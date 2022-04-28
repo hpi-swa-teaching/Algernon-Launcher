@@ -1,0 +1,3 @@
+testing
+testAlgernonDefaultActivationString
+	self testAlgernonShortcut: ALGCore activationString requiresDoubleclick: ALGCore setKeyboardBindingDoubleclick

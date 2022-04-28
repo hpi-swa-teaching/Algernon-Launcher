@@ -1,0 +1,3 @@
+testing docking bar types
+testDockingBarTypeNotEmpty
+	self denyEmptyAlgertemListForType: ALGDockingBarType

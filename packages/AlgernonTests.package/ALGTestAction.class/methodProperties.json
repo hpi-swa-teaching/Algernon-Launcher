@@ -8,6 +8,8 @@
 		"setUp" : "rk 8/5/2020 19:44",
 		"testCategoryTypeCreateListOfAlgeractions" : "rk 8/6/2020 10:51",
 		"testClassTypeCreateListOfAlgeractions" : "rk 8/5/2020 19:48",
+		"testDockingBarTypeAlgertemListWith" : "b 7/31/2021 12:40",
+		"testDockingBarTypeCreateListOfAlgeractions" : "b 7/31/2021 12:41",
 		"testExpressionTypeCreateListOfAlgeractions" : "rk 8/6/2020 10:51",
 		"testGlobalVariableTypeCreateListOfAlgeractions" : "rk 8/6/2020 10:51",
 		"testMethodTypeCreateListOfAlgeractions" : "rk 8/6/2020 10:51",
@@ -17,6 +19,5 @@
 		"testRepositoryTypeCreateListOfAlgeractions" : "rk 8/5/2020 19:49",
 		"testSelectionIncrement" : "rk 8/5/2020 19:49",
 		"testSettingsTypeCreateListOfAlgeractions" : "rk 8/6/2020 10:51",
-		"testStandardToolSetMorphTypeCreateListOfAlgeractions" : "rk 8/6/2020 10:51",
 		"testTestTypeCreateListOfAlgeractions" : "rk 8/6/2020 10:51",
-		"testWorldMenuMorphTypeCreateListOfAlgeractions" : "rk 8/6/2020 10:51" } }
+		"testWindowTypeCreateListOfAlgeractions" : "b 7/12/2021 19:51" } }

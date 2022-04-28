@@ -2,4 +2,4 @@ initialize-release
 reset
 
 	self parentItem: nil;
-		searchLevel: 0.
+		searchLevel: self class defaultSearchLevel.

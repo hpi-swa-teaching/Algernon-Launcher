@@ -1,0 +1,3 @@
+accessing
+isKeyDown
+	^ isKeyUp not

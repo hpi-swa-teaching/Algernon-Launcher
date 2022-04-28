@@ -1,0 +1,3 @@
+initialize-release
+unsubscribeFromSystemChangeNotifier
+	SystemChangeNotifier uniqueInstance noMoreNotificationsFor: self
