@@ -6,5 +6,6 @@ normalKeyStroke: event
 	self editor hasSelection ifTrue: [^super keyStroke: event].
 	super keyStroke: event.
 	World doOneCycle.
-	self changed: #normalKeystroke
+	self changed: #normalKeystroke.
+	self highlightKeyword.
 	
