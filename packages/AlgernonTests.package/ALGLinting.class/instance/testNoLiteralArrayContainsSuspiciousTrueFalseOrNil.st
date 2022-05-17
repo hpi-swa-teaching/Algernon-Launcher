@@ -1,3 +1,0 @@
-possible bugs
-testNoLiteralArrayContainsSuspiciousTrueFalseOrNil
-	self ArbitraryCodeRule: #smallLintLiteralArrayContainsSuspiciousTrueFalseOrNil

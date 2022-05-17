@@ -1,3 +1,0 @@
-miscellaneous
-testNoUnoptimizedAndOr
-	self ArbitraryCodeRule: #smallLintUnoptimizedAndOr

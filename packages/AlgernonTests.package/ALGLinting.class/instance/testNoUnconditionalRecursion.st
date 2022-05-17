@@ -1,3 +1,0 @@
-possible bugs
-testNoUnconditionalRecursion
-	self ArbitraryCodeRule: #smallLintUnconditionalRecursion

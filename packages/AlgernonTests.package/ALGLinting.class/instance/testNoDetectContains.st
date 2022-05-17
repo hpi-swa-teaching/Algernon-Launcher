@@ -1,3 +1,0 @@
-intention revealing
-testNoDetectContains
-	self ArbitraryCodeRule: #smallLintDetectContains

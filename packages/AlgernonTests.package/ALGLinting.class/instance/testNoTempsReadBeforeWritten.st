@@ -1,3 +1,0 @@
-possible bugs
-testNoTempsReadBeforeWritten
-	self ArbitraryCodeRule: #smallLintTempsReadBeforeWritten

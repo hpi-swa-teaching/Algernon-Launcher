@@ -1,3 +1,0 @@
-miscellaneous
-testNoStringConcatenation
-	self ArbitraryCodeRule: #smallLintStringConcatenation
