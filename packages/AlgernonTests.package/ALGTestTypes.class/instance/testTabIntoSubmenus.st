@@ -6,7 +6,7 @@ testTabIntoSubmenus
 	themesAndColorName := 'Themes & Colors'.
 	tab := ALGFakeKeyboardEvent new keyString: '<tab>'.
 	randomCheckBoxName := 'Squeak (duller)'.
-	randomEntryName := 'Set High-DPI Mode'.
+	randomEntryName := 'Set Etoys Mode'.
       self runQuery: themesAndColorName.
       self algInstance keyStroke: tab.
       self runQuery: randomCheckBoxName.
