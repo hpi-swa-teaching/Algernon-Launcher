@@ -1,3 +1,0 @@
-unnecessary code
-testNoAssignmentWithoutEffect
-	self ArbitraryCodeRule: #smallLintAssignmentWithoutEffect

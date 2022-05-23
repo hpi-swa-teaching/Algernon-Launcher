@@ -1,3 +1,0 @@
-bugs
-testNoVariableNotDefined
-	self ArbitraryCodeRule: #smallLintVariableNotDefined

@@ -1,3 +1,0 @@
-miscellaneous
-testNoUnclassifiedMethods
-	self ArbitraryCodeRule: #smallLintUnclassifiedMethods

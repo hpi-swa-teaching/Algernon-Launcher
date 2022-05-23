@@ -1,3 +1,0 @@
-possible bugs
-testAddAndRemoveDependentMessages
-	self ArbitraryCodeRule: #smallLintAddRemoveDependents

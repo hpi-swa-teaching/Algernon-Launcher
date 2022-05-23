@@ -1,3 +1,0 @@
-possible bugs
-testNoUncommonMessageSend
-	self ArbitraryCodeRule: #smallLintUncommonMessageSend

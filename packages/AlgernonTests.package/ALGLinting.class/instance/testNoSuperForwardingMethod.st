@@ -1,3 +1,0 @@
-unnecessary code
-testNoSuperForwardingMethod
-	self ArbitraryCodeRule: #smallLintJustSendsSuper

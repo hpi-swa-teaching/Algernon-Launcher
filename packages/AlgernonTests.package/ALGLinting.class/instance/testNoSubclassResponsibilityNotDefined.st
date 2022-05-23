@@ -1,3 +1,0 @@
-bugs
-testNoSubclassResponsibilityNotDefined
-	self ArbitraryCodeRule: #smallLintSubclassResponsibilityNotDefined
