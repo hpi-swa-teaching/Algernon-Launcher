@@ -1,3 +1,0 @@
-miscellaneous
-testNoNonBlocksInSpecialMessage
-	self ArbitraryCodeRule: #smallLintIfTrueBlocks
