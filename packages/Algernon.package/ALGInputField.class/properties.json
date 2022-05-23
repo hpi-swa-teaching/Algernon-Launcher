@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "J.J. 12/13/2015 21:46",
 	"instvars" : [
-		"controller" ],
+		"controller",
+		"keywords",
+		"highlightAttribute" ],
 	"name" : "ALGInputField",
 	"pools" : [
 		 ],
