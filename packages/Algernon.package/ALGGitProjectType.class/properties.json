@@ -1,0 +1,14 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"action" ],
+	"name" : "ALGGitProjectType",
+	"pools" : [
+		 ],
+	"super" : "ALGType",
+	"type" : "normal" }
