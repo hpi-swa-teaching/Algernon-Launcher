@@ -1,17 +1,21 @@
 {
 	"class" : {
 		"algertemList:" : "rk 8/3/2020 16:45",
+		"equationPattern" : "ms 6/3/2022 11:48",
 		"icon" : "NL 6/4/2021 14:18" },
 	"instance" : {
 		"createActionDo" : "J.J. 7/30/2015 17:58",
 		"createActionInspect" : "J.J. 7/30/2015 17:58",
 		"createActionPrint" : "J.J. 7/30/2015 17:58",
-		"createListOfAlgeractions" : "J.J. 7/30/2015 22:04",
-		"doit" : "Jro 6/17/2020 13:19",
-		"getCommand" : "YD 5/16/2022 22:16",
+		"createListOfAlgeractions" : "ms 6/3/2022 11:20",
+		"doit" : "ms 6/3/2022 12:09",
+		"getCommand" : "ms 6/3/2022 12:09",
+		"getDisplayedResult" : "ms 6/3/2022 12:08",
 		"hasChildren" : "fw 7/30/2015 14:15",
 		"inspectit" : "J.J. 7/30/2015 17:55",
-		"isRelevantForAllStrings" : "beb 6/25/2020 10:11",
-		"name" : "J.J. 7/30/2015 17:54",
+		"isEquation" : "ms 6/3/2022 12:09",
+		"isRelevantForAllStrings" : "ms 6/3/2022 12:09",
+		"name" : "ms 6/3/2022 11:59",
 		"printit" : "jRo 5/27/2020 16:29",
+		"standardDisplayedName" : "ms 6/3/2022 11:54",
 		"typeName" : "J.J. 7/30/2015 17:54" } }
