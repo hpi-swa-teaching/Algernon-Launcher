@@ -2,6 +2,6 @@ actions
 createListOfAlgeractions
 						
 	^ self createSortedListFrom: {
-							self createActionDo.
-							self createActionPrint.
-							self createActionInspect }
+			self createActionDo.
+			self createActionPrint.
+			self createActionInspect }
