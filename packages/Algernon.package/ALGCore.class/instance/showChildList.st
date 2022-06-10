@@ -1,6 +1,7 @@
 updating
 showChildList
 	(self currentItem hasChildren) ifFalse: [ ^ self ].
+	self currentItem showingChildren.
 	self breadcrumbs showNavigateBackIcon.
 	self breadcrumbs push: self currentItem.
 	self searchStack push: self textField currentContent.

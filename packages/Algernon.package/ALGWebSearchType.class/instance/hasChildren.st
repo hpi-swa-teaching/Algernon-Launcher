@@ -1,0 +1,4 @@
+children
+hasChildren
+	
+	^ true
