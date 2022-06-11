@@ -2,7 +2,7 @@ actions
 createActionOpenInGitBrowser
 
 	^ ALGAction
-			withName: 'Open Git Browser'
+			withName: 'open'
 			rank: 5
 			target: self
 			selector: #openGitBrowser

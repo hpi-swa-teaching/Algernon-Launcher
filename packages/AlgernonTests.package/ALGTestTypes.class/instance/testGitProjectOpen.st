@@ -1,8 +1,6 @@
 testing git project type
-testGitProjectOpenInGitBrowser
+testGitProjectOpen
 	
-	Transcript show: SquotWorkingCopy registered.
-	Transcript show: (Algernon currentInstance).
 	self assert:
 		[self runQuery: 'Test Working Copy'.
 		 self activateCurrentItemAction.
