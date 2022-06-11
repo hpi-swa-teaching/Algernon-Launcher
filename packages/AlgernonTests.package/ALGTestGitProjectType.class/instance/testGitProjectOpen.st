@@ -1,4 +1,4 @@
-testing git project type
+testing
 testGitProjectOpen
 	
 	self assert:

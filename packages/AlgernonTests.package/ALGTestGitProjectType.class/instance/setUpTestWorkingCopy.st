@@ -8,4 +8,6 @@ setUpTestWorkingCopy
 	workingCopy repository unitOfWork activateDuring:
 		[workingCopy loadedHistorian: (workingCopy repository historianNamed: 'master')].
 	workingCopy register.
-	self testWorkingCopy: workingCopy.
+	self mockWorkingCopy: workingCopy.
+	
+	ALGItemProvider resetItems

@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "td 7/13/2016 09:39",
+	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "ALGTestTypes",
+		"mockWorkingCopy" ],
+	"name" : "ALGTestGitProjectType",
 	"pools" : [
 		 ],
-	"super" : "ALGTest",
+	"super" : "ALGTestTypes",
 	"type" : "normal" }
