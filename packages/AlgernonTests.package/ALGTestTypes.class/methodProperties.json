@@ -26,6 +26,7 @@
 		"testClassType" : "rk 8/6/2020 10:51",
 		"testClassesForCategoryNotEmpty" : "rk 8/5/2020 19:17",
 		"testDenyEquationPattern" : "ms 6/14/2022 18:03",
+		"testDivideByZero" : "ms 6/15/2022 14:56",
 		"testDockingBarDefaultAction" : "b 7/31/2021 12:42",
 		"testDockingBarDefaultIcon" : "b 7/31/2021 12:42",
 		"testDockingBarDifferentActionsForDifferentMenus" : "b 7/31/2021 12:42",
