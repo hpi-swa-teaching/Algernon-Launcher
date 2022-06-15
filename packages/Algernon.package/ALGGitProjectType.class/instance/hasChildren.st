@@ -1,4 +1,0 @@
-children
-hasChildren
-
-	^ true

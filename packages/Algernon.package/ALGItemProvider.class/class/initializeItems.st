@@ -12,5 +12,4 @@ initializeItems
 		addAll: ALGClassType algertemList;
 		addAll: ALGMethodType algertemList;
 		addAll: ALGWindowOperationsType algertemList;
-		addAll: ALGGitProjectType algertemList;
 		yourself
