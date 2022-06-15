@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"expectedFailures" : "LH 6/12/2022 00:59",
+		"mockWorkingCopy" : "LH 6/12/2022 00:09",
+		"mockWorkingCopy:" : "LH 6/12/2022 00:09",
+		"setUp" : "LH 6/12/2022 01:00",
+		"setUpTestWorkingCopy" : "LH 6/12/2022 00:11",
+		"tearDown" : "LH 6/12/2022 00:59",
+		"tearDownTestWorkingCopy" : "LH 6/12/2022 00:48",
+		"testGitProjectOpen" : "LH 6/12/2022 00:04",
+		"testGitProjectTypeAppears" : "LH 6/12/2022 00:05",
+		"testHasChildren" : "LH 6/12/2022 00:07" } }
