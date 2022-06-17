@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"searchResults" ],
-	"name" : "ALGWebSearchType",
+		"provider",
+		"rank" ],
+	"name" : "ALGWebResultItem",
 	"pools" : [
 		 ],
-	"super" : "ALGType",
+	"super" : "ALGItem",
 	"type" : "normal" }

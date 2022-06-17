@@ -1,9 +1,9 @@
 actions
-createActionRefresh
+createActionStatus
 
-	^ ALGAction
-			withName: 'refresh'
-			rank: 1
+	^ ALGWebAction
+			withName: 'Loading...'
+			rank: 0
 			target: self
 			selector: #refresh
 			args: OrderedCollection new

@@ -1,0 +1,1 @@
+An ALGTestType represents a test in the system.

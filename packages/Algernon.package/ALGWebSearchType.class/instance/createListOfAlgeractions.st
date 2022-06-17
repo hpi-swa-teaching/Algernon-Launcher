@@ -5,4 +5,4 @@ createListOfAlgeractions
 	Transcript cr.
 	
 	^ self createSortedListFrom: {
-		self createActionRefresh.}
+			self createActionStatus}. 

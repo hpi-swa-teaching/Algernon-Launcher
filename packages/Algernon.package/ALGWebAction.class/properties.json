@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
-		"searchResults" ],
-	"name" : "ALGWebSearchType",
+		 ],
+	"name" : "ALGWebAction",
 	"pools" : [
 		 ],
-	"super" : "ALGType",
+	"super" : "ALGAction",
 	"type" : "normal" }

@@ -1,6 +1,10 @@
-relevant
-displayError
+web
+displayError: anException
 
+	Transcript show: '===Algernon WebSearch==='.
+	Transcript cr.
+	Transcript show: anException.
+	Transcript cr.
 	"self halt."
 	
 	"self algerActions first name: 'Hello!'."
@@ -16,7 +20,7 @@ displayError
 			
 	"self changed."
 	
-	"ALGCore currentInstance updateItemList."
+	ALGCore currentInstance updateItemList.
 	
 	Transcript show: 'Displayed ERROR!'
 	
