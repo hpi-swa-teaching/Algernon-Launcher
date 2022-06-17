@@ -1,6 +1,8 @@
 testing expressions
 testExpressionNotEmpty
-	| textField expressions |
-	textField := '1+1'.
-	expressions := ALGExpressionType algertemList: textField.
+
+	| expressions |
+	
+	self runQuery: '1+1'.
+	expressions := ALGExpressionType algertemList: self algInstance.
 	self deny: expressions isEmpty.
