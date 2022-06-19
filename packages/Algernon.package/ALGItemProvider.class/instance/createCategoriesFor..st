@@ -2,7 +2,7 @@ factory methods
 createCategoriesFor: anItemList 
 	| categories |
 	categories := OrderedCollection new.
-	self yieldTop
+	(self yieldTop and: [self parrentItemYieldTop])
 		ifTrue: [categories
 				addAll: (self topCategorizer categorize: anItemList withExistingCategories: categories)].
 	categories

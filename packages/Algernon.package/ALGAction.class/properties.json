@@ -12,7 +12,9 @@
 		"theTarget",
 		"theSelector",
 		"theArgs",
-		"actionVerb" ],
+		"actionVerb",
+		"keepOpen",
+		"hidden" ],
 	"name" : "ALGAction",
 	"pools" : [
 		 ],

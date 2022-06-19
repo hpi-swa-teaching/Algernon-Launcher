@@ -1,9 +1,12 @@
 actions
 createActionStatus
 
-	^ ALGWebAction
-			withName: 'Loading...'
+	^ (ALGAction
+			withName: 'search'
 			rank: 0
 			target: self
-			selector: #refresh
-			args: OrderedCollection new
+			selector: #tabIn
+			args: OrderedCollection new)
+			hidden: true;
+			keepOpen: true;
+			yourself

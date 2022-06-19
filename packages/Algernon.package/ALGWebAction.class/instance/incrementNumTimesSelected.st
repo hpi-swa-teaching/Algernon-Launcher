@@ -1,4 +1,0 @@
-updating
-incrementNumTimesSelected
-
-	"Do nothing"

@@ -5,8 +5,8 @@ typesFrom: anItemCollection withMaximum: maxNumItems
 	1 to: maxNumItems do: [:i | 
 			item := anItemCollection at: i.
 			categories := aDictionary
-						at: item algerType typeName
+						at: item algerType name
 						ifAbsentPut: [OrderedCollection new].
-			categories size >= self class maxItemsPerCategory
+			(categories size >= (self maxItemsPerCategoryFor: (item algerType)))
 				ifFalse: [categories add: item]].
 	^ aDictionary
