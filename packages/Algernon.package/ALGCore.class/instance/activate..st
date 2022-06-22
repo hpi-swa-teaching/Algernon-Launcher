@@ -12,4 +12,3 @@ activate: hand
 		startStepping.
 	self textField contents: self lastInputString;
 		selectAll
-	

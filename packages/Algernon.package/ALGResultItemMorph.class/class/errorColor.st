@@ -1,0 +1,3 @@
+constants
+errorColor
+	^ Color red

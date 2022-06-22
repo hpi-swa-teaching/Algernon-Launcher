@@ -1,5 +1,5 @@
 actions
-createActionStatus
+createActionSearch
 
 	^ (ALGAction
 			withName: 'search'

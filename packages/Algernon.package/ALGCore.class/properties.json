@@ -26,7 +26,8 @@
 		"textField",
 		"firstStep",
 		"lastInputString",
-		"lastActivationKeyTimestamp" ],
+		"lastActivationKeyTimestamp",
+		"statusMessage" ],
 	"name" : "ALGCore",
 	"pools" : [
 		 ],

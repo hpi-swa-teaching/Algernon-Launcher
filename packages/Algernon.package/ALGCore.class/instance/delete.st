@@ -6,5 +6,6 @@ delete
 	self breadcrumbs abandon.
 	self textField cleanup.
 	self itemProvider
-		ifNotNil: [ self itemProvider cleanUp. ].
-	self itemList abandon.
+		ifNotNil: [ self itemProvider cleanUp ].
+	self itemList
+	 ifNotNil: [ self itemList abandon ]

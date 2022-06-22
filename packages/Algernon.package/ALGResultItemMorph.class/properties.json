@@ -15,7 +15,8 @@
 		"contents",
 		"icon",
 		"childrenIndicatorMorph",
-		"index" ],
+		"index",
+		"isStatus" ],
 	"name" : "ALGResultItemMorph",
 	"pools" : [
 		 ],

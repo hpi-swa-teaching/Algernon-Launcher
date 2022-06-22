@@ -1,5 +1,6 @@
 updating
 showChildList
+	self resetStatusMessage.
 	(self currentItem hasChildren) ifFalse: [ ^ self ].
 	self currentItem updateChildren.
 	self breadcrumbs showNavigateBackIcon.

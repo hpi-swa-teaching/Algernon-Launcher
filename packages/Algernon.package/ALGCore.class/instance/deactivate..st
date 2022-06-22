@@ -8,3 +8,4 @@ deactivate: hand
 		 hideMorphs.
 	hand ifNotNil: [self dropFocus: hand].
 	ALGInstallation instance cleanupIfNewDay.
+	self resetStatusMessage

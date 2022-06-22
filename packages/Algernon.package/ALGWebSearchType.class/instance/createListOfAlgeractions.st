@@ -2,4 +2,4 @@ actions
 createListOfAlgeractions
 	
 	^ self createSortedListFrom: {
-			self createActionStatus}. 
+			self createActionSearch}. 
