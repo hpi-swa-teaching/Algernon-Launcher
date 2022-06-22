@@ -1,4 +1,4 @@
-relevant
+web
 triggerWebSearch
 
 	[ALGWebClient 

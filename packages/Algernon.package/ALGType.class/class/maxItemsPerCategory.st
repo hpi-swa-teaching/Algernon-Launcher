@@ -1,0 +1,3 @@
+constants
+maxItemsPerCategory
+	^ -1

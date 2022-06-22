@@ -1,8 +1,8 @@
 instance creation
-createFrom: aWebResult withRank: aNumber
+createFrom: aJsonObject withRank: aNumber
 
 	| item type |
-	type := ALGWebResultType newFor: aWebResult.
+	type := ALGWebResultType newFor: aJsonObject.
 	item := self withAlgertype: type.
 	item rank: aNumber.
 	item numTimesSelected: 0.

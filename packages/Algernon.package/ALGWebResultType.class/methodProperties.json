@@ -1,11 +1,16 @@
 {
 	"class" : {
 		"icon" : "YD 6/15/2022 14:49",
-		"newFor:" : "YD 6/15/2022 14:10" },
+		"maxItemsPerCategory" : "YD 6/22/2022 10:43",
+		"newFor:" : "YD 6/22/2022 11:22" },
 	"instance" : {
-		"createActionOpen" : "YD 6/15/2022 14:50",
+		"createActionOpen" : "YD 6/22/2022 11:04",
 		"createListOfAlgeractions" : "YD 6/15/2022 14:50",
-		"runTestSuite" : "YD 6/15/2022 14:06",
-		"typeName" : "YD 6/15/2022 14:07",
-		"webResult" : "YD 6/15/2022 14:11",
-		"webResult:" : "YD 6/15/2022 14:11" } }
+		"openLink" : "YD 6/22/2022 11:25",
+		"resultDisplayLink" : "YD 6/22/2022 11:23",
+		"resultDisplayLink:" : "YD 6/22/2022 11:23",
+		"resultLink" : "YD 6/22/2022 11:23",
+		"resultLink:" : "YD 6/22/2022 11:23",
+		"resultTitle" : "YD 6/22/2022 11:23",
+		"resultTitle:" : "YD 6/22/2022 11:23",
+		"typeName" : "YD 6/15/2022 14:07" } }

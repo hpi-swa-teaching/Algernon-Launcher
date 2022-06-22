@@ -6,9 +6,7 @@
 		 ],
 	"commentStamp" : "J.J. 7/31/2015 19:33",
 	"instvars" : [
-		"typeObject",
-		"yieldTop",
-		"maxItemsPerCategory" ],
+		"typeObject" ],
 	"name" : "ALGType",
 	"pools" : [
 		 ],

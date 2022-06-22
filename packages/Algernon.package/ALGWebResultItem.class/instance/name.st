@@ -1,4 +1,4 @@
 accessing
 name
 
-	^ algerType webResult
+	^ algerType resultTitle

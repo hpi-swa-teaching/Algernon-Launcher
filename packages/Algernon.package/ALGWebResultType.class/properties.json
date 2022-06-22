@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"webResult" ],
+		"resultTitle",
+		"resultDisplayLink",
+		"resultLink" ],
 	"name" : "ALGWebResultType",
 	"pools" : [
 		 ],

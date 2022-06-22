@@ -5,5 +5,5 @@ createActionOpen
 			withName: 'open' 
 			rank: 10
 			target: self
-			selector:#runTestSuite
+			selector:#openLink
 			args: #()

@@ -1,4 +1,4 @@
 children
 algertemChildrenList
 	
-	^ self searchResults
+	^ self webResults

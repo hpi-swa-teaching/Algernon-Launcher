@@ -4,10 +4,9 @@ evaluateResponse: aWebResponse
 	| json |
 	"2 seconds asDelay wait."
 	
-	[json := Json readFrom: (aWebResponse content readStream)] 
+	[json := Json readFrom: (aWebResponse content readStream).
+	self webResults: (self createWebResultItemsFrom: (json at: 'items'))] 
 		on: Exception do: [:exception | ^ self displayError: exception].
-	
-	self searchResults: (self createWebResultItemsFrom: (json at: 'items')).
 	
 	"self searchResults: {
 		ALGWebResultItem createFrom: 'TEST' withRank: 3. 

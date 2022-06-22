@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateChildren
 
 	self algerType updateChildren.

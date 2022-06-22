@@ -1,3 +1,3 @@
 accessing
 yieldTop
-	^ self algerType yieldTop
+	^ self algerType class yieldTop
