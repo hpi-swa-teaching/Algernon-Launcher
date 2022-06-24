@@ -4,8 +4,8 @@ createActionOpenInGitBrowser
 	^ ALGAction
 			withName: 'open'
 			rank: 5
-			target: self
-			selector: #openGitBrowser
-			args: OrderedCollection new
+			target: ToolBuilder
+			selector: #open:
+			args: (OrderedCollection with: self getGitBrowser)
 
 	
