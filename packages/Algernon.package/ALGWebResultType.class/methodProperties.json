@@ -2,11 +2,13 @@
 	"class" : {
 		"icon" : "YD 6/15/2022 14:49",
 		"maxItemsPerCategory" : "YD 6/22/2022 10:43",
-		"newFor:" : "YD 6/22/2022 11:22" },
+		"newFor:" : "YD 6/22/2022 11:22",
+		"unixOpenBrowserCommands" : "YD 6/28/2022 20:07" },
 	"instance" : {
 		"createActionOpen" : "YD 6/22/2022 11:04",
 		"createListOfAlgeractions" : "YD 6/15/2022 14:50",
-		"openLink" : "YD 6/22/2022 11:25",
+		"openLink" : "YD 6/28/2022 20:08",
+		"openLinkOnUnix:" : "YD 6/28/2022 20:07",
 		"resultDisplayLink" : "YD 6/22/2022 11:23",
 		"resultDisplayLink:" : "YD 6/22/2022 11:23",
 		"resultLink" : "YD 6/22/2022 11:23",
