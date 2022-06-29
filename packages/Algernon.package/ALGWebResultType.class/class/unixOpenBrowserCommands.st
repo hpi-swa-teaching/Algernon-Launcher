@@ -6,4 +6,4 @@ unixOpenBrowserCommands
 			'python3 -m webbrowser '.
 			'open '.
 			'kde-open '.
-			'gnome-open'}
+			'gnome-open '}
