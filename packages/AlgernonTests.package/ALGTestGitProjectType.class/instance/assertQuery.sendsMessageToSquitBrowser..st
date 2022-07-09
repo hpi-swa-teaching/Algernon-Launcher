@@ -1,4 +1,4 @@
-testing
+helpers
 assertQuery: aQuery sendsMessageToSquitBrowser: aSelector
 	
 	ALGSquitBrowser := ALGFakeActionTarget new.
