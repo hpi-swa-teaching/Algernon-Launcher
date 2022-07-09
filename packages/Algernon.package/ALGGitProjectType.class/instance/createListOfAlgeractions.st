@@ -2,4 +2,5 @@ actions
 createListOfAlgeractions
 
 	^ self createSortedListFrom: {
-		self createActionOpenInGitBrowser }
+		self createActionOpenInGitBrowser.
+		self createActionCommit }

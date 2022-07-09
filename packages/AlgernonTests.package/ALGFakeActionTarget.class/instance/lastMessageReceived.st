@@ -1,0 +1,4 @@
+accessing
+lastMessageReceived
+
+	^ lastMessageReceived
