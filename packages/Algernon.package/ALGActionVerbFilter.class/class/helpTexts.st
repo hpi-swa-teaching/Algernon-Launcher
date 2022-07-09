@@ -14,4 +14,5 @@ helpTexts
 		add: 'collapse'-> 'Collapse a given window';
 		add: 'contract'-> 'Contract a given window from fullscreen';
 		add: 'close'-> 'Close a given window';
+		add: 'commit'-> 'Open an interactive commit window for a given git project and the checked out branch';
 		yourself
