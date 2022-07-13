@@ -5,6 +5,9 @@ baseline: spec
         for: #common
         do: [
 			Preferences disable: #showDeprecationWarnings.		
+			Installer ss project: 'JSON'; install: 'JSON'.
+			Installer ss project: 'OSProcess'; install: 'OSProcess'.
+			Installer ss project: 'CommandShell'; install: 'CommandShell'.
 			spec 
 			project: 'RefactoringBrowser' with: [
 				spec
