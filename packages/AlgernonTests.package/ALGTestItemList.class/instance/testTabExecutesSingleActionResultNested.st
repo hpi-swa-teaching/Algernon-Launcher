@@ -2,7 +2,7 @@ testing
 testTabExecutesSingleActionResultNested
 	
 	self 
-		assert: [self runQuery: 'BaselineOfAlgernon';
+		assert: [self runQuery: 'BaselineOfAlgernon category';
 					 keyTab;
 					 runQuery: 'postLoad';
 				 	 keyTab;
