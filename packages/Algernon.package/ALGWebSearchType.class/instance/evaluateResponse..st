@@ -1,9 +1,8 @@
 web
 evaluateResponse: aWebResponse
-
-	| json |
 	
-	[self typeObject resetStatusMessage.
+	[| json | 
+		self typeObject resetStatusMessage.
 		json := Json readFrom: (aWebResponse content readStream).
 		(json includesKey: 'error')
 			ifTrue: [Exception signal: ((json at: 'error') at: 'message')].
