@@ -5,6 +5,7 @@ tearDown
 		[self tearDownTestWorkingCopy].
 	
 	ALGSquitBrowser := nil.
+	ALGRemoteBranch := nil.
 	ALGItemProvider resetItems.
 	
 	super tearDown
