@@ -13,4 +13,5 @@ initializeItems
 		addAll: ALGMethodType algertemList;
 		addAll: ALGWindowOperationsType algertemList;
 		addAll: ALGGitProjectType algertemList;
+		addAll: ALGGitBranchType algertemList;
 		yourself
