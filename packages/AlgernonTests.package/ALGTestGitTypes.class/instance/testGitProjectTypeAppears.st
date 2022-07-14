@@ -1,4 +1,4 @@
-testing
+testing git project type
 testGitProjectTypeAppears
 
 	self runQuery: 'Test Working Copy'.

@@ -2,7 +2,9 @@ helpers
 setUp
 	
 	(Smalltalk classNamed: #SquitBrowser) ifNotNil:
-		[self setUpTestWorkingCopy].
+		[self
+			setUpTestWorkingCopy;
+			setUpTestBranches].
 	
 	super setUp.
 	
