@@ -1,4 +1,4 @@
 testing
 testSqoutIsInstalled
 
-	self deny:  (Smalltalk classNamed: #SquitBrowser) isNil.
+	self deny:  (Smalltalk classNamed: #SquitBrowser) isNil
