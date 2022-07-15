@@ -1,4 +1,8 @@
 SmalltalkCISpec {
+  #preTesting : SCICustomScript {
+    #path : 'scripts/preTesting.st',
+    #platforms : [ #squeak ]
+  },
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'Algernon',
