@@ -4,4 +4,5 @@ keywords
 		'open'. 'do'. 
 		'inspect'. 'explore'. '='.
 		'front'. 'expand'. 'collapse'. 
-		'contract'. 'close' }
+		'contract'. 'close'.
+		'commit'. 'push'. 'pull' }

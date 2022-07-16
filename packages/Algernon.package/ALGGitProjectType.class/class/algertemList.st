@@ -1,4 +1,4 @@
-as yet unclassified
+algertem lists
 algertemList
 
 	(Smalltalk classNamed: #SquitBrowser) ifNil:
