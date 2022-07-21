@@ -29,7 +29,7 @@ Algernon allows for keyboard only interaction - no need to use your mouse!
 | Tab              | Navigate in       |
 | Shift + Tab      | Navigate out      |
 | Enter            | Run selected item |
-| Ctrl + Delete    | Clear bar         |
+| Ctrl + Delete    | Clear search bar  |
 
 *Important Notice:* Please be aware that using Algernon for the first time might be slow. The first query triggers the indexing that is used for searching objects. After a few seconds delay in the first query, Algernon should run fast as expected.
 
