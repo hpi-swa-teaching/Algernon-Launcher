@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"mockWorkingCopy" ],
+		"mockWorkingCopy",
+		"previousGitStampDefaultName",
+		"previousGitStampDefaultEmail" ],
 	"name" : "ALGTestGitTypes",
 	"pools" : [
 		 ],

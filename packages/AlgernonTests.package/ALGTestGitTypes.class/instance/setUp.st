@@ -3,6 +3,7 @@ setUp
 	
 	(Smalltalk classNamed: #SquitBrowser) ifNotNil:
 		[self
+			setUpGitStamp;
 			setUpTestWorkingCopy;
 			setUpTestBranches].
 	

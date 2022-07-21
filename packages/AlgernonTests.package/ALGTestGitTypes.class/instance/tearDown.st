@@ -2,7 +2,9 @@ helpers
 tearDown
 
 	(Smalltalk classNamed: #SquitBrowser) ifNotNil:
-		[self tearDownTestWorkingCopy].
+		[self
+			tearDownTestWorkingCopy;
+			restoreGitStamp].
 	
 	ALGSquitBrowser := nil.
 	ALGRemoteBranch := nil.
