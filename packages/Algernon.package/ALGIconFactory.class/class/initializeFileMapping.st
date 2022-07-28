@@ -25,5 +25,7 @@ initializeFileMapping
 		#Project -> self projectIcon.
 		#Do -> self doIcon.
 		#Squeak -> self squeakIcon.
-		#GitProject -> self repositoryIcon
+		#GitProject -> self repositoryIcon.
+		#LocalBranch -> self repositoryIcon.
+		#RemoteBranch -> self repositoryIcon
 	}

@@ -1,0 +1,16 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project",
+		"isChild",
+		"name" ],
+	"name" : "ALGGitBranchType",
+	"pools" : [
+		 ],
+	"super" : "ALGType",
+	"type" : "normal" }

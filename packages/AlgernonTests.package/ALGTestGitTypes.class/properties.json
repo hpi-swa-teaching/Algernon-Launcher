@@ -1,0 +1,16 @@
+{
+	"category" : "AlgernonTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mockWorkingCopy",
+		"previousGitStampDefaultName",
+		"previousGitStampDefaultEmail" ],
+	"name" : "ALGTestGitTypes",
+	"pools" : [
+		 ],
+	"super" : "ALGTestTypes",
+	"type" : "normal" }

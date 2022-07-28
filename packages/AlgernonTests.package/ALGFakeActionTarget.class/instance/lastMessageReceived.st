@@ -1,4 +1,4 @@
 accessing
 lastMessageReceived
 
-	^ lastMessageReceived
+	^ self messagesReceived last first

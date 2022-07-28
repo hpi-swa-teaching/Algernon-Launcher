@@ -5,4 +5,5 @@ keywords
 		'inspect'. 'explore'. '='.
 		'front'. 'expand'. 'collapse'. 
 		'contract'. 'close'.
-		'commit'. 'push'. 'pull' }
+		'commit'. 'push'. 'pull'.
+		'switch' }
