@@ -1,5 +1,6 @@
 helpers
 lintingRules
+
 	^ {
 		"Bugs"
 		#smallLintBooleanPrecedence.

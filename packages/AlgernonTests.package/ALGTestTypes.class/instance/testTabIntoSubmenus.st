@@ -1,7 +1,7 @@
 testing docking bar types
 testTabIntoSubmenus
 
-	|themesAndColorName tab randomCheckBoxName randomEntryName|
+	| themesAndColorName tab randomCheckBoxName randomEntryName |
 	
 	themesAndColorName := 'Themes & Colors'.
 	tab := ALGFakeKeyboardEvent new keyString: '<tab>'.

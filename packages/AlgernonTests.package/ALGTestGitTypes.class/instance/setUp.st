@@ -6,7 +6,5 @@ setUp
 			setUpGitStamp;
 			setUpTestWorkingCopy;
 			setUpTestBranches].
-	
 	super setUp.
-	
 	ALGItemProvider resetItems

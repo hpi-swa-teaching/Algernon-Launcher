@@ -1,5 +1,6 @@
 testing general behavior
 testHasChildren
+
 	self assert: (ALGExpressionType algertemList: self algInstance) first hasChildren.
 	self assert: (ALGRepositoryType algertemListWith: 'Monticello') first hasChildren.
 	self assert: ALGCategoryType new hasChildren.

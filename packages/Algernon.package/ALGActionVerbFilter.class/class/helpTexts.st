@@ -1,5 +1,6 @@
 help
 helpTexts
+
 	^ (Dictionary new)
 		add: 'run'->'Run a test case.';
 		add: 'do'->'Run a given command. Do not print the output.';
