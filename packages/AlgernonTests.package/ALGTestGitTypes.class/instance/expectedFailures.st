@@ -1,4 +1,4 @@
-helpers
+failures
 expectedFailures
 
 	(Smalltalk classNamed:	#SquitBrowser) ifNil:

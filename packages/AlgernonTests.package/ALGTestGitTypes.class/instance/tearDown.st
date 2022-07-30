@@ -1,4 +1,4 @@
-helpers
+running
 tearDown
 
 	(Smalltalk classNamed: #SquitBrowser) ifNotNil:

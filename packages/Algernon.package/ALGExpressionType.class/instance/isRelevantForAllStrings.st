@@ -1,4 +1,4 @@
-accessing
+relevance
 isRelevantForAllStrings
 
 	^ true

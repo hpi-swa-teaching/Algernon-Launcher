@@ -1,4 +1,4 @@
-helpers
+running
 setUp
 	
 	(Smalltalk classNamed: #SquitBrowser) ifNotNil:
