@@ -4,4 +4,4 @@ isEquation
 	|command|
 	
 	command :=  self getCommand asString.
-	^ command matchesRegex: self equationPattern
+	^ command matchesRegex: ALGExpressionType equationPattern
