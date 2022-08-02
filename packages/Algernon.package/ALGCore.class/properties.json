@@ -27,7 +27,8 @@
 		"firstStep",
 		"lastInputString",
 		"lastActivationKeyTimestamp",
-		"statusMessage" ],
+		"statusMessage",
+		"webClient" ],
 	"name" : "ALGCore",
 	"pools" : [
 		 ],
