@@ -1,0 +1,15 @@
+{
+	"category" : "AlgernonTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"succeeded",
+		"commandHistory" ],
+	"name" : "ALGFakeOSProcess",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

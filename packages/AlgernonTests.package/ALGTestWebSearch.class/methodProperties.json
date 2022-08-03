@@ -2,4 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testWebSearchQuery" : "YD 7/31/2022 14:12" } }
+		"setUp" : "ef 8/3/2022 19:34",
+		"tearDown" : "ef 8/3/2022 19:40",
+		"testCommandsArePlatformDependent" : "ef 8/3/2022 20:25",
+		"testOpenLinkFail" : "ef 8/3/2022 20:10",
+		"testWebSearchQuery" : "ef 8/3/2022 19:33" } }
