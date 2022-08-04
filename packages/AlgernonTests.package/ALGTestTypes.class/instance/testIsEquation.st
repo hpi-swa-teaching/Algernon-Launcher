@@ -9,4 +9,4 @@ testIsEquation
 	
 	self runQuery: 'new Morph openInWorld'.
 	expressions := ALGExpressionType with: self algInstance.
-	self deny: expressions isEquation.
+	self deny: expressions isEquation

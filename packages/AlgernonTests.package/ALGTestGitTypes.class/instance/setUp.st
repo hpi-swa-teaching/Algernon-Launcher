@@ -1,4 +1,4 @@
-helpers
+running
 setUp
 	
 	(Smalltalk classNamed: #SquitBrowser) ifNotNil:
@@ -6,7 +6,5 @@ setUp
 			setUpGitStamp;
 			setUpTestWorkingCopy;
 			setUpTestBranches].
-	
 	super setUp.
-	
 	ALGItemProvider resetItems

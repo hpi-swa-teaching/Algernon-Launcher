@@ -1,4 +1,4 @@
-helpers
+running
 setUp
 
 	Smalltalk globals

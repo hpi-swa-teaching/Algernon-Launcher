@@ -1,6 +1,8 @@
 helpers
 evaluateMethodTest: aSLMethodTest
+
 	| results |
+	
 	results := aSLMethodTest results.
 	^ results select: [ :result |
 		result value ifTrue: [

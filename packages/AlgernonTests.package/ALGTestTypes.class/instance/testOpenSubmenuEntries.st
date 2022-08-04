@@ -13,4 +13,4 @@ testOpenSubmenuEntries
 	self runQuery: fontSizeName.
 	self assert: (
 		(self resultsIncludeName: fontSizeName) or: 
-		[self resultsIncludeName: newFontSizeName]).
+		[self resultsIncludeName: newFontSizeName])
