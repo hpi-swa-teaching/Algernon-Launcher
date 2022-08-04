@@ -1,7 +1,7 @@
 accessing
 getDisplayedResult
 
-	|command equationsResult|
+	| command equationsResult |
 	
 	command := self getCommand asString.
 	
