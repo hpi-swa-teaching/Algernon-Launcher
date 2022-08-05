@@ -1,0 +1,14 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LH 8/4/2022 18:33",
+	"instvars" : [
+		 ],
+	"name" : "ALGGitLocalBranchType",
+	"pools" : [
+		 ],
+	"super" : "ALGGitBranchType",
+	"type" : "normal" }

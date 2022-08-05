@@ -1,0 +1,1 @@
+The ALGWebSearchItem is used to filter the web keyword.

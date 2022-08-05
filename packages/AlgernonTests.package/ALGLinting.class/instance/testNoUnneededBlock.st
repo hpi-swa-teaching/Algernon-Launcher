@@ -1,3 +1,0 @@
-unnecessary code
-testNoUnneededBlock
-	self ArbitraryCodeRule: #smallLintExtraBlock

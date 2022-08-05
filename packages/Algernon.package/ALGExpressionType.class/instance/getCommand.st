@@ -1,11 +1,13 @@
 actions
 getCommand
+
 	| textFieldContents startIndex |
+	
 	textFieldContents := self typeObject topmostQuery.
 	startIndex := 1.
-	(textFieldContents startsWith: '=')
+	(textFieldContents beginsWith: '=')
 		ifTrue: [ startIndex := 2 ].
-	(textFieldContents startsWith: 'do')
+	(textFieldContents beginsWith: 'do')
 		ifTrue: [ startIndex := 3 ].
 		
 	^ textFieldContents copyFrom: startIndex to: textFieldContents size

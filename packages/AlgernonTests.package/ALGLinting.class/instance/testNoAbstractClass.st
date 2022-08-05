@@ -1,3 +1,0 @@
-possible bugs
-testNoAbstractClass
-	self ArbitraryCodeRule: #smallLintAbstractClass

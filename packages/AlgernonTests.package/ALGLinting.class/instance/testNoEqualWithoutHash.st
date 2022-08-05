@@ -1,3 +1,0 @@
-possible bugs
-testNoEqualWithoutHash
-	self ArbitraryCodeRule: #smallLintDefinesEqualNotHash

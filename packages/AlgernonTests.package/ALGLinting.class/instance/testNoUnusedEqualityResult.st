@@ -1,3 +1,0 @@
-possible bugs
-testNoUnusedEqualityResult
-	self ArbitraryCodeRule: #smallLintEqualNotUsed

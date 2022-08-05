@@ -9,7 +9,7 @@ jobs:
         os: [ubuntu-latest, macos-latest, windows-latest]
         smalltalk:
           - Squeak64-5.3
-          - Squeak64-trunk
+          #- Squeak64-trunk
     runs-on: ${{ matrix.os }}
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
@@ -20,7 +20,7 @@ jobs:
           smalltalk-image: ${{ matrix.smalltalk }}
       - run: smalltalkci -s ${{ matrix.smalltalk }}
         shell: bash
-        timeout-minutes: 15
+        timeout-minutes: 25
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   baselinetests:

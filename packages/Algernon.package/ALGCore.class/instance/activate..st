@@ -1,5 +1,6 @@
 visibility
 activate: hand
+
 	self active ifTrue: [^ self].
 	self active: true; 
 		reset;
@@ -12,4 +13,3 @@ activate: hand
 		startStepping.
 	self textField contents: self lastInputString;
 		selectAll
-	

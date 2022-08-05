@@ -1,3 +1,0 @@
-possible bugs
-testNoUnpackagedCode
-	self ArbitraryCodeRule: #smallLintUnpackagedCode

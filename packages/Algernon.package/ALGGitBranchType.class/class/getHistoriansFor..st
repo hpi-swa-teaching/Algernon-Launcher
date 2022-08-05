@@ -1,0 +1,4 @@
+algertem lists
+getHistoriansFor: aSquotWorkingCopy
+
+	self subclassResponsibility

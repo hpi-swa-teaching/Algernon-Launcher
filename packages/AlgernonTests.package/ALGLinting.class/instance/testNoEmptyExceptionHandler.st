@@ -1,3 +1,0 @@
-possible bugs
-testNoEmptyExceptionHandler
-	self ArbitraryCodeRule: #smallLintEmptyExceptionHandler

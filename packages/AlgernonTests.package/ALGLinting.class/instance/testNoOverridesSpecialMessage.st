@@ -1,3 +1,0 @@
-bugs
-testNoOverridesSpecialMessage
-	self ArbitraryCodeRule: #smallLintOverridesSpecialMessage

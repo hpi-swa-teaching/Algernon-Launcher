@@ -1,4 +1,4 @@
 accessing
 name
 
-	^ '<evaluate text field>'
+	^ self getDisplayedResult

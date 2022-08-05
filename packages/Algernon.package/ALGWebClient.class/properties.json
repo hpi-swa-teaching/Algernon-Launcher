@@ -1,0 +1,14 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"AsyncProcess" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ALGWebClient",
+	"pools" : [
+		 ],
+	"super" : "WebClient",
+	"type" : "normal" }

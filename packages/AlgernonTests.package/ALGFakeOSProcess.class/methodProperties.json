@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"newWith:" : "PureBehaviorTest 8/5/2022 12:22",
+		"platformName" : "ef 8/3/2022 18:43" },
+	"instance" : {
+		"commandHistory" : "ef 8/3/2022 20:03",
+		"commandHistory:" : "ef 8/3/2022 20:04",
+		"platformName" : "ef 8/3/2022 20:00",
+		"succeeded" : "ef 8/3/2022 18:43",
+		"succeeded:" : "ef 8/3/2022 18:44",
+		"waitForCommand:" : "ef 8/3/2022 20:06" } }

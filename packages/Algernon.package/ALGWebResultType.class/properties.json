@@ -1,0 +1,15 @@
+{
+	"category" : "Algernon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"resultTitle",
+		"resultLink" ],
+	"name" : "ALGWebResultType",
+	"pools" : [
+		 ],
+	"super" : "ALGType",
+	"type" : "normal" }

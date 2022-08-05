@@ -1,0 +1,1 @@
+A WebResponse with a predefined content string.

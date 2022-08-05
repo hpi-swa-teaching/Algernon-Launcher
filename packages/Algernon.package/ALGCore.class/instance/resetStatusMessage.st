@@ -1,0 +1,4 @@
+accessing
+resetStatusMessage
+
+	self statusMessage: ''

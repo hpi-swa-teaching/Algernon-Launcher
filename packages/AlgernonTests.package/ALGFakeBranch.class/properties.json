@@ -1,0 +1,14 @@
+{
+	"category" : "AlgernonTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"shortName" ],
+	"name" : "ALGFakeBranch",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,3 +1,4 @@
 helpers
 nameOfFirstResult
-	^ self items first algerType name
+
+	^ self items first name

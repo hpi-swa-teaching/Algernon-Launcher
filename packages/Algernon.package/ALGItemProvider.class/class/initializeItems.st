@@ -2,6 +2,7 @@ initialization
 initializeItems
 	"Note that items added in the beginning, are more likely to be shown as an example
 	for the empty query"
+	
 	DefaultItems := OrderedCollection new
 		addAll: ALGHelpType algertemList;
 		addAll: ALGTestType algertemList;
@@ -12,4 +13,6 @@ initializeItems
 		addAll: ALGClassType algertemList;
 		addAll: ALGMethodType algertemList;
 		addAll: ALGWindowOperationsType algertemList;
+		addAll: ALGGitProjectType algertemList;
+		addAll: ALGGitBranchType algertemList;
 		yourself

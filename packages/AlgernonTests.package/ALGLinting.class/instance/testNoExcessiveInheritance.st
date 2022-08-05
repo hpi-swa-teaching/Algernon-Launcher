@@ -1,3 +1,0 @@
-miscellaneous
-testNoExcessiveInheritance
-	self ArbitraryCodeRule: #smallLintExcessiveInheritance

@@ -1,5 +1,6 @@
 help
 helpTexts
+
 	^ (Dictionary new)
 		add: 'run'->'Run a test case.';
 		add: 'do'->'Run a given command. Do not print the output.';
@@ -14,4 +15,9 @@ helpTexts
 		add: 'collapse'-> 'Collapse a given window';
 		add: 'contract'-> 'Contract a given window from fullscreen';
 		add: 'close'-> 'Close a given window';
+		add: 'commit'-> 'Open an interactive commit window for a given git project and the checked out branch';
+		add: 'push'-> 'Push committed changes of a given git project and the checked out branch to the remote';
+		add: 'pull'-> 'Pull changes for a given git project and the checked out branch from the remote';
+		add: 'switch'-> 'Switch to a different local branch or create a one for a remote branch and switch to it';
+		add: 'web'-> 'Search the internet for answers';
 		yourself
