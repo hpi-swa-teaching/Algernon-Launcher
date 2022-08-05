@@ -29,6 +29,7 @@ Algernon allows for keyboard only interaction - no need to use your mouse!
 | Tab              | Navigate in       |
 | Shift + Tab      | Navigate out      |
 | Enter            | Run selected item |
+| Ctrl + Delete    | Clear search bar  |
 
 *Important Notice:* Please be aware that using Algernon for the first time might be slow. The first query triggers the indexing that is used for searching objects. After a few seconds delay in the first query, Algernon should run fast as expected.
 
@@ -45,7 +46,10 @@ Algernon allows for keyboard only interaction - no need to use your mouse!
 - Search global variables
 - Print and evaluate Smalltalk expressions 
 - Action verbs for filtering and quick access (e.g. `run SomeTest` will only search for tests and set a default action)
-- full text search in classes
+- Full text search in classes
+- Search the web
+- Push/pull/commit with git
+- Change branches of your repository
 
 For explanations regarding the usage of the features check out the [wiki](https://github.com/hpi-swa-teaching/Algernon-Launcher/wiki).
 
@@ -63,18 +67,24 @@ Use the Test Runner Tool in your Squeak Image and select all *AlgernonTests*. No
 *  [Ann Katrin Kuessner](https://github.com/annkatrinkuessner)
 *  [Ben Bals](https://github.com/BenBals)
 *  [Benedikt Weber](https://github.com/bewee)
+*  [Elias Fiedler](https://github.com/EliasNotFound)
 *  [Franz Sauerwald](https://github.com/FranzSw)
+*  [Frederic Sadrieh](https://github.com/FSadrieh)
+*  [Georg Auge](https://github.com/gwauge)
 *  [Jannis Rosenbaum](https://github.com/sinnaj-r)
 *  [Jonathan Schneider](https://github.com/jonaschn)
 *  [Kai Robert Kirsten](https://github.com/robertkirsten)
 *  [Kay Erik Jenß](https://github.com/kej-jay)
 *  [Laura Meister](https://github.com/dieknolle3333)
+*  [Leonard Horns](https://github.com/leonardhorns)
 *  [Louis Kirsch](https://github.com/timediv)
+*  [Matvey Sivashinskiy](https://github.com/matveysiva)
 *  [Niklas Mohrin](https://github.com/niklasmohrin)
 *  [Nils Lissner](https://github.com/TheGrayStone)
 *  [Oliver Heß](https://github.com/Olliwehr)
 *  [Philip Weidenfeller](https://github.com/phlprcks)
 *  [Pius Ladenburger](https://github.com/GittiHab)
 *  [Tobias Dürschmid](https://github.com/tobiduer)
+*  [Yannik Dittmar](https://github.com/yannik-dittmar)
 
 Credits to Erik Hinterbichler and Joey Hagedorn, [the original creators of Algernon.](http://erikhinterbichler.com/apps/algernon/)
