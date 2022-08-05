@@ -19,4 +19,5 @@ helpTexts
 		add: 'push'-> 'Push committed changes of a given git project and the checked out branch to the remote';
 		add: 'pull'-> 'Pull changes for a given git project and the checked out branch from the remote';
 		add: 'switch'-> 'Switch to a different local branch or create a one for a remote branch and switch to it';
+		add: 'web'-> 'Search the internet for answers';
 		yourself

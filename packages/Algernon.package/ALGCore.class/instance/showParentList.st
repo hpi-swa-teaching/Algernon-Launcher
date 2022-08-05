@@ -1,5 +1,7 @@
 updating
 showParentList
+
+	self resetStatusMessage.
 	self searchStack isEmpty ifTrue: [ ^ self ].
 	self searchStack size = 1 ifTrue: [ self breadcrumbs hideNavigateBackIcon ].
 	self breadcrumbs pop.

@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"algertemList:" : "YD 8/5/2022 13:47",
+		"icon" : "YD 6/22/2022 11:35",
+		"webSearchUrl" : "YD 6/15/2022 14:37",
+		"yieldTop" : "YD 8/5/2022 13:47" },
+	"instance" : {
+		"algertemChildrenList" : "YD 7/31/2022 14:30",
+		"createActionSearch" : "YD 6/22/2022 11:38",
+		"createListOfAlgeractions" : "PureBehaviorTest 8/5/2022 12:22",
+		"createWebResultItemsFrom:" : "YD 8/5/2022 13:46",
+		"displayError:" : "YD 7/19/2022 15:49",
+		"evaluateResponse:" : "PureBehaviorTest 8/5/2022 12:37",
+		"getSearchString" : "YD 8/5/2022 13:46",
+		"hasChildren" : "fw 7/30/2015 14:15",
+		"isRelevantForAllStrings" : "YD 8/5/2022 13:46",
+		"name" : "YD 6/3/2022 18:21",
+		"tabIn" : "YD 6/19/2022 20:09",
+		"triggerWebSearch" : "PureBehaviorTest 8/5/2022 12:30",
+		"typeName" : "YD 6/3/2022 18:21",
+		"updateChildren" : "YD 7/19/2022 15:42",
+		"webResults" : "YD 8/5/2022 13:47",
+		"webResults:" : "YD 8/5/2022 13:47" } }

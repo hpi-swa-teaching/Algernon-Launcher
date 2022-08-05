@@ -1,4 +1,4 @@
 helpers
 defaultTimeout
 
-	^ 60 "seconds" 
+	^ 180 "seconds" 

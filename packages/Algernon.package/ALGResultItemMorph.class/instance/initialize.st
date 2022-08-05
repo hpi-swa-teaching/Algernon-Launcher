@@ -1,11 +1,13 @@
 initialization
 initialize
+
 	super initialize.
-	self initializeLayout.
+	
+	self 
+		initializeLayout; 
+		initializeBounds.
 	self isTitle
-		ifTrue: [self initializeTitleBounds.
-			self initializeTitleLayout]
-		ifFalse: [self initializeItemBounds.
-			self initializeIcons.
+		ifTrue: [self initializeTitleLayout]
+		ifFalse: [self initializeIcons.
 			self initializeItemLayout].
-	self disableTextMouseEvents.
+	self disableTextMouseEvents

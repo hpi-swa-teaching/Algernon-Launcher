@@ -1,0 +1,4 @@
+accessing
+succeeded
+
+	^ succeeded

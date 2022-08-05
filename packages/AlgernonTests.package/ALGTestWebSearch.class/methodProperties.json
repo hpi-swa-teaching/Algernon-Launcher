@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "ef 8/3/2022 19:34",
+		"tearDown" : "ef 8/3/2022 19:40",
+		"testCommandsArePlatformDependent" : "PureBehaviorTest 8/5/2022 13:04",
+		"testOpenLinkFail" : "PureBehaviorTest 8/5/2022 13:04",
+		"testWebSearchQuery" : "ef 8/3/2022 19:33",
+		"testWebSearchTypeDisplayError" : "LH 8/5/2022 02:08" } }

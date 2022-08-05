@@ -1,3 +1,0 @@
-constants
-titleHeight
-	^ 20

@@ -1,5 +1,7 @@
 updating
 showChildList
+
+	self resetStatusMessage.
 	(self currentItem hasChildren) ifFalse: [ ^ self ].
 	self breadcrumbs showNavigateBackIcon.
 	self breadcrumbs push: self currentItem.
@@ -8,4 +10,5 @@ showChildList
 	self itemProvider searchLevel: self searchStack size;
 		parentItem: self currentItem.
 	self textField clear.
+	self currentItem updateChildren.
 	self updateItemList
