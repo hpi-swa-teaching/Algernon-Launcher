@@ -1,4 +1,4 @@
 accessing
-resultLink: anObject
+resultLink: aString
 
-	resultLink := anObject.
+	resultLink := aString.

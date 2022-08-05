@@ -1,3 +1,4 @@
 accessing
-rank: anObject
-	rank := anObject
+rank: aNumber
+
+	rank := aNumber

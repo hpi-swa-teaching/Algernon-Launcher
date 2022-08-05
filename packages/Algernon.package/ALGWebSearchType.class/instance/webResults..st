@@ -1,3 +1,4 @@
 accessing
-webResults: anObject
-	webResults := anObject
+webResults: aCollection
+
+	webResults := aCollection

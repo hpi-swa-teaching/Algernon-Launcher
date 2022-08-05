@@ -1,4 +1,5 @@
 actions
 createListOfAlgeractions
 
-	^ self createSortedListFrom: { self createActionOpen }
+	^ self createSortedListFrom: { 
+			self createActionOpen}

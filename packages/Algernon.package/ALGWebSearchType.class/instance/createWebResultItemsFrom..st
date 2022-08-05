@@ -10,4 +10,5 @@ createWebResultItemsFrom: aJsonArray
 		webResults add: (ALGWebResultItem 
 			createFrom: value 
 			withRank: (key * -1))].
+		
 	^ webResults

@@ -1,4 +1,4 @@
 accessing
-resultTitle: anObject
+resultTitle: aString
 
-	resultTitle := anObject.
+	resultTitle := aString.
