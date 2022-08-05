@@ -1,4 +1,0 @@
-accessing
-resultDisplayLink
-
-	^ resultDisplayLink

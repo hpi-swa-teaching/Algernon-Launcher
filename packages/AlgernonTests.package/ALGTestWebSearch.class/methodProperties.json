@@ -6,4 +6,5 @@
 		"tearDown" : "ef 8/3/2022 19:40",
 		"testCommandsArePlatformDependent" : "ef 8/3/2022 20:25",
 		"testOpenLinkFail" : "ef 8/3/2022 20:54",
-		"testWebSearchQuery" : "ef 8/3/2022 19:33" } }
+		"testWebSearchQuery" : "ef 8/3/2022 19:33",
+		"testWebSearchTypeDisplayError" : "LH 8/5/2022 02:08" } }
