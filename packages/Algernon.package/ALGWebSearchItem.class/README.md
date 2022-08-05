@@ -1,1 +1,1 @@
-An ALGExpressionItem is a subclass that enables expressions to show up for anything with an "=" prefix.
+The ALGWebSearchItem is used to filter the web keyword.

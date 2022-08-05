@@ -1,4 +1,4 @@
-An ALGActionItem is a result that does not represent an entity in the system, but rather an action to be performed on that entity.
+An ALGWebResultItem is an item that represents a single result element from a web search. It should only be used as children for ALGWebSearchItem.
 
 Instance Variables
-	provider:		ALGItem 		the entity that provides the action represented by this item
+	rank:		Integer 		the rank of the search result
