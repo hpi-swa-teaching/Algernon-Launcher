@@ -1,4 +1,4 @@
 accessing
 resultLink: aString
 
-	resultLink := aString.
+	resultLink := aString

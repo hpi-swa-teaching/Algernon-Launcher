@@ -1,3 +1,4 @@
 accessing
 resetStatusMessage
+
 	self statusMessage: ''

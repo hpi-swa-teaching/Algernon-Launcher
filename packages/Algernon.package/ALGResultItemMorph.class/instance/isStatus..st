@@ -1,3 +1,4 @@
 accessing
-isStatus: anObject
-	isStatus := anObject
+isStatus: aBoolean
+
+	isStatus := aBoolean

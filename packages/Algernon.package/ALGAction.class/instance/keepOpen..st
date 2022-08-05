@@ -1,3 +1,4 @@
 accessing
-keepOpen: anObject
-	keepOpen := anObject
+keepOpen: aBoolean
+
+	keepOpen := aBoolean

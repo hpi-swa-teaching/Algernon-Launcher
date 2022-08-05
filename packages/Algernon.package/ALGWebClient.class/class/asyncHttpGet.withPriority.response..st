@@ -5,5 +5,3 @@ asyncHttpGet: urlString withPriority: anInteger response: aBlock
 	self asyncProcess: (
 		[aBlock value: ([self httpGet: urlString] on: Exception do: [])] 
 		forkAt: anInteger)
-	
-	

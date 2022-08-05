@@ -1,4 +1,4 @@
 accessing
 resultTitle: aString
 
-	resultTitle := aString.
+	resultTitle := aString

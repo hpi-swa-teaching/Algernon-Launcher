@@ -1,4 +1,4 @@
 updating
 updateChildren
 
-	self algerType updateChildren.
+	self algerType updateChildren
