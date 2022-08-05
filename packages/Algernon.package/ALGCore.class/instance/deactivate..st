@@ -1,5 +1,6 @@
 visibility
 deactivate: hand 
+
 	self active ifFalse: [^ self].
 	self lastInputString: self topmostQuery.
 	self active: false;

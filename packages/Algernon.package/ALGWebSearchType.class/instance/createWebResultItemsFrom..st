@@ -2,6 +2,7 @@ web
 createWebResultItemsFrom: aJsonArray
 
 	| webResults |
+	
 	webResults := OrderedCollection new.
 	
 	aJsonArray ifNil: [Exception signal: 'No results found!'].

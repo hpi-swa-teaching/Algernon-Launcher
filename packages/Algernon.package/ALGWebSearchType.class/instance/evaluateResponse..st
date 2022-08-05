@@ -1,7 +1,7 @@
 web
 evaluateResponse: aWebResponse
 	
-	[| json | 
+	[| json |
 		self typeObject resetStatusMessage.
 		
 		json := Json readFrom: (aWebResponse content readStream).
@@ -12,4 +12,4 @@ evaluateResponse: aWebResponse
 			
 	"TODO: Find a better way of updating the children without clearing the complete cache."
 	self typeObject itemProvider cache clear.
-	self typeObject updateItemList.
+	self typeObject updateItemList

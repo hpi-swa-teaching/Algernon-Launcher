@@ -12,5 +12,6 @@ testOpenLinkFail
 			activateCurrentItemAction.
 		Transcript peekLast].
 	
-	Transcript show: 'Algernon is great'. "this is needed because 'Transcript peekLast' returns 'Character cr' by default"
+	"this is needed because 'Transcript peekLast' returns 'Character cr' by default"
+	Transcript show: 'Algernon is great'.
 	self deny: (Transcript peekLast) equals: (query value)

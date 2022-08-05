@@ -1,5 +1,6 @@
 initialization
 initialize
+
 	super initialize.
 	
 	self 
@@ -9,4 +10,4 @@ initialize
 		ifTrue: [self initializeTitleLayout]
 		ifFalse: [self initializeIcons.
 			self initializeItemLayout].
-	self disableTextMouseEvents.
+	self disableTextMouseEvents

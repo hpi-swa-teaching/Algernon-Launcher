@@ -1,4 +1,4 @@
 accessing
 name
 
-	^ algerType resultTitle
+	^ self algerType resultTitle

@@ -1,5 +1,6 @@
 system
 delete
+
 	super delete.
 	self unregisterFromSystem.
 	self background abandon.
@@ -8,4 +9,4 @@ delete
 	self itemProvider
 		ifNotNil: [ self itemProvider cleanUp ].
 	self itemList
-	 ifNotNil: [ self itemList abandon ]
+	 	ifNotNil: [ self itemList abandon ]

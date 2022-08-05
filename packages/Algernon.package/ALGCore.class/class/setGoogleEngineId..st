@@ -1,4 +1,5 @@
 preferences
-setGoogleEngineId: aString 
+setGoogleEngineId: aString
+
 	self googleEngineId: aString.
 	^ true

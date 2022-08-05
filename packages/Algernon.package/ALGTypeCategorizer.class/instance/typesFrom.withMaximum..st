@@ -1,6 +1,8 @@
 categorizing
-typesFrom: anItemCollection withMaximum: maxNumItems 
+typesFrom: anItemCollection withMaximum: maxNumItems
+
 	| aDictionary item categories |
+	
 	aDictionary := Dictionary new.
 	1 to: maxNumItems do: [:i | 
 			item := anItemCollection at: i.

@@ -1,4 +1,5 @@
 preferences
-setGoogleAPIKey: aString 
+setGoogleAPIKey: aString
+
 	self googleAPIKey: aString.
 	^ true

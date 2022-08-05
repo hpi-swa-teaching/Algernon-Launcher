@@ -1,5 +1,6 @@
 event handling
 doActionOnSelectedItem: evt
+
 	self selectedItem
 		ifNil: [self deactivateController: evt]
 		ifNotNil: [self selectedListItem defaultAlgeraction keepOpen 

@@ -12,4 +12,4 @@ testCommandsArePlatformDependent
 		ALGWebResultType unixOpenBrowserCommands anySatisfy: [:each | 
 			command beginsWith: each]].
 	
-	self assert: ALGOSProcess commandHistory isEmpty.
+	self assert: ALGOSProcess commandHistory isEmpty

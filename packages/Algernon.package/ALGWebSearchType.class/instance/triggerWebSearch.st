@@ -2,6 +2,7 @@ web
 triggerWebSearch
 
 	| url |
+	
 	url := self class webSearchUrl, self getSearchString encodeForHTTP.
 	
 	[(self typeObject webClient)

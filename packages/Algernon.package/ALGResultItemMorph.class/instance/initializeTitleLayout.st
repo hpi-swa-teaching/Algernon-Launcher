@@ -1,5 +1,6 @@
 initialization
 initializeTitleLayout
+
 	self titleMorph: (TextMorph new contentsWrapped: self contents;
 			 textColor: self class titleColor;
 		 	 readOnly: true;
